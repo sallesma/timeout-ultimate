@@ -1,14 +1,10 @@
 import React, { useState } from 'react';
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { CheckBox, Button } from 'react-native-elements';
 
-export default (props) => {
-  const question = props.route.params.question;
-
+export default ({question}) => {
   const [checked, setChecked] = useState([]);
   const [showResult, setShowResult] = useState(false);
-
 
   const onValidate = () => {
     setShowResult(true);
@@ -24,7 +20,7 @@ export default (props) => {
   const answerIsCorrect = JSON.stringify(checked.sort()) == JSON.stringify(question.correctAnswers.sort());
 
   return (
-    <View style={styles.container}>
+    <View>
       <Text style={styles.question}>{question.question}</Text>
       <View style={styles.choicesArea}>
         {Object.keys(question.answerChoices).map((answerChoiceKey) => (
@@ -53,17 +49,11 @@ export default (props) => {
           )}
         </View>
       )}
-      <StatusBar style="auto" />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    padding: 20,
-  },
   question: {
     fontSize: 20,
   },
