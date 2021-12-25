@@ -14,35 +14,43 @@ export default (props) => {
     setShowResult(true);
   }
 
-  const onCheck = (choice) => {
-    const newChecked = checked.includes(choice)
-      ? checked.filter((v) => v!== choice)
-      : checked.concat([choice]);
+  const onCheck = (choiceKey) => {
+    const newChecked = checked.includes(choiceKey)
+      ? checked.filter((v) => v!== choiceKey)
+      : checked.concat([choiceKey]);
     setChecked(newChecked);
   }
+
+  const answerIsCorrect = JSON.stringify(checked.sort()) == JSON.stringify(question.correctAnswers.sort());
 
   return (
     <View style={styles.container}>
       <Text style={styles.question}>{question.question}</Text>
       <View style={styles.choicesArea}>
-        {question.answerChoices.map((answerChoice, index) => (
+        {Object.keys(question.answerChoices).map((answerChoiceKey) => (
           <CheckBox
-            key={index}
-            checked={checked.includes(answerChoice)}
-            onPress={() => onCheck(answerChoice)}
-            title={answerChoice}
+            key={answerChoiceKey}
+            checked={checked.includes(answerChoiceKey)}
+            disabled={showResult}
+            onPress={() => onCheck(answerChoiceKey)}
+            title={`${answerChoiceKey}. ${question.answerChoices[answerChoiceKey]}`}
             containerStyle={styles.checkbox}
             textStyle={styles.checkboxText}
           />
         ))}
       </View>
-      <Button title="Valider" onPress={onValidate}/>
+      <Button title="Valider" onPress={onValidate} disabled={showResult} />
       {showResult && (
         <View style={styles.result}>
           <Text>La bonne réponse est :</Text>
-          {question.correctAnswers.map((correctAnswer) => (
-            <Text key={correctAnswer}>{question.answerChoices[correctAnswer]}</Text>
+          {question.correctAnswers.map((correctAnswerKey) => (
+            <Text key={correctAnswerKey}>{correctAnswerKey}. {question.answerChoices[correctAnswerKey]}</Text>
           ))}
+          {answerIsCorrect ? (
+            <Text style={styles.correct}>Bonne réponse !</Text>
+          ) : (
+            <Text style={styles.wrong}>Mauvaise réponse...</Text>
+          )}
         </View>
       )}
       <StatusBar style="auto" />
@@ -69,5 +77,11 @@ const styles = StyleSheet.create({
     borderColor: '#eee',
     borderWidth: 1,
     borderRadius: 4,
+  },
+  correct: {
+    color: 'green',
+  },
+  wrong: {
+    color: 'red',
   },
 });

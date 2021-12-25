@@ -1,11 +1,11 @@
 export const questions = [
   {
     question: "Est-ce que c'est l'heure de manger ?",
-    answerChoices: [
-      'Oui',
-      'Non',
-      'Peut-être',
-    ],
-    correctAnswers: [0],
+    answerChoices: {
+      a: 'Oui',
+      b: 'Non',
+      c: 'Peut-être',
+    },
+    correctAnswers: ['a'],
   },
 ];
