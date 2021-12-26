@@ -1,13 +1,24 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { CheckBox, Button } from 'react-native-elements';
 
-export default ({question}) => {
+export default ({question, onSuccess, onFailure}) => {
   const [checked, setChecked] = useState([]);
-  const [showResult, setShowResult] = useState(false);
+  const [result, setResult] = useState(undefined);
+
+  useEffect(() => {
+    setChecked([]);
+    setResult(undefined);
+  }, [question.question]);
 
   const onValidate = () => {
-    setShowResult(true);
+    const answerIsCorrect = JSON.stringify(checked.sort()) == JSON.stringify(question.correctAnswers.sort());
+    setResult(answerIsCorrect);
+    if (answerIsCorrect) {
+      if (onSuccess) onSuccess();
+    } else {
+      if (onFailure) onFailure();
+    }
   }
 
   const onCheck = (choiceKey) => {
@@ -17,7 +28,7 @@ export default ({question}) => {
     setChecked(newChecked);
   }
 
-  const answerIsCorrect = JSON.stringify(checked.sort()) == JSON.stringify(question.correctAnswers.sort());
+  const showResult = result !== undefined;
 
   return (
     <View>
@@ -42,7 +53,7 @@ export default ({question}) => {
           {question.correctAnswers.map((correctAnswerKey) => (
             <Text key={correctAnswerKey}>{correctAnswerKey}. {question.answerChoices[correctAnswerKey]}</Text>
           ))}
-          {answerIsCorrect ? (
+          {result ? (
             <Text style={styles.correct}>Bonne réponse !</Text>
           ) : (
             <Text style={styles.wrong}>Mauvaise réponse...</Text>

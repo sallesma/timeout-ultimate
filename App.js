@@ -15,7 +15,7 @@ export default function App() {
         <Stack.Navigator>
           <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: 'Ultimate rules quizz' }} />
           <Stack.Screen name="SampleQuestionScreen" component={SampleQuestionScreen} options={{ title: 'Question' }} />
-          <Stack.Screen name="QuizzScreen" component={QuizzScreen} options={{ title: 'Quizz' }} />
+          <Stack.Screen name="QuizzScreen" component={QuizzScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>

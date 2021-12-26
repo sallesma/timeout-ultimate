@@ -62,4 +62,40 @@ export const questions = [
     },
     correctAnswers: ['a'],
   },
+  {
+    question: "Est-ce que c'est l'heure de manger ? 8",
+    answerChoices: {
+      a: 'Oui',
+      b: 'Non',
+      c: 'Peut-être',
+    },
+    correctAnswers: ['a'],
+  },
+  {
+    question: "Est-ce que c'est l'heure de manger ? 9",
+    answerChoices: {
+      a: 'Oui',
+      b: 'Non',
+      c: 'Peut-être',
+    },
+    correctAnswers: ['a'],
+  },
+  {
+    question: "Est-ce que c'est l'heure de manger ? 10",
+    answerChoices: {
+      a: 'Oui',
+      b: 'Non',
+      c: 'Peut-être',
+    },
+    correctAnswers: ['a'],
+  },
+  {
+    question: "Est-ce que c'est l'heure de manger ? 11",
+    answerChoices: {
+      a: 'Oui',
+      b: 'Non',
+      c: 'Peut-être',
+    },
+    correctAnswers: ['a'],
+  },
 ];
