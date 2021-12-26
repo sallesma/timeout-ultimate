@@ -2,6 +2,8 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Button } from 'react-native-elements';
 
+import { saveQuizzResult } from '../utils/history';
+
 export default ({navigation, rightAnswersCount, quizzLength}) => {
   let message;
   if(rightAnswersCount === quizzLength){
@@ -24,7 +26,14 @@ export default ({navigation, rightAnswersCount, quizzLength}) => {
       <View style={styles.result}>
         <Text>{message}</Text>
       </View>
-      <Button containerStyle={styles.buttonContainer} title="Retourner à l'accueil" onPress={() => navigation.navigate('HomeScreen')} />
+      <Button
+        containerStyle={styles.buttonContainer}
+        title="Retourner à l'accueil"
+        onPress={() => {
+          saveQuizzResult({ rightAnswersCount, quizzLength });
+          navigation.navigate('HomeScreen')
+        }}
+      />
     </View>
   );
 }
