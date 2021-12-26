@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Share } from 'react-native';
 import { Button } from 'react-native-elements';
 
 import { saveQuizzResult } from '../utils/history';
+import theme from '../utils/theme.js';
 
 export default ({navigation, rightAnswersCount, quizzLength}) => {
   let message;
@@ -47,7 +48,7 @@ export default ({navigation, rightAnswersCount, quizzLength}) => {
         containerStyle={styles.buttonContainer}
         title="Retourner à l'accueil"
         onPress={() => {
-          saveQuizzResult({ rightAnswersCount, quizzLength });
+          saveQuizzResult({ rightAnswersCount, quizzLength, createdAt: new Date() });
           navigation.navigate('HomeScreen')
         }}
       />
@@ -57,7 +58,7 @@ export default ({navigation, rightAnswersCount, quizzLength}) => {
 
 const styles = StyleSheet.create({
   report: {
-    fontSize: 24,
+    fontSize: theme.FONT_SIZE_XL,
   },
   header: {
     paddingBottom: 10,

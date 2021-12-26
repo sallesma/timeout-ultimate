@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { CheckBox, Button } from 'react-native-elements';
 
+import theme from '../utils/theme.js';
+
 export default ({question, onSuccess, onFailure}) => {
   const [checked, setChecked] = useState([]);
   const [result, setResult] = useState(undefined);
@@ -66,7 +68,7 @@ export default ({question, onSuccess, onFailure}) => {
 
 const styles = StyleSheet.create({
   question: {
-    fontSize: 20,
+    fontSize: theme.FONT_SIZE_LARGE,
   },
   choicesArea: {
     paddingVertical: 20,
@@ -74,8 +76,8 @@ const styles = StyleSheet.create({
   result: {
     marginTop: 20,
     padding: 20,
-    backgroundColor: '#fafafa',
-    borderColor: '#eee',
+    backgroundColor: theme.MAIN_COLOR_LIGHT,
+    borderColor: theme.MAIN_COLOR,
     borderWidth: 1,
     borderRadius: 4,
   },

@@ -2,6 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Button } from 'react-native-elements';
 
+import theme from '../utils/theme.js';
+
 export default (props) => {
   return (
     <View style={styles.container}>
@@ -21,7 +23,7 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   welcomeText: {
-    fontSize: 20,
+    fontSize: theme.FONT_SIZE_L,
     marginBottom: 60,
   },
   button: {

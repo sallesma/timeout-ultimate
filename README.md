@@ -38,7 +38,7 @@ yarn start
 ```
 
 
-## Release
+## 🚀 Release
 
 To release a new version of the app :
 
