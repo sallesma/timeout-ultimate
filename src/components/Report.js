@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Share } from 'react-native';
 import { Button } from 'react-native-elements';
 
 import { saveQuizzResult } from '../utils/history';
@@ -16,6 +16,17 @@ export default ({navigation, rightAnswersCount, quizzLength}) => {
     message = "C'est pas top...";
   }
 
+  const share = async () => {
+    try {
+      const result = await Share.share({
+        message: `J'ai obtenu ${rightAnswersCount} / ${quizzLength} sur un quizz sur les règles de l'ultimate`,
+        title: "Règles de l'ultimate",
+      })
+    } catch (error) {
+      console.log('Error sharing result', error)
+    }
+  }
+
   return (
     <View>
       <View style={styles.header}>
@@ -26,6 +37,12 @@ export default ({navigation, rightAnswersCount, quizzLength}) => {
       <View style={styles.result}>
         <Text>{message}</Text>
       </View>
+      <Button
+        containerStyle={styles.buttonContainer}
+        title="Partager mon résultat"
+        onPress={share}
+        type="outline"
+      />
       <Button
         containerStyle={styles.buttonContainer}
         title="Retourner à l'accueil"
@@ -50,6 +67,6 @@ const styles = StyleSheet.create({
     marginLeft: 20,
   },
   buttonContainer: {
-    marginTop: 10,
+    marginTop: 20,
   },
 });

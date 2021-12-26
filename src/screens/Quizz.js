@@ -49,7 +49,7 @@ export default (props) => {
   return (
     <View style={styles.container}>
       {!showReport && (
-        <>
+        <View style={styles.question}>
           <View style={styles.header}>
             <Text>Question {current}/{quizzLength}</Text>
             <Text>{rightAnswersCount} bonnes réponses</Text>
@@ -59,7 +59,7 @@ export default (props) => {
             onSuccess={onSuccess}
             onFailure={onFailure}
           />
-        </>
+        </View>
       )}
       {canMoveForward && (
         <Button title="Question suivante" onPress={() => {
@@ -93,5 +93,8 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     borderBottomWidth: 1,
     borderBottomColor: '#eee',
+  },
+  question: {
+    marginBottom: 20,
   },
 });
