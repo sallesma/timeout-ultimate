@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Platform, Text, View, Linking, TouchableOpacity } from 'react-native';
+import { StyleSheet, Platform, Text, ScrollView, View, Linking, Pressable } from 'react-native';
 
 import theme from '../utils/theme.js';
 
@@ -10,14 +10,14 @@ export default (props) => {
     });
 
     return (
-        <TouchableOpacity onPress={onPress}>
+        <Pressable onPress={onPress}>
             <Text style={styles.link}>{text}</Text>
-        </TouchableOpacity>
+        </Pressable>
     );
   };
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       <View>
         <Text style={styles.header}>Le site de la FFFD</Text>
         <Text>Les règles de l'ultimate y sont disponibles en français</Text>
@@ -41,7 +41,7 @@ export default (props) => {
         </View>
       )}
       <StatusBar style="auto" />
-    </View>
+    </ScrollView>
   );
 }
 
@@ -50,6 +50,9 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     padding: 20,
+  },
+  contentContainer: {
+    paddingBottom: 50,
   },
   header: {
     fontSize: theme.FONT_SIZE_L,

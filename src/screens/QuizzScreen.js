@@ -47,7 +47,7 @@ export default (props) => {
   }
 
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       {!showReport && (
         <View style={styles.question}>
           <View style={styles.header}>
@@ -85,6 +85,8 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     padding: 20,
+  },
+  contentContainer: {
     paddingBottom: 50,
   },
   header: {
