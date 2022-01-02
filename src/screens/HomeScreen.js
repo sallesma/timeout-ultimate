@@ -5,6 +5,7 @@ import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../utils/theme.js';
+import questions from '../../data';
 
 export default (props) => {
     useLayoutEffect(() =>
@@ -18,7 +19,7 @@ export default (props) => {
   );
   return (
     <View style={styles.container}>
-      <Text style={styles.welcomeText}>Bienvenue sur cette super appli pour apprendre les règles !</Text>
+      <Text style={styles.welcomeText}>{questions.length} questions t'attendent pour apprendre les règles de l'ultimate !</Text>
       <Button containerStyle={styles.button} title="Répondre à une question" onPress={() => props.navigation.navigate('SampleQuestionScreen')} />
       <Button containerStyle={styles.button} title="Quizz (10 questions)" onPress={() => props.navigation.navigate('QuizzScreen', { quizzLength: 10 })} />
       <Button containerStyle={styles.button} title="Historique des quizz" onPress={() => props.navigation.navigate('HistoryScreen')} />

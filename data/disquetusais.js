@@ -1,7 +1,7 @@
 export default [
   {
     category: "Esprit du jeu",
-    question: "Dans la mesure ou je trouve que mes adversaires font trop d’appels litigieux (des marchés par exemple) je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.",
+    question: "Dans la mesure ou je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple) je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.",
     answerChoices: {
         a: "Vrai",
         b: "Faux",
@@ -1051,391 +1051,417 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     explanation: "Aucun joueur ne peut aider physiquement le mouvement d’un autre joueur, ou utiliser un équipement pour faciliter le contact avec le disque.",
     source: "Disque Tu Sais - Pablo",
   },
-//   {
-//     category: "Turnovers",
-//     question: "Mon partenaire me fait une passe. Le disque touche des brins d’herbe mais je l’attrape avant qu’il ne touche le sol. Un défenseur appelle « down » (« à terre »). Je conteste car le disque n’ a pas vraiment touché le sol. Qui a raison?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "En tentant d’intercepter la passe adverse, le défenseur « drope » le disque (qui tombe à terre). Il ne récupère pas la possession du disque.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Je suis en défense. Je fais sortir volontairement le disque pour faire échouer la passe de mon adversaire. Mon équipe récupère la possession du disque.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "A la réception du « pull », je touche le disque involontairement avant qu’il ne touche le sol. Le disque tombe a terre. Il n’y a pas turnover car je n’ai pas voulu l’attraper.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Je tente de réceptionner le « pull » à l’extérieur de l’aire de jeu. Je drope le disque. Un défenseur appelle un « turnover ». Je ne suis pas d’accord car j’étais en-dehors du terrain. Qui a raison?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "En voulant rattraper la passe de mon partenaire, je commets une faute sur mon défenseur. Je ne conteste pas. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Un attaquant attrape le disque en heurtant son défenseur. Ce dernier appelle une faute qui n’est pas contestée. Comme le disque a été catché, il n’y a pas turnover et le disque revient au lanceur.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Je fais une passe face au vent. Le disque me revient et je l’attrape sans que personne ne l’ait touché. N’ayant pas eu l’intention de me faire une auto-passe, je peux conserver le disque.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "L’attaque conteste un turnover appelé par la défense. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Je lance le disque à « 10 » et ma passe est ratée. Rémi, mon adversaire, appelle « fin du compte » (ou « stall out ») lorsque le disque vol. Je ne conteste pas. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Mon marqueur appelle « fin du compte » (ou « stall out ») que je conteste. Ma passe est ratée. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Je lance le disque et ma passe est réussie. Mon adversaire appelle « fin du compte » (ou « stall out ») que je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Je lance le disque et ma passe est ratée (ou interceptée). Mon adversaire appelle « fin du compte » (ou « stall out »). Je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Je suis en défense. J’attrape le disque en dehors du terrain. Ayant « catché » le disque hors du terrain, je peux le laisser à terre pour qu’un partenaire fasse la remise en jeu.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "J’ai intercepté le disque. Me rendant compte que mon lacet est défait je pose le disque à terre pour le refaire. Qu’y a t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Mon adversaire rate sa passe. Le disque roule dans le terrain. Je l’arrête. Je peux établir mon pivot soit à l’endroit où le disque s’est arrêté soit où il a touché le sol.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Mon adversaire rate sa passe. Le disque roule dans le terrain, sort des limites puis revient dans l’aire de jeu. J’établis mon pivot à l’endroit où il s’est arrêté dans le terrain.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Mon adversaire rate sa passe. Le disque roule dans ma zone en-but et sort sur le côté de celle-ci. Où dois-je reprendre le jeu?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "Mon adversaire rate sa passe. Le disque roule, entre dans sa zone et s’arrête dans dedans après avoir décrit une courbe. Où vais-je établir mon pivot?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "« Turnover » en faveur de mon équipe dans ma zone d’en-but. Où dois-je établir mon pivot?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Turnovers",
-//     question: "J’appelle la « fin du compte » (« stall out ») et mon adversaire n’a pas lancé le disque. Le jeu est arrêté. Il me tend le disque. Je suis obligé de le prendre.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Marquer un point",
-//     question: "J’attrape le disque en ayant simultanément un pied dans la zone d’en-but attaquée et l’autre sur la ligne de but. Le point est-il marqué?.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Marquer un point",
-//     question: "Au moment où j’attrape le disque, je suis sur un pied dans la zone adverse. Mon pied est dans la zone mais mon élan me fait sortir du terrain. Le point est marqué malgré ma sortie du terrain.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Marquer un point",
-//     question: "Je saute en prenant appel dans la zone attaquée. J’attrape le disque en l’air mais avec mon élan je retombe hors de l’aire de jeu. Le point est marqué car mes derniers appuis avant le catch étaient dans la zone adverse.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Marquer un point",
-//     question: "Je saute en prenant appel dans la zone centrale. J’attrape le disque en l’air et je retombe dans la zone d’en-but adverse. Le point est-il marqué?.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: " Qu’est-ce qu’une infraction? Qu’est-ce qu’une faute? Qu’est-ce qu’une violation?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: "Je suis joueur. Je vois clairement que mon partenaire a subi une faute. Je peux l’appeler car je n’ai aucun doute et suis proche de l’action.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: "Je n’ai pas le disque mais suis en attaque. Nos adversaires placent une défense de zone. Constatant qu’il y a deux joueurs dans les 3 mètres je peux appeler « double équipe » (ou « double team »)?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: "Qui est autorisé à appeler un « marché »?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: "Qui est autorisé à appeler une violation?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: "Le jeu s’arrête dès qu’une faute ou une violation est appelée?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: "A la fin de son lancer, l’attaquant me met la main au visage. J’appelle  une « faute. » Les attaquants perdent la possession du disque. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: " Puis-je changer d’avis si je constate que mon appel n’est pas correct?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: "Je marque le lanceur et appelle une faute. Sa passe est attrapée par un des ses partenaires. M’apercevant que je me suis trompé dans mon appel j’annonce « rétracte ». Où reprend le jeu?.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes, infractions, violations",
-//     question: "Au moment du lancer, un attaquant appelle une faute. La passe est ratée. L’attaquant se rétracte. La défense récupère le disque là où il se trouve et le jeu reprend par un check.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
+  {
+    category: "Turnovers",
+    question: "Mon partenaire me fait une passe. Le disque touche des brins d’herbe mais je l’attrape avant qu’il ne touche le sol. Un défenseur appelle « down » (« à terre »). Je conteste car le disque n’a pas vraiment touché le sol. Qui a raison ?",
+    answerChoices: {
+      a: "Moi, il n'y a pas down",
+      b: "Le défenseur, le disque est down",
+    },
+    correctAnswers: ['b'],
+    explanation: "Si le disque touche l’herbe ou une fleur avant d’être catché, il est considéré comme « down ». Il y a donc un changement de possession (« turnover »).",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "En tentant d’intercepter la passe adverse, le défenseur « drope » le disque (qui tombe à terre). Il ne récupère pas la possession du disque.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Dès qu’une passe a échoué (dans le respect des règles) l’équipe adverse récupère la possession du disque.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Je suis en défense. Je fais sortir volontairement le disque du terrain pour faire échouer la passe de mon adversaire. Mon équipe récupère la possession du disque.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "Les adversaires n’ayant pas complété leur passe, il y a un turnover.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "À la réception du « pull », je touche le disque involontairement avant qu’il ne touche le sol. Le disque tombe a terre. Il n’y a pas turnover car je n’ai pas voulu l’attraper.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "C’est un « dropped pull » et il y a donc turnover. Si je touche le disque je dois l’attraper sinon il y a turnover à l’endroit ou le disque s’arrête.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Je tente de réceptionner le « pull » à l’extérieur de l’aire de jeu. Je drope le disque. Un défenseur appelle un « turnover ». Je ne suis pas d’accord car j’étais en-dehors du terrain et je voulais juste gagner du temps pour jouer le disque au point de brick. Qui a raison ?",
+    answerChoices: {
+      a: "Moi, il n'y a pas turnover",
+      b: "Le défenseur, c'est un turnover",
+    },
+    correctAnswers: ['b'],
+    explanation: "Le disque est toujours « vivant » même s’il vole en dehors du terrain. Si je l’attrape, je le joue dans l’aire de jeu à l’endroit le plus proche de là où je l’ai attrapé.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "En voulant rattraper la passe de mon partenaire, je commets une faute sur mon défenseur. Je ne conteste pas. Que se passe t’il ?",
+    answerChoices: {
+      a: "Le disque est retourné au lanceur",
+      b: "C'est un turnover et mon défenseur récupère le disque",
+      c: "C'est un turnover et n'importe quel défenseur peut prendre le disque",
+    },
+    correctAnswers: ['c'],
+    explanation: "Mon défenseur récupère le disque. Une faute ayant été appelée, le jeu s’arrête. Sur une faute offensive non contestée, c’est obligatoirement le défenseur qui l’a subie qui récupère le disque.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Un attaquant attrape le disque en heurtant son défenseur. Ce dernier appelle une faute qui n’est pas contestée. Comme le disque a été catché, il n’y a pas turnover et le disque revient au lanceur.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Sur une faute offensive non contestée, c’est le défenseur qui l’a subie qui récupère le disque indépendamment du fait que l’attaquant l’ait attrapé ou non.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Je fais une passe face au vent. Le disque me revient et je l’attrape sans que personne ne l’ait touché. N’ayant pas eu l’intention de me faire une auto-passe, je peux conserver le disque.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "C’est un « double touch », que l’intention y soit ou pas. Je ne peux pas récupérer mon lancer si personne ne l’a touché.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "L’attaque conteste un turnover appelé par la défense. Que se passe t’il ?",
+    answerChoices: {
+      a: "Le disque est retourné au lanceur",
+      b: "Le turnover est maintenu, on ne peut pas contester un turnover",
+    },
+    correctAnswers: ['a'],
+    explanation: "Le disque est retourné au dernier lanceur non-contesté.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Je lance le disque à « 10 » et ma passe est ratée. Mon défenseur, appelle « fin du compte » (ou « stall out ») lorsque le disque vole. Je ne conteste pas. Que se passe t’il ?",
+    answerChoices: {
+      a: "Mon défenseur récupère le disque quoi qu'il arrive de ma passe",
+      b: "Mon défenseur récupère le disque seulement si ma passe était réussie",
+      c: "Mon défenseur récupère le disque seulement si ma passe était ratée",
+    },
+    correctAnswers: ['a'],
+    explanation: `Le jeu reprend là où je suis (que la passe soit réussie ou ratée) et tous les joueurs se replacent là où ils étaient au moment de l’appel.
+
+Si mon défenseur prend le disque en main, il devient le lanceur et je « check » le disque pour  relancer le jeu.
+Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au sol) et je dois alors « checker » le disc au sol pour relancer le jeu.`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Mon marqueur appelle « fin du compte » (ou « stall out ») au moment où je lance et je conteste. Ma passe est ratée. Que se passe t’il ?",
+    answerChoices: {
+      a: "Le jeu reprend à l'endroit où je suis et je récupère le disque suite au stall out contesté",
+      b: "Le jeu reprend à l'endroit où je suis et la défense récupère le disque suite au stall out",
+      c: "Le stall out contesté est ignoré puisqu'il y a eu turnover et le jeu reprend là où le disque s'est arrêté",
+    },
+    correctAnswers: ['c'],
+    explanation: "Le jeu s’arrête puis reprend par un check à l’endroit où le disque s’est arrêté ou là où il a été intercepté.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Je lance le disque et ma passe est réussie. Mon adversaire appelle « fin du compte » (ou « stall out ») que je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe t’il ?",
+    answerChoices: {
+      a: "Le stall out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
+      b: "Le stall out est contesté le jeu reprend à « compté 8 »",
+    },
+    correctAnswers: ['b'],
+    explanation: "Le disque revient au lanceur et le jeu reprend par un check et « compté 8 »",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Je lance le disque et ma passe est ratée (ou interceptée). Mon adversaire appelle « fin du compte » (ou « stall out »). Je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe t’il ?",
+    answerChoices: {
+      a: "Le stall out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
+      b: "Le stall out est contesté le jeu reprend à « compté 8 »",
+      c: "Le stall out contesté est ignoré et le turnover est maintenu",
+    },
+    correctAnswers: ['c'],
+    explanation: "Ayant raté ma passe, le turnover est maintenu et le jeu reprend par un check à l’endroit ou est le disque.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Je suis en défense. J’attrape le disque en dehors du terrain. Ayant « catché » le disque hors du terrain, je peux le laisser à terre pour qu’un partenaire fasse la remise en jeu.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Quelque soit l’endroit où je l’intercepte, je dois le garder et faire la passe.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "J’ai intercepté le disque. Me rendant compte que mon lacet est défait je pose le disque à terre pour le refaire. Que se passe-t-il ?",
+    answerChoices: {
+      a: "Je peux refaire mon lacet avant de reprendre le jeu",
+      b: "Je dois appeler « Technical » pour avoir le droit d'arrêter le jeu pour un problème technique comme mon lacet",
+      c: "Je n'ai pas le droit d'arrêter le jeu et je dois jouer avec mon lacet défait",
+    },
+    correctAnswers: ['c'],
+    explanation: "Il y a une violation de ma part, sans « turnover », si j'arrête le jeu pour refaire mon lacet. Je dois attendre un arrêt de jeu.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Mon adversaire rate sa passe. Le disque roule dans le terrain. Je l’arrête. Je peux établir mon pivot soit à l’endroit où le disque s’est arrêté soit où il a touché le sol.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Je n’ai pas le choix. Le pivot s’effectue à l’endroit où le disque s’est arrêté (ou sorti).",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Mon adversaire rate sa passe. Le disque roule dans le terrain, sort des limites puis revient dans l’aire de jeu. J’établis mon pivot à l’endroit où il s’est arrêté dans le terrain.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Le pivot s’établit dans la zone centrale, au point le plus proche d’où le disque est sorti la première fois.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Mon adversaire rate sa passe. Le disque roule dans ma zone d'en-but et sort sur le côté de celle-ci. Où dois-je reprendre le jeu ?",
+    answerChoices: {
+      a: "Là où le disque est tombé",
+      b: "Là où le disque a quitté le terrain",
+      c: "Dans la zone centrale, au point le plus proche d'où le disque est sorti",
+    },
+    correctAnswers: ['c'],
+    explanation: "Dans ce cas, ce sera au niveau du plot situé à l’entrée de ma zone.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "Mon adversaire rate sa passe. Le disque roule, entre dans sa zone et s’arrête dans dedans après avoir décrit une courbe. Où vais-je établir mon pivot ?",
+    answerChoices: {
+      a: "Là où le disque s'est arrêté",
+      b: "Dans la zone centrale, en face de là où il s'est arrêté",
+    },
+    correctAnswers: ['b'],
+    explanation: "Je ramasse le disque et me replace sur la ligne de but au point le plus proche de là où il s’est arrêté.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "« Turnover » en faveur de mon équipe dans ma zone d’en-but. Où dois-je établir mon pivot?",
+    answerChoices: {
+      a: "À l'endroit où le disque s'est arrêté",
+      b: "Sur ma ligne d'en-but au point le plus proche de là où le disque s'est arrêté",
+    },
+    correctAnswers: ['a', 'b'],
+    explanation: `Les deux options sont valables. Avant de ramasser le disque, je peux indiquer à mon marqueur ma décision.`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Turnovers",
+    question: "J’appelle la « fin du compte » (« stall out ») et mon adversaire n’a pas lancé le disque. Le jeu est arrêté. Il me tend le disque. Je suis obligé de le prendre.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Si je le prends, je suis obligé de le lancer (après le « check »). Si je ne le veux pas, je le lui laisse. Il doit alors le placer au sol et le « checker » pour que tous les joueurs puissent bouger et qu’un de mes partenaires ramasse le disque à ma place.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Marquer un point",
+    question: "J’attrape le disque en ayant simultanément un pied dans la zone d’en-but attaquée et l’autre sur la ligne de but. Le point est-il marqué ?",
+    answerChoices: {
+      a: "Oui",
+      b: "Non",
+    },
+    correctAnswers: ['b'],
+    explanation: "À la réception du disque, il faut avoir les deux appuis dans la zone attaquée. La ligne de but ne faisant pas partie de la zone, le joueur en contact avec celle-ci n’est pas considéré dedans.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Marquer un point",
+    question: "Au moment où j’attrape le disque, je suis sur un pied dans la zone adverse. Mon pied est dans la zone mais mon élan me fait sortir du terrain. Le point est marqué malgré ma sortie du terrain.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Marquer un point",
+    question: "Je saute en prenant appel dans la zone attaquée. J’attrape le disque en l’air mais avec mon élan je retombe hors de l’aire de jeu. Le point est marqué car mes derniers appuis avant le catch étaient dans la zone adverse.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Le point n’est pas valable. Il aurait fallu atterrir dans la zone.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Marquer un point",
+    question: "Je saute en prenant appel dans la zone centrale. J’attrape le disque en l’air et je retombe dans la zone d’en-but adverse. Le point est-il marqué ?",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "Un non-respect des règles lié au marquage sur le porteur ou un marcher (« travel ») est :",
+    answerChoices: {
+      a: "Une infraction",
+      b: "Une violation",
+      c: "Une faute",
+    },
+    correctAnswers: ['a'],
+    explanation: "Elles n’arrêtent pas le jeu",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "Un non-respect des règles lié à un contact non accidentel entre deux ou plusieurs joueurs :",
+    answerChoices: {
+      a: "Une infraction",
+      b: "Une violation",
+      c: "Une faute",
+    },
+    correctAnswers: ['c'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "Je suis joueur. Je vois clairement que mon partenaire a subi une faute. Je peux l’appeler car je n’ai aucun doute et suis proche de l’action.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Seul le joueur ayant subi la faute peut l’appeler. Si les joueurs concernés me le demandent, je peux dire ce que j’ai vu. ",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "Je n’ai pas le disque mais suis en attaque. Nos adversaires placent une défense de zone. Constatant qu’il y a deux joueurs dans les 3 mètres je peux appeler « double équipe » (ou « double team ») ?",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Seul le porteur du disque peut appeler une infraction de marquage (hormis le marché) Seul le porteur du disque peut appeler une infraction de marquage",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "Qui est autorisé à appeler un « marcher » ?",
+    answerChoices: {
+      a: "Seulement le défenseur à la marque",
+      b: "Tous les défenseurs sur le terrain",
+      c: "Tous les membres de l'équipe en défense, même en dehors du terrain",
+    },
+    correctAnswers: ['b'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "Qui est autorisé à appeler une violation?",
+    answerChoices: {
+      a: "Tous les joueurs",
+      b: "Tous les membres de l'équipe, même en dehors du terrain",
+    },
+    correctAnswers: ['a'],
+    explanation: "Soit en donnant son nom spécifique, soit en disant « violation ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "Le jeu s’arrête dès qu’une faute ou une violation est appelée ?",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: `« Chaque fois qu'une faute ou violation est appelée, le jeu s'arrête immédiatement et aucun « turnover » n’est possible (sauf dans les situations spécifiées en 15.9, 16.2 et 16.3) ».
+
+« Si le jeu s'est arrêté pour une discussion sans qu'un « appel » n'ait été fait, l’appel est considéré avoir eu lieu quand la discussion a commencé ».`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "À la fin de son lancer, l’attaquant me met la main au visage. J’appelle  une « faute. » La passe est réussie. Que se passe t’il ?",
+    answerChoices: {
+      a: "Turnover car le lanceur a fait une faute pendant son geste de lancer",
+      b: "Pas de turnover le disque est retourné au lanceur",
+      c: "Pas de turnover et le jeu reprend à l'endroit où le disque a été réceptionné",
+    },
+    correctAnswers: ['c'],
+    explanation: "Le règlement précise qu’ « un contact accidentel se produisant dans la continuité du lancer n'est pas une raison suffisante pour appeler une faute, mais doit être évité ». Le jeu reprend à l’endroit de la réception.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: " Puis-je changer d’avis si je constate que mon appel n’est pas correct ?",
+    answerChoices: {
+      a: "Oui",
+      b: "Non",
+    },
+    correctAnswers: ['a'],
+    explanation: "Je peux appeler « rétracté » et je jeu reprend par un check.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "Je marque le lanceur et j'appelle une faute. Sa passe est attrapée par un des ses partenaires. M’apercevant que je me suis trompé dans mon appel j’annonce « rétracte ». Où reprend le jeu ?",
+    answerChoices: {
+      a: "Le joueur ayant attrapé le disque reprend le jeu",
+      b: "Le disque est retourné au lanceur",
+    },
+    correctAnswers: ['a'],
+    explanation: "L’équipe d’attaque ayant conservé le disque, le jeu reprend par un check au niveau du réceptionneur.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes, infractions, violations",
+    question: "Au moment du lancer, un attaquant appelle une faute. La passe est ratée. L’attaquant se rétracte. La défense récupère le disque là où il se trouve et le jeu reprend par un check.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "Après un appel incorrect « rétracté », si l'équipe adverse gagne ou maintient la possession, les actions ayant suivies sont maintenues.",
+    source: "Disque Tu Sais - Pablo",
+  },
 //   {
 //     category: "Fautes, infractions, violations",
 //     question: "Je défends sur le porteur du disque. Dans la continuité de son lancer, il me met la main au visage. J’appelle faute. Sa passe est ratée. Je me rétracte mais nous récupérons tout  de même le disque là où il est, car sa passe a échoué.",
@@ -1460,7 +1486,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Continuité après un appel de faute ou violation",
-//     question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est ratée. Que se passe t’il?.",
+//     question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est ratée. Que se passe t’il ?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -1515,7 +1541,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Fautes",
-//     question: "Je saute et attrape en l’air le disque dans la zone d’en-but adverse. Mon défenseur me heurte et me fait atterrir en dehors du terrain. J’appelle une faute qu’il ne conteste pas. Que se passe t’il?.",
+//     question: "Je saute et attrape en l’air le disque dans la zone d’en-but adverse. Mon défenseur me heurte et me fait atterrir en dehors du terrain. J’appelle une faute qu’il ne conteste pas. Que se passe t’il ?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -1548,7 +1574,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Fautes",
-//     question: "J’ attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « faute ». Il ne conteste pas. Que se passe t’il?.",
+//     question: "J’ attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « faute ». Il ne conteste pas. Que se passe t’il ?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -1691,7 +1717,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Infractions et violations",
-//     question: "Si le marqueur ne commence pas le compte au chiffre correct, porteur du disque je peux appeler une violation?. ",
+//     question: "Si le marqueur ne commence pas le compte au chiffre correct, porteur du disque je peux appeler une violation ? ",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -1735,7 +1761,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Infractions et violations",
-//     question: "Je suis le marqueur. J’appelle un « marché » à 4. Le lanceur à toujours le disque. Que se passe t’il? ",
+//     question: "Je suis le marqueur. J’appelle un « marcher » à 4. Le lanceur à toujours le disque. Que se passe t’il? ",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -1779,7 +1805,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Infractions et violations",
-//     question: "Je viens d’attraper le disque et fait une passe, dès mon premier appui de décélération. Un défenseur appelle un « marché » (« travel »). A t’il raison?",
+//     question: "Je viens d’attraper le disque et fait une passe, dès mon premier appui de décélération. Un défenseur appelle un « marcher » (« travel »). A t’il raison?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -1790,7 +1816,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Infractions et violations",
-//     question: "J’attrape le disque et décélère en changeant la direction de ma course (courbe). Un adversaire appelle un « marché ». Il a tort car je décélérais.",
+//     question: "J’attrape le disque et décélère en changeant la direction de ma course (courbe). Un adversaire appelle un « marcher ». Il a tort car je décélérais.",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -1812,7 +1838,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Infractions et violations",
-//     question: "Que se pass t’il après une infraction de « marché » contestée ou le lanceur n'a pas lancé le disque?",
+//     question: "Que se pass t’il après une infraction de « marcher » contestée ou le lanceur n'a pas lancé le disque?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -1867,7 +1893,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Infractions et violations",
-//     question: "Le « jeu est mort » suite à l’appel d’une faute. Le marqueur « check » le disque avant que tout le monde se soit replacé correctement. Que puis-je faire?.",
+//     question: "Le « jeu est mort » suite à l’appel d’une faute. Le marqueur « check » le disque avant que tout le monde se soit replacé correctement. Que puis-je faire ?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -2186,7 +2212,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Indoor",
-//     question: "En salle, sur une faute défensive contestée, un marché ou une obstruction (« pick »), le compte reprend à combien maximum?",
+//     question: "En salle, sur une faute défensive contestée, un marcher ou une obstruction (« pick »), le compte reprend à combien maximum?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
