@@ -1,7 +1,7 @@
 export default [
   {
     category: "Esprit du jeu",
-    question: "Dans la mesure ou je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple) je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.",
+    question: "Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple) je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.",
     answerChoices: {
         a: "Vrai",
         b: "Faux",
@@ -106,7 +106,7 @@ réagir calmement aux désaccords et provocations. »
   },
 //   {
 //     category: "Aire de jeu",
-//     question: "Précise les dimensions d’un terrain d’ultimate outdoor séniors (En-but, zone centrale, brick)? ",
+//     question: "Précise les dimensions d’un terrain d’ultimate outdoor séniors (En-but, zone centrale, brick) ?",
 //     answerChoices: {
 //         a: "Vrai",
 //         b: "Faux",
@@ -134,7 +134,7 @@ réagir calmement aux désaccords et provocations. »
         b: "Il n'y a pas point",
     },
     correctAnswers: ['b'],
-    explanation: "Pour que le point soit validé il faut que le(s) premier(s) appui(s) soit uniquement dans la zone. ",
+    explanation: "Pour que le point soit validé il faut que le(s) premier(s) appui(s) soit uniquement dans la zone.",
     source: "Disque Tu Sais - Pablo",
   },
 //   {
@@ -191,7 +191,7 @@ réagir calmement aux désaccords et provocations. »
         c: "Le disque retourne au lanceur",
     },
     correctAnswers: ['a'],
-    explanation: "Dans la mesure ou il a fait échouer la passe des attaquants, le défenseur récupère le disque (même s’il est sorti du terrain).",
+    explanation: "Dans la mesure où il a fait échouer la passe des attaquants, le défenseur récupère le disque (même s’il est sorti du terrain).",
     source: "Disque Tu Sais - Pablo",
   },
 //   {
@@ -230,7 +230,7 @@ réagir calmement aux désaccords et provocations. »
   },
 //   {
 //     category: "L'Engagement",
-//     question: "À quel moment puis-je faire l’engagement (« pull »)?",
+//     question: "À quel moment puis-je faire l’engagement (« pull ») ?",
 //     answerChoices: {
 //         a: "Vrai",
 //         b: "Faux",
@@ -285,7 +285,7 @@ réagir calmement aux désaccords et provocations. »
 //   },
 //   {
 //     category: "L'Engagement",
-//     question: "Y’ a t-il des hors-jeu à l’ultimate? Si oui, qu’est-ce? ",
+//     question: "Y’a t-il des hors-jeu à l’ultimate? Si oui, qu’est-ce?",
 //     answerChoices: {
 //         a: "Vrai",
 //         b: "Faux",
@@ -711,7 +711,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   },
 //   {
 //     category: "Le Check",
-//     question: "Mon adversaire prend trop de temps pour checker le disque. Que puis-je faire?",
+//     question: "Mon adversaire prend trop de temps pour checker le disque. Que puis-je faire ?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -757,7 +757,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   },
   {
     category: "Le Check",
-    question: "Je tente une passe avant le « check » ou après qu une violation de placement ait été appelée. Elle n’est pas réceptionnée. Que se passe t’il ?",
+    question: "Je tente une passe avant le « check » ou après qu une violation de placement ait été appelée. Elle n’est pas réceptionnée. Que se passe-t-il ?",
     answerChoices: {
       a: "Le résultat de la passe est conservé",
       b: "Le résultat de la passe tient si elle est ratée",
@@ -797,7 +797,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "Le jeu n’est pas mort sur un trunover. Je peux faire ma passe, sans check, soit de là où j’ai ramassé le disque soit à l’entrée de ma zone (un pied hors zone).",
+    explanation: "Le jeu n’est pas mort sur un turnover. Je peux faire ma passe, sans check, soit de là où j’ai ramassé le disque soit à l’entrée de ma zone (un pied hors zone).",
     source: "Disque Tu Sais - Pablo",
   },
   {
@@ -808,7 +808,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "Le jeu n’est pas mort sur un trunover. Une fois sorti de la zone, je peux faire ma passe sans check",
+    explanation: "Le jeu n’est pas mort sur un turnover. Une fois sorti de la zone, je peux faire ma passe sans check",
     source: "Disque Tu Sais - Pablo",
   },
   {
@@ -835,7 +835,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   },
   {
     category: "Hors des limites",
-    question: "Un défenseur sort du terrain pour attraper le disque ou empêcher qu’il revienne dans l’aire de jeu. Que se passe t’il ?",
+    question: "Un défenseur sort du terrain pour attraper le disque ou empêcher qu’il revienne dans l’aire de jeu. Que se passe-t-il ?",
     answerChoices: {
       a: "Il n'y a pas turnover car le défenseur n'est pas dans le terrain",
       b: "Il y a turnover et le jeu reprend là où le disque a quitté le terrain",
@@ -926,12 +926,12 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "Le lanceur doit porter le disque sur les trois derniers mettre jusqu’à l'aire de jeu. Il y a donc « violation ». ",
+    explanation: "Le lanceur doit porter le disque sur les trois derniers mettre jusqu’à l'aire de jeu. Il y a donc « violation ».",
     source: "Disque Tu Sais - Pablo",
   },
 //   {
 //     category: "Hors des limites",
-//     question: "A l’engagement, je m’aperçois qu’un attaquant est sorti de sa zone avant le lancer. Puis-je appeler quelque chose?",
+//     question: "À l’engagement, je m’aperçois qu’un attaquant est sorti de sa zone avant le lancer. Puis-je appeler quelque chose?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -942,7 +942,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Hors des limites",
-//     question: "A l’engagement, un partenaire sur la « side line » (au bord du terrain) m’avertit que lanceur avait un pied sur la ligne et qu un autre attaquant avait un pied en dehors de leur zone au moment du lancé. Puis-je appeler quelque chose?",
+//     question: "À l’engagement, un partenaire sur la « side line » (au bord du terrain) m’avertit que lanceur avait un pied sur la ligne et qu un autre attaquant avait un pied en dehors de leur zone au moment du lancé. Puis-je appeler quelque chose?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -997,7 +997,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
   },
   {
     category: "Réceptionneur et positionnement",
-    question: "Un attaquant et un défenseur attrapent simultanément le disque. Comment se règle cette situation?",
+    question: "Un attaquant et un défenseur attrapent simultanément le disque. Comment se règle cette situation ?",
     answerChoices: {
       a: "L'attaquant conserve le disque",
       b: "Le défenseur conserve le disque",
@@ -1020,7 +1020,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
   },
   {
     category: "Réceptionneur et positionnement",
-    question: "J’attrape le disque puis percute mon adversaire. Il n’ y a pas faute car j’ai attrapé le disque avant de toucher mon adversaire.",
+    question: "J’attrape le disque puis percute mon adversaire. Il n’y a pas faute car j’ai attrapé le disque avant de toucher mon adversaire.",
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -1108,7 +1108,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
   },
   {
     category: "Turnovers",
-    question: "En voulant rattraper la passe de mon partenaire, je commets une faute sur mon défenseur. Je ne conteste pas. Que se passe t’il ?",
+    question: "En voulant rattraper la passe de mon partenaire, je commets une faute sur mon défenseur. Je ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "Le disque est retourné au lanceur",
       b: "C'est un turnover et mon défenseur récupère le disque",
@@ -1142,7 +1142,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
   },
   {
     category: "Turnovers",
-    question: "L’attaque conteste un turnover appelé par la défense. Que se passe t’il ?",
+    question: "L’attaque conteste un turnover appelé par la défense. Que se passe-t-il ?",
     answerChoices: {
       a: "Le disque est retourné au lanceur",
       b: "Le turnover est maintenu, on ne peut pas contester un turnover",
@@ -1153,7 +1153,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
   },
   {
     category: "Turnovers",
-    question: "Je lance le disque à « 10 » et ma passe est ratée. Mon défenseur, appelle « fin du compte » (ou « stall out ») lorsque le disque vole. Je ne conteste pas. Que se passe t’il ?",
+    question: "Je lance le disque à « 10 » et ma passe est ratée. Mon défenseur, appelle « fin du compte » (ou « stall out ») lorsque le disque vole. Je ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "Mon défenseur récupère le disque quoi qu'il arrive de ma passe",
       b: "Mon défenseur récupère le disque seulement si ma passe était réussie",
@@ -1168,7 +1168,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   },
   {
     category: "Turnovers",
-    question: "Mon marqueur appelle « fin du compte » (ou « stall out ») au moment où je lance et je conteste. Ma passe est ratée. Que se passe t’il ?",
+    question: "Mon marqueur appelle « fin du compte » (ou « stall out ») au moment où je lance et je conteste. Ma passe est ratée. Que se passe-t-il ?",
     answerChoices: {
       a: "Le jeu reprend à l'endroit où je suis et je récupère le disque suite au stall out contesté",
       b: "Le jeu reprend à l'endroit où je suis et la défense récupère le disque suite au stall out",
@@ -1180,7 +1180,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   },
   {
     category: "Turnovers",
-    question: "Je lance le disque et ma passe est réussie. Mon adversaire appelle « fin du compte » (ou « stall out ») que je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe t’il ?",
+    question: "Je lance le disque et ma passe est réussie. Mon adversaire appelle « fin du compte » (ou « stall out ») que je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?",
     answerChoices: {
       a: "Le stall out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
       b: "Le stall out est contesté le jeu reprend à « compté 8 »",
@@ -1191,7 +1191,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   },
   {
     category: "Turnovers",
-    question: "Je lance le disque et ma passe est ratée (ou interceptée). Mon adversaire appelle « fin du compte » (ou « stall out »). Je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe t’il ?",
+    question: "Je lance le disque et ma passe est ratée (ou interceptée). Mon adversaire appelle « fin du compte » (ou « stall out »). Je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?",
     answerChoices: {
       a: "Le stall out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
       b: "Le stall out est contesté le jeu reprend à « compté 8 »",
@@ -1367,7 +1367,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "Seul le joueur ayant subi la faute peut l’appeler. Si les joueurs concernés me le demandent, je peux dire ce que j’ai vu. ",
+    explanation: "Seul le joueur ayant subi la faute peut l’appeler. Si les joueurs concernés me le demandent, je peux dire ce que j’ai vu.",
     source: "Disque Tu Sais - Pablo",
   },
   {
@@ -1395,7 +1395,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   },
   {
     category: "Fautes, infractions, violations",
-    question: "Qui est autorisé à appeler une violation?",
+    question: "Qui est autorisé à appeler une violation ?",
     answerChoices: {
       a: "Tous les joueurs",
       b: "Tous les membres de l'équipe, même en dehors du terrain",
@@ -1419,14 +1419,14 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   },
   {
     category: "Fautes, infractions, violations",
-    question: "À la fin de son lancer, l’attaquant me met la main au visage. J’appelle  une « faute. » La passe est réussie. Que se passe t’il ?",
+    question: "À la fin de son lancer, l’attaquant me met la main au visage. J’appelle  une « faute. » La passe est réussie. Que se passe-t-il ?",
     answerChoices: {
       a: "Turnover car le lanceur a fait une faute pendant son geste de lancer",
       b: "Pas de turnover le disque est retourné au lanceur",
       c: "Pas de turnover et le jeu reprend à l'endroit où le disque a été réceptionné",
     },
     correctAnswers: ['c'],
-    explanation: "Le règlement précise qu’ « un contact accidentel se produisant dans la continuité du lancer n'est pas une raison suffisante pour appeler une faute, mais doit être évité ». Le jeu reprend à l’endroit de la réception.",
+    explanation: "Le règlement précise qu’« un contact accidentel se produisant dans la continuité du lancer n'est pas une raison suffisante pour appeler une faute, mais doit être évité ». Le jeu reprend à l’endroit de la réception.",
     source: "Disque Tu Sais - Pablo",
   },
   {
@@ -1473,259 +1473,292 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
 //     explanation: "",
 //     source: "Disque Tu Sais - Pablo",
 //   },
-//   {
-//     category: "Continuité après un appel de faute ou violation",
-//     question: "J’appelle une violation au moment du lancer car le porteur n’avait pas mis un pied dans l’aire de jeu centrale après être allé chercher le disque en touche. La passe est ratée. Toute violation arrêtant le jeu, son échec n’est pas pris en compte. Le disque lui revient et le jeu reprend par un check.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Continuité après un appel de faute ou violation",
-//     question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est ratée. Que se passe t’il ?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Continuité après un appel de faute ou violation",
-//     question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est arrivée comme je le souhaitais mais mon partenaire fait une erreur de main et « drope » la passe. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Continuité après un appel de faute ou violation",
-//     question: "Je suis en attaque et n’ai pas le disque. Le disque est en l’air au moment où mon défenseur me fait tomber involontairement, lors d’une course n’influençant pas le jeu. La passe n’est pas rattrapée par mon partenaire concerné par la passe. La faute étant incontestée le lanceur récupéré le disque.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "L’appel « jeux dangereux » existe?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "Je suis défenseur. J’intercepte le disque et touche juste après un attaquant. Il appelle « faute ». Je ne conteste pas. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "Je saute et attrape en l’air le disque dans la zone d’en-but adverse. Mon défenseur me heurte et me fait atterrir en dehors du terrain. J’appelle une faute qu’il ne conteste pas. Que se passe t’il ?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "J’attrape le disque en l’air. Mon défenseur me heurte et me fait atterrir en dehors de sa zone d’en-but. J’appelle une faute qu’il conteste. Le disque revient au lanceur.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "En pivotant pour faire ma passe, le marqueur entre en contact avec moi. Je n’ai pas lancé le disque. J’appelle « contact ». Il ne conteste pas. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "J’ attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « faute ». Il ne conteste pas. Que se passe t’il ?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "J’ attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « strip » (et non faute). Il ne conteste pas. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "L’attaquant que je marque me bouscule après avoir attrapé le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il garde le disque car il avait attrapé le disque avant de me toucher. ",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "L’attaquant que je marque me bouscule avant d’attraper le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il y a turnover. Je ne suis pas obligé de le prendre. Je peux « checker » le disque et appeler « disc in »afin de relancer le jeu.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "En position légitime, je suis entrain de compter à 8 le lanceur. En réalisant son pivot, il me heurte. J’appelle une « faute » qu’il ne conteste pas. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "En position légitime, je viens de compter à 8 le lanceur. En réalisant son pivot, il me heurte. J’appelle une « faute » qu’il conteste. Il garde le disque et je reprends à « compter 8 » après un check.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "Mon adversaire me fait un croche-pied. Ma chute n’influence pas le jeu. C’ est une « faute indirecte ».",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "J’ai le disque. Le marqueur étant trop près de moi, je le repousse avec le disque pour le lui faire comprendre et ainsi ne pas stopper le jeu. Il appelle une « faute ». A t’il raison?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Fautes",
-//     question: "Lors de ma course, mon défenseur me fait chuter involontairement alors que j’allais recevoir le disque. Ma chute m’empêche de le recevoir. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Combien y a t’il d’infractions? Citez-les.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Mon marqueur commence le compte sans avoir « checker » le disque. Que fais-je?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Mon marqueur commence le compte sans avoir dit « compté » ou « stalling ». Je peux appeler une « faute » ?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Si mon marqueur ne soustrait pas correctement ou ne recommence pas le compte quand nécessaire, que fais-je? ",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Si le marqueur ne commence pas le compte au chiffre correct, porteur du disque je peux appeler une violation ? ",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
+  {
+    category: "Continuité après un appel de faute ou violation",
+    question: "J’appelle une violation au moment du lancer car le porteur n’avait pas mis un pied dans l’aire de jeu centrale après être allé chercher le disque en touche. La passe est ratée. Toute violation arrêtant le jeu, son échec n’est pas pris en compte. Le disque lui revient et le jeu reprend par un check.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: `Si la faute ou la violation est appelée:
+ contre le lanceur et que le lanceur tente tout de même une passe,
+ ou pendant que le lanceur exécute un mouvement de lancer,
+ ou se produit quand le disque est en l’air,
+alors le jeu continue jusqu'à ce que la possession ait été établie.
+
+Une fois la possession établie si l'équipe qui a appelé la faute ou la violation gagne ou maintient la possession après la passe, le jeu continue sans arrêt de jeu. Les joueurs reconnaissant ceci peuvent appeler « play on » pour indiquer que cette règle a été appelée.`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Continuité après un appel de faute ou violation",
+    question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est ratée. Que se passe-t-il ?",
+    answerChoices: {
+      a: "Je récupère le disque",
+      b: "C'est un turnover",
+    },
+    correctAnswers: ['a'],
+    explanation: "Si l'équipe qui a appelé la faute ou la violation pense que la possession a été affectée par la faute ou la violation, le disque sera retourné au lanceur pour un « check »",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Continuité après un appel de faute ou violation",
+    question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est arrivée comme je le souhaitais mais mon partenaire fait une erreur de main et « drope » la passe. Que se passe-t-il ?",
+    answerChoices: {
+      a: "Je récupère le disque",
+      b: "C'est un turnover",
+    },
+    correctAnswers: ['b'],
+    explanation: "Si l'équipe qui a appelé la faute ou la violation pense que la possession n’a pas été affectée par la faute ou la violation, il y a turnover à l’endroit où se trouve le disque et le jeu reprend par un « check ». Dans cette situation de jeu,  le « drop » n’est pas dû à la faute appelée.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Continuité après un appel de faute ou violation",
+    question: "Je suis en attaque et n’ai pas le disque. Le disque est en l’air au moment où mon défenseur me fait tomber involontairement, lors d’une course n’influençant pas le jeu. La passe n’est pas rattrapée par mon partenaire concerné par la passe. La faute étant incontestée le lanceur récupéré le disque.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: `Il y a turnover à l’endroit où se trouve le disque et le jeu reprend par un check.
+Quel que soit le moment de l'appel de faute ou violation, si le jeu ne s'est pas complètement arrêté et que les joueurs impliqués des deux équipes s'accordent sur le fait que la faute ou la violation n'a pas affecté le résultat de l'action, ce résultat est maintenu. Cette règle ne peut être supplantée par aucune autre.
+
+Si le résultat était un point marqué, le point est valable.
+Si le résultat n'était pas un point marqué, les joueurs affectés peuvent réajuster leurs placements désavantageux provoqués par la faute, la violation ou l'appel, et le jeu reprend par un « check ».`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "L’appel « jeu dangereux » existe ?",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "Ne pas tenir compte de l'intégrité des joueurs indépendamment de quand et si un contact se produit est considérée comme jeu dangereux et doit être traitée comme une faute. Cette règle ne peut être supplantée par aucune autre. Si l'appel est incontesté celui-ci doit être traité comme la faute la plus appropriée",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "Je suis défenseur. J’intercepte le disque et touche juste après un attaquant. Il appelle « faute ». Je ne conteste pas. Que se passe-t-il ?",
+    answerChoices: {
+      a: "Le turnover est maintenu",
+      b: "Le disque est retourné au lanceur",
+      c: "Le disque est récupéré par l'attaquant qui a subit la faute",
+    },
+    correctAnswers: ['c'],
+    explanation: "Après une faute de réception défensive (contact avec un réceptionneur avant, pendant, ou directement après que l'un ou l'autre des joueurs fasse une action sur le disque) non contestée, le réceptionneur gagne la possession à l’endroit de la faute. Le compte reprend à 1.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "Je saute et attrape en l’air le disque dans la zone d’en-but adverse. Mon défenseur me heurte et me fait atterrir en dehors du terrain. J’appelle une faute qu’il ne conteste pas. Que se passe-t-il ?",
+    answerChoices: {
+      a: "C'est un point",
+      b: "C'est un turnover car je suis hors du terrain",
+      c: "Je garde le disque et reprends le jeu dans la zone central, au point le plus proche de là où je suis sorti",
+    },
+    correctAnswers: ['a'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "J’attrape le disque en l’air. Mon défenseur me heurte et me fait atterrir en dehors de sa zone d’en-but. J’appelle une faute qu’il conteste. Le disque revient au lanceur.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Je conserve le disque là ou j’ai atterri et le point n’est donc pas marqué.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "En pivotant pour faire ma passe, le marqueur entre en contact avec moi. Je n’ai pas lancé le disque. J’appelle « contact ». Il ne conteste pas. Que se passe-t-il ?",
+    answerChoices: {
+      a: "Le jeu s'arrête et le compte reprendra à 1",
+      b: "Le jeu ne s'arrête pas et le compte reprend à 1",
+      c: "« contact » n'est pas un appel valide",
+    },
+    correctAnswers: ['b'],
+    explanation: "S’il ne conteste pas, le jeu ne s’arrête pas et le compte reprend à 1. En appelant une « infraction de contact » plutôt qu’une faute (il a le choix), le lanceur ne veut pas stopper le jeu.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "J’attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « faute ». Il ne conteste pas. Que se passe-t-il ?",
+    answerChoices: {
+      a: "C'est un point car il ne conteste pas",
+      b: "Je récupère le disque et le jeu reprends à l'endroit de la faute",
+      c: "Je récupère le disque et le jeu reprends dans la zone centrale au plus près de la faute",
+    },
+    correctAnswers: ['b'],
+    explanation: "Dans cette situation, si j’appelle une faute qui est incontestée, le jeu reprend par un check à l’endroit de la faute (dans la zone) et je dois me replacer au point le plus près sur la ligne de but pour faire ma passe. Le point n’est donc pas validé. Si j’avais appelé «strip», le point aurait été validé.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "J’attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « strip » (et non faute). Il ne conteste pas. Que se passe-t-il ?",
+    answerChoices: {
+      a: "C'est un point car il ne conteste pas",
+      b: "Je récupère le disque et le jeu reprends à l'endroit de la faute",
+      c: "Je récupère le disque et le jeu reprends dans la zone centrale au plus près de la faute",
+    },
+    correctAnswers: ['a'],
+    explanation: "Un « strip » se produit quand une faute défensive fait que le réceptionneur ou le lanceur laisse tomber le disque après qu'il a gagné la possession.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "L’attaquant que je marque me bouscule après avoir attrapé le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il garde le disque car il avait attrapé le disque avant de me toucher.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: `Une faute de réception offensive se produit quand un réceptionneur entre en contact avec un défenseur avant, pendant ou directement après que chaque joueur fasse une action sur le disque.
+Si la faute n’est pas contestée, il y a « turnover » et le défenseur gagne la possession où la faute s’est produite.
+Si la passe est complète et la faute est contestée, le disque revient au lanceur.`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "L’attaquant que je marque me bouscule avant d’attraper le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il y a turnover. Je ne suis pas obligé de le prendre. Je peux « checker » le disque et appeler « disc in » afin de relancer le jeu.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Si la faute n’est pas contestée, il y a « turnover » et le défenseur gagne la possession où la faute s’est produite.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "En position légitime, je suis entrain de compter à 8. En réalisant son pivot, le lanceur me heurte. J’appelle une « faute » qu’il ne conteste pas. Que se passe-t-il ?",
+    answerChoices: {
+      a: "Il garde le disque et je reprends à « compter 9 » après un check.",
+      b: "On ajoute 2 au compte et cela atteint 10 donc c'est un turnover",
+      c: "La faute est non contestée donc c'est un turnover",
+    },
+    correctAnswers: ['a'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "En position légitime, je viens de compter à 8 le lanceur. En réalisant son pivot, il me heurte. J’appelle une « faute » qu’il conteste. Il garde le disque et je reprends à « compter 8 » après un check.",
+    answerChoices: {
+      a: "C'est un turnover",
+      b: "Le jeu reprend à « compté 6 »",
+      c: "Le jeu reprend à « compté 8 »",
+      d: "Le jeu reprend à « compté 9 »",
+    },
+    correctAnswers: ['b'],
+    explanation: "La faute étant contestée et le compte supérieur à 5, je reprends à « compté 6 ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "Mon adversaire me fait un croche-pied. Ma chute n’influence pas le jeu. C’est une « faute indirecte ».",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: `
+Une faute indirecte se produit quand il y a contact entre un réceptionneur et un défenseur qui n'affecte pas directement une tentative d'action sur le disque.
+Si la faute est incontestée, le joueur ayant subi la faute peut se repositionner s’il a été désavantagé par la faute `,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "J’ai le disque. Le marqueur étant trop près de moi, je le repousse avec le disque pour le lui faire comprendre et ainsi ne pas stopper le jeu. Il appelle une « faute ». A-t-il raison ?",
+    answerChoices: {
+      a: "Oui",
+      b: "Non",
+    },
+    correctAnswers: ['a'],
+    explanation: `Si je le pousse, il peut appeler une faute, auquel cas le jeu s’arrête et le compte reprend au dernier nombre annoncé +1 (maximum 9).
+S'il est trop proche, je dois appeler « distance » ou « disc space » afin qu’il recule et reprennent le compte en ayant soustrait 1 au dernier chiffre énoncé.`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Fautes",
+    question: "Lors de ma course, mon défenseur me fait chuter involontairement alors que j’allais recevoir le disque. Ma chute m’empêche de le recevoir. Que se passe-t-il ?",
+    answerChoices: {
+      a: "C'est un turnover",
+      b: "Le disque est retourné au lanceur",
+      c: "Je récupère le disque"
+    },
+    correctAnswers: ['b'],
+    explanation: "Dans la mesure où la faute a eu une influence sur le jeu (étant pressenti comme le receveur), il s’agit d’un contact non accidentel. S’il « se produit quand deux ou plusieurs adversaires se déplacent simultanément vers un même point ce contact doit être traité comme une faute simultanée ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Combien y a-t-il d’infractions ?",
+    answerChoices: {
+      a: "5",
+      b: "6",
+      c: "7",
+    },
+    correctAnswers: ['c'],
+    explanation: `« Compte rapide » (« fast count »)
+« Chevauchement » (« straddle »)
+« Distance » (« disc space »)
+« Encerclement » (« wrapping »)
+« Double marquage » (« double team »)
+« Vision »
+« Marcher » (« Travel »)`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Mon marqueur commence le compte sans avoir « checké » le disque. Que fais-je ?",
+    answerChoices: {
+      a: "J'appelle une violation",
+      b: "J'appelle « compte rapide » (« fast count »)",
+      c: "Tant pis, on joue",
+    },
+    correctAnswers: ['b'],
+    explanation: "Une infraction de marquage peut être contestée par la défense, dans ce cas le jeu s'arrête. Après toute infraction de marquage non contestée, le marqueur doit reprendre le au compte au dernier nombre entièrement prononcé avant l'appel moins un (1).",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Mon marqueur commence le compte sans avoir dit « compté » ou « stalling ». Je peux appeler une « faute » ?",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Les fautes sont liées aux contacts. C’est une infraction de marquage. Il faut appeler « compte rapide » (« fast count »).",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Si mon marqueur ne soustrait pas correctement ou ne recommence pas le compte quand nécessaire, que fais-je ?",
+    answerChoices: {
+      a: "J'appelle une faute",
+      b: "J’appelle « compte rapide » (« fast count »)",
+      c: "Tant pis, je lui expliquerai après le point"
+    },
+    correctAnswers: ['b'],
+    explanation: "C’est une infraction de marquage.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Si le marqueur ne commence pas le compte au chiffre correct, porteur du disque je peux appeler une violation ?",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "C’est une infraction de marquage et non une violation. Il faut appeler « compte rapide » ou « fast count ».",
+    source: "Disque Tu Sais - Pablo",
+  },
 //   {
 //     category: "Infractions et violations",
 //     question: "Le marqueur doit être à un diamètre de disque (27,5cm) minimum de toutes les parties de mon corps y compris du pied pivot?",
@@ -1737,449 +1770,515 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
 //     explanation: "",
 //     source: "Disque Tu Sais - Pablo",
 //   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Le premier rideau de la zone est placée légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Etant défenseur et à 1 mètre du disque,  je commence à compter. Voyant le premier rideau qui vient se replacer devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Voyant plus d’un joueur dans les 3 mètres à ce moment, un attaquant non-porteur du disque appelle « double team ». Je conteste.  Ai-je raison?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Le lanceur appelle à mon encontre un « chevauchement » (« straddle »). Que dois-je faire",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Je suis le marqueur. J’appelle un « marcher » à 4. Le lanceur à toujours le disque. Que se passe t’il? ",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Au lieu d'appeler une « infraction de marquage », le lanceur peut appeler une « violation de marquage »?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "J’appelle un « double team » et tente tout de même la passe. Elle est interceptée. Ayant appelé une infraction qui n’est pas contestée, je récupère le disque.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Une fois le disque attrapé, je dois m’arrêter en 4 foulées maximum.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Je viens d’attraper le disque et fait une passe, dès mon premier appui de décélération. Un défenseur appelle un « marcher » (« travel »). A t’il raison?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "J’attrape le disque et décélère en changeant la direction de ma course (courbe). Un adversaire appelle un « marcher ». Il a tort car je décélérais.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "J’ai attrapé le disque en plongeant. Je fais une passe en étant agenouillé. La défense peut elle appeler quelque chose? ",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Que se pass t’il après une infraction de « marcher » contestée ou le lanceur n'a pas lancé le disque?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Je suis en attaque. Je fais un appel et suis gêné dans ma course par un défenseur. Je peux appeler « une obstruction »(« pick »)?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: " Je suis défenseur.  Je subis une obstruction et je décide d’attendre 2 secondes avant d’appeler «obstruction («pick). Je n’ai pas le droit car tout appel doit se faire instantanément.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "J’ai appelé un « pick » et le jeu s’est arrêté. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "A l’appel d’une faute le jeu s’est arrêté. Je m’aperçois que mon positionnement et celui de mon adversaire risquent d’entraîner une «obstruction » (« pick »). Pouvons-nous modifier légèrement notre position pour éviter la violation.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Le « jeu est mort » suite à l’appel d’une faute. Le marqueur « check » le disque avant que tout le monde se soit replacé correctement. Que puis-je faire ?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Infractions et violations",
-//     question: "Le « jeu est mort » suite à l’appel d’une faute. Un attaquant se déplace avant que le marqueur « check » le disque. Je peux appeler une « violation » même si ce n’est pas mon adversaire direct.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Stoppage",
-//     question: "Je constate qu’un adversaire à besoin de sortir. Que puis-je faire pour l’aider?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Stoppage",
-//     question: "Sur un contre-appel, je me tords la cheville. Un partenaire appelle « injury ». Comme ce n’est pas moi qui l’ait appelé j’ai la possibilité de rester sur le terrain ou de sortir.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Stoppage",
-//     question: "Un adversaire me blesse. J’appelle « injury ». Suis-je obligé de sortir du terrain?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Stoppage",
-//     question: "Juste après le lancer de mon partenaire, je me blesse seul et appelle « injury ». La passe n’est pas rattrapée. Que se passe t’il?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Stoppage",
-//     question: "Je défends une passe longue et me blesse lors de ma course. J’appelle « injury » avant que mon adversaire attrape le disque. Ayant appelé « injury » lorsque le disque était en l’air et n’ayant pu défendre pleinement la passe, le résultat de l’action n’est pas pris en compte et le disque revient au lanceur.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Stoppage",
-//     question: "Au cours d’un point, je m’aperçois qu’un objet dangereux est sur le terrain. Que puis-je faire?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Stoppage",
-//     question: "Je constate que le disque est plié ou cassé. Je peux stopper le jeu en appelant « freeze ».",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Stoppage",
-//     question: "L’équipe adverse remplace un joueur blessé. A bout de souffle, je souhaite me faire remplacer à ce moment. Ai-je le droit?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Temps-morts",
-//     question: "Nous venons de perdre le point. Bien que n’ayant pas la possession du disque, mon équipe a le droit d’appeler un temps mort (s’il lui en reste).",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Temps-morts",
-//     question: "Je suis  « captain spirit » et en attaque. Mon statut me permet d’appeler un temps mort, même si je n’ai pas le disque en main.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Temps-morts",
-//     question: "Après un temps mort, les mêmes joueurs jouent le point.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Temps-morts",
-//     question: "Après un temps mort, où devons nous nous placer si nous sommes en attaque?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Temps-morts",
-//     question: "Après un temps mort, les défenseurs peuvent se placer où ils veulent.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Temps-morts",
-//     question: "Après avoir appelé un temps-mort à 5, le nouveau marqueur reprend le compte à « compté 6 ». Je peux appeler un « compte rapide ».",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Temps-morts",
-//     question: "L’équipe adverse appelle un temps mort alors qu’ils n’en ont plus. Que se passe t’il? ",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Appendice",
-//     question: "J’ai une minute pour résoudre une « contestation ».",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Appendice",
-//     question: "Après qu’un point ait été marqué, de combien de temps dispose l’équipe en attaque pour se placer sur la ligne de but (un pied) et rester immobile?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Appendice",
-//     question: "Dès que tous les attaquants ont placé leur pied sur la ligne de but, au moins un d’entre-eux doit instantanément lever la main pour signaler qu’ils sont prêts.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Appendice",
-//     question: "Après qu’un point ait été marqué, l’équipe en défense a plus de temps que l’attaque pour se placer dans sa zone d’en-but?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Appendice",
-//     question: "Les capitaines sont ils autorisés à intervenir quand ils le souhaitent dans une discussion entre joueurs?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Appendice",
-//     question: "Après un turnover dans la zone centrale, l’attaque a 10 secondes pour jouer.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Appendice",
-//     question: "Après un pull ou si le turnover à lieu ailleurs que dans la zone centrale (zone d’en-but et touche), l’attaque a 15 secondes pour jouer.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Appendice",
-//     question: "Qui peut appeler un « temps-mort spirit »?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Appendice",
-//     question: "Le « toss » peut se faire avec un ou deux disques.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
+  {
+    category: "Infractions et violations",
+    question: "Le premier rideau de la zone est placée légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Étant défenseur et à 1 mètre du disque,  je commence à compter. Voyant le premier rideau qui vient se replacer devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Voyant plus d’un joueur dans les 3 mètres à ce moment, un attaquant non-porteur du disque appelle « double team ». Je conteste. Ai-je raison ?",
+    answerChoices: {
+      a: "Oui",
+      b: "Non",
+    },
+    correctAnswers: ['a'],
+    explanation: `
+Une infraction de marquage peut être contestée par la défense, dans ce cas le jeu s’arrête.
+Tout d’abord, seul le lanceur peut réclamer une infraction de marquage, en appelant le nom spécifique de l’infraction.
+Ensuite, le « chassé croisé » entre le replacement du premier rideau et le défenseur du deuxième rideau est fréquent.
+Le règlement précise « qu’une simple course dans cette zone des 3 mètres n'est pas un « double team ». Ma course pour sortir de cette zone ne peut donc pas être considérée comme une infraction.`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Le lanceur appelle à mon encontre un « chevauchement » (« straddle »). Que dois-je faire ?",
+    answerChoices: {
+      a: "Je dois reculer mes appuis pour reprendre une position légitime",
+      b: "Le jeu s'arrête",
+      c: "Je dois reprendre le compte au dernier nombre entièrement prononcé avant l'apppel moins 1",
+    },
+    correctAnswers: ['a', 'c'],
+    explanation: "Pour toutes les infractions de marque (donc pas le « marcher »), le défenseur doit reprendre une position légitime PUIS reprendre le compte au dernier nombre entièrement prononcé avant l'apppel moins 1.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Je suis le marqueur. J’appelle un « marcher » à 4. Le lanceur à toujours le disque. Que se passe-t-il ?",
+    answerChoices: {
+      a: "Le jeu s'arrête",
+      b: "Le jeu ne s'arrête pas",
+      c: "Le lanceur peut lancer",
+      d: "Je peux continuer de compter pendant que le lanceur replace correctment son pied de pivot",
+    },
+    correctAnswers: ['b'],
+    explanation: "Le jeu n’est pas mort. Par conséquent, les autres joueurs peuvent être mobiles. Le lanceur doit établir son pivot au bon endroit avant de pouvoir lancer le disque. Pendant ce temps, je ne compte plus. Un fois placé correctement, je reprends le compte ou il en était après avoir « checker ». Dans cette situation, « compté 5 ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Au lieu d'appeler une « infraction de marquage », le lanceur peut appeler une « violation de marquage »?",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: `En appelant une violation il stoppe le jeu, contrairement à s’il avait appelé une infraction.
+Il peut le faire si:
+- le compte n'est pas corrigé suite à l'appel d'une infraction,
+- il n'y a pas de compte,
+- il y a une énorme infraction de marquage,
+- il y a une répétition d'infractions`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "J’appelle un « double team » et tente tout de même la passe. Elle est interceptée. Ayant appelé une infraction qui n’est pas contestée, je récupère le disque.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Si le lanceur appelle une infraction de marquage ou une violation de marquage et tente une passe avant pendant ou après le « call », l'appel n'a aucune conséquence et si la passe n'est pas attrapée le « turnover » est maintenu.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Une fois le disque attrapé, je dois m’arrêter en 3 foulées maximum.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "« Après avoir attrapé le disque et être retombé dans l’aire de jeu, le lanceur doit réduire sa vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce qu'il ait établi un point pivot ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Je viens d’attraper le disque et fais une passe, dès mon premier appui de décélération. Un défenseur appelle un « marcher » (« travel »). A-t-il raison ?",
+    answerChoices: {
+      a: "Oui",
+      b: "Non",
+    },
+    correctAnswers: ['b'],
+    explanation: "« Le lanceur peut lancer le disque pendant sa phase de décélération tant qu’il reste en contact avec l’aire de jeu lors du mouvement du lancer ». L’adversaire doit donc percevoir cette décélération (si tant est que ce soit possible dès la première foulée).",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "J’attrape le disque et décélère en changeant la direction de ma course (courbe). Un adversaire appelle un « marcher ». Il a tort car je décélérais.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "L’appel est correct car après avoir attrapé le disque et être retombé dans l’aire de jeu, je dois réduire ma vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce j’ai établi mon point pivot.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "J’ai attrapé le disque en plongeant. Je fais une passe en étant agenouillé. La défense peut appeler un « Marcher » (« Travel »)",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: `« Un lanceur qui est couché ou agenouillé n'a pas besoin d'établir de pivot ». Je peux donc faire ma passe dans cette position.
+« S’il se lève il ne s'agit pas d'un « travel », du moment qu'il établit son pivot au même endroit ».`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Que se passe-t-il après une infraction de « marcher » contestée si le lanceur n'a pas lancé le disque ?",
+    answerChoices: {
+      a: "Le jeu est stoppé",
+      b: "Le jeu continue sans s'arrêter",
+    },
+    correctAnswers: ['b'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Je suis en attaque. Je fais un appel et suis gêné dans ma course par un défenseur. Je peux appeler « une obstruction »(« pick ») ?",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Seuls les défenseurs peuvent appeler cette violation.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: " Je suis défenseur. Je subis une obstruction et je décide d’attendre 2 secondes avant d’appeler «obstruction («pick). Je n’ai pas le droit car tout appel doit se faire instantanément.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Avant de faire un appel de « pick », le défenseur peut retarder son appel jusqu’à deux secondes pour voir si l’obstruction va affecter le jeu.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "J’ai appelé un « pick » et le jeu s’est arrêté. Que se passe-t-il ?",
+    answerChoices: {
+      a: "Les joueurs se replacent là où ils étaient au moment de l'appel",
+      b: "Je me repositionne à la position que j'aurais eue s'il n'y avait pas eu d'obstruction",
+    },
+    correctAnswers: ['a', 'b'],
+    explanation: "Tous les joueurs se replacent là où ils étaient au moment de l’appel (« call ») et je me replace à la position que j’aurai eue s’il n’y avait pas eu d’obstruction.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "À l’appel d’une faute le jeu s’est arrêté. Je m’aperçois que mon positionnement et celui de mon adversaire risquent d’entraîner une «obstruction » (« pick »). Pouvons-nous modifier légèrement notre position pour éviter la violation ?",
+    answerChoices: {
+      a: "Oui",
+      b: "Non",
+    },
+    correctAnswers: ['a'],
+    explanation: "« Durant n'importe quel arrêt de jeu des adversaires peuvent s'accorder pour légèrement modifier leur position afin d'éviter des « picks » potentiels ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Le « jeu est mort » suite à l’appel d’une faute. Le marqueur « check » le disque avant que tout le monde se soit replacé correctement. Que puis-je faire ?",
+    answerChoices: {
+      a: "Rien",
+      b: "J'appelle une « violation »",
+      c: "J'appelle une « infraction »",
+    },
+    correctAnswers: ['b'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Infractions et violations",
+    question: "Le « jeu est mort » suite à l’appel d’une faute. Un attaquant se déplace avant que le marqueur « check » le disque. Je peux appeler une « violation » même si ce n’est pas mon adversaire direct.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "Le jeu est figé jusqu’au « check ». Afin de s’assurer que tout le monde bouge au même moment, le marqueur peut décompter 3-2-1 à voix haute en y associant un décompte avec les doigts, bras levé pour être visible de tous. Avant ce décompte, il est de bon esprit d’annoncer aux joueurs à combien reprend le compte.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Stoppage",
+    question: "Je constate qu’un adversaire à besoin de sortir. Que puis-je faire pour l’aider?",
+    answerChoices: {
+      a: "Rien",
+      b: "Appeler « blessure » (« injury »)",
+      c: "Appeler une violation",
+    },
+    correctAnswers: ['a'],
+    explanation: "Une interruption pour « blessure » (« injury ») peut être appelée par le joueur blessé ou tout autre joueur de l'équipe du blessé. Le bon sens veut que vous l’appeliez si vous êtes le seul à vous en être rendu compte.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Stoppage",
+    question: "Sur un contre-appel, je me tords la cheville. Un partenaire appelle « injury ». Comme ce n’est pas moi qui l’ait appelé j’ai la possibilité de rester sur le terrain ou de sortir.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Que ce soit le joueur concerné ou un de ses partenaires qui ait appelé « injury », « si la blessure n’a pas été causée par un adversaire, le joueur doit choisir d'être remplacé ou de faire prendre un temps-mort à sa propre équipe ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Stoppage",
+    question: "Un adversaire me blesse. J’appelle « injury ». Suis-je obligé de sortir du terrain ?",
+    answerChoices: {
+      a: "Oui",
+      b: "Non",
+    },
+    correctAnswers: ['b'],
+    explanation: "« Si la blessure a été causée par un adversaire, le joueur peut choisir de rester ou d'être remplacé ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Stoppage",
+    question: "Juste après le lancer de mon partenaire, je me blesse seul et appelle « injury ». La passe n’est pas rattrapée. Que se passe-t-il ?",
+    answerChoices: {
+      a: "C'est un turnover",
+      b: "Le disque est retourné au lanceur",
+      c: "Le disque est récupéré par le joueur qui me remplace"
+    },
+    correctAnswers: ['a'],
+    explanation: `« Si le disque était en l’air quand l'interruption a été appelée, le jeu continue jusqu'à ce que la passe soit attrapée ou que le disque touche le sol.
+Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « turnover » est maintenu et le jeu reprend à cet endroit après l’interruption ».`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Stoppage",
+    question: "Je défends une passe longue et me blesse lors de ma course. J’appelle « injury » avant que mon adversaire attrape le disque. Ayant appelé « injury » lorsque le disque était en l’air et n’ayant pu défendre pleinement la passe, le résultat de l’action n’est pas pris en compte et le disque revient au lanceur.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: `L’attaquant conserve le disque.
+
+« Si le disque était en l’air quand l'interruption a été appelée, le jeu continue jusqu'à ce que la passe soit attrapée ou que le disque touche le sol.
+Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « turnover » est maintenu et le jeu reprend à cet endroit après l’interruption ». `,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Stoppage",
+    question: "Au cours d’un point, je m’aperçois qu’un objet dangereux est sur le terrain. Que puis-je faire ?",
+    answerChoices: {
+      a: "Rien",
+      b: "Appeler « technical »",
+      b: "Appeler « freeze »",
+    },
+    correctAnswers: [''],
+    explanation: `Je peux appeler une « interruption technique » en disant « technical ».
+« N'importe quel joueur qui identifie une condition qui met en danger des joueurs peut appeler « technical » pour arrêter le jeu. Le jeu doit s'arrêter immédiatement ».
+L’appel « freeze » n’existe pas.`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Stoppage",
+    question: "Je constate que le disque est plié ou cassé. Je peux stopper le jeu en appelant « freeze ».",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: `Cet appel n’existe pas. Il est toutefois possible d’appeler une « interruption technique » en disant « technical ».
+
+Le lanceur peut appeler une interruption technique pendant le jeu pour remplacer un disque sévèrement endommagé.
+
+Après un appel d'interruption technique :
+- si l'appel ou le problème technique n'ont pas affecté le jeu, la passe complétée ou le « turnover » est maintenu et le jeu reprend à cet endroit,
+- si l'appel ou le problème technique ont affecté le jeu, le disque est retourné au lanceur. `,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Stoppage",
+    question: "L’équipe adverse remplace un joueur blessé. A bout de souffle, je souhaite me faire remplacer à ce moment. Ai-je le droit ?",
+    answerChoices: {
+      a: "Oui",
+      b: "Non",
+    },
+    correctAnswers: ['a'],
+    explanation: "« Si un joueur est remplacé après une blessure ou après une interruption technique due à un équipement illégal, l'équipe adverse peut également choisir de remplacer un joueur ». « Le remplaçant reprend l'état complet (position, possession, compte, etc...) du joueur qu'il remplace ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Temps-morts",
+    question: "Nous venons de perdre le point. Bien que n’ayant pas la possession du disque, mon équipe a le droit d’appeler un temps mort (s’il lui en reste).",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "« Après le début d'un point et avant que les deux équipes aient signalé être prêtes, un joueur de l'une ou l'autre des équipes peut appeler un temps-mort. Le temps-mort prolonge le temps entre le début du point et le « pull » suivant de soixante-quinze secondes. »",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Temps-morts",
+    question: "Je suis  « spirit captain » et en attaque. Mon statut me permet d’appeler un temps mort, même si je n’ai pas le disque en main.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "« Après le « pull », seul un joueur ayant la possession du disque peut appeler un temps-mort ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Temps-morts",
+    question: "Après un temps mort, les mêmes joueurs jouent le point.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "« Sur un temps-mort, les remplacements ne sont pas autorisés, à part pour blessure ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Temps-morts",
+    question: "Après un temps mort, où devons nous nous placer si nous sommes en attaque?",
+    answerChoices: {
+      a: "Le jeu reprend au point de pivot",
+      b: "Le lanceur reste le même",
+      c: "N'importe quel attaquant peut devenir lanceur",
+      d: "Les attaquants se repositionnent là où ils étaient",
+      e: "Les attaquants se positionnent où ils le souhaitent",
+    },
+    correctAnswers: ['a', 'b', 'e'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Temps-morts",
+    question: "Après un temps mort, les défenseurs peuvent se placer où ils veulent.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "« Une fois que les attaquants ont choisi leur position, les défenseurs peuvent se placer à l’endroit qu’ils veulent dans l’aire de jeu ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Temps-morts",
+    question: "Après avoir appelé un temps-mort à 5, le nouveau marqueur reprend le compte à « compté 6 ». Je peux appeler un « compte rapide ».",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "Les défenseurs peuvent changer de marqueur, auquel cas le compte doit reprendre à 1. Si Le compte ne reprend pas au chiffre correct je peux appeler « compte rapide » (« fast count »).",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Temps-morts",
+    question: "L’équipe adverse appelle un temps mort alors qu’ils n’en ont plus. Que se passe-t-il ?",
+    answerChoices: {
+      a: "Le jeu est arrêté",
+      b: "Le jeu n'est pas arrêté",
+      c: "L'appel n'a pas d'impact",
+      d: "Le marqueur ajoute 2 secondes au compte",
+    },
+    correctAnswers: ['a', 'd'],
+    explanation: `« Si le lanceur appelle un temps-mort alors que son équipe n'en dispose plus, le jeu est arrêté.
+Le marqueur doit ajouter deux (2) secondes au compte qu'il aurait prononcé avant de reprendre le jeu avec un « check ».
+Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changement de possession » de type « stall-out » (« fin du compte »). `,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Appendice",
+    question: "J’ai une minute pour résoudre une « contestation ».",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Si après 30 secondes de discussion la contestation n’est pas résolue, le disque revient au dernier lanceur non contesté qui à alors 15 secondes pour relancer le jeu.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Appendice",
+    question: "Après qu’un point ait été marqué, de combien de temps dispose l’équipe en attaque pour se placer sur la ligne de but (un pied) et rester immobile?",
+    answerChoices: {
+      a: "45 secondes",
+      b: "60 secondes",
+    },
+    correctAnswers: ['a'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Appendice",
+    question: "Dès que tous les attaquants ont placé leur pied sur la ligne de but, au moins un d’entre-eux doit instantanément lever la main pour signaler qu’ils sont prêts.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Ils ont 15 secondes pour pouvoir lever la main.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Appendice",
+    question: "Après qu’un point ait été marqué, l’équipe en défense a plus de temps que l’attaque pour se placer dans sa zone d’en-but?",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: `La défense a 60 secondes (contre 45 pour l’attaque) après que le point ait été marqué pour se placer. Passé ce délai l’attaque peut appeler une violation de « dépassement de temps ».
+Si c’est la première fois ou s’il y a une contestation, aucune sanction n’est appliquée.
+Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort » à la défense. Si elle n’en avait plus, l’attaque redémarre au centre du terrain et le jeu démarre par un « check ».`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Appendice",
+    question: "Les capitaines sont autorisés à intervenir quand ils le souhaitent dans une discussion entre joueurs",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Ils peuvent intervenir 15 secondes après le début de la discussion. Au bout de 30 secondes, s’il n’ y a pas eu de terrain d’entente, le disque est retourné au dernier lanceur non-contesté. Le jeu doit repartir au bout de 45 secondes (après le « call »)",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Appendice",
+    question: "Après un turnover dans la zone centrale, l’attaque a 10 secondes pour jouer.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "La défense peut appeler a voix haute « 10 secondes », puis « 5 secondes ». 10 secondes après ce premier avertissement et s’il est à moins de 3 mètres du disque, le défenseur peut annoncer « disque en jeu » (« disc in ») et commencer le compte.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Appendice",
+    question: "Après un pull ou si le turnover à lieu ailleurs que dans la zone centrale (zone d’en-but et touche), l’attaque a 15 secondes pour jouer.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: `
+Elle dispose de 20 secondes.
+Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », « 5 secondes », l’attaque n’a pas rejoué le disque dans le délai imparti, et s’il est à 3 mètres ou moins du disque (dans le cas ou le disque soit dans la zone) ou de l’endroit ou le pivot doit être établi (si le disque était sorti du terrain), alors le défenseur peut annoncer « disque en jeu » (« disc in ») et commencer le compte.`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Appendice",
+    question: "Qui peut appeler un « temps-mort spirit » (« spirit timeout »)?",
+    answerChoices: {
+      a: "N'importe quel joueur du match",
+      b: "N'importe quel joueur sur le terrain",
+      c: "Seulement les capitaines et capitaines de spirit",
+      c: "Seulement les capitaines de spirit",
+    },
+    correctAnswers: ['c'],
+    explanation: `Ce temps-mort ne peut être appelé que par les capitaines (d’ équipe ou spirit) ou un « game advisor ». L ‘appel peut être fait après un appel ayant arrêté le jeu ou après le début d’un point et avant l’engagement.
+Durant ce temps mort, aucun point tactique ne peut être abordé par les équipes.
+Après que les capitaines se soient réunis pour trouver les solutions à une amélioration de l’esprit du jeu, les deux équipes se réunissent en cercle au milieu du terrain pour que les capitaines énoncent les solutions trouvées.`,
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Appendice",
+    question: "Le « toss » peut se faire avec un ou deux disques.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "Il doit se faire avec deux disques et dans le terrain. L’appel « identique ou différent » doit se faire par l’un des deux capitaines lorsque les disques sont en l’air.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Indoor",
+    question: "À l’engagement, je peux lancer le disque comme je veux.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['b'],
+    explanation: "La trajectoire initiale du disque ne doit pas être orientée vers le sol. Auquel cas l’attaque peut faire refaire le « pull ».",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Indoor",
+    question: "Je joue en salle (« indoor »).L’engagement adverse sort du terrain, à 13 mètres environ de ma zone, sans que le disque n’est touché le terrain ou un joueur. Je peux reprendre le jeu au milieu de la zone centrale au point le plus proche de l’endroit ou est sorti le disque.",
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "« Un joueur signalant “Middle” met le disque en jeu à la marque de Brick, ou à un point au milieu de l’Aire de Jeu le plus proche de l’endroit où le disque a traversé la ligne de périmètre en dernier, en fonction de l’endroit le plus prêt de la End zone attaquée. Pour signaler cette option, le lanceur désigné tend un bras au-dessus de sa tête et/ou appelle “Brick” ou “Middle”, avant de toucher le disque ».",
+    source: "Disque Tu Sais - Pablo",
+  },
 //   {
 //     category: "Indoor",
-//     question: "A l’engagement, je peux lancer le disque comme je veux. ",
+//     question: " L'endroit où le disque est sorti de l'aire de jeu est le point où, avant d'entrer en contact avec l'extérieur de l'aire de jeu ou un joueur hors-jeu, le disque était le plus récemment :",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -2188,48 +2287,30 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
 //     explanation: "",
 //     source: "Disque Tu Sais - Pablo",
 //   },
-//   {
-//     category: "Indoor",
-//     question: "Je joue en salle (« indoor »).L’engagement adverse sort du terrain, à 13 mètres environ de ma zone, sans que le disque n’est touché le terrain ou un joueur. Je peux reprendre le jeu au milieu de la zone centrale au point le plus proche de l’endroit ou est sorti le disque.",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Indoor",
-//     question: " L'endroit où le disque est sorti de l'aire de jeu est le point où, avant d'entrer en contact avec l'extérieur de l'aire de jeu ou un joueur hors-jeu, le disque était le plus récemment : ",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Indoor",
-//     question: "En salle, sur une faute défensive contestée, un marcher ou une obstruction (« pick »), le compte reprend à combien maximum?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Indoor",
-//     question: "En salle, sur un « stall-out » (« fin du compte ») contesté, le compte reprend à combien?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
+  {
+    category: "Indoor",
+    question: "En salle, sur une faute défensive contestée, un marcher ou une obstruction (« pick »), le compte reprend à combien maximum ?",
+    answerChoices: {
+      a: "« compté 4 »",
+      b: "« compté 5 »",
+      c: "« compté 6 »",
+      d: "« compté 7 »",
+    },
+    correctAnswers: ['b'],
+    explanation: "Si le compte était supérieur ou égal à 4 au moment de l’appel, on reprend a « compté 5 ». S’il était inférieur on reprend au nombre + 1.",
+    source: "Disque Tu Sais - Pablo",
+  },
+  {
+    category: "Indoor",
+    question: "En salle, sur un « stall-out » (« fin du compte ») contesté, le compte reprend à combien ?",
+    answerChoices: {
+      a: "« compté 5 »",
+      b: "« compté 6 »",
+      c: "« compté 7 »",
+      d: "« compté 8 »",
+    },
+    correctAnswers: ['c'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+  },
 ];
