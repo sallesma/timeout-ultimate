@@ -11,6 +11,7 @@ export default (props) => {
       <Button containerStyle={styles.button} title="Répondre à une question" onPress={() => props.navigation.navigate('SampleQuestionScreen')} />
       <Button containerStyle={styles.button} title="Quizz (10 questions)" onPress={() => props.navigation.navigate('QuizzScreen', { quizzLength: 10 })} />
       <Button containerStyle={styles.button} title="Historique des quizz" onPress={() => props.navigation.navigate('HistoryScreen')} />
+      <Button containerStyle={styles.button} title="Liens utiles" onPress={() => props.navigation.navigate('LinksScreen')} />
       <StatusBar style="auto" />
     </View>
   );
