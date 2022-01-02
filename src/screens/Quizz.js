@@ -1,11 +1,11 @@
 import React, { useState, useLayoutEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, ScrollView, Text, View } from 'react-native';
 import { Button } from 'react-native-elements';
 
 import Question from '../components/Question';
 import Report from '../components/Report';
-import { questions } from '../../data/questions';
+import questions from '../../data';
 
 // Taken from https://stackoverflow.com/a/19270021
 function getRandomElementsFromArray(arr, n) {
@@ -47,7 +47,7 @@ export default (props) => {
   }
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       {!showReport && (
         <View style={styles.question}>
           <View style={styles.header}>
@@ -76,7 +76,7 @@ export default (props) => {
         <Report rightAnswersCount={rightAnswersCount} quizzLength={quizzLength} navigation={props.navigation} />
       )}
       <StatusBar style="auto" />
-    </View>
+    </ScrollView>
   );
 }
 
@@ -85,6 +85,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     padding: 20,
+    paddingBottom: 50,
   },
   header: {
     flexDirection: 'row',

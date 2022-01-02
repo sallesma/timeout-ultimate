@@ -60,6 +60,7 @@ export default ({question, onSuccess, onFailure}) => {
           ) : (
             <Text style={styles.wrong}>Mauvaise réponse...</Text>
           )}
+          <Text>{question.explanation}</Text>
         </View>
       )}
     </View>
