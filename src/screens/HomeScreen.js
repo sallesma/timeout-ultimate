@@ -8,7 +8,7 @@ import theme from '../utils/theme.js';
 import questions from '../../data';
 
 export default (props) => {
-    useLayoutEffect(() =>
+  useLayoutEffect(() =>
     props.navigation.setOptions({
       headerRight: () => (
         <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
@@ -17,6 +17,7 @@ export default (props) => {
       ),
     }),
   );
+
   return (
     <View style={styles.container}>
       <Text style={styles.welcomeText}>{questions.length} questions t'attendent pour apprendre les règles de l'ultimate !</Text>
@@ -37,6 +38,8 @@ const styles = StyleSheet.create({
   },
   icon: {
     fontSize: 28,
+    paddingVertical: 5,
+    paddingHorizontal: 10,
   },
   welcomeText: {
     fontSize: theme.FONT_SIZE_L,

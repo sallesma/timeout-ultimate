@@ -1804,7 +1804,7 @@ Le règlement précise « qu’une simple course dans cette zone des 3 mètres 
       a: "Le jeu s'arrête",
       b: "Le jeu ne s'arrête pas",
       c: "Le lanceur peut lancer",
-      d: "Je peux continuer de compter pendant que le lanceur replace correctment son pied de pivot",
+      d: "Je peux continuer de compter pendant que le lanceur replace correctement son pied de pivot",
     },
     correctAnswers: ['b'],
     explanation: "Le jeu n’est pas mort. Par conséquent, les autres joueurs peuvent être mobiles. Le lanceur doit établir son pivot au bon endroit avant de pouvoir lancer le disque. Pendant ce temps, je ne compte plus. Un fois placé correctement, je reprends le compte ou il en était après avoir « checker ». Dans cette situation, « compté 5 ».",
@@ -2256,7 +2256,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
   },
   {
     category: "Indoor",
-    question: "À l’engagement, je peux lancer le disque comme je veux.",
+    question: "À l’engagement en indoor, je peux lancer le disque comme je veux.",
     answerChoices: {
       a: "Vrai",
       b: "Faux",

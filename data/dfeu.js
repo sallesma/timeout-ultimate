@@ -59,7 +59,7 @@ export default [
     source: "DFEU - Pablo",
   },
   {
-    question: "Un attaquaant attrape le disque en l'air et atterrit avec un pied dans l'aire de jeu et un pied sur la ligne de touche. Les deux pieds touchent le sol en même temps.",
+    question: "Un attaquant attrape le disque en l'air et atterrit avec un pied dans l'aire de jeu et un pied sur la ligne de touche. Les deux pieds touchent le sol en même temps.",
     answerChoices: {
       a: "Turnover",
       b: "Pas turnover",
@@ -150,7 +150,7 @@ export default [
     source: "DFEU - Pablo",
   },
   {
-    question: "Après avoir établi son pied de piot dans le terrain, un joueur réussit sa passe en mettant l'autre dehors",
+    question: "Après avoir établi son pied de pivot dans le terrain, un joueur réussit sa passe en mettant l'autre dehors",
     answerChoices: {
       a: "Il y a turnover car il avait un pied en dehors du terrain",
       b: "Il n'y a pas turnover",
