@@ -61,6 +61,7 @@ export default (props) => {
             question={selectedQuestions[current - 1]}
             onSuccess={onSuccess}
             onFailure={onFailure}
+            time={time}
           />
         </View>
       )}

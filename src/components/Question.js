@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { CheckBox, Button } from 'react-native-elements';
+import { CheckBox, Button, LinearProgress } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
 
-export default ({question, onSuccess, onFailure}) => {
+export default ({question, onSuccess, onFailure, time}) => {
+  const [currentTime, setCurrentTime] = React.useState(0);
   const [checked, setChecked] = useState([]);
   const [result, setResult] = useState(undefined);
 
@@ -14,6 +15,8 @@ export default ({question, onSuccess, onFailure}) => {
   }, [question.question]);
 
   const onValidate = () => {
+    if (currentTime < 1) setCurrentTime(1);
+
     const answerIsCorrect = JSON.stringify(checked.sort()) == JSON.stringify(question.correctAnswers.sort());
     setResult(answerIsCorrect);
     if (answerIsCorrect) {
@@ -32,6 +35,28 @@ export default ({question, onSuccess, onFailure}) => {
 
   const showResult = result !== undefined;
 
+  if (time) {
+    // Restart timer on new question
+    React.useEffect(() => {
+      setCurrentTime(0);
+    }, [question]);
+
+    React.useEffect(() => {
+      let subs = true;
+      if (currentTime < 1) {
+        setTimeout(() => {
+          if (subs) {
+            setCurrentTime(currentTime + (time / 100));
+          }
+        }, 1000);
+      }
+      if (currentTime > 1) {
+        onValidate();
+      }
+      return () => subs = false;
+    }, [currentTime]);
+  }
+
   return (
     <View>
       <Text style={styles.question}>{question.question}</Text>
@@ -48,6 +73,15 @@ export default ({question, onSuccess, onFailure}) => {
           />
         ))}
       </View>
+      {time && (
+        <LinearProgress
+          style={{ marginVertical: 10 }}
+          value={currentTime}
+          variant="determinate"
+          color={theme.MAIN_COLOR}
+          trackColor={theme.MAIN_COLOR_LIGHT}
+        />
+      )}
       <Button title="Valider" onPress={onValidate} disabled={showResult} />
       {showResult && (
         <View style={styles.result}>

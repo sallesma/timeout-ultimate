@@ -1375,7 +1375,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['a', 'b'],
     explanation: `Les deux options sont valables. Avant de ramasser le disque, je peux indiquer à mon marqueur ma décision.`,
     source: "Disque Tu Sais - Pablo",
-    level: Levels.EASY,
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
