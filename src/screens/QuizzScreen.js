@@ -6,6 +6,7 @@ import { Button } from 'react-native-elements';
 import Question from '../components/Question';
 import Report from '../components/Report';
 import questions from '../../data';
+import { Levels } from '../utils/config'
 
 // Taken from https://stackoverflow.com/a/19270021
 function getRandomElementsFromArray(arr, n) {
@@ -31,7 +32,9 @@ export default (props) => {
     });
   });
 
-  const [selectedQuestions, _setSelectedQuestions] = useState(getRandomElementsFromArray(questions, number));
+  const filteredQuestions = questions.filter(question => level === Levels.ANY || level === question.level);
+
+  const [selectedQuestions, _setSelectedQuestions] = useState(getRandomElementsFromArray(filteredQuestions, number));
   const [current, setCurrent] = useState(1);
   const [rightAnswersCount, setRightAnswersCount] = useState(0);
   const [canMoveForward, setCanMoveForward] = useState(false);

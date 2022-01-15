@@ -1,7 +1,9 @@
+import { Levels } from '../src/utils/config';
+
 export default [
   {
     category: "Esprit du jeu",
-    question: "Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple) je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.",
+    question: "Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple) je, je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.",
     answerChoices: {
         a: "Vrai",
         b: "Faux",
@@ -15,6 +17,7 @@ export default [
  - faire des appels à la faute (« call ») d'une manière cohérente au long d'un match, -  et faire un appel à une faute uniquement si une infraction est assez significative pour changer le résultat d'une action. »
     `,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Esprit du jeu",
@@ -26,6 +29,7 @@ export default [
     correctAnswers: ['b'],
     explanation: "Je ne dois pas être irrespectueux à ce moment.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Esprit du jeu",
@@ -37,10 +41,11 @@ export default [
     correctAnswers: ['b'],
     explanation: "C’est contre l’esprit du jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Esprit du jeu",
-    question: "Enervé par les fautes successives d’un adversaire à mon encontre, je refuse de lui parler et de le checker à la fin du match. Est-ce la bonne attitude?",
+    question: "Enervé par les fautes successives d’un adversaire à mon encontre, je refuse de lui parler et de le checker à la fin du match. Est-ce la bonne attitude ?",
     answerChoices: {
         a: "Vrai",
         b: "Faux",
@@ -55,6 +60,7 @@ réagir calmement aux désaccords et provocations. »
 « La haute compétition est encouragée mais jamais au détriment du respect mutuel entre joueurs, de l’adhérence aux règles du jeu ou du simple plaisir de jouer ».
 `,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Esprit du jeu",
@@ -66,6 +72,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "L’esprit du jeu veut que l’on dise à ses partenaires s’ils se trompent, s’ils ont causé une faute ou une violation dès lors que je suis sur le terrain et proche de l’action.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "Esprit du jeu",
@@ -92,6 +99,7 @@ réagir calmement aux désaccords et provocations. »
 « Un joueur expérimenté, qui offre des conseils sur les règles et guide l'arbitrage sur le terrain, peut superviser des matchs avec des débutants ou des jeunes joueurs ».
 `,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Esprit du jeu",
@@ -103,6 +111,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "« Les règles doivent être interprétées par les joueurs directement impliqués dans l’action de jeu ou par des joueurs qui ont eu la meilleure perspective sur l’action. Les non-joueurs, indépendamment du capitaine, doivent s’abstenir d’intervenir. Cependant les joueurs peuvent prendre l’avis de non-joueurs pour clarifier les règles et aider les joueurs à faire l'appel approprié ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
 //   {
 //     category: "Aire de jeu",
@@ -125,10 +134,11 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['a'],
     explanation: "La ligne ne fait pas partie du terrain. Le joueur est donc en dehors des limites du terrain.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Aire de jeu",
-    question: "Un attaquant attrape le disque en l’air.À la réception, ses pieds touchent le sol en même temps avec un pied sur la ligne d’en-but et l’autre dans la zone attaquée.",
+    question: "Un attaquant attrape le disque en l’air. À la réception, ses pieds touchent le sol en même temps avec un pied sur la ligne d’en-but et l’autre dans la zone attaquée.",
     answerChoices: {
         a: "Il y a point",
         b: "Il n'y a pas point",
@@ -136,10 +146,11 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Pour que le point soit validé il faut que le(s) premier(s) appui(s) soit uniquement dans la zone.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "Aire de jeu",
-//     question: "Un joueur attrape le disque en l’air. A la réception, ses pieds touchent le sol en même temps avec un pied dans le l’aire de jeu et l’autre en dehors . « Turnover » ou pas? Pourquoi?",
+//     question: "Un joueur attrape le disque en l’air. À la réception, ses pieds touchent le sol en même temps avec un pied dans le l’aire de jeu et l’autre en dehors . « Turnover » ou pas? Pourquoi?",
 //     answerChoices: {
 //         a: "Vrai",
 //         b: "Faux",
@@ -150,7 +161,7 @@ réagir calmement aux désaccords et provocations. »
 //   },
   {
     category: "Aire de jeu",
-    question: "Un attaquant attrape le disque en l’air. A la réception, son pied droit se pose en premier dans l’aire de jeu centrale. Son élan le fait sortir du terrain .",
+    question: "Un attaquant attrape le disque en l’air. À la réception, son pied droit se pose en premier dans l’aire de jeu centrale. Son élan le fait sortir du terrain .",
     answerChoices: {
         a: "Turnover",
         b: "Pas turnover",
@@ -158,10 +169,11 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Au moment de sa réception son premier appui est dans le terrain.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Aire de jeu",
-    question: "Un attaquant attrape le disque en l’air. A la réception, son pied droit se pose en premier sur la ligne d’en-but puis le pied gauche dans la zone attaquée.",
+    question: "Un attaquant attrape le disque en l’air. À la réception, son pied droit se pose en premier sur la ligne d’en-but puis le pied gauche dans la zone attaquée.",
     answerChoices: {
         a: "Il y a point",
         b: "Il n'y a pas point",
@@ -169,6 +181,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Le point n’est pas validé car à la réception son premier appui n’est pas dans la zone d’en-but.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Aire de jeu",
@@ -181,10 +194,11 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b, c'],
     explanation: "Tous les joueurs peuvent appeler une « violation » car aucun obstacle ne doit se situer à moins de 3 mètres de l ‘aire de jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Aire de jeu",
-    question: "Un défenseur attrape le disque en l’air. A la réception, son pied droit se pose en premier sur la ligne de touche. Son élan le fait sortir du terrain.",
+    question: "Un défenseur attrape le disque en l’air. À la réception, son pied droit se pose en premier sur la ligne de touche. Son élan le fait sortir du terrain.",
     answerChoices: {
         a: "Le défenseur récupère le disque et son équipe passe en attaque",
         b: "Le défenseur est sorti du terrain donc il doit rendre le disque à l'attaquant",
@@ -193,6 +207,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['a'],
     explanation: "Dans la mesure où il a fait échouer la passe des attaquants, le défenseur récupère le disque (même s’il est sorti du terrain).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "Points et jeu",
@@ -227,6 +242,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['c'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
 //   {
 //     category: "L'Engagement",
@@ -241,7 +257,7 @@ réagir calmement aux désaccords et provocations. »
 //   },
   {
     category: "L'Engagement",
-    question: "Si un défenseur non porteur du disque et un attaquant lève le bras, le porteur peut faire l’engagement ?",
+    question: "Si un défenseur non porteur du disque et un attaquant lèvent le bras, le porteur peut faire l’engagement ?",
     answerChoices: {
         a: "Vrai",
         b: "Faux",
@@ -249,6 +265,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Il faut que ce soit le « puller » et au moins un attaquant",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "L'Engagement",
@@ -260,6 +277,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Un seul attaquant suffit.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "L'Engagement",
@@ -271,6 +289,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Ils doivent tous avoir un pied sur la ligne et être immobiles.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "L'Engagement",
@@ -285,7 +304,7 @@ réagir calmement aux désaccords et provocations. »
 //   },
 //   {
 //     category: "L'Engagement",
-//     question: "Y’a t-il des hors-jeu à l’ultimate? Si oui, qu’est-ce?",
+//     question: "Y’a t-il des hors-jeu à l’ultimate ? Si oui, qu’est-ce ?",
 //     answerChoices: {
 //         a: "Vrai",
 //         b: "Faux",
@@ -305,10 +324,11 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['c'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "L'Engagement",
-    question: "Je peux appeler un hors jeu même si le disque a touché le so",
+    question: "Je peux appeler un hors jeu même si le disque a touché le sol",
     answerChoices: {
         a: "Vrai",
         b: "Faux",
@@ -316,6 +336,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "L'Engagement",
@@ -327,6 +348,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Je n’ai pas le droit de me faire d’auto-passe. L’attaque doit alors appelé une violation de « double contact » (« double touch).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "L'Engagement",
@@ -338,6 +360,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Si personne n’a touché le disque après mon lancé, je ne suis pas autorisé à retoucher le disque. Si je le fais c’est une violation (« double touch »).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "L'Engagement",
@@ -349,6 +372,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Je peux le faire avec n’importe quelle partie de mon corps.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "L'Engagement",
@@ -360,6 +384,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "L'Engagement",
@@ -383,6 +408,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['a'],
     explanation: "Même si les défenseurs s’aperçoivent qu’il n’avait pas l’intention de l’arrêter, à partir du moment ou il le touche, il doit l’attraper. Il y a donc un changement de possession (« turnover »).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "L'Engagement",
@@ -395,6 +421,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['a'],
     explanation: "Changement de possession (« turnover »). Si ce « drop » a lieu dans sa zone, l’équipe qui a engagé reprend le disque sur la ligne d'en-but (entrée de zone).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "L'Engagement",
@@ -406,6 +433,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "L'Engagement",
@@ -419,6 +447,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Le jeu reprend au point le plus près de l’endroit où le disque à été touché, dans la zone centrale.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "L'Engagement",
@@ -432,6 +461,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['a'],
     explanation: "« L'option engageante du « brick » doit être signalée par n'importe quel attaquant en levant un bras au-dessus de sa tête et en appelant « brick » avant que le disque ne soit ramassé ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "L'Engagement",
@@ -443,6 +473,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Je dois aussi appeler « brick » (avant de ramasser le disque)",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "L'Engagement",
@@ -454,6 +485,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Je dois le faire avant de le ramasser.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "",
@@ -477,6 +509,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['a', 'b', 'c'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Compte",
@@ -488,6 +521,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Il doit toujours débuter en disant « Compté » ou « Stalling »",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Le Compte",
@@ -499,6 +533,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['b'],
     explanation: "Cet intervalle peut être plus petit.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Compte",
@@ -510,6 +545,7 @@ réagir calmement aux désaccords et provocations. »
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Le Compte",
@@ -524,6 +560,7 @@ Je dois dire « 10 » puis « fin du compte » ou « stall-out » (certain
 Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main et même s’il tente sa passe, il y a « stall-out ».
     `,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   // {
   //   category: "Le Compte",
@@ -546,6 +583,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     correctAnswers: ['a'],
     explanation: "Le défenseur doit compter à voix haute afin qu’il soit entendu par le lanceur.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "Le Compte",
@@ -569,6 +607,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     correctAnswers: ['a'],
     explanation: "C'est une nouvelle marque, je dois reprendre le compte à 1. Idem si c’est un nouveau marqueur.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Compte",
@@ -582,6 +621,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Le Compte",
@@ -595,6 +635,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     correctAnswers: ['c'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Compte",
@@ -608,6 +649,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     correctAnswers: ['c'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Compte",
@@ -622,6 +664,7 @@ Lorsque le compte (x) est inférieur à 5, on reprend le compte (x) là où il e
 
 Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c’est le maximum)`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Compte",
@@ -637,6 +680,7 @@ Lorsque le compte (x) est inférieur à 5, on reprend le compte (x) là où il e
 
 Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c’est le maximum)`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "Le Check",
@@ -660,6 +704,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
@@ -669,11 +714,12 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
       b: "Là où ils éaient au moment de la passe",
       c: "Au premier des deux événements (la passe ou l'appel)",
       d: "Au dernier des deux événements (la passe ou l'appel)",
+    },
+    correctAnswers: ['c'],
+    explanation: "Ils doivent se replacer là où ils étaient au moment où le disque à été lâché ou au moment de l’appel, considérant l’évènement arrivé en premier",
+    source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
-  correctAnswers: ['c'],
-  explanation: "Ils doivent se replacer là où ils étaient au moment où le disque à été lâché ou au moment de l’appel, considérant l’évènement arrivé en premier",
-  source: "Disque Tu Sais - Pablo",
-},
   {
     category: "Le Check",
     question: "Le jeu s’arrête après qu’une passe ait été effectuée. Le résultat de l’action est maintenu. Où se replacent les joueurs ?",
@@ -685,6 +731,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['c'],
     explanation: "Ils doivent se replacer là où ils étaient au moment où le disque à été attrapé ou quand le disque à touché le sol",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Le Check",
@@ -697,6 +744,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b', 'c'],
     explanation: "Tous les joueurs peuvent appeler « violation ». Alors tout le monde se replace correctement, s’immobilise et attend le check pour bouger.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
@@ -708,6 +756,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Je « check » le disque après m’être assuré avec l’adversaire le plus proche que tous les joueurs se sont replacés correctement et sont immobiles.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
 //   {
 //     category: "Le Check",
@@ -730,6 +779,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Si le disque est à la portée d’un défenseur, le défenseur doit « checker » le disque pour reprendre le jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
@@ -741,6 +791,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Si le disque n’est pas à la portée d’un défenseur c’est au porteur du disque de checker le sol et d’appeler « disc in » pour reprendre le jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
@@ -754,10 +805,11 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['c'],
     explanation: "Le défenseur le plus proche du disque doit appeler « disc in ». Parfois, les joueurs ont coutume de checker le sol en même temps (pas notifié dans le règlement).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
-    question: "Je tente une passe avant le « check » ou après qu une violation de placement ait été appelée. Elle n’est pas réceptionnée. Que se passe-t-il ?",
+    question: "Je tente une passe avant le « check » ou après qu'une violation de placement ait été appelée. Elle n’est pas réceptionnée. Que se passe-t-il ?",
     answerChoices: {
       a: "Le résultat de la passe est conservé",
       b: "Le résultat de la passe tient si elle est ratée",
@@ -766,6 +818,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['c'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
@@ -777,6 +830,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Le jeu n’est pas mort sur une touche. Il n’y a donc pas de check au sol, ni de check de l’adversaire.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
@@ -788,6 +842,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Le jeu n’est pas mort lorsque le disque est hors du terrain. Il n’y a donc pas de « check ». Dès que mon pivot est établi sur le brick, je peux lancer.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
@@ -799,6 +854,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Le jeu n’est pas mort sur un turnover. Je peux faire ma passe, sans check, soit de là où j’ai ramassé le disque soit à l’entrée de ma zone (un pied hors zone).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
@@ -810,6 +866,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Le jeu n’est pas mort sur un turnover. Une fois sorti de la zone, je peux faire ma passe sans check",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Le Check",
@@ -821,6 +878,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "le jeu est mort au moment de l’appel. Le défenseur doit checker le disque dans la zone et appeler « disc in » pour que tous les joueurs puissent bouger. Dès lors, je peux aller me placer devant la zone et jouer.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Hors des limites",
@@ -832,6 +890,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Elles sont hors-jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Hors des limites",
@@ -844,6 +903,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['c'],
     explanation: "Il y a un « turnover » et le jeu reprend dans la zone centrale au point le plus proche de là où le défenseur a touché/intercepté le disque. Seuls les défenseurs sont considérés « dans l’aire de jeu » lorsqu’ils sont à l’extérieur.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Hors des limites",
@@ -855,6 +915,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "En prenant son appel à l’extérieur du terrain, le joueur est hors-jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Hors des limites",
@@ -866,6 +927,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Tant que son pied de pivot est dans le terrain, le lanceur est considéré dans l’aire de jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Hors des limites",
@@ -877,6 +939,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: "Il garde le disque et établit son pivot dans l’aire de jeu au point le plus proche de l’endroit où il est sorti",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Hors des limites",
@@ -892,6 +955,7 @@ Le jeu s'arrête et le disque est retourné au lanceur. Le lanceur doit placer s
 
 Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de jeu, car cette violation est appelée contre le lanceur. Les joueurs reconnaissant cette règle peuvent alors appeler « play on » (ou « avantage ») pour ne pas arrêter le jeu.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Hors des limites",
@@ -905,6 +969,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['a'],
     explanation: "Le disque est hors-jeu dès lors qu’il touche l’extérieur de l’aire de jeu ou un attaquant hors-jeu. L’attaquant doit donc établir son pivot dans l’aire de jeu au point le plus proche de l’endroit où le disque est sorti.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Hors des limites",
@@ -917,6 +982,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Hors des limites",
@@ -928,10 +994,11 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "Le lanceur doit porter le disque sur les trois derniers mettre jusqu’à l'aire de jeu. Il y a donc « violation ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "Hors des limites",
-//     question: "À l’engagement, je m’aperçois qu’un attaquant est sorti de sa zone avant le lancer. Puis-je appeler quelque chose?",
+//     question: "À l’engagement, je m’aperçois qu’un attaquant est sorti de sa zone avant le lancer. Puis-je appeler quelque chose ?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -942,7 +1009,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //   },
 //   {
 //     category: "Hors des limites",
-//     question: "À l’engagement, un partenaire sur la « side line » (au bord du terrain) m’avertit que lanceur avait un pied sur la ligne et qu un autre attaquant avait un pied en dehors de leur zone au moment du lancé. Puis-je appeler quelque chose?",
+//     question: "À l’engagement, un partenaire sur la « side line » (au bord du terrain) m’avertit que lanceur avait un pied sur la ligne et qu un autre attaquant avait un pied en dehors de leur zone au moment du lancé. Puis-je appeler quelque chose ?",
 //     answerChoices: {
 //       a: "Vrai",
 //       b: "Faux",
@@ -961,6 +1028,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "La perte du disque dûe à un contact au sol ou à un coéquipier ou à un adversaire légitimement placé induit un changement de possession (« turnover »)",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Réceptionneur et positionnement",
@@ -972,6 +1040,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['a'],
     explanation: "Après le « catch », si mes appuis sont hors-jeu on considère que la réception n’a pas eu lieu = turnover",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Réceptionneur et positionnement",
@@ -983,6 +1052,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['a'],
     explanation: "Même si un des deux pieds est dans le terrain, je suis considéré comme hors-jeu. Il y a turnover.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Réceptionneur et positionnement",
@@ -994,6 +1064,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "La ligne d’en-but ne faisant pas partie de la zone, l’attaquant est toujours considéré dans l’aire de jeu centrale, malgré son autre appui.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Réceptionneur et positionnement",
@@ -1006,6 +1077,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['a'],
     explanation: "Priorité à l’attaquant qui conserve le disque. Sans appel de l’un ou l’autre, il n’y a pas d’arrêt de jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Réceptionneur et positionnement",
@@ -1017,6 +1089,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: " Quand le disque est en l’air, un joueur ne peut se déplacer de manière à uniquement empêcher un adversaire de prendre une trajectoire inoccupée vers le disque. Il fait obstruction aux déplacements de l’adversaire. Il y a donc une violation.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Réceptionneur et positionnement",
@@ -1028,6 +1101,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "« Faire action de jeu sur le disque » n’est pas une excuse valide pour créer un contact avec d’autres joueurs.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Réceptionneur et positionnement",
@@ -1039,6 +1113,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "« Tous les joueurs doivent essayer d’éviter les contacts. Néanmoins un contact accidentel n’affectant pas le résultat d’une action ou la sécurité des joueurs ne sont pas considérés comme une faute ». Il avait donc raison de contester car c’est moi qui n’aurait pas dû appeler la faute.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Réceptionneur et positionnement",
@@ -1050,6 +1125,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "Aucun joueur ne peut aider physiquement le mouvement d’un autre joueur, ou utiliser un équipement pour faciliter le contact avec le disque.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Turnovers",
@@ -1061,6 +1137,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "Si le disque touche l’herbe ou une fleur avant d’être catché, il est considéré comme « down ». Il y a donc un changement de possession (« turnover »).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Turnovers",
@@ -1072,6 +1149,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "Dès qu’une passe a échoué (dans le respect des règles) l’équipe adverse récupère la possession du disque.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Turnovers",
@@ -1083,6 +1161,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['a'],
     explanation: "Les adversaires n’ayant pas complété leur passe, il y a un turnover.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Turnovers",
@@ -1094,6 +1173,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "C’est un « dropped pull » et il y a donc turnover. Si je touche le disque je dois l’attraper sinon il y a turnover à l’endroit ou le disque s’arrête.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Turnovers",
@@ -1105,6 +1185,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "Le disque est toujours « vivant » même s’il vole en dehors du terrain. Si je l’attrape, je le joue dans l’aire de jeu à l’endroit le plus proche de là où je l’ai attrapé.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Turnovers",
@@ -1117,6 +1198,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['c'],
     explanation: "Mon défenseur récupère le disque. Une faute ayant été appelée, le jeu s’arrête. Sur une faute offensive non contestée, c’est obligatoirement le défenseur qui l’a subie qui récupère le disque.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1128,6 +1210,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "Sur une faute offensive non contestée, c’est le défenseur qui l’a subie qui récupère le disque indépendamment du fait que l’attaquant l’ait attrapé ou non.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1139,10 +1222,11 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['b'],
     explanation: "C’est un « double touch », que l’intention y soit ou pas. Je ne peux pas récupérer mon lancer si personne ne l’a touché.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
-    question: "L’attaque conteste un turnover appelé par la défense. Que se passe-t-il ?",
+    question: "La défense appelle un turnover. L’attaque conteste. Que se passe-t-il ?",
     answerChoices: {
       a: "Le disque est retourné au lanceur",
       b: "Le turnover est maintenu, on ne peut pas contester un turnover",
@@ -1150,14 +1234,15 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     correctAnswers: ['a'],
     explanation: "Le disque est retourné au dernier lanceur non-contesté.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Turnovers",
     question: "Je lance le disque à « 10 » et ma passe est ratée. Mon défenseur, appelle « fin du compte » (ou « stall out ») lorsque le disque vole. Je ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
-      a: "Mon défenseur récupère le disque quoi qu'il arrive de ma passe",
-      b: "Mon défenseur récupère le disque seulement si ma passe était réussie",
-      c: "Mon défenseur récupère le disque seulement si ma passe était ratée",
+      a: "La défense récupère le disque quoi qu'il arrive de ma passe",
+      b: "La défense récupère le disque seulement si ma passe était réussie",
+      c: "La défense récupère le disque seulement si ma passe était ratée",
     },
     correctAnswers: ['a'],
     explanation: `Le jeu reprend là où je suis (que la passe soit réussie ou ratée) et tous les joueurs se replacent là où ils étaient au moment de l’appel.
@@ -1165,6 +1250,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 Si mon défenseur prend le disque en main, il devient le lanceur et je « check » le disque pour  relancer le jeu.
 Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au sol) et je dois alors « checker » le disc au sol pour relancer le jeu.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1177,6 +1263,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['c'],
     explanation: "Le jeu s’arrête puis reprend par un check à l’endroit où le disque s’est arrêté ou là où il a été intercepté.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1188,6 +1275,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "Le disque revient au lanceur et le jeu reprend par un check et « compté 8 »",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1200,6 +1288,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['c'],
     explanation: "Ayant raté ma passe, le turnover est maintenu et le jeu reprend par un check à l’endroit ou est le disque.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1211,6 +1300,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "Quelque soit l’endroit où je l’intercepte, je dois le garder et faire la passe.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Turnovers",
@@ -1219,10 +1309,12 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
       a: "Je peux refaire mon lacet avant de reprendre le jeu",
       b: "Je dois appeler « Technical » pour avoir le droit d'arrêter le jeu pour un problème technique comme mon lacet",
       c: "Je n'ai pas le droit d'arrêter le jeu et je dois jouer avec mon lacet défait",
+      d: "C'est un double-turnover car j'ai posé le disque par terre",
     },
     correctAnswers: ['c'],
     explanation: "Il y a une violation de ma part, sans « turnover », si j'arrête le jeu pour refaire mon lacet. Je dois attendre un arrêt de jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1234,6 +1326,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "Je n’ai pas le choix. Le pivot s’effectue à l’endroit où le disque s’est arrêté (ou sorti).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1245,6 +1338,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "Le pivot s’établit dans la zone centrale, au point le plus proche d’où le disque est sorti la première fois.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1257,6 +1351,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['c'],
     explanation: "Dans ce cas, ce sera au niveau du plot situé à l’entrée de ma zone.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1268,6 +1363,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "Je ramasse le disque et me replace sur la ligne de but au point le plus proche de là où il s’est arrêté.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Turnovers",
@@ -1279,6 +1375,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['a', 'b'],
     explanation: `Les deux options sont valables. Avant de ramasser le disque, je peux indiquer à mon marqueur ma décision.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Turnovers",
@@ -1290,6 +1387,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "Si je le prends, je suis obligé de le lancer (après le « check »). Si je ne le veux pas, je le lui laisse. Il doit alors le placer au sol et le « checker » pour que tous les joueurs puissent bouger et qu’un de mes partenaires ramasse le disque à ma place.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Marquer un point",
@@ -1301,6 +1399,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "À la réception du disque, il faut avoir les deux appuis dans la zone attaquée. La ligne de but ne faisant pas partie de la zone, le joueur en contact avec celle-ci n’est pas considéré dedans.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Marquer un point",
@@ -1312,6 +1411,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Marquer un point",
@@ -1323,6 +1423,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "Le point n’est pas valable. Il aurait fallu atterrir dans la zone.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Marquer un point",
@@ -1334,6 +1435,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1346,6 +1448,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['a'],
     explanation: "Elles n’arrêtent pas le jeu",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1358,6 +1461,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['c'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1369,6 +1473,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "Seul le joueur ayant subi la faute peut l’appeler. Si les joueurs concernés me le demandent, je peux dire ce que j’ai vu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1378,8 +1483,9 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "Seul le porteur du disque peut appeler une infraction de marquage (hormis le marché) Seul le porteur du disque peut appeler une infraction de marquage",
+    explanation: "Seul le porteur du disque peut appeler une infraction de marquage", // À VÉRIFIER
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1392,6 +1498,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['b'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1403,6 +1510,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['a'],
     explanation: "Soit en donnant son nom spécifique, soit en disant « violation ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1416,6 +1524,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
 
 « Si le jeu s'est arrêté pour une discussion sans qu'un « appel » n'ait été fait, l’appel est considéré avoir eu lieu quand la discussion a commencé ».`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1428,6 +1537,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['c'],
     explanation: "Le règlement précise qu’« un contact accidentel se produisant dans la continuité du lancer n'est pas une raison suffisante pour appeler une faute, mais doit être évité ». Le jeu reprend à l’endroit de la réception.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1439,6 +1549,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['a'],
     explanation: "Je peux appeler « rétracté » et je jeu reprend par un check.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1450,6 +1561,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['a'],
     explanation: "L’équipe d’attaque ayant conservé le disque, le jeu reprend par un check au niveau du réceptionneur.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Fautes, infractions, violations",
@@ -1461,6 +1573,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['a'],
     explanation: "Après un appel incorrect « rétracté », si l'équipe adverse gagne ou maintient la possession, les actions ayant suivies sont maintenues.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "Fautes, infractions, violations",
@@ -1489,6 +1602,7 @@ alors le jeu continue jusqu'à ce que la possession ait été établie.
 
 Une fois la possession établie si l'équipe qui a appelé la faute ou la violation gagne ou maintient la possession après la passe, le jeu continue sans arrêt de jeu. Les joueurs reconnaissant ceci peuvent appeler « play on » pour indiquer que cette règle a été appelée.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Continuité après un appel de faute ou violation",
@@ -1500,6 +1614,7 @@ Une fois la possession établie si l'équipe qui a appelé la faute ou la violat
     correctAnswers: ['a'],
     explanation: "Si l'équipe qui a appelé la faute ou la violation pense que la possession a été affectée par la faute ou la violation, le disque sera retourné au lanceur pour un « check »",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Continuité après un appel de faute ou violation",
@@ -1511,6 +1626,7 @@ Une fois la possession établie si l'équipe qui a appelé la faute ou la violat
     correctAnswers: ['b'],
     explanation: "Si l'équipe qui a appelé la faute ou la violation pense que la possession n’a pas été affectée par la faute ou la violation, il y a turnover à l’endroit où se trouve le disque et le jeu reprend par un « check ». Dans cette situation de jeu,  le « drop » n’est pas dû à la faute appelée.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Continuité après un appel de faute ou violation",
@@ -1526,6 +1642,7 @@ Quel que soit le moment de l'appel de faute ou violation, si le jeu ne s'est pas
 Si le résultat était un point marqué, le point est valable.
 Si le résultat n'était pas un point marqué, les joueurs affectés peuvent réajuster leurs placements désavantageux provoqués par la faute, la violation ou l'appel, et le jeu reprend par un « check ».`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes",
@@ -1537,6 +1654,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['a'],
     explanation: "Ne pas tenir compte de l'intégrité des joueurs indépendamment de quand et si un contact se produit est considérée comme jeu dangereux et doit être traitée comme une faute. Cette règle ne peut être supplantée par aucune autre. Si l'appel est incontesté celui-ci doit être traité comme la faute la plus appropriée",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Fautes",
@@ -1549,6 +1667,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['c'],
     explanation: "Après une faute de réception défensive (contact avec un réceptionneur avant, pendant, ou directement après que l'un ou l'autre des joueurs fasse une action sur le disque) non contestée, le réceptionneur gagne la possession à l’endroit de la faute. Le compte reprend à 1.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes",
@@ -1561,6 +1680,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes",
@@ -1572,6 +1692,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['b'],
     explanation: "Je conserve le disque là ou j’ai atterri et le point n’est donc pas marqué.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes",
@@ -1584,6 +1705,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['b'],
     explanation: "S’il ne conteste pas, le jeu ne s’arrête pas et le compte reprend à 1. En appelant une « infraction de contact » plutôt qu’une faute (il a le choix), le lanceur ne veut pas stopper le jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Fautes",
@@ -1596,6 +1718,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['b'],
     explanation: "Dans cette situation, si j’appelle une faute qui est incontestée, le jeu reprend par un check à l’endroit de la faute (dans la zone) et je dois me replacer au point le plus près sur la ligne de but pour faire ma passe. Le point n’est donc pas validé. Si j’avais appelé «strip», le point aurait été validé.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes",
@@ -1608,6 +1731,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['a'],
     explanation: "Un « strip » se produit quand une faute défensive fait que le réceptionneur ou le lanceur laisse tomber le disque après qu'il a gagné la possession.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes",
@@ -1621,6 +1745,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
 Si la faute n’est pas contestée, il y a « turnover » et le défenseur gagne la possession où la faute s’est produite.
 Si la passe est complète et la faute est contestée, le disque revient au lanceur.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Fautes",
@@ -1632,6 +1757,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
     correctAnswers: ['b'],
     explanation: "Si la faute n’est pas contestée, il y a « turnover » et le défenseur gagne la possession où la faute s’est produite.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Fautes",
@@ -1644,6 +1770,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Fautes",
@@ -1657,6 +1784,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
     correctAnswers: ['b'],
     explanation: "La faute étant contestée et le compte supérieur à 5, je reprends à « compté 6 ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Fautes",
@@ -1670,6 +1798,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
 Une faute indirecte se produit quand il y a contact entre un réceptionneur et un défenseur qui n'affecte pas directement une tentative d'action sur le disque.
 Si la faute est incontestée, le joueur ayant subi la faute peut se repositionner s’il a été désavantagé par la faute `,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Fautes",
@@ -1682,6 +1811,7 @@ Si la faute est incontestée, le joueur ayant subi la faute peut se repositionne
     explanation: `Si je le pousse, il peut appeler une faute, auquel cas le jeu s’arrête et le compte reprend au dernier nombre annoncé +1 (maximum 9).
 S'il est trop proche, je dois appeler « distance » ou « disc space » afin qu’il recule et reprennent le compte en ayant soustrait 1 au dernier chiffre énoncé.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Fautes",
@@ -1694,6 +1824,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     correctAnswers: ['b'],
     explanation: "Dans la mesure où la faute a eu une influence sur le jeu (étant pressenti comme le receveur), il s’agit d’un contact non accidentel. S’il « se produit quand deux ou plusieurs adversaires se déplacent simultanément vers un même point ce contact doit être traité comme une faute simultanée ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Infractions et violations",
@@ -1712,10 +1843,11 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
 « Vision »
 « Marcher » (« Travel »)`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Infractions et violations",
-    question: "Mon marqueur commence le compte sans avoir « checké » le disque. Que fais-je ?",
+    question: "Mon marqueur reprend le jeu et commence le compte sans avoir « checké » le disque. Que fais-je ?",
     answerChoices: {
       a: "J'appelle une violation",
       b: "J'appelle « compte rapide » (« fast count »)",
@@ -1724,6 +1856,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     correctAnswers: ['b'],
     explanation: "Une infraction de marquage peut être contestée par la défense, dans ce cas le jeu s'arrête. Après toute infraction de marquage non contestée, le marqueur doit reprendre le au compte au dernier nombre entièrement prononcé avant l'appel moins un (1).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1735,6 +1868,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     correctAnswers: ['b'],
     explanation: "Les fautes sont liées aux contacts. C’est une infraction de marquage. Il faut appeler « compte rapide » (« fast count »).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1747,10 +1881,11 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     correctAnswers: ['b'],
     explanation: "C’est une infraction de marquage.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
-    question: "Si le marqueur ne commence pas le compte au chiffre correct, porteur du disque je peux appeler une violation ?",
+    question: "Si le marqueur ne commence pas le compte au chiffre correct, le porteur du disque peut appeler une violation ?",
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -1758,6 +1893,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     correctAnswers: ['b'],
     explanation: "C’est une infraction de marquage et non une violation. Il faut appeler « compte rapide » ou « fast count ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "Infractions et violations",
@@ -1772,7 +1908,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
 //   },
   {
     category: "Infractions et violations",
-    question: "Le premier rideau de la zone est placée légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Étant défenseur et à 1 mètre du disque,  je commence à compter. Voyant le premier rideau qui vient se replacer devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Voyant plus d’un joueur dans les 3 mètres à ce moment, un attaquant non-porteur du disque appelle « double team ». Je conteste. Ai-je raison ?",
+    question: "Le premier rideau de la zone est placée légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Étant défenseur et à 1 mètre du disque, je commence à compter. Voyant le premier rideau qui vient se replacer devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Voyant plus d’un joueur dans les 3 mètres à ce moment, un attaquant non-porteur du disque appelle « double team ». Je conteste. Ai-je raison ?",
     answerChoices: {
       a: "Oui",
       b: "Non",
@@ -1784,6 +1920,7 @@ Tout d’abord, seul le lanceur peut réclamer une infraction de marquage, en ap
 Ensuite, le « chassé croisé » entre le replacement du premier rideau et le défenseur du deuxième rideau est fréquent.
 Le règlement précise « qu’une simple course dans cette zone des 3 mètres n'est pas un « double team ». Ma course pour sortir de cette zone ne peut donc pas être considérée comme une infraction.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Infractions et violations",
@@ -1796,6 +1933,7 @@ Le règlement précise « qu’une simple course dans cette zone des 3 mètres 
     correctAnswers: ['a', 'c'],
     explanation: "Pour toutes les infractions de marque (donc pas le « marcher »), le défenseur doit reprendre une position légitime PUIS reprendre le compte au dernier nombre entièrement prononcé avant l'apppel moins 1.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1809,6 +1947,7 @@ Le règlement précise « qu’une simple course dans cette zone des 3 mètres 
     correctAnswers: ['b'],
     explanation: "Le jeu n’est pas mort. Par conséquent, les autres joueurs peuvent être mobiles. Le lanceur doit établir son pivot au bon endroit avant de pouvoir lancer le disque. Pendant ce temps, je ne compte plus. Un fois placé correctement, je reprends le compte ou il en était après avoir « checker ». Dans cette situation, « compté 5 ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1825,6 +1964,7 @@ Il peut le faire si:
 - il y a une énorme infraction de marquage,
 - il y a une répétition d'infractions`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1836,6 +1976,7 @@ Il peut le faire si:
     correctAnswers: ['b'],
     explanation: "Si le lanceur appelle une infraction de marquage ou une violation de marquage et tente une passe avant pendant ou après le « call », l'appel n'a aucune conséquence et si la passe n'est pas attrapée le « turnover » est maintenu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Infractions et violations",
@@ -1847,6 +1988,7 @@ Il peut le faire si:
     correctAnswers: ['b'],
     explanation: "« Après avoir attrapé le disque et être retombé dans l’aire de jeu, le lanceur doit réduire sa vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce qu'il ait établi un point pivot ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Infractions et violations",
@@ -1858,6 +2000,7 @@ Il peut le faire si:
     correctAnswers: ['b'],
     explanation: "« Le lanceur peut lancer le disque pendant sa phase de décélération tant qu’il reste en contact avec l’aire de jeu lors du mouvement du lancer ». L’adversaire doit donc percevoir cette décélération (si tant est que ce soit possible dès la première foulée).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1869,6 +2012,7 @@ Il peut le faire si:
     correctAnswers: ['b'],
     explanation: "L’appel est correct car après avoir attrapé le disque et être retombé dans l’aire de jeu, je dois réduire ma vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce j’ai établi mon point pivot.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1881,6 +2025,7 @@ Il peut le faire si:
     explanation: `« Un lanceur qui est couché ou agenouillé n'a pas besoin d'établir de pivot ». Je peux donc faire ma passe dans cette position.
 « S’il se lève il ne s'agit pas d'un « travel », du moment qu'il établit son pivot au même endroit ».`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Infractions et violations",
@@ -1889,9 +2034,10 @@ Il peut le faire si:
       a: "Le jeu est stoppé",
       b: "Le jeu continue sans s'arrêter",
     },
-    correctAnswers: ['b'],
+    correctAnswers: ['b'], // A VERIFIER
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1903,6 +2049,7 @@ Il peut le faire si:
     correctAnswers: ['b'],
     explanation: "Seuls les défenseurs peuvent appeler cette violation.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1914,6 +2061,7 @@ Il peut le faire si:
     correctAnswers: ['b'],
     explanation: "Avant de faire un appel de « pick », le défenseur peut retarder son appel jusqu’à deux secondes pour voir si l’obstruction va affecter le jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Infractions et violations",
@@ -1925,6 +2073,7 @@ Il peut le faire si:
     correctAnswers: ['a', 'b'],
     explanation: "Tous les joueurs se replacent là où ils étaient au moment de l’appel (« call ») et je me replace à la position que j’aurai eue s’il n’y avait pas eu d’obstruction.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1936,6 +2085,7 @@ Il peut le faire si:
     correctAnswers: ['a'],
     explanation: "« Durant n'importe quel arrêt de jeu des adversaires peuvent s'accorder pour légèrement modifier leur position afin d'éviter des « picks » potentiels ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Infractions et violations",
@@ -1948,6 +2098,7 @@ Il peut le faire si:
     correctAnswers: ['b'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Infractions et violations",
@@ -1959,6 +2110,7 @@ Il peut le faire si:
     correctAnswers: ['a'],
     explanation: "Le jeu est figé jusqu’au « check ». Afin de s’assurer que tout le monde bouge au même moment, le marqueur peut décompter 3-2-1 à voix haute en y associant un décompte avec les doigts, bras levé pour être visible de tous. Avant ce décompte, il est de bon esprit d’annoncer aux joueurs à combien reprend le compte.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Stoppage",
@@ -1971,6 +2123,7 @@ Il peut le faire si:
     correctAnswers: ['a'],
     explanation: "Une interruption pour « blessure » (« injury ») peut être appelée par le joueur blessé ou tout autre joueur de l'équipe du blessé. Le bon sens veut que vous l’appeliez si vous êtes le seul à vous en être rendu compte.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Stoppage",
@@ -1982,6 +2135,7 @@ Il peut le faire si:
     correctAnswers: ['b'],
     explanation: "Que ce soit le joueur concerné ou un de ses partenaires qui ait appelé « injury », « si la blessure n’a pas été causée par un adversaire, le joueur doit choisir d'être remplacé ou de faire prendre un temps-mort à sa propre équipe ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Stoppage",
@@ -1993,6 +2147,7 @@ Il peut le faire si:
     correctAnswers: ['b'],
     explanation: "« Si la blessure a été causée par un adversaire, le joueur peut choisir de rester ou d'être remplacé ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Stoppage",
@@ -2006,6 +2161,7 @@ Il peut le faire si:
     explanation: `« Si le disque était en l’air quand l'interruption a été appelée, le jeu continue jusqu'à ce que la passe soit attrapée ou que le disque touche le sol.
 Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « turnover » est maintenu et le jeu reprend à cet endroit après l’interruption ».`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Stoppage",
@@ -2020,6 +2176,7 @@ Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « tu
 « Si le disque était en l’air quand l'interruption a été appelée, le jeu continue jusqu'à ce que la passe soit attrapée ou que le disque touche le sol.
 Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « turnover » est maintenu et le jeu reprend à cet endroit après l’interruption ». `,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Stoppage",
@@ -2034,6 +2191,7 @@ Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « tu
 « N'importe quel joueur qui identifie une condition qui met en danger des joueurs peut appeler « technical » pour arrêter le jeu. Le jeu doit s'arrêter immédiatement ».
 L’appel « freeze » n’existe pas.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Stoppage",
@@ -2051,10 +2209,11 @@ Après un appel d'interruption technique :
 - si l'appel ou le problème technique n'ont pas affecté le jeu, la passe complétée ou le « turnover » est maintenu et le jeu reprend à cet endroit,
 - si l'appel ou le problème technique ont affecté le jeu, le disque est retourné au lanceur. `,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Stoppage",
-    question: "L’équipe adverse remplace un joueur blessé. A bout de souffle, je souhaite me faire remplacer à ce moment. Ai-je le droit ?",
+    question: "L’équipe adverse remplace un joueur blessé. À bout de souffle, je souhaite me faire remplacer à ce moment. Ai-je le droit ?",
     answerChoices: {
       a: "Oui",
       b: "Non",
@@ -2062,6 +2221,7 @@ Après un appel d'interruption technique :
     correctAnswers: ['a'],
     explanation: "« Si un joueur est remplacé après une blessure ou après une interruption technique due à un équipement illégal, l'équipe adverse peut également choisir de remplacer un joueur ». « Le remplaçant reprend l'état complet (position, possession, compte, etc...) du joueur qu'il remplace ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Temps-morts",
@@ -2073,6 +2233,7 @@ Après un appel d'interruption technique :
     correctAnswers: ['a'],
     explanation: "« Après le début d'un point et avant que les deux équipes aient signalé être prêtes, un joueur de l'une ou l'autre des équipes peut appeler un temps-mort. Le temps-mort prolonge le temps entre le début du point et le « pull » suivant de soixante-quinze secondes. »",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Temps-morts",
@@ -2084,6 +2245,7 @@ Après un appel d'interruption technique :
     correctAnswers: ['b'],
     explanation: "« Après le « pull », seul un joueur ayant la possession du disque peut appeler un temps-mort ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Temps-morts",
@@ -2095,10 +2257,11 @@ Après un appel d'interruption technique :
     correctAnswers: ['a'],
     explanation: "« Sur un temps-mort, les remplacements ne sont pas autorisés, à part pour blessure ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
   },
   {
     category: "Temps-morts",
-    question: "Après un temps mort, où devons nous nous placer si nous sommes en attaque?",
+    question: "Après un temps mort appelé dans le jeu, où devons nous nous placer si nous sommes en attaque ?",
     answerChoices: {
       a: "Le jeu reprend au point de pivot",
       b: "Le lanceur reste le même",
@@ -2109,6 +2272,7 @@ Après un appel d'interruption technique :
     correctAnswers: ['a', 'b', 'e'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Temps-morts",
@@ -2120,6 +2284,7 @@ Après un appel d'interruption technique :
     correctAnswers: ['a'],
     explanation: "« Une fois que les attaquants ont choisi leur position, les défenseurs peuvent se placer à l’endroit qu’ils veulent dans l’aire de jeu ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Temps-morts",
@@ -2131,6 +2296,7 @@ Après un appel d'interruption technique :
     correctAnswers: ['a'],
     explanation: "Les défenseurs peuvent changer de marqueur, auquel cas le compte doit reprendre à 1. Si Le compte ne reprend pas au chiffre correct je peux appeler « compte rapide » (« fast count »).",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Temps-morts",
@@ -2146,6 +2312,7 @@ Après un appel d'interruption technique :
 Le marqueur doit ajouter deux (2) secondes au compte qu'il aurait prononcé avant de reprendre le jeu avec un « check ».
 Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changement de possession » de type « stall-out » (« fin du compte »). `,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Appendice",
@@ -2157,10 +2324,11 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
     correctAnswers: ['b'],
     explanation: "Si après 30 secondes de discussion la contestation n’est pas résolue, le disque revient au dernier lanceur non contesté qui à alors 15 secondes pour relancer le jeu.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Appendice",
-    question: "Après qu’un point ait été marqué, de combien de temps dispose l’équipe en attaque pour se placer sur la ligne de but (un pied) et rester immobile?",
+    question: "Après qu’un point ait été marqué, de combien de temps dispose l’équipe en attaque pour se placer sur la ligne de but (un pied) et rester immobile ?",
     answerChoices: {
       a: "45 secondes",
       b: "60 secondes",
@@ -2168,6 +2336,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
     correctAnswers: ['a'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Appendice",
@@ -2179,6 +2348,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
     correctAnswers: ['b'],
     explanation: "Ils ont 15 secondes pour pouvoir lever la main.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Appendice",
@@ -2192,6 +2362,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
 Si c’est la première fois ou s’il y a une contestation, aucune sanction n’est appliquée.
 Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort » à la défense. Si elle n’en avait plus, l’attaque redémarre au centre du terrain et le jeu démarre par un « check ».`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Appendice",
@@ -2203,6 +2374,7 @@ Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort�
     correctAnswers: ['b'],
     explanation: "Ils peuvent intervenir 15 secondes après le début de la discussion. Au bout de 30 secondes, s’il n’ y a pas eu de terrain d’entente, le disque est retourné au dernier lanceur non-contesté. Le jeu doit repartir au bout de 45 secondes (après le « call »)",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Appendice",
@@ -2214,6 +2386,7 @@ Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort�
     correctAnswers: ['a'],
     explanation: "La défense peut appeler a voix haute « 10 secondes », puis « 5 secondes ». 10 secondes après ce premier avertissement et s’il est à moins de 3 mètres du disque, le défenseur peut annoncer « disque en jeu » (« disc in ») et commencer le compte.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Appendice",
@@ -2227,6 +2400,7 @@ Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort�
 Elle dispose de 20 secondes.
 Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », « 5 secondes », l’attaque n’a pas rejoué le disque dans le délai imparti, et s’il est à 3 mètres ou moins du disque (dans le cas ou le disque soit dans la zone) ou de l’endroit ou le pivot doit être établi (si le disque était sorti du terrain), alors le défenseur peut annoncer « disque en jeu » (« disc in ») et commencer le compte.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Appendice",
@@ -2242,6 +2416,7 @@ Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », 
 Durant ce temps mort, aucun point tactique ne peut être abordé par les équipes.
 Après que les capitaines se soient réunis pour trouver les solutions à une amélioration de l’esprit du jeu, les deux équipes se réunissent en cercle au milieu du terrain pour que les capitaines énoncent les solutions trouvées.`,
     source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     category: "Appendice",
@@ -2253,6 +2428,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     correctAnswers: ['b'],
     explanation: "Il doit se faire avec deux disques et dans le terrain. L’appel « identique ou différent » doit se faire par l’un des deux capitaines lorsque les disques sont en l’air.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Indoor",
@@ -2264,6 +2440,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     correctAnswers: ['b'],
     explanation: "La trajectoire initiale du disque ne doit pas être orientée vers le sol. Auquel cas l’attaque peut faire refaire le « pull ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Indoor",
@@ -2275,6 +2452,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     correctAnswers: ['a'],
     explanation: "« Un joueur signalant “Middle” met le disque en jeu à la marque de Brick, ou à un point au milieu de l’Aire de Jeu le plus proche de l’endroit où le disque a traversé la ligne de périmètre en dernier, en fonction de l’endroit le plus prêt de la End zone attaquée. Pour signaler cette option, le lanceur désigné tend un bras au-dessus de sa tête et/ou appelle “Brick” ou “Middle”, avant de toucher le disque ».",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 //   {
 //     category: "Indoor",
@@ -2299,6 +2477,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     correctAnswers: ['b'],
     explanation: "Si le compte était supérieur ou égal à 4 au moment de l’appel, on reprend a « compté 5 ». S’il était inférieur on reprend au nombre + 1.",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     category: "Indoor",
@@ -2312,5 +2491,6 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     correctAnswers: ['c'],
     explanation: "",
     source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
   },
 ];

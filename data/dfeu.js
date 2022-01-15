@@ -1,3 +1,5 @@
+import { Levels } from '../src/utils/config';
+
 export default [
   {
     question: "Les dimensions d'un terrain outdoor sont de :",
@@ -8,16 +10,18 @@ export default [
     },
     correctAnswers: ['c'],
     source: "DFEU - Pablo",
+    level: Levels.EASY,
   },
   {
     question: "À la réception d'un pull, un attaquant touche involontairement le disque avec sa jambe, avant qu'il n'ait touché le sol",
     answerChoices: {
       a: "Le geste était involontaire, les attaquants gardent la possession du disque à l'endroit où il l'a touché",
-      b: "Turnover car iil ne l'a pas attrapé",
+      b: "Turnover car il ne l'a pas attrapé",
       c: "Ne l'ayant pas touché avec la main, les attaquants récupèrent le disque à l'endroit où il s'arrête ou sort",
     },
     correctAnswers: ['b'],
     source: "DFEU - Pablo",
+    level: Levels.EASY,
   },
   {
     question: "Sur le pull, le disque atterrit et s'immobilise dans la zone d'en-but adverse",
@@ -28,6 +32,7 @@ export default [
     },
     correctAnswers: ['c'],
     source: "DFEU - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     question: "La ligne qui délimite l'aire de jeu",
@@ -37,6 +42,7 @@ export default [
     },
     correctAnswers: ['b'],
     source: "DFEU - Pablo",
+    level: Levels.EASY,
   },
   {
     question: "Le pull sort du terrain par un côté. Le lanceur peut mettre son pied de pivot",
@@ -48,6 +54,7 @@ export default [
     },
     correctAnswers: ['c'],
     source: "DFEU - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     question: "Un joueur vient de plonger pour attraper le disque. Dès l'instant où il atterrit sur la poitrine, le défenseur dit « stalling » et commence à compter",
@@ -57,6 +64,7 @@ export default [
     },
     correctAnswers: ['b'],
     source: "DFEU - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     question: "Un attaquant attrape le disque en l'air et atterrit avec un pied dans l'aire de jeu et un pied sur la ligne de touche. Les deux pieds touchent le sol en même temps.",
@@ -66,6 +74,7 @@ export default [
     },
     correctAnswers: ['a'],
     source: "DFEU - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     question: "Un attaquant et un défenseur attrapent le disque exactement au même moment.",
@@ -76,6 +85,7 @@ export default [
     },
     correctAnswers: ['b'],
     source: "DFEU - Pablo",
+    level: Levels.EASY,
   },
   {
     question: "Pour un stall-out, le lanceur doit être encore en possession du disque quand",
@@ -87,6 +97,7 @@ export default [
     },
     correctAnswers: ['c'],
     source: "DFEU - Pablo",
+    level: Levels.EASY,
   },
   {
     question: "Un attaquant attrape le disque dans la zone d'en-but qu'il attaque. Puis il lance une passe non complétée",
@@ -96,6 +107,7 @@ export default [
     },
     correctAnswers: ['b'],
     source: "DFEU - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     question: "Le lanceur subitt une faute pendant qu'il pivote. Il appelle la faute puis tente la passe",
@@ -107,9 +119,10 @@ export default [
     },
     correctAnswers: ['c'],
     source: "DFEU - Pablo",
+    level: Levels.MIDDLE,
   },
   {
-    question: "Un attaquant touche le disque en l'air en essayant de l'attraper, mais ne réussit pas. Le défense commet aalors une faute sur l'attaquant et l'empêche de faire une deuxième tentative pour attrapper le disque",
+    question: "Un attaquant touche le disque en l'air en essayant de l'attraper, mais ne réussit pas. Le défense commet alors une faute sur l'attaquant et l'empêche de faire une deuxième tentative pour attrapper le disque",
     answerChoices: {
       a: "C'est une faute « Strip »",
       b: "Ce n'est pas une faute car l'attaquant avait déjà raté son catch",
@@ -117,6 +130,7 @@ export default [
     },
     correctAnswers: ['c'],
     source: "DFEU - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     question: "Le lanceur appelle « Disc space » et le marqueur conteste",
@@ -127,6 +141,7 @@ export default [
     },
     correctAnswers: ['a'],
     source: "DFEU - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     question: "Un travel est appelé contre le lanceur avant qu'il ne fasse sa passe. Le lanceur tente la passe, mais elle n'est pas complétée.",
@@ -138,6 +153,7 @@ export default [
     },
     correctAnswers: ['a'],
     source: "DFEU - Pablo",
+    level: Levels.DIFFICULT,
   },
   {
     question: "Un défenseur essaie de suivre le joueur sur lequel il défend, mais il rentre dans l'un de ses coéquipiers. Le lanceur a toujours le disque",
@@ -148,6 +164,7 @@ export default [
     },
     correctAnswers: ['c'],
     source: "DFEU - Pablo",
+    level: Levels.EASY,
   },
   {
     question: "Après avoir établi son pied de pivot dans le terrain, un joueur réussit sa passe en mettant l'autre dehors",
@@ -157,14 +174,16 @@ export default [
     },
     correctAnswers: ['b'],
     source: "DFEU - Pablo",
+    level: Levels.MIDDLE,
   },
   {
     question: "Sur un « Stall out » non contesté",
     answerChoices: {
-      a: "Tunover, c'est le marqueur qui reprend la possession du disque",
+      a: "Turnover, c'est le marqueur qui reprend la possession du disque",
       b: "Turnover et n'importe quel attaquant peut reprendre le disque, après un check",
     },
-    correctAnswers: ['en-but'],
+    correctAnswers: ['b'],
     source: "DFEU - Pablo",
+    level: Levels.MIDDLE,
   },
 ];

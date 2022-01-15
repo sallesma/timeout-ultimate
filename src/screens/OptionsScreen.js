@@ -36,7 +36,7 @@ export default (props) => {
         <Button type={level === Levels.EASY ? 'solid' : 'outline'} containerStyle={styles.button} title="Facile" onPress={() => setLevel(Levels.EASY)} />
         <Button type={level === Levels.MIDDLE ? 'solid' : 'outline'} containerStyle={styles.button} title="Moyen" onPress={() => setLevel(Levels.MIDDLE)} />
         <Button type={level === Levels.DIFFICULT ? 'solid' : 'outline'} containerStyle={styles.button} title="Difficile" onPress={() => setLevel(Levels.DIFFICULT)} />
-        <Button type={level === null ? 'solid' : 'outline'} containerStyle={styles.button} title="Tous" onPress={() => setLevel(null)} />
+        <Button type={level === Levels.ANY ? 'solid' : 'outline'} containerStyle={styles.button} title="Tous" onPress={() => setLevel(Levels.ANY)} />
       </View>
 
       <View style={styles.centered}>
