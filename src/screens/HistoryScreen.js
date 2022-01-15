@@ -58,11 +58,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    padding: 20,
+    padding: 16,
   },
   header: {
-    paddingBottom: 20,
-    marginBottom: 10,
+    paddingBottom: 16,
+    marginBottom: 8,
     borderBottomWidth: 1,
     borderBottomColor: theme.MAIN_COLOR,
   },

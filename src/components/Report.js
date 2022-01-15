@@ -61,13 +61,13 @@ const styles = StyleSheet.create({
     fontSize: theme.FONT_SIZE_XL,
   },
   header: {
-    paddingBottom: 10,
+    paddingBottom: 8,
   },
   result: {
-    marginVertical: 10,
-    marginLeft: 20,
+    marginVertical: 8,
+    marginLeft: 16,
   },
   buttonContainer: {
-    marginTop: 20,
+    marginTop: 16,
   },
 });

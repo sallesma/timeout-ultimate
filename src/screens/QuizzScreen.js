@@ -28,13 +28,18 @@ export default (props) => {
 
   useLayoutEffect(() => {
     props.navigation.setOptions({
-      title: `Quizz ${number} questions`,
+      title: `${current} / ${number}`,
+      headerRight: () => (
+        <Text>{rightAnswersCount} bonnes réponses</Text>
+      ),
     });
   });
 
   const filteredQuestions = questions.filter(question => level === Levels.ANY || level === question.level);
 
-  const [selectedQuestions, _setSelectedQuestions] = useState(getRandomElementsFromArray(filteredQuestions, number));
+  const [selectedQuestions, _setSelectedQuestions] = useState(
+    Number.isInteger(number) ? getRandomElementsFromArray(filteredQuestions, number) : filteredQuestions
+  );
   const [current, setCurrent] = useState(1);
   const [rightAnswersCount, setRightAnswersCount] = useState(0);
   const [canMoveForward, setCanMoveForward] = useState(false);
@@ -53,10 +58,6 @@ export default (props) => {
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       {!showReport && (
         <View style={styles.question}>
-          <View style={styles.header}>
-            <Text>Question {current}/{number}</Text>
-            <Text>{rightAnswersCount} bonnes réponses</Text>
-          </View>
           <Question
             question={selectedQuestions[current - 1]}
             onSuccess={onSuccess}
@@ -88,20 +89,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    padding: 20,
+    padding: 16,
   },
   contentContainer: {
-    paddingBottom: 50,
-  },
-  header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    paddingBottom: 10,
-    marginBottom: 10,
-    borderBottomWidth: 1,
-    borderBottomColor: '#eee',
+    paddingBottom: 64,
   },
   question: {
-    marginBottom: 20,
+    marginBottom: 16,
   },
 });

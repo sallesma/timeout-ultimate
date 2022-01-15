@@ -4,6 +4,13 @@ import { CheckBox, Button, LinearProgress } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
 
+const colors = [
+  '#cddff3',
+  '#c0e79c',
+  '#e6e79c',
+  '#e5c9e5',
+];
+
 export default ({question, onSuccess, onFailure, time}) => {
   const [currentTime, setCurrentTime] = React.useState(0);
   const [checked, setChecked] = useState([]);
@@ -46,7 +53,7 @@ export default ({question, onSuccess, onFailure, time}) => {
       if (currentTime < 1) {
         setTimeout(() => {
           if (subs) {
-            setCurrentTime(currentTime + (time / 100));
+            setCurrentTime(currentTime + (1 / time));
           }
         }, 1000);
       }
@@ -61,19 +68,19 @@ export default ({question, onSuccess, onFailure, time}) => {
     <View>
       <Text style={styles.question}>{question.question}</Text>
       <View style={styles.choicesArea}>
-        {Object.keys(question.answerChoices).map((answerChoiceKey) => (
+        {Object.keys(question.answerChoices).map((answerChoiceKey, index) => (
           <CheckBox
             key={answerChoiceKey}
             checked={checked.includes(answerChoiceKey)}
             disabled={showResult}
             onPress={() => onCheck(answerChoiceKey)}
             title={`${answerChoiceKey}. ${question.answerChoices[answerChoiceKey]}`}
-            containerStyle={styles.checkbox}
-            textStyle={styles.checkboxText}
+            containerStyle={[styles.checkbox, { backgroundColor: colors[index] }, showResult && question.correctAnswers.includes(answerChoiceKey) && styles.correctAnswer]}
+            uncheckedColor="grey"
           />
         ))}
       </View>
-      {time && (
+      {time && !showResult && (
         <LinearProgress
           style={{ marginVertical: 10 }}
           value={currentTime}
@@ -82,13 +89,9 @@ export default ({question, onSuccess, onFailure, time}) => {
           trackColor={theme.MAIN_COLOR_LIGHT}
         />
       )}
-      <Button title="Valider" onPress={onValidate} disabled={showResult} />
+      {!showResult && <Button title="Valider" onPress={onValidate} disabled={showResult} />}
       {showResult && (
         <View style={styles.result}>
-          <Text>La bonne réponse est :</Text>
-          {question.correctAnswers.map((correctAnswerKey) => (
-            <Text key={correctAnswerKey}>{correctAnswerKey}. {question.answerChoices[correctAnswerKey]}</Text>
-          ))}
           {result ? (
             <Text style={styles.correct}>Bonne réponse !</Text>
           ) : (
@@ -106,11 +109,18 @@ const styles = StyleSheet.create({
     fontSize: theme.FONT_SIZE_LARGE,
   },
   choicesArea: {
-    paddingVertical: 20,
+    paddingVertical: 16,
+  },
+  checkbox: {
+    borderRadius: 8,
+    padding: 16,
+  },
+  correctAnswer: {
+    borderColor: 'green',
+    borderWidth: 3,
   },
   result: {
-    marginTop: 20,
-    padding: 20,
+    padding: 16,
     backgroundColor: theme.MAIN_COLOR_LIGHT,
     borderColor: theme.MAIN_COLOR,
     borderWidth: 1,

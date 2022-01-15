@@ -9,9 +9,9 @@ import questions from '../../data';
 import { Levels } from '../utils/config';
 
 export default (props) => {
-  const [number, setNumber] = useState(Infinity);
-  const [time, setTime] = useState(null);
-  const [level, setLevel] = useState(Levels.EASY);
+  const [number, setNumber] = useState(10);
+  const [time, setTime] = useState(60);
+  const [level, setLevel] = useState(Levels.ANY);
 
   const startQuizz = () => {
     props.navigation.navigate('QuizzScreen', { number, time, level })
@@ -23,7 +23,7 @@ export default (props) => {
       <View style={styles.options}>
         <Button type={number === 5 ? 'solid' : 'outline'} containerStyle={styles.button} title="5" onPress={() => setNumber(5)} />
         <Button type={number === 10 ? 'solid' : 'outline'} containerStyle={styles.button} title="10" onPress={() => setNumber(10)} />
-        <Button type={number === Infinity ? 'solid' : 'outline'} containerStyle={styles.button} title="Infini" onPress={() => setNumber(Infinity)} />
+        <Button type={number === 30 ? 'solid' : 'outline'} containerStyle={styles.button} title="30" onPress={() => setNumber(30)} />
       </View>
       <Text style={styles.header}>Temps par question</Text>
       <View style={styles.options}>

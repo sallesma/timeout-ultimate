@@ -38,29 +38,30 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    padding: 20,
+    padding: 16,
   },
   contentContainer: {
-    paddingBottom: 50,
+    paddingBottom: 64,
   },
   header: {
-    marginTop: 10,
+    marginTop: 8,
     fontSize: theme.FONT_SIZE_L,
   },
   text: {
-    marginTop: 5,
+    marginTop: 8,
     fontSize: theme.FONT_SIZE_S,
   },
   linkText: {
-    marginTop: 5,
+    marginTop: 8,
     color: theme.MAIN_COLOR,
     fontSize: theme.FONT_SIZE_M,
   },
   infoArea: {
-    marginTop: 40,
+    marginTop: 32,
   },
   info: {
     fontSize: theme.FONT_SIZE_SMALL,
+    color: 'grey',
   },
 });
 
