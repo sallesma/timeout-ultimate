@@ -21,7 +21,7 @@ export default (props) => {
   return (
     <View style={styles.container}>
       <Text style={styles.welcomeText}>{questions.length} questions t'attendent pour apprendre les règles de l'ultimate !</Text>
-      <Button containerStyle={styles.button} title="Quizz (10 questions)" onPress={() => props.navigation.navigate('QuizzScreen', { quizzLength: 10 })} />
+      <Button containerStyle={styles.button} title="Jouer" onPress={() => props.navigation.navigate('OptionsScreen')} />
       <Button containerStyle={styles.button} title="Historique des quizz" onPress={() => props.navigation.navigate('HistoryScreen')} />
       <Button containerStyle={styles.button} title="Liens utiles" onPress={() => props.navigation.navigate('LinksScreen')} type="outline" />
       <StatusBar style="auto" />

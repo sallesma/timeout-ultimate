@@ -23,15 +23,15 @@ function getRandomElementsFromArray(arr, n) {
 }
 
 export default (props) => {
-  const quizzLength = props.route.params.quizzLength;
+  const { number, time, level } = props.route.params;
 
   useLayoutEffect(() => {
     props.navigation.setOptions({
-      title: `Quizz ${quizzLength} questions`,
+      title: `Quizz ${number} questions`,
     });
   });
 
-  const [selectedQuestions, _setSelectedQuestions] = useState(getRandomElementsFromArray(questions, quizzLength));
+  const [selectedQuestions, _setSelectedQuestions] = useState(getRandomElementsFromArray(questions, number));
   const [current, setCurrent] = useState(1);
   const [rightAnswersCount, setRightAnswersCount] = useState(0);
   const [canMoveForward, setCanMoveForward] = useState(false);
@@ -51,7 +51,7 @@ export default (props) => {
       {!showReport && (
         <View style={styles.question}>
           <View style={styles.header}>
-            <Text>Question {current}/{quizzLength}</Text>
+            <Text>Question {current}/{number}</Text>
             <Text>{rightAnswersCount} bonnes réponses</Text>
           </View>
           <Question
@@ -63,7 +63,7 @@ export default (props) => {
       )}
       {canMoveForward && (
         <Button title="Question suivante" onPress={() => {
-          if (current === quizzLength) {
+          if (current === number) {
             setShowReport(true);
           }
           else {
@@ -73,7 +73,7 @@ export default (props) => {
         }} />
       )}
       {showReport && (
-        <Report rightAnswersCount={rightAnswersCount} quizzLength={quizzLength} navigation={props.navigation} />
+        <Report rightAnswersCount={rightAnswersCount} quizzLength={number} navigation={props.navigation} />
       )}
       <StatusBar style="auto" />
     </ScrollView>
