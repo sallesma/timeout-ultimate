@@ -1,8 +1,8 @@
-import { Levels } from '../src/utils/config';
+import { Levels, Categories } from '../src/utils/config';
 
 export default [
   {
-    category: "Esprit du jeu",
+    category: Categories.SPIRIT,
     question: "Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple) je, je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.",
     answerChoices: {
         a: "Vrai",
@@ -20,7 +20,7 @@ export default [
     level: Levels.EASY,
   },
   {
-    category: "Esprit du jeu",
+    category: Categories.SPIRIT,
     question: "Je peux célébrer un point de la manière que je veux.",
     answerChoices: {
         a: "Vrai",
@@ -32,7 +32,7 @@ export default [
     level: Levels.EASY,
   },
   {
-    category: "Esprit du jeu",
+    category: Categories.SPIRIT,
     question: "Je peux être malin et appeler une passe à un adversaire. A lui de faire attention à qui il donne le disque.",
     answerChoices: {
         a: "Vrai",
@@ -44,7 +44,7 @@ export default [
     level: Levels.EASY,
   },
   {
-    category: "Esprit du jeu",
+    category: Categories.SPIRIT,
     question: "Enervé par les fautes successives d’un adversaire à mon encontre, je refuse de lui parler et de le checker à la fin du match. Est-ce la bonne attitude ?",
     answerChoices: {
         a: "Vrai",
@@ -63,7 +63,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.EASY,
   },
   {
-    category: "Esprit du jeu",
+    category: Categories.SPIRIT,
     question: "Je suis sur le terrain, proche de l’action. Bien qu’ayant vu que l’appel de mon coéquipier était faux ou inutile, je ne dois rien dire tant que l’on ne me demande pas ce que j’ai vu.",
     answerChoices: {
         a: "Vrai",
@@ -75,7 +75,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "Esprit du jeu",
+//     category: Categories.SPIRIT,
 //     question: "Cite 4 exemples de bon état d’esprit.",
 //     answerChoices: {
 //         a: "Vrai",
@@ -86,7 +86,7 @@ réagir calmement aux désaccords et provocations. »
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Esprit du jeu",
+    category: Categories.SPIRIT,
     question: "Si je connais mieux les règles qu’un débutant, suis-je tenu de les expliquer et de les faire appliquer?",
     answerChoices: {
         a: "Vrai",
@@ -102,7 +102,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.EASY,
   },
   {
-    category: "Esprit du jeu",
+    category: Categories.SPIRIT,
     question: "Bien que je ne sois pas sur le terrain (sur la « side line »), je peux appeler une faute et/ou intervenir sur un appel.",
     answerChoices: {
         a: "Vrai",
@@ -114,7 +114,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.EASY,
   },
 //   {
-//     category: "Aire de jeu",
+//     category: Categories.FIELD,
 //     question: "Précise les dimensions d’un terrain d’ultimate outdoor séniors (En-but, zone centrale, brick) ?",
 //     answerChoices: {
 //         a: "Vrai",
@@ -125,7 +125,7 @@ réagir calmement aux désaccords et provocations. »
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Aire de jeu",
+    category: Categories.FIELD,
     question: "Un attaquant attrape le disque en ayant un pied sur la ligne de touche.",
     answerChoices: {
         a: "Turnover",
@@ -137,7 +137,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "Aire de jeu",
+    category: Categories.FIELD,
     question: "Un attaquant attrape le disque en l’air. À la réception, ses pieds touchent le sol en même temps avec un pied sur la ligne d’en-but et l’autre dans la zone attaquée.",
     answerChoices: {
         a: "Il y a point",
@@ -149,7 +149,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "Aire de jeu",
+//     category: Categories.FIELD,
 //     question: "Un joueur attrape le disque en l’air. À la réception, ses pieds touchent le sol en même temps avec un pied dans le l’aire de jeu et l’autre en dehors . « Turnover » ou pas? Pourquoi?",
 //     answerChoices: {
 //         a: "Vrai",
@@ -160,7 +160,7 @@ réagir calmement aux désaccords et provocations. »
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Aire de jeu",
+    category: Categories.FIELD,
     question: "Un attaquant attrape le disque en l’air. À la réception, son pied droit se pose en premier dans l’aire de jeu centrale. Son élan le fait sortir du terrain .",
     answerChoices: {
         a: "Turnover",
@@ -172,7 +172,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "Aire de jeu",
+    category: Categories.FIELD,
     question: "Un attaquant attrape le disque en l’air. À la réception, son pied droit se pose en premier sur la ligne d’en-but puis le pied gauche dans la zone attaquée.",
     answerChoices: {
         a: "Il y a point",
@@ -184,7 +184,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "Aire de jeu",
+    category: Categories.FIELD,
     question: "Mon coéquipier a le disque le long de la ligne de touche. Des personnes situées à 2 mètres du terrain l’empêchent de faire une passe.",
     answerChoices: {
         a: "Tant pis, il faut s'arranger avec la situation",
@@ -197,7 +197,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "Aire de jeu",
+    category: Categories.FIELD,
     question: "Un défenseur attrape le disque en l’air. À la réception, son pied droit se pose en premier sur la ligne de touche. Son élan le fait sortir du terrain.",
     answerChoices: {
         a: "Le défenseur récupère le disque et son équipe passe en attaque",
@@ -232,7 +232,7 @@ réagir calmement aux désaccords et provocations. »
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Après un point marqué, combien de temps les équipes ont-elles pour se mettre en place ?",
     answerChoices: {
         a: "45 secondes",
@@ -245,7 +245,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.DIFFICULT,
   },
 //   {
-//     category: "L'Engagement",
+//     category: Categories.PULL,
 //     question: "À quel moment puis-je faire l’engagement (« pull ») ?",
 //     answerChoices: {
 //         a: "Vrai",
@@ -256,7 +256,7 @@ réagir calmement aux désaccords et provocations. »
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Si un défenseur non porteur du disque et un attaquant lèvent le bras, le porteur peut faire l’engagement ?",
     answerChoices: {
         a: "Vrai",
@@ -268,7 +268,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Après que le « puller » ait levé le bras, il faut que deux attaquants minimum lèvent le bras pour pouvoir faire l’engagement ?",
     answerChoices: {
         a: "Vrai",
@@ -280,7 +280,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Les attaquants peuvent se placer où ils veulent dans leur zone avant que le défenseur fasse l’engagement, à condition qu’ils soient immobiles ?",
     answerChoices: {
         a: "Vrai",
@@ -292,7 +292,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "L'Engagement",
+//     category: Categories.PULL,
 //     question: "Lorsque le «puller» lâche le disque, où doivent se trouver ses partenaires ?",
 //     answerChoices: {
 //         a: "Vrai",
@@ -303,7 +303,7 @@ réagir calmement aux désaccords et provocations. »
 //     source: "Disque Tu Sais - Pablo",
 //   },
 //   {
-//     category: "L'Engagement",
+//     category: Categories.PULL,
 //     question: "Y’a t-il des hors-jeu à l’ultimate ? Si oui, qu’est-ce ?",
 //     answerChoices: {
 //         a: "Vrai",
@@ -314,7 +314,7 @@ réagir calmement aux désaccords et provocations. »
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Un hors-jeu est :",
     answerChoices: {
         a: "Une infraction",
@@ -327,7 +327,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.DIFFICULT,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Je peux appeler un hors jeu même si le disque a touché le sol",
     answerChoices: {
         a: "Vrai",
@@ -339,7 +339,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Lors de l’engagement, la force du vent renvoie le disque vers le puller. Avant que le disque ne touche le sol, et avant que les attaquants ne puissent le toucher, il rattrape le disque. Est-ce autorisé ?",
     answerChoices: {
         a: "Oui",
@@ -351,7 +351,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Lors de l’engagement, la force du vent renvoie le disque vers ma zone d’en-but. Avant que le disque ne touche le sol, et avant que les attaquants ne puissent le toucher, je fais tomber le disque pour ne pas que les attaquants gagnent trop de terrain. Est-ce autorisé ?",
     answerChoices: {
         a: "Oui",
@@ -363,7 +363,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Mon adversaire engage. Le disque touche le terrain et roule vers ma zone. Je peux arrêter le disque uniquement avec ma main, pour éviter qu'il se rapproche de trop de ma zone.",
     answerChoices: {
         a: "Vrai",
@@ -375,7 +375,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.EASY,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Après « le pull », le disque s’arrête dans le terrain. Je peux attendre que mes camarades se placent correctement avant de ramasser le disque.",
     answerChoices: {
         a: "Vrai",
@@ -387,7 +387,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "L'Engagement",
+//     category: Categories.PULL,
 //     question: "Un attaquant prend son temps pour récupérer le disque. Que puis-je appeler ?",
 //     answerChoices: {
 //         a: "Vrai",
@@ -398,7 +398,7 @@ réagir calmement aux désaccords et provocations. »
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Sur l’engagement, un attaquant fait volontairement tomber le disque à terre afin de gagner du terrain.",
     answerChoices: {
         a: "C'est un turnover",
@@ -411,7 +411,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.EASY,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Sur l’engagement, un attaquant tente d’attraper le disque dans le terrain, avant qu’il n’ait touché le sol. Il rate son catch. Que se passe t-il ?",
     answerChoices: {
         a: "C'est un turnover",
@@ -424,7 +424,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.EASY,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Lors de l’engagement, la force du vent renvoie le disque vers ma zone d’en-but. Après que le disque ait touché le sol, et avant que les attaquants ne le touchent, j’arrête le frisbee qui roule vers ma zone pour ne pas que les attaquants gagnent trop de terrain. Est-ce autorisé ?",
     answerChoices: {
         a: "Oui",
@@ -436,7 +436,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Sur l’engagement, un attaquant tente d’attraper le disque hors du terrain, avant qu’il n’ait touché le sol. Il rate son catch. Que se passe t-il ?",
     answerChoices: {
         a: "C'est un turnover et le jeu reprend là où le disque est sorti du terrain",
@@ -450,7 +450,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.DIFFICULT,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Qui peut appeler le «brick »?",
     answerChoices: {
         a: "Tous les attaquants",
@@ -464,7 +464,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Pour que mes adversaires comprennent que je vais redémarrer au « brick », je n’ai qu’à lever un bras au dessus de ma tête ?",
     answerChoices: {
         a: "Vrai",
@@ -476,7 +476,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "L'Engagement",
+    category: Categories.PULL,
     question: "Je peux appeler le « brick » uniquement quand j’ai le disque en main ?",
     answerChoices: {
         a: "Vrai",
@@ -499,7 +499,7 @@ réagir calmement aux désaccords et provocations. »
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Le statut du disque",
+    category: Categories.STATUS,
     question: "Quand est-ce que le disque est dit « mort » ?",
     answerChoices: {
         a: "Après le début d’un point, jusqu’à ce que le « pull » soit effectué",
@@ -512,7 +512,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: "Le marqueur débute le compte en disant toute de suite « 1 » puis « 2 », etc.",
     answerChoices: {
         a: "Pas de problème",
@@ -524,7 +524,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.EASY,
   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: "L’intervalle de temps entre  « compté » et « 1 » doit être d’une seconde.",
     answerChoices: {
         a: "Vrai",
@@ -536,7 +536,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: " L’intervalle de temps entre chaque nombre est d’une seconde minimum ?",
     answerChoices: {
         a: "Vrai",
@@ -548,7 +548,7 @@ réagir calmement aux désaccords et provocations. »
     level: Levels.EASY,
   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: " Je n’ai pas obligation de dire « dix » à la fin du compte. je peux le remplacer par « stall out » ?",
     answerChoices: {
         a: "Vrai",
@@ -563,7 +563,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     level: Levels.EASY,
   },
   // {
-  //   category: "Le Compte",
+  //   category: Categories.COUNT,
   //   question: " A quel moment puis je appeler un « stall out » (« fin du compte ») ?",
   //   answerChoices: {
   //       a: "Vrai",
@@ -574,7 +574,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
   //   source: "Disque Tu Sais - Pablo",
   // },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: "Je peux contester un « stall-out » si je n’ai pas entendu le compte ?",
     answerChoices: {
         a: "Vrai",
@@ -586,7 +586,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "Le Compte",
+//     category: Categories.COUNT,
 //     question: "Quand suis-je autorisé à commencer le compte ?",
 //     answerChoices: {
 //         a: "Vrai",
@@ -597,7 +597,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: "Je suis le marqueur. J’en suis à 5 au compte et m’éloigne à plus de 3 mètres du lanceur. Que dois-je faire si je reviens à moins de 3 mètres et suis encore le marqueur ?",
     answerChoices: {
         a: "Je reprends le compte à 1",
@@ -610,7 +610,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: " Après un appel de l’attaque, la défense ne conteste pas. Le compte reprend à combien ?",
     answerChoices: {
         a: "1",
@@ -624,7 +624,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     level: Levels.DIFFICULT,
   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: "Après un appel de la défense, l’attaque ne conteste pas. Le compte reprend à combien au maximum ?",
     answerChoices: {
         a: "À « compté 8 »",
@@ -638,7 +638,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: "« Fin du compte » («  stall out ») est appelé par le marqueur. Le lanceur conteste. À combien reprend le compte ?",
     answerChoices: {
         a: "À « compté 6 »",
@@ -652,7 +652,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: "Une faute (défensive ou offensive) contestée ou un « pick » est appelé à 4. Le compte reprend à « compté 5 ».",
     answerChoices: {
         a: "Vrai",
@@ -667,7 +667,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Compte",
+    category: Categories.COUNT,
     question: "Un « pick » est appelé à 7. Le compte reprend à combien ?",
     answerChoices: {
         a: "À « compté 5 »",
@@ -683,7 +683,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "Le Check",
+//     category: Categories.CHECK,
 //     question: "À quel moment doit on faire un check pour redémarrer le jeu?",
 //     answerChoices: {
 //         a: "Vrai",
@@ -694,7 +694,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Il y a un appel, avant qu’une passe ne soit lancée. Certains joueurs n’ont pas entendu l’appel et continuaient à jouer jusqu’a ce qu’ils soient avertis. Le jeu étant mort, où se placent ils ?",
     answerChoices: {
         a: "Là où ils étaient au moment de l'appel",
@@ -707,7 +707,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Le jeu s’arrête après qu’une passe ait été effectuée. Le disque est retourné au lanceur. Où se replacent les joueurs ?",
     answerChoices: {
       a: "Là où ils étaient au moment de l'appel",
@@ -721,7 +721,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Le jeu s’arrête après qu’une passe ait été effectuée. Le résultat de l’action est maintenu. Où se replacent les joueurs ?",
     answerChoices: {
       a: "Là où ils étaient au moment où le jeu s'est arrêté",
@@ -734,7 +734,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.DIFFICULT,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Le jeu est mort suite à un appel. Je me suis replacé au bon endroit, contrairement à d’autres joueurs qui marchent encore ou qui ne sont pas là où ils devraient être. Malgré tout, le marqueur « check » le disque.",
     answerChoices: {
       a: "Tant pis, le check a eu lieu donc le jeu doit reprendre",
@@ -747,7 +747,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Le jeu est mort suite à un appel. Je me suis replacé au bon endroit. Je peux « checker » le disque dès que je me suis remis à ma place.",
     answerChoices: {
       a: "Vrai",
@@ -759,7 +759,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.EASY,
   },
 //   {
-//     category: "Le Check",
+//     category: Categories.CHECK,
 //     question: "Mon adversaire prend trop de temps pour checker le disque. Que puis-je faire ?",
 //     answerChoices: {
 //       a: "Vrai",
@@ -770,7 +770,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Le jeu est mort et tous les joueurs sont placés correctement. J’ai le disque et mon marqueur est à un mètre de moi. Je peux « checker » le disc au sol et appeler « disc in » pour relancer le jeu ?",
     answerChoices: {
       a: "Vrai",
@@ -782,7 +782,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Le jeu est mort et tous les joueurs sont placés correctement. J’ai le disque et mon adversaire le plus proche est à 5 mètres de moi. Pour reprendre le jeu l’adversaire plus proche doit toucher le sol et appeler « disc in » pour relancer le jeu ?",
     answerChoices: {
       a: "Vrai",
@@ -794,7 +794,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Le jeu est mort et tous les joueurs sont placés correctement. Le disque est au sol et à la portée d’aucun joueur. Comment relance t’on le jeu ?",
     answerChoices: {
       a: "Le joueur le plus proche va au disque pour faire le check",
@@ -808,7 +808,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Je tente une passe avant le « check » ou après qu'une violation de placement ait été appelée. Elle n’est pas réceptionnée. Que se passe-t-il ?",
     answerChoices: {
       a: "Le résultat de la passe est conservé",
@@ -821,7 +821,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: " Je vais chercher le disque en touche. Avant ma passe je dois checker le disque au sol",
     answerChoices: {
       a: "Vrai",
@@ -833,7 +833,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: " Je me place sur le brick. Avant de faire ma passe je dois attendre que mon adversaire « check » le disque",
     answerChoices: {
       a: "Vrai",
@@ -845,7 +845,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Turnover dans ma zone d’en-but. Je ramasse le disque et sors de ma zone. Je dois checker le disque au sol avant ma passe",
     answerChoices: {
       a: "Vrai",
@@ -857,7 +857,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Turnover pour mon équipe dans la zone d’en-but adverse. Je ramasse le disque, et sors de leur zone. Je dois checker le disque au sol avant ma passe",
     answerChoices: {
       a: "Vrai",
@@ -869,7 +869,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Le Check",
+    category: Categories.CHECK,
     question: "Je suis dans la zone adverse, sur le point de rattraper la passe de mon partenaire. Subissant un contact, j’appelle une faute. Mon adversaire ne conteste pas. Je dois reprendre le disque, me placer devant leur zone et attendre le check pour pouvoir jouer.",
     answerChoices: {
       a: "Vrai",
@@ -881,7 +881,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.DIFFICULT,
   },
   {
-    category: "Hors des limites",
+    category: Categories.OUT,
     question: "Les lignes de périmètre font partie du terrain.",
     answerChoices: {
       a: "Vrai",
@@ -893,7 +893,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.EASY,
   },
   {
-    category: "Hors des limites",
+    category: Categories.OUT,
     question: "Un défenseur sort du terrain pour attraper le disque ou empêcher qu’il revienne dans l’aire de jeu. Que se passe-t-il ?",
     answerChoices: {
       a: "Il n'y a pas turnover car le défenseur n'est pas dans le terrain",
@@ -906,7 +906,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.MIDDLE,
   },
   {
-    category: "Hors des limites",
+    category: Categories.OUT,
     question: "Un attaquant prend son appel à l’extérieur du terrain, attrape le disque avec les pieds décollés du sol et atterrit dans la zone d’en-but adverse. Le point est il validé ?",
     answerChoices: {
       a: "Oui",
@@ -918,7 +918,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.EASY,
   },
   {
-    category: "Hors des limites",
+    category: Categories.OUT,
     question: "En effectuant sa passe, le lanceur met un pied en dehors du terrain. Même si la passe est réussie le disque revient au marqueur qui avait appelé « hors-jeu ».",
     answerChoices: {
       a: "Vrai",
@@ -930,7 +930,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.EASY,
   },
   {
-    category: "Hors des limites",
+    category: Categories.OUT,
     question: "Après avoir attrapé le disque dans le terrain, le joueur sort du terrain. L’équipe adverse récupère le disque.",
     answerChoices: {
       a: "Vrai",
@@ -942,7 +942,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     level: Levels.EASY,
   },
   {
-    category: "Hors des limites",
+    category: Categories.OUT,
     question: "Un attaquant va chercher le disque en dehors de l’aire de jeu. Il établit son pivot sur la ligne de touche et fait une passe décisive. La point est-il valide ?",
     answerChoices: {
       a: "Oui",
@@ -958,7 +958,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Hors des limites",
+    category: Categories.OUT,
     question: "Le disque roule en dehors de l’aire de jeu et revient dans le terrain. L’attaquant le joue de là où il s’est arrêté. Que puis-je appeler ?",
     answerChoices: {
       a: "Une violation",
@@ -972,7 +972,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Hors des limites",
+    category: Categories.OUT,
     question: "Deux attaquants attrapent le disque simultanément. L’un des deux est hors-jeu. Que se passe-t-il ?",
     answerChoices: {
       a: "Turnover",
@@ -985,7 +985,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Hors des limites",
+    category: Categories.OUT,
     question: "Le disque sort à 5 mètres du terrain. Une personne non joueur va le chercher et me fait une passe alors que je suis dans le terrain. Je place mon pied pivot au bon endroit et fais une passe décisive. Le point est valide.",
     answerChoices: {
       a: "Vrai",
@@ -997,7 +997,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "Hors des limites",
+//     category: Categories.OUT,
 //     question: "À l’engagement, je m’aperçois qu’un attaquant est sorti de sa zone avant le lancer. Puis-je appeler quelque chose ?",
 //     answerChoices: {
 //       a: "Vrai",
@@ -1008,7 +1008,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //     source: "Disque Tu Sais - Pablo",
 //   },
 //   {
-//     category: "Hors des limites",
+//     category: Categories.OUT,
 //     question: "À l’engagement, un partenaire sur la « side line » (au bord du terrain) m’avertit que lanceur avait un pied sur la ligne et qu un autre attaquant avait un pied en dehors de leur zone au moment du lancé. Puis-je appeler quelque chose ?",
 //     answerChoices: {
 //       a: "Vrai",
@@ -1019,7 +1019,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Réceptionneur et positionnement",
+    category: Categories.RECEIVER,
     question: "J’attrape le disque en plongeant. Le contact au sol me fait perdre le disque. Comme j’avais maitrisé le disque avant de le perdre, je le conserve.",
     answerChoices: {
       a: "Vrai",
@@ -1031,7 +1031,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Réceptionneur et positionnement",
+    category: Categories.RECEIVER,
     question: "Je saute pour attraper le disque. Je suis au-dessus de l’aire de jeu au moment où je le maitrise et j'atterris hors du terrain. Il y a « turnover ».",
     answerChoices: {
       a: "Vrai",
@@ -1043,7 +1043,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.EASY,
   },
   {
-    category: "Réceptionneur et positionnement",
+    category: Categories.RECEIVER,
     question: "Au moment où j’attrape le disque, j’ai un pied dans le terrain et un en dehors (simultanément). Un défenseur appelle « out ». A t-il raison ?",
     answerChoices: {
       a: "Oui",
@@ -1055,7 +1055,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.EASY,
   },
   {
-    category: "Réceptionneur et positionnement",
+    category: Categories.RECEIVER,
     question: "Au moment où j’attrape le disque, j’ai un pied sur la ligne d’en-but adverse et l’autre dans la zone attaquée. Le point est il valable.",
     answerChoices: {
       a: "Vrai",
@@ -1067,7 +1067,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Réceptionneur et positionnement",
+    category: Categories.RECEIVER,
     question: "Un attaquant et un défenseur attrapent simultanément le disque. Comment se règle cette situation ?",
     answerChoices: {
       a: "L'attaquant conserve le disque",
@@ -1080,7 +1080,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.EASY,
   },
   {
-    category: "Réceptionneur et positionnement",
+    category: Categories.RECEIVER,
     question: "Le disque plane. Mon adversaire ne cesse de se placer entre le disque et moi pour m’empêcher de l’attraper. Il a le droit tant qu’il ne me touche pas. Il protège son disque.",
     answerChoices: {
       a: "Vrai",
@@ -1092,7 +1092,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Réceptionneur et positionnement",
+    category: Categories.RECEIVER,
     question: "J’attrape le disque puis percute mon adversaire. Il n’y a pas faute car j’ai attrapé le disque avant de toucher mon adversaire.",
     answerChoices: {
       a: "Vrai",
@@ -1104,7 +1104,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Réceptionneur et positionnement",
+    category: Categories.RECEIVER,
     question: "Lors de mon replacement dans le stack, mon adversaire me fait un croche-pied involontaire. J’appelle faute et mon adversaire conteste. Il a tort.",
     answerChoices: {
       a: "Vrai",
@@ -1116,7 +1116,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.DIFFICULT,
   },
   {
-    category: "Réceptionneur et positionnement",
+    category: Categories.RECEIVER,
     question: "Pour catcher un disque, je m’appuie sur l’épaule d’un partenaire. Est-ce autorisé ?",
     answerChoices: {
       a: "Oui",
@@ -1128,7 +1128,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.EASY,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Mon partenaire me fait une passe. Le disque touche des brins d’herbe mais je l’attrape avant qu’il ne touche le sol. Un défenseur appelle « down » (« à terre »). Je conteste car le disque n’a pas vraiment touché le sol. Qui a raison ?",
     answerChoices: {
       a: "Moi, il n'y a pas down",
@@ -1140,7 +1140,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.EASY,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "En tentant d’intercepter la passe adverse, le défenseur « drope » le disque (qui tombe à terre). Il ne récupère pas la possession du disque.",
     answerChoices: {
       a: "Vrai",
@@ -1152,7 +1152,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.EASY,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Je suis en défense. Je fais sortir volontairement le disque du terrain pour faire échouer la passe de mon adversaire. Mon équipe récupère la possession du disque.",
     answerChoices: {
       a: "Vrai",
@@ -1164,7 +1164,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.EASY,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "À la réception du « pull », je touche le disque involontairement avant qu’il ne touche le sol. Le disque tombe a terre. Il n’y a pas turnover car je n’ai pas voulu l’attraper.",
     answerChoices: {
       a: "Vrai",
@@ -1176,7 +1176,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.EASY,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Je tente de réceptionner le « pull » à l’extérieur de l’aire de jeu. Je drope le disque. Un défenseur appelle un « turnover ». Je ne suis pas d’accord car j’étais en-dehors du terrain et je voulais juste gagner du temps pour jouer le disque au point de brick. Qui a raison ?",
     answerChoices: {
       a: "Moi, il n'y a pas turnover",
@@ -1188,7 +1188,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.DIFFICULT,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "En voulant rattraper la passe de mon partenaire, je commets une faute sur mon défenseur. Je ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "Le disque est retourné au lanceur",
@@ -1201,7 +1201,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Un attaquant attrape le disque en heurtant son défenseur. Ce dernier appelle une faute qui n’est pas contestée. Comme le disque a été catché, il n’y a pas turnover et le disque revient au lanceur.",
     answerChoices: {
       a: "Vrai",
@@ -1213,7 +1213,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Je fais une passe face au vent. Le disque me revient et je l’attrape sans que personne ne l’ait touché. N’ayant pas eu l’intention de me faire une auto-passe, je peux conserver le disque.",
     answerChoices: {
       a: "Vrai",
@@ -1225,7 +1225,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "La défense appelle un turnover. L’attaque conteste. Que se passe-t-il ?",
     answerChoices: {
       a: "Le disque est retourné au lanceur",
@@ -1237,7 +1237,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     level: Levels.EASY,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Je lance le disque à « 10 » et ma passe est ratée. Mon défenseur, appelle « fin du compte » (ou « stall out ») lorsque le disque vole. Je ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "La défense récupère le disque quoi qu'il arrive de ma passe",
@@ -1253,7 +1253,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Mon marqueur appelle « fin du compte » (ou « stall out ») au moment où je lance et je conteste. Ma passe est ratée. Que se passe-t-il ?",
     answerChoices: {
       a: "Le jeu reprend à l'endroit où je suis et je récupère le disque suite au stall out contesté",
@@ -1266,7 +1266,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Je lance le disque et ma passe est réussie. Mon adversaire appelle « fin du compte » (ou « stall out ») que je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?",
     answerChoices: {
       a: "Le stall out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
@@ -1278,7 +1278,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Je lance le disque et ma passe est ratée (ou interceptée). Mon adversaire appelle « fin du compte » (ou « stall out »). Je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?",
     answerChoices: {
       a: "Le stall out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
@@ -1291,7 +1291,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Je suis en défense. J’attrape le disque en dehors du terrain. Ayant « catché » le disque hors du terrain, je peux le laisser à terre pour qu’un partenaire fasse la remise en jeu.",
     answerChoices: {
       a: "Vrai",
@@ -1303,7 +1303,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "J’ai intercepté le disque. Me rendant compte que mon lacet est défait je pose le disque à terre pour le refaire. Que se passe-t-il ?",
     answerChoices: {
       a: "Je peux refaire mon lacet avant de reprendre le jeu",
@@ -1317,7 +1317,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Mon adversaire rate sa passe. Le disque roule dans le terrain. Je l’arrête. Je peux établir mon pivot soit à l’endroit où le disque s’est arrêté soit où il a touché le sol.",
     answerChoices: {
       a: "Vrai",
@@ -1329,7 +1329,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Mon adversaire rate sa passe. Le disque roule dans le terrain, sort des limites puis revient dans l’aire de jeu. J’établis mon pivot à l’endroit où il s’est arrêté dans le terrain.",
     answerChoices: {
       a: "Vrai",
@@ -1341,7 +1341,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Mon adversaire rate sa passe. Le disque roule dans ma zone d'en-but et sort sur le côté de celle-ci. Où dois-je reprendre le jeu ?",
     answerChoices: {
       a: "Là où le disque est tombé",
@@ -1354,7 +1354,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "Mon adversaire rate sa passe. Le disque roule, entre dans sa zone et s’arrête dans dedans après avoir décrit une courbe. Où vais-je établir mon pivot ?",
     answerChoices: {
       a: "Là où le disque s'est arrêté",
@@ -1366,7 +1366,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "« Turnover » en faveur de mon équipe dans ma zone d’en-but. Où dois-je établir mon pivot?",
     answerChoices: {
       a: "À l'endroit où le disque s'est arrêté",
@@ -1378,7 +1378,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Turnovers",
+    category: Categories.TURNOVERS,
     question: "J’appelle la « fin du compte » (« stall out ») et mon adversaire n’a pas lancé le disque. Le jeu est arrêté. Il me tend le disque. Je suis obligé de le prendre.",
     answerChoices: {
       a: "Vrai",
@@ -1390,7 +1390,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Marquer un point",
+    category: Categories.GOAL,
     question: "J’attrape le disque en ayant simultanément un pied dans la zone d’en-but attaquée et l’autre sur la ligne de but. Le point est-il marqué ?",
     answerChoices: {
       a: "Oui",
@@ -1402,7 +1402,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Marquer un point",
+    category: Categories.GOAL,
     question: "Au moment où j’attrape le disque, je suis sur un pied dans la zone adverse. Mon pied est dans la zone mais mon élan me fait sortir du terrain. Le point est marqué malgré ma sortie du terrain.",
     answerChoices: {
       a: "Vrai",
@@ -1414,7 +1414,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Marquer un point",
+    category: Categories.GOAL,
     question: "Je saute en prenant appel dans la zone attaquée. J’attrape le disque en l’air mais avec mon élan je retombe hors de l’aire de jeu. Le point est marqué car mes derniers appuis avant le catch étaient dans la zone adverse.",
     answerChoices: {
       a: "Vrai",
@@ -1426,7 +1426,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Marquer un point",
+    category: Categories.GOAL,
     question: "Je saute en prenant appel dans la zone centrale. J’attrape le disque en l’air et je retombe dans la zone d’en-but adverse. Le point est-il marqué ?",
     answerChoices: {
       a: "Vrai",
@@ -1438,7 +1438,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "Un non-respect des règles lié au marquage sur le porteur ou un marcher (« travel ») est :",
     answerChoices: {
       a: "Une infraction",
@@ -1451,7 +1451,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "Un non-respect des règles lié à un contact non accidentel entre deux ou plusieurs joueurs :",
     answerChoices: {
       a: "Une infraction",
@@ -1464,7 +1464,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "Je suis joueur. Je vois clairement que mon partenaire a subi une faute. Je peux l’appeler car je n’ai aucun doute et suis proche de l’action.",
     answerChoices: {
       a: "Vrai",
@@ -1476,7 +1476,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "Je n’ai pas le disque mais suis en attaque. Nos adversaires placent une défense de zone. Constatant qu’il y a deux joueurs dans les 3 mètres je peux appeler « double équipe » (ou « double team ») ?",
     answerChoices: {
       a: "Vrai",
@@ -1488,7 +1488,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "Qui est autorisé à appeler un « marcher » ?",
     answerChoices: {
       a: "Seulement le défenseur à la marque",
@@ -1501,7 +1501,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "Qui est autorisé à appeler une violation ?",
     answerChoices: {
       a: "Tous les joueurs",
@@ -1513,7 +1513,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "Le jeu s’arrête dès qu’une faute ou une violation est appelée ?",
     answerChoices: {
       a: "Vrai",
@@ -1527,7 +1527,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "À la fin de son lancer, l’attaquant me met la main au visage. J’appelle  une « faute. » La passe est réussie. Que se passe-t-il ?",
     answerChoices: {
       a: "Turnover car le lanceur a fait une faute pendant son geste de lancer",
@@ -1540,7 +1540,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.DIFFICULT,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: " Puis-je changer d’avis si je constate que mon appel n’est pas correct ?",
     answerChoices: {
       a: "Oui",
@@ -1552,7 +1552,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "Je marque le lanceur et j'appelle une faute. Sa passe est attrapée par un des ses partenaires. M’apercevant que je me suis trompé dans mon appel j’annonce « rétracte ». Où reprend le jeu ?",
     answerChoices: {
       a: "Le joueur ayant attrapé le disque reprend le jeu",
@@ -1564,7 +1564,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.EASY,
   },
   {
-    category: "Fautes, infractions, violations",
+    category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
     question: "Au moment du lancer, un attaquant appelle une faute. La passe est ratée. L’attaquant se rétracte. La défense récupère le disque là où il se trouve et le jeu reprend par un check.",
     answerChoices: {
       a: "Vrai",
@@ -1576,7 +1576,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "Fautes, infractions, violations",
+//     category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
 //     question: "Je défends sur le porteur du disque. Dans la continuité de son lancer, il me met la main au visage. J’appelle faute. Sa passe est ratée. Je me rétracte mais nous récupérons tout  de même le disque là où il est, car sa passe a échoué.",
 //     answerChoices: {
 //       a: "Vrai",
@@ -1587,7 +1587,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Continuité après un appel de faute ou violation",
+    category: Categories.CONTINUATION,
     question: "J’appelle une violation au moment du lancer car le porteur n’avait pas mis un pied dans l’aire de jeu centrale après être allé chercher le disque en touche. La passe est ratée. Toute violation arrêtant le jeu, son échec n’est pas pris en compte. Le disque lui revient et le jeu reprend par un check.",
     answerChoices: {
       a: "Vrai",
@@ -1605,7 +1605,7 @@ Une fois la possession établie si l'équipe qui a appelé la faute ou la violat
     level: Levels.DIFFICULT,
   },
   {
-    category: "Continuité après un appel de faute ou violation",
+    category: Categories.CONTINUATION,
     question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est ratée. Que se passe-t-il ?",
     answerChoices: {
       a: "Je récupère le disque",
@@ -1617,7 +1617,7 @@ Une fois la possession établie si l'équipe qui a appelé la faute ou la violat
     level: Levels.MIDDLE,
   },
   {
-    category: "Continuité après un appel de faute ou violation",
+    category: Categories.CONTINUATION,
     question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est arrivée comme je le souhaitais mais mon partenaire fait une erreur de main et « drope » la passe. Que se passe-t-il ?",
     answerChoices: {
       a: "Je récupère le disque",
@@ -1629,7 +1629,7 @@ Une fois la possession établie si l'équipe qui a appelé la faute ou la violat
     level: Levels.DIFFICULT,
   },
   {
-    category: "Continuité après un appel de faute ou violation",
+    category: Categories.CONTINUATION,
     question: "Je suis en attaque et n’ai pas le disque. Le disque est en l’air au moment où mon défenseur me fait tomber involontairement, lors d’une course n’influençant pas le jeu. La passe n’est pas rattrapée par mon partenaire concerné par la passe. La faute étant incontestée le lanceur récupéré le disque.",
     answerChoices: {
       a: "Vrai",
@@ -1645,7 +1645,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "L’appel « jeu dangereux » existe ?",
     answerChoices: {
       a: "Vrai",
@@ -1657,7 +1657,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     level: Levels.EASY,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "Je suis défenseur. J’intercepte le disque et touche juste après un attaquant. Il appelle « faute ». Je ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "Le turnover est maintenu",
@@ -1670,7 +1670,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "Je saute et attrape en l’air le disque dans la zone d’en-but adverse. Mon défenseur me heurte et me fait atterrir en dehors du terrain. J’appelle une faute qu’il ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "C'est un point",
@@ -1683,7 +1683,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "J’attrape le disque en l’air. Mon défenseur me heurte et me fait atterrir en dehors de sa zone d’en-but. J’appelle une faute qu’il conteste. Le disque revient au lanceur.",
     answerChoices: {
       a: "Vrai",
@@ -1695,7 +1695,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "En pivotant pour faire ma passe, le marqueur entre en contact avec moi. Je n’ai pas lancé le disque. J’appelle « contact ». Il ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "Le jeu s'arrête et le compte reprendra à 1",
@@ -1708,7 +1708,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     level: Levels.DIFFICULT,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "J’attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « faute ». Il ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "C'est un point car il ne conteste pas",
@@ -1721,7 +1721,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "J’attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « strip » (et non faute). Il ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "C'est un point car il ne conteste pas",
@@ -1734,7 +1734,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "L’attaquant que je marque me bouscule après avoir attrapé le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il garde le disque car il avait attrapé le disque avant de me toucher.",
     answerChoices: {
       a: "Vrai",
@@ -1748,7 +1748,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
     level: Levels.DIFFICULT,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "L’attaquant que je marque me bouscule avant d’attraper le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il y a turnover. Je ne suis pas obligé de le prendre. Je peux « checker » le disque et appeler « disc in » afin de relancer le jeu.",
     answerChoices: {
       a: "Vrai",
@@ -1760,7 +1760,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
     level: Levels.DIFFICULT,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "En position légitime, je suis entrain de compter à 8. En réalisant son pivot, le lanceur me heurte. J’appelle une « faute » qu’il ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "Il garde le disque et je reprends à « compter 9 » après un check.",
@@ -1773,7 +1773,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
     level: Levels.DIFFICULT,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "En position légitime, je viens de compter à 8 le lanceur. En réalisant son pivot, il me heurte. J’appelle une « faute » qu’il conteste. Il garde le disque et je reprends à « compter 8 » après un check.",
     answerChoices: {
       a: "C'est un turnover",
@@ -1787,7 +1787,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
     level: Levels.DIFFICULT,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "Mon adversaire me fait un croche-pied. Ma chute n’influence pas le jeu. C’est une « faute indirecte ».",
     answerChoices: {
       a: "Vrai",
@@ -1801,7 +1801,7 @@ Si la faute est incontestée, le joueur ayant subi la faute peut se repositionne
     level: Levels.MIDDLE,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "J’ai le disque. Le marqueur étant trop près de moi, je le repousse avec le disque pour le lui faire comprendre et ainsi ne pas stopper le jeu. Il appelle une « faute ». A-t-il raison ?",
     answerChoices: {
       a: "Oui",
@@ -1814,7 +1814,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     level: Levels.EASY,
   },
   {
-    category: "Fautes",
+    category: Categories.FOULS,
     question: "Lors de ma course, mon défenseur me fait chuter involontairement alors que j’allais recevoir le disque. Ma chute m’empêche de le recevoir. Que se passe-t-il ?",
     answerChoices: {
       a: "C'est un turnover",
@@ -1827,7 +1827,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     level: Levels.DIFFICULT,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Combien y a-t-il d’infractions ?",
     answerChoices: {
       a: "5",
@@ -1846,7 +1846,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     level: Levels.DIFFICULT,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Mon marqueur reprend le jeu et commence le compte sans avoir « checké » le disque. Que fais-je ?",
     answerChoices: {
       a: "J'appelle une violation",
@@ -1859,7 +1859,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Mon marqueur commence le compte sans avoir dit « compté » ou « stalling ». Je peux appeler une « faute » ?",
     answerChoices: {
       a: "Vrai",
@@ -1871,7 +1871,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Si mon marqueur ne soustrait pas correctement ou ne recommence pas le compte quand nécessaire, que fais-je ?",
     answerChoices: {
       a: "J'appelle une faute",
@@ -1884,7 +1884,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Si le marqueur ne commence pas le compte au chiffre correct, le porteur du disque peut appeler une violation ?",
     answerChoices: {
       a: "Vrai",
@@ -1896,7 +1896,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "Infractions et violations",
+//     category: Categories.INFRACTIONS_VIOLATIONS,
 //     question: "Le marqueur doit être à un diamètre de disque (27,5cm) minimum de toutes les parties de mon corps y compris du pied pivot?",
 //     answerChoices: {
 //       a: "Vrai",
@@ -1907,7 +1907,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Le premier rideau de la zone est placée légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Étant défenseur et à 1 mètre du disque, je commence à compter. Voyant le premier rideau qui vient se replacer devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Voyant plus d’un joueur dans les 3 mètres à ce moment, un attaquant non-porteur du disque appelle « double team ». Je conteste. Ai-je raison ?",
     answerChoices: {
       a: "Oui",
@@ -1923,7 +1923,7 @@ Le règlement précise « qu’une simple course dans cette zone des 3 mètres 
     level: Levels.DIFFICULT,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Le lanceur appelle à mon encontre un « chevauchement » (« straddle »). Que dois-je faire ?",
     answerChoices: {
       a: "Je dois reculer mes appuis pour reprendre une position légitime",
@@ -1936,7 +1936,7 @@ Le règlement précise « qu’une simple course dans cette zone des 3 mètres 
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Je suis le marqueur. J’appelle un « marcher » à 4. Le lanceur à toujours le disque. Que se passe-t-il ?",
     answerChoices: {
       a: "Le jeu s'arrête",
@@ -1950,7 +1950,7 @@ Le règlement précise « qu’une simple course dans cette zone des 3 mètres 
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Au lieu d'appeler une « infraction de marquage », le lanceur peut appeler une « violation de marquage »?",
     answerChoices: {
       a: "Vrai",
@@ -1967,7 +1967,7 @@ Il peut le faire si:
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "J’appelle un « double team » et tente tout de même la passe. Elle est interceptée. Ayant appelé une infraction qui n’est pas contestée, je récupère le disque.",
     answerChoices: {
       a: "Vrai",
@@ -1979,7 +1979,7 @@ Il peut le faire si:
     level: Levels.DIFFICULT,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Une fois le disque attrapé, je dois m’arrêter en 3 foulées maximum.",
     answerChoices: {
       a: "Vrai",
@@ -1991,7 +1991,7 @@ Il peut le faire si:
     level: Levels.DIFFICULT,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Je viens d’attraper le disque et fais une passe, dès mon premier appui de décélération. Un défenseur appelle un « marcher » (« travel »). A-t-il raison ?",
     answerChoices: {
       a: "Oui",
@@ -2003,7 +2003,7 @@ Il peut le faire si:
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "J’attrape le disque et décélère en changeant la direction de ma course (courbe). Un adversaire appelle un « marcher ». Il a tort car je décélérais.",
     answerChoices: {
       a: "Vrai",
@@ -2015,7 +2015,7 @@ Il peut le faire si:
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "J’ai attrapé le disque en plongeant. Je fais une passe en étant agenouillé. La défense peut appeler un « Marcher » (« Travel »)",
     answerChoices: {
       a: "Vrai",
@@ -2028,7 +2028,7 @@ Il peut le faire si:
     level: Levels.DIFFICULT,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Que se passe-t-il après une infraction de « marcher » contestée si le lanceur n'a pas lancé le disque ?",
     answerChoices: {
       a: "Le jeu est stoppé",
@@ -2040,7 +2040,7 @@ Il peut le faire si:
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Je suis en attaque. Je fais un appel et suis gêné dans ma course par un défenseur. Je peux appeler « une obstruction »(« pick ») ?",
     answerChoices: {
       a: "Vrai",
@@ -2052,7 +2052,7 @@ Il peut le faire si:
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: " Je suis défenseur. Je subis une obstruction et je décide d’attendre 2 secondes avant d’appeler «obstruction («pick). Je n’ai pas le droit car tout appel doit se faire instantanément.",
     answerChoices: {
       a: "Vrai",
@@ -2064,7 +2064,7 @@ Il peut le faire si:
     level: Levels.DIFFICULT,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "J’ai appelé un « pick » et le jeu s’est arrêté. Que se passe-t-il ?",
     answerChoices: {
       a: "Les joueurs se replacent là où ils étaient au moment de l'appel",
@@ -2076,7 +2076,7 @@ Il peut le faire si:
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "À l’appel d’une faute le jeu s’est arrêté. Je m’aperçois que mon positionnement et celui de mon adversaire risquent d’entraîner une «obstruction » (« pick »). Pouvons-nous modifier légèrement notre position pour éviter la violation ?",
     answerChoices: {
       a: "Oui",
@@ -2088,7 +2088,7 @@ Il peut le faire si:
     level: Levels.DIFFICULT,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Le « jeu est mort » suite à l’appel d’une faute. Le marqueur « check » le disque avant que tout le monde se soit replacé correctement. Que puis-je faire ?",
     answerChoices: {
       a: "Rien",
@@ -2101,7 +2101,7 @@ Il peut le faire si:
     level: Levels.MIDDLE,
   },
   {
-    category: "Infractions et violations",
+    category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Le « jeu est mort » suite à l’appel d’une faute. Un attaquant se déplace avant que le marqueur « check » le disque. Je peux appeler une « violation » même si ce n’est pas mon adversaire direct.",
     answerChoices: {
       a: "Vrai",
@@ -2113,7 +2113,7 @@ Il peut le faire si:
     level: Levels.MIDDLE,
   },
   {
-    category: "Stoppage",
+    category: Categories.STOPPAGE,
     question: "Je constate qu’un adversaire à besoin de sortir. Que puis-je faire pour l’aider?",
     answerChoices: {
       a: "Rien",
@@ -2126,7 +2126,7 @@ Il peut le faire si:
     level: Levels.DIFFICULT,
   },
   {
-    category: "Stoppage",
+    category: Categories.STOPPAGE,
     question: "Sur un contre-appel, je me tords la cheville. Un partenaire appelle « injury ». Comme ce n’est pas moi qui l’ait appelé j’ai la possibilité de rester sur le terrain ou de sortir.",
     answerChoices: {
       a: "Vrai",
@@ -2138,7 +2138,7 @@ Il peut le faire si:
     level: Levels.DIFFICULT,
   },
   {
-    category: "Stoppage",
+    category: Categories.STOPPAGE,
     question: "Un adversaire me blesse. J’appelle « injury ». Suis-je obligé de sortir du terrain ?",
     answerChoices: {
       a: "Oui",
@@ -2150,7 +2150,7 @@ Il peut le faire si:
     level: Levels.MIDDLE,
   },
   {
-    category: "Stoppage",
+    category: Categories.STOPPAGE,
     question: "Juste après le lancer de mon partenaire, je me blesse seul et appelle « injury ». La passe n’est pas rattrapée. Que se passe-t-il ?",
     answerChoices: {
       a: "C'est un turnover",
@@ -2164,7 +2164,7 @@ Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « tu
     level: Levels.DIFFICULT,
   },
   {
-    category: "Stoppage",
+    category: Categories.STOPPAGE,
     question: "Je défends une passe longue et me blesse lors de ma course. J’appelle « injury » avant que mon adversaire attrape le disque. Ayant appelé « injury » lorsque le disque était en l’air et n’ayant pu défendre pleinement la passe, le résultat de l’action n’est pas pris en compte et le disque revient au lanceur.",
     answerChoices: {
       a: "Vrai",
@@ -2179,7 +2179,7 @@ Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « tu
     level: Levels.DIFFICULT,
   },
   {
-    category: "Stoppage",
+    category: Categories.STOPPAGE,
     question: "Au cours d’un point, je m’aperçois qu’un objet dangereux est sur le terrain. Que puis-je faire ?",
     answerChoices: {
       a: "Rien",
@@ -2194,7 +2194,7 @@ L’appel « freeze » n’existe pas.`,
     level: Levels.MIDDLE,
   },
   {
-    category: "Stoppage",
+    category: Categories.STOPPAGE,
     question: "Je constate que le disque est plié ou cassé. Je peux stopper le jeu en appelant « freeze ».",
     answerChoices: {
       a: "Vrai",
@@ -2212,7 +2212,7 @@ Après un appel d'interruption technique :
     level: Levels.MIDDLE,
   },
   {
-    category: "Stoppage",
+    category: Categories.STOPPAGE,
     question: "L’équipe adverse remplace un joueur blessé. À bout de souffle, je souhaite me faire remplacer à ce moment. Ai-je le droit ?",
     answerChoices: {
       a: "Oui",
@@ -2224,7 +2224,7 @@ Après un appel d'interruption technique :
     level: Levels.MIDDLE,
   },
   {
-    category: "Temps-morts",
+    category: Categories.TIMEOUT,
     question: "Nous venons de perdre le point. Bien que n’ayant pas la possession du disque, mon équipe a le droit d’appeler un temps mort (s’il lui en reste).",
     answerChoices: {
       a: "Vrai",
@@ -2236,7 +2236,7 @@ Après un appel d'interruption technique :
     level: Levels.EASY,
   },
   {
-    category: "Temps-morts",
+    category: Categories.TIMEOUT,
     question: "Je suis  « spirit captain » et en attaque. Mon statut me permet d’appeler un temps mort, même si je n’ai pas le disque en main.",
     answerChoices: {
       a: "Vrai",
@@ -2248,7 +2248,7 @@ Après un appel d'interruption technique :
     level: Levels.EASY,
   },
   {
-    category: "Temps-morts",
+    category: Categories.TIMEOUT,
     question: "Après un temps mort, les mêmes joueurs jouent le point.",
     answerChoices: {
       a: "Vrai",
@@ -2260,7 +2260,7 @@ Après un appel d'interruption technique :
     level: Levels.EASY,
   },
   {
-    category: "Temps-morts",
+    category: Categories.TIMEOUT,
     question: "Après un temps mort appelé dans le jeu, où devons nous nous placer si nous sommes en attaque ?",
     answerChoices: {
       a: "Le jeu reprend au point de pivot",
@@ -2275,7 +2275,7 @@ Après un appel d'interruption technique :
     level: Levels.MIDDLE,
   },
   {
-    category: "Temps-morts",
+    category: Categories.TIMEOUT,
     question: "Après un temps mort, les défenseurs peuvent se placer où ils veulent.",
     answerChoices: {
       a: "Vrai",
@@ -2287,7 +2287,7 @@ Après un appel d'interruption technique :
     level: Levels.MIDDLE,
   },
   {
-    category: "Temps-morts",
+    category: Categories.TIMEOUT,
     question: "Après avoir appelé un temps-mort à 5, le nouveau marqueur reprend le compte à « compté 6 ». Je peux appeler un « compte rapide ».",
     answerChoices: {
       a: "Vrai",
@@ -2299,7 +2299,7 @@ Après un appel d'interruption technique :
     level: Levels.DIFFICULT,
   },
   {
-    category: "Temps-morts",
+    category: Categories.TIMEOUT,
     question: "L’équipe adverse appelle un temps mort alors qu’ils n’en ont plus. Que se passe-t-il ?",
     answerChoices: {
       a: "Le jeu est arrêté",
@@ -2315,7 +2315,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
     level: Levels.DIFFICULT,
   },
   {
-    category: "Appendice",
+    category: Categories.APPENDIX,
     question: "J’ai une minute pour résoudre une « contestation ».",
     answerChoices: {
       a: "Vrai",
@@ -2327,7 +2327,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
     level: Levels.MIDDLE,
   },
   {
-    category: "Appendice",
+    category: Categories.APPENDIX,
     question: "Après qu’un point ait été marqué, de combien de temps dispose l’équipe en attaque pour se placer sur la ligne de but (un pied) et rester immobile ?",
     answerChoices: {
       a: "45 secondes",
@@ -2339,7 +2339,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
     level: Levels.DIFFICULT,
   },
   {
-    category: "Appendice",
+    category: Categories.APPENDIX,
     question: "Dès que tous les attaquants ont placé leur pied sur la ligne de but, au moins un d’entre-eux doit instantanément lever la main pour signaler qu’ils sont prêts.",
     answerChoices: {
       a: "Vrai",
@@ -2351,7 +2351,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
     level: Levels.DIFFICULT,
   },
   {
-    category: "Appendice",
+    category: Categories.APPENDIX,
     question: "Après qu’un point ait été marqué, l’équipe en défense a plus de temps que l’attaque pour se placer dans sa zone d’en-but?",
     answerChoices: {
       a: "Vrai",
@@ -2365,7 +2365,7 @@ Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort�
     level: Levels.DIFFICULT,
   },
   {
-    category: "Appendice",
+    category: Categories.APPENDIX,
     question: "Les capitaines sont autorisés à intervenir quand ils le souhaitent dans une discussion entre joueurs",
     answerChoices: {
       a: "Vrai",
@@ -2377,7 +2377,7 @@ Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort�
     level: Levels.MIDDLE,
   },
   {
-    category: "Appendice",
+    category: Categories.APPENDIX,
     question: "Après un turnover dans la zone centrale, l’attaque a 10 secondes pour jouer.",
     answerChoices: {
       a: "Vrai",
@@ -2389,7 +2389,7 @@ Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort�
     level: Levels.DIFFICULT,
   },
   {
-    category: "Appendice",
+    category: Categories.APPENDIX,
     question: "Après un pull ou si le turnover à lieu ailleurs que dans la zone centrale (zone d’en-but et touche), l’attaque a 15 secondes pour jouer.",
     answerChoices: {
       a: "Vrai",
@@ -2403,7 +2403,7 @@ Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », 
     level: Levels.DIFFICULT,
   },
   {
-    category: "Appendice",
+    category: Categories.APPENDIX,
     question: "Qui peut appeler un « temps-mort spirit » (« spirit timeout »)?",
     answerChoices: {
       a: "N'importe quel joueur du match",
@@ -2419,7 +2419,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     level: Levels.DIFFICULT,
   },
   {
-    category: "Appendice",
+    category: Categories.APPENDIX,
     question: "Le « toss » peut se faire avec un ou deux disques.",
     answerChoices: {
       a: "Vrai",
@@ -2431,7 +2431,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     level: Levels.MIDDLE,
   },
   {
-    category: "Indoor",
+    category: Categories.INDOOR,
     question: "À l’engagement en indoor, je peux lancer le disque comme je veux.",
     answerChoices: {
       a: "Vrai",
@@ -2443,7 +2443,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     level: Levels.MIDDLE,
   },
   {
-    category: "Indoor",
+    category: Categories.INDOOR,
     question: "Je joue en salle (« indoor »).L’engagement adverse sort du terrain, à 13 mètres environ de ma zone, sans que le disque n’est touché le terrain ou un joueur. Je peux reprendre le jeu au milieu de la zone centrale au point le plus proche de l’endroit ou est sorti le disque.",
     answerChoices: {
       a: "Vrai",
@@ -2455,7 +2455,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     level: Levels.MIDDLE,
   },
 //   {
-//     category: "Indoor",
+//     category: Categories.INDOOR,
 //     question: " L'endroit où le disque est sorti de l'aire de jeu est le point où, avant d'entrer en contact avec l'extérieur de l'aire de jeu ou un joueur hors-jeu, le disque était le plus récemment :",
 //     answerChoices: {
 //       a: "Vrai",
@@ -2466,7 +2466,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
 //     source: "Disque Tu Sais - Pablo",
 //   },
   {
-    category: "Indoor",
+    category: Categories.INDOOR,
     question: "En salle, sur une faute défensive contestée, un marcher ou une obstruction (« pick »), le compte reprend à combien maximum ?",
     answerChoices: {
       a: "« compté 4 »",
@@ -2480,7 +2480,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
     level: Levels.MIDDLE,
   },
   {
-    category: "Indoor",
+    category: Categories.INDOOR,
     question: "En salle, sur un « stall-out » (« fin du compte ») contesté, le compte reprend à combien ?",
     answerChoices: {
       a: "« compté 5 »",
