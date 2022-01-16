@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     paddingVertical: 64,
   },
   icon: {
-    fontSize: 28,
+    fontSize: theme.FONT_SIZE_ICON,
     paddingVertical: 4,
     paddingHorizontal: 8,
   },

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Pressable } from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Button } from 'react-native-elements';
 
 import theme from '../utils/theme.js';

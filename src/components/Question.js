@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { CheckBox, Button, LinearProgress } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
+import QuestionFeedback from './QuestionFeedback.js';
 
 const colors = [
   '#cddff3',
@@ -75,7 +76,11 @@ export default ({question, onSuccess, onFailure, time}) => {
             disabled={showResult}
             onPress={() => onCheck(answerChoiceKey)}
             title={`${answerChoiceKey}. ${question.answerChoices[answerChoiceKey]}`}
-            containerStyle={[styles.checkbox, { backgroundColor: colors[index] }, showResult && question.correctAnswers.includes(answerChoiceKey) && styles.correctAnswer]}
+            containerStyle={[
+              styles.checkbox,
+              { backgroundColor: colors[index] },
+              showResult && question.correctAnswers.includes(answerChoiceKey) && styles.correctAnswer
+            ]}
             uncheckedColor="grey"
           />
         ))}
@@ -98,6 +103,7 @@ export default ({question, onSuccess, onFailure, time}) => {
             <Text style={styles.wrong}>Mauvaise réponse...</Text>
           )}
           <Text>{question.explanation}</Text>
+          <QuestionFeedback question={question} style={styles.reportIcon} />
         </View>
       )}
     </View>
@@ -106,7 +112,7 @@ export default ({question, onSuccess, onFailure, time}) => {
 
 const styles = StyleSheet.create({
   question: {
-    fontSize: theme.FONT_SIZE_LARGE,
+    fontSize: theme.FONT_SIZE_M,
   },
   choicesArea: {
     paddingVertical: 16,
@@ -125,6 +131,11 @@ const styles = StyleSheet.create({
     borderColor: theme.MAIN_COLOR,
     borderWidth: 1,
     borderRadius: 4,
+  },
+  reportIcon: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
   },
   correct: {
     color: 'green',
