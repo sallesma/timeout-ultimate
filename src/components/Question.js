@@ -7,8 +7,8 @@ import QuestionFeedback from './QuestionFeedback.js';
 
 const colors = [
   '#cddff3',
-  '#c0e79c',
-  '#e6e79c',
+  '#F4C8A2',
+  '#f8f99c',
   '#e5c9e5',
 ];
 
@@ -81,6 +81,7 @@ export default ({question, onSuccess, onFailure, time}) => {
               { backgroundColor: colors[index] },
               showResult && question.correctAnswers.includes(answerChoiceKey) && styles.correctAnswer
             ]}
+            textStyle={styles.checkboxText}
             uncheckedColor="grey"
           />
         ))}
@@ -121,8 +122,11 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     padding: 16,
   },
+  checkboxText: {
+    fontSize: theme.FONT_SIZE_M,
+  },
   correctAnswer: {
-    borderColor: 'green',
+    borderColor: '#6AA84F',
     borderWidth: 3,
   },
   result: {
@@ -138,9 +142,10 @@ const styles = StyleSheet.create({
     right: 0,
   },
   correct: {
-    color: 'green',
+    color: '#6AA84F',
+    fontWeight: 'bold',
   },
   wrong: {
-    color: 'red',
+    color: '#E30000',
   },
 });

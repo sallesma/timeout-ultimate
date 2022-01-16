@@ -1,5 +1,5 @@
 import { ActivityIndicator } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { ThemeProvider } from 'react-native-elements';
@@ -19,6 +19,17 @@ const reactNativeElementsTheme = {
   }
 }
 
+const reactNavigationTheme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    background: theme.MAIN_COLOR_LIGHT,
+    primary: theme.MAIN_COLOR,
+    card: theme.MAIN_COLOR,
+    text: theme.MAIN_COLOR_LIGHT,
+  },
+};
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
@@ -26,10 +37,11 @@ export default function App() {
     <SafeAreaProvider>
       <ThemeProvider theme={reactNativeElementsTheme}>
         <NavigationContainer
-          fallback={<ActivityIndicator animating color="#" style={{ top: '45%' }} size="large" />}
+          theme={reactNavigationTheme}
+          fallback={<ActivityIndicator animating color={theme.MAIN_COLOR} style={{ top: '45%' }} size="large" />}
         >
           <Stack.Navigator>
-            <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: 'Ultimate rules quizz' }} />
+            <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: 'Ultimate rules quizz', headerShown: false }} />
             <Stack.Screen name="OptionsScreen" component={OptionsScreen} options={{ title: 'Démarrer mon quizz' }} />
             <Stack.Screen name="QuizzScreen" component={QuizzScreen} />
             <Stack.Screen name="HistoryScreen" component={HistoryScreen} options={{ title: 'Historique' }} />

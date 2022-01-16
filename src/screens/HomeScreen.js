@@ -20,10 +20,13 @@ export default (props) => {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title}>Ultimate Quiz</Text>
       <Text style={styles.welcomeText}><Text style={styles.emphasis}>{questions.length}</Text> questions t'attendent pour apprendre les règles de l'ultimate !</Text>
-      <Button containerStyle={styles.button} titleStyle={styles.mainButtonText} title="Jouer" onPress={() => props.navigation.navigate('OptionsScreen')} />
-      <Button containerStyle={styles.button} title="Historique" onPress={() => props.navigation.navigate('HistoryScreen')} />
-      <Button containerStyle={styles.button} title="Règlement" onPress={() => props.navigation.navigate('RulesScreen')} />
+      <View>
+        <Button containerStyle={styles.button} titleStyle={styles.mainButtonText} title="Jouer" onPress={() => props.navigation.navigate('OptionsScreen')} />
+        <Button containerStyle={styles.button} title="Historique" onPress={() => props.navigation.navigate('HistoryScreen')} />
+        <Button containerStyle={styles.button} title="Règlement" onPress={() => props.navigation.navigate('RulesScreen')} />
+      </View>
       <StatusBar style="auto" />
     </View>
   );
@@ -32,14 +35,22 @@ export default (props) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     paddingHorizontal: 32,
     paddingVertical: 64,
+    justifyContent: 'space-evenly',
   },
   icon: {
     fontSize: theme.FONT_SIZE_ICON,
     paddingVertical: 4,
     paddingHorizontal: 8,
+  },
+  title: {
+    color: theme.MAIN_COLOR,
+    fontSize: theme.FONT_SIZE_XXL,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    margin: 16,
+    marginBottom: 32,
   },
   welcomeText: {
     fontSize: theme.FONT_SIZE_L,
@@ -53,6 +64,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginBottom: 16,
+    borderRadius: 8,
   },
   mainButtonText: {
     fontSize: theme.FONT_SIZE_XL,

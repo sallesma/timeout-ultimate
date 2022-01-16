@@ -32,10 +32,10 @@ export default (props) => {
       </View>
       <Text style={styles.header}>Niveau</Text>
       <View style={styles.options}>
-        <Button type={level === Levels.EASY ? 'solid' : 'outline'} containerStyle={styles.button} title="Facile" onPress={() => setLevel(Levels.EASY)} />
-        <Button type={level === Levels.MIDDLE ? 'solid' : 'outline'} containerStyle={styles.button} title="Moyen" onPress={() => setLevel(Levels.MIDDLE)} />
-        <Button type={level === Levels.DIFFICULT ? 'solid' : 'outline'} containerStyle={styles.button} title="Difficile" onPress={() => setLevel(Levels.DIFFICULT)} />
-        <Button type={level === Levels.ANY ? 'solid' : 'outline'} containerStyle={styles.button} title="Tous" onPress={() => setLevel(Levels.ANY)} />
+        <Button type={level === Levels.EASY ? 'solid' : 'outline'} containerStyle={[styles.button, styles.wrapped]} title="Facile" onPress={() => setLevel(Levels.EASY)} />
+        <Button type={level === Levels.MIDDLE ? 'solid' : 'outline'} containerStyle={[styles.button, styles.wrapped]} title="Moyen" onPress={() => setLevel(Levels.MIDDLE)} />
+        <Button type={level === Levels.DIFFICULT ? 'solid' : 'outline'} containerStyle={[styles.button, styles.wrapped]} title="Difficile" onPress={() => setLevel(Levels.DIFFICULT)} />
+        <Button type={level === Levels.ANY ? 'solid' : 'outline'} containerStyle={[styles.button, styles.wrapped]} title="Tous" onPress={() => setLevel(Levels.ANY)} />
       </View>
 
       <View style={styles.centered}>
@@ -50,27 +50,34 @@ export default (props) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     padding: 16,
   },
   header: {
     margin: 8,
+    fontSize: theme.FONT_SIZE_M,
   },
   options: {
     flexDirection: 'row',
-    alignItems: 'stretch',
+    flexWrap: 'wrap',
     marginBottom: 16,
   },
   button: {
     flex: 1,
     margin: 8,
+    flexBasis: '25%',
+  },
+  wrapped: {
+    flexBasis: '40%',
   },
   centered: {
+    margin: 16,
     justifyContent: 'center',
     alignItems: 'center',
+    borderTopWidth: 1,
+    borderTopColor: theme.MAIN_COLOR,
   },
   cta: {
-    marginTop: 16,
+    marginVertical: 32,
     width: '33%',
   },
 });

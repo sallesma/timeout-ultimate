@@ -46,7 +46,7 @@ export default (props) => {
       </View>
       <ScrollView>
         {orderedResults.map((result, index) => (
-          <Text key={index}>{formatDate(new Date(result.createdAt))} - {result.rightAnswersCount} bonnes réponse sur {result.quizzLength}</Text>
+          <Text key={index}>{formatDate(new Date(result.createdAt))} - {result.rightAnswersCount} bonnes réponse sur {result.quizzLength} ({result.rightAnswersCount * 100 / result.quizzLength} %)</Text>
         ))}
       </ScrollView>
       <StatusBar style="auto" />
@@ -57,7 +57,6 @@ export default (props) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
     padding: 16,
   },
   header: {
