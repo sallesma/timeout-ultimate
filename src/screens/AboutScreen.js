@@ -13,7 +13,7 @@ export default (props) => {
     <Text style={styles.header}>À propos</Text>
       <Text style={styles.text}>Bonjour ! Je suis Martin Salles, le développeur derrière 'Ultimate Rules Quizz'. C'est une application conçue par des joueurs d'ultimate pour aider d'autres joueurs à apprendre les règles de l'ultimate. Elle est et restera gratuite.</Text>
       <Text style={styles.header}>Remerciements</Text>
-      <Text style={styles.text}>Je souhaite remercier tous ceux qui ont aidé à faire de Ultimate Rules Quizz une super appplication ! Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo.</Text>
+      <Text style={styles.text}>Je souhaite remercier tous ceux qui ont aidé à faire de Ultimate Rules Quizz une super appplication ! Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo. Certaines questions ont été rédigées par Pierre Gruau.</Text>
       <Text style={styles.header}>Contribuer</Text>
       <Text style={styles.text}>Que ce soit pour ajouter, corriger des questions ou maintenir l'application, toute aide est la bienvenue !</Text>
       <Text style={styles.header}>Feedback</Text>
@@ -26,7 +26,8 @@ export default (props) => {
 
       <View style={styles.infoArea}>
         <Text style={styles.info}>Informations techniques</Text>
-        <Text style={styles.info}>2020 - {new Date().getFullYear()}</Text>
+        <Text style={styles.info}>Ultimate Rules Quizz</Text>
+        <Text style={styles.info}>2021 - {new Date().getFullYear()}</Text>
         <Text style={styles.info}>Version {version}, release-channel {channel}</Text>
       </View>
       <StatusBar style="auto" />
