@@ -79,17 +79,6 @@ réagir calmement aux désaccords et provocations. »
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
-//   {
-//     category: Categories.SPIRIT,
-//     question: "Cite 4 exemples de bon état d’esprit.",
-//     answerChoices: {
-//         a: "Vrai",
-//         b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
   {
     category: Categories.SPIRIT,
     question: "Si je connais mieux les règles qu’un débutant, suis-je tenu de les expliquer et de les faire appliquer?",
@@ -120,17 +109,6 @@ réagir calmement aux désaccords et provocations. »
     source: "Disque Tu Sais - Pablo",
     level: Levels.EASY,
   },
-//   {
-//     category: Categories.FIELD,
-//     question: "Précise les dimensions d’un terrain d’ultimate outdoor séniors (En-but, zone centrale, brick) ?",
-//     answerChoices: {
-//         a: "Vrai",
-//         b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
   {
     category: Categories.FIELD,
     question: "Un attaquant attrape le disque en ayant un pied sur la ligne de touche.",
@@ -157,17 +135,19 @@ réagir calmement aux désaccords et provocations. »
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
-//   {
-//     category: Categories.FIELD,
-//     question: "Un joueur attrape le disque en l’air. À la réception, ses pieds touchent le sol en même temps avec un pied dans le l’aire de jeu et l’autre en dehors . « Turnover » ou pas? Pourquoi?",
-//     answerChoices: {
-//         a: "Vrai",
-//         b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
+  {
+    category: Categories.FIELD,
+    question: "Un joueur attrape le disque en l’air. À la réception, ses pieds touchent le sol en même temps avec un pied dans le l’aire de jeu et l’autre en dehors . « Turnover » ou pas ?",
+    image: undefined,
+    answerChoices: {
+        a: "Turnover",
+        b: "Pas turnover",
+    },
+    correctAnswers: ['a'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
+  },
   {
     category: Categories.FIELD,
     question: "Un attaquant attrape le disque en l’air. À la réception, son pied droit se pose en premier dans l’aire de jeu centrale. Son élan le fait sortir du terrain .",
@@ -222,28 +202,6 @@ réagir calmement aux désaccords et provocations. »
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
-//   {
-//     category: "Points et jeu",
-//     question: "En combien de points se gagne un match?",
-//     answerChoices: {
-//         a: "Vrai",
-//         b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: "Points et jeu",
-//     question: "La mi-temps intervient dès qu’une équipe a marqué ………?",
-//     answerChoices: {
-//         a: "Vrai",
-//         b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
   {
     category: Categories.PULL,
     question: "Après un point marqué, combien de temps les équipes ont-elles pour se mettre en place ?",
@@ -258,17 +216,6 @@ réagir calmement aux désaccords et provocations. »
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
   },
-//   {
-//     category: Categories.PULL,
-//     question: "À quel moment puis-je faire l’engagement (« pull ») ?",
-//     answerChoices: {
-//         a: "Vrai",
-//         b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
   {
     category: Categories.PULL,
     question: "Si un défenseur non porteur du disque et un attaquant lèvent le bras, le porteur peut faire l’engagement ?",
@@ -308,28 +255,19 @@ réagir calmement aux désaccords et provocations. »
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
-//   {
-//     category: Categories.PULL,
-//     question: "Lorsque le «puller» lâche le disque, où doivent se trouver ses partenaires ?",
-//     answerChoices: {
-//         a: "Vrai",
-//         b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: Categories.PULL,
-//     question: "Y’a t-il des hors-jeu à l’ultimate ? Si oui, qu’est-ce ?",
-//     answerChoices: {
-//         a: "Vrai",
-//         b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
+  {
+    category: Categories.PULL,
+    question: "Lorsque le « puller » lâche le disque, où doivent se trouver ses partenaires ?",
+    image: undefined,
+    answerChoices: {
+        a: "Derrière lui",
+        b: "Dans leur zone d'en-but",
+    },
+    correctAnswers: ['b'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
+  },
   {
     category: Categories.PULL,
     question: "Un hors-jeu est :",
@@ -379,7 +317,7 @@ réagir calmement aux désaccords et provocations. »
         b: "Non",
     },
     correctAnswers: ['b'],
-    explanation: "Si personne n’a touché le disque après mon lancé, je ne suis pas autorisé à retoucher le disque. Si je le fais c’est une violation (« double touch »).",
+    explanation: "Si personne n’a touché le disque après mon lancer, je ne suis pas autorisé à le retoucher. Si je le fais c’est une violation (« double touch »).",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -517,17 +455,6 @@ réagir calmement aux désaccords et provocations. »
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
-//   {
-//     category: "",
-//     question: "Dessins WFDF engagement et reprise jeu",
-//     answerChoices: {
-//         a: "Vrai",
-//         b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
   {
     category: Categories.STATUS,
     question: "Quand est-ce que le disque est dit « mort » ?",
@@ -1061,28 +988,34 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
-//   {
-//     category: Categories.OUT,
-//     question: "À l’engagement, je m’aperçois qu’un attaquant est sorti de sa zone avant le lancer. Puis-je appeler quelque chose ?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
-//   {
-//     category: Categories.OUT,
-//     question: "À l’engagement, un partenaire sur la « side line » (au bord du terrain) m’avertit que lanceur avait un pied sur la ligne et qu un autre attaquant avait un pied en dehors de leur zone au moment du lancé. Puis-je appeler quelque chose ?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
+  {
+    category: Categories.OUT,
+    question: "À l’engagement, je m’aperçois qu’un attaquant est sorti de sa zone avant le lancer. Puis-je appeler quelque chose ?",
+    image: undefined,
+    answerChoices: {
+      a: "Non",
+      b: "Oui, « travel »",
+      c: "Oui, « hors-jeu »",
+    },
+    correctAnswers: ['c'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
+  },
+  {
+    category: Categories.OUT,
+    question: "À l’engagement, un partenaire sur la « side line » (au bord du terrain) m’avertit que lanceur avait un pied sur la ligne et qu un autre attaquant avait un pied en dehors de leur zone au moment du lancer. Puis-je appeler quelque chose ?",
+    image: undefined,
+    answerChoices: {
+      a: "Non, il n'y a pas d'infraction aux règles",
+      b: "Non, car c'est un joueur hors du terrain qui m'a prévenu",
+      c: "Oui, c'est un hors-jeu",
+    },
+    correctAnswers: ['c'],
+    explanation: "",
+    source: "Disque Tu Sais - Pablo",
+    level: Levels.DIFFICULT,
+  },
   {
     category: Categories.RECEIVER,
     question: "J’attrape le disque en plongeant. Le contact au sol me fait perdre le disque. Comme j’avais maitrisé le disque avant de le perdre, je le conserve.",
@@ -1105,7 +1038,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
       b: "Faux",
     },
     correctAnswers: ['a'],
-    explanation: "Après le « catch », si mes appuis sont hors-jeu on considère que la réception n’a pas eu lieu = turnover",
+    explanation: "Après le « catch », si mes appuis sont hors du terrain on considère que la réception n’a pas eu lieu = turnover",
     source: "Disque Tu Sais - Pablo",
     level: Levels.EASY,
   },
@@ -1585,8 +1518,8 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
       a: "Vrai",
       b: "Faux",
     },
-    correctAnswers: ['b'],
-    explanation: "Seul le porteur du disque peut appeler une infraction de marquage", // À VÉRIFIER
+    correctAnswers: ['a'],
+    explanation: "N'importe quel joueur en attaque peut appeler un « double team », contrairement aux autres infractions de marquage qui ne peuvent être appelées que par le porteur de disque",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -1743,7 +1676,7 @@ Une fois la possession établie si l'équipe qui a appelé la faute ou la violat
   },
   {
     category: Categories.CONTINUATION,
-    question: "Je suis en attaque et n’ai pas le disque. Le disque est en l’air au moment où mon défenseur me fait tomber involontairement, lors d’une course n’influençant pas le jeu. La passe n’est pas rattrapée par mon partenaire concerné par la passe. La faute étant incontestée le lanceur récupéré le disque.",
+    question: "Je suis en attaque et n’ai pas le disque. Le disque est en l’air au moment où mon défenseur me fait tomber involontairement, lors d’une course n’influençant pas le jeu. La passe n’est pas rattrapée par mon partenaire concerné par la passe. La faute étant acceptée, le lanceur récupéré le disque.",
     image: undefined,
     answerChoices: {
       a: "Vrai",
@@ -1767,7 +1700,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
       b: "Faux",
     },
     correctAnswers: ['a'],
-    explanation: "Ne pas tenir compte de l'intégrité des joueurs indépendamment de quand et si un contact se produit est considéré comme jeu dangereux et doit être traité comme une faute. Cette règle ne peut être supplantée par aucune autre. Si l'appel est incontesté celui-ci doit être traité comme la faute la plus appropriée",
+    explanation: "Ne pas tenir compte de l'intégrité des joueurs indépendamment de quand et si un contact se produit est considéré comme jeu dangereux et doit être traité comme une faute. Cette règle ne peut être supplantée par aucune autre. Si l'appel est accepté celui-ci doit être traité comme la faute la plus appropriée",
     source: "Disque Tu Sais - Pablo",
     level: Levels.EASY,
   },
@@ -1836,7 +1769,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
       c: "Je récupère le disque et le jeu reprend dans la zone centrale au plus près de la faute",
     },
     correctAnswers: ['b'],
-    explanation: "Dans cette situation, si j’appelle une faute qui est incontestée, le jeu reprend par un check à l’endroit de la faute (dans la zone) et je dois me replacer au point le plus près sur la ligne de but pour faire ma passe. Le point n’est donc pas validé. Si j’avais appelé «strip», le point aurait été validé.",
+    explanation: "Dans cette situation, si j’appelle une faute qui est acceptée, le jeu reprend par un check à l’endroit de la faute (dans la zone) et je dois me replacer au point le plus près sur la ligne de but pour faire ma passe. Le point n’est donc pas validé. Si j’avais appelé «strip», le point aurait été validé.",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -1922,7 +1855,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
     correctAnswers: ['a'],
     explanation: `
 Une faute indirecte se produit quand il y a contact entre un réceptionneur et un défenseur qui n'affecte pas directement une tentative d'action sur le disque.
-Si la faute est incontestée, le joueur ayant subi la faute peut se repositionner s’il a été désavantagé par la faute `,
+Si la faute est acceptée, le joueur ayant subi la faute peut se repositionner s’il a été désavantagé par la faute `,
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -2028,17 +1961,19 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
-//   {
-//     category: Categories.INFRACTIONS_VIOLATIONS,
-//     question: "Le marqueur doit être à un diamètre de disque (27,5cm) minimum de toutes les parties de mon corps y compris du pied pivot?",
-//     answerChoices: {
-//       a: "Vrai",
-//       b: "Faux",
-//     },
-//     correctAnswers: [''],
-//     explanation: "",
-//     source: "Disque Tu Sais - Pablo",
-//   },
+  {
+    category: Categories.INFRACTIONS_VIOLATIONS,
+    question: "Le marqueur doit être à un diamètre de disque (27,5cm) minimum de toutes les parties de mon corps y compris du pied pivot ?",
+    image: undefined,
+    answerChoices: {
+      a: "Vrai",
+      b: "Faux",
+    },
+    correctAnswers: ['a'],
+    explanation: "Si le marqueur n'est pas à la bonne distance, le porteur du disque peut appeler une infraction de marque en fonction de la partie du corps qui est trop proche : disc space (torse), straddle (ligne entre les pieds), wrapping (ligne entre les mains)",
+    source: "Disque Tu Sais - Pablo",
+    level: Levels.MIDDLE,
+  },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Le premier rideau de la zone est placé légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Étant défenseur et à 1 mètre du disque, je commence à compter. Voyant le premier rideau qui vient se replacer devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Voyant plus d’un joueur dans les 3 mètres à ce moment, un attaquant non-porteur du disque appelle « double team ». Je conteste. Ai-je raison ?",
@@ -2050,8 +1985,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     correctAnswers: ['a'],
     explanation: `
 Une infraction de marquage peut être contestée par la défense, dans ce cas le jeu s’arrête.
-Tout d’abord, seul le lanceur peut réclamer une infraction de marquage, en appelant le nom spécifique de l’infraction.
-Ensuite, le « chassé croisé » entre le replacement du premier rideau et le défenseur du deuxième rideau est fréquent.
+Le « chassé croisé » entre le replacement du premier rideau et le défenseur du deuxième rideau est fréquent.
 Le règlement précise « qu’une simple course dans cette zone des 3 mètres n'est pas un « double team ». Ma course pour sortir de cette zone ne peut donc pas être considérée comme une infraction.`,
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
@@ -2177,8 +2111,8 @@ Il peut le faire si:
       a: "Le jeu est stoppé",
       b: "Le jeu continue sans s'arrêter",
     },
-    correctAnswers: ['b'], // A VERIFIER
-    explanation: "",
+    correctAnswers: ['a'],
+    explanation: "« 18.2.9. Après une infraction de « travel » contestée où le lanceur n'a pas lancé le disque, le jeu est arrêté. »",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -2197,7 +2131,7 @@ Il peut le faire si:
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: " Je suis défenseur. Je subis une obstruction et je décide d’attendre 2 secondes avant d’appeler «obstruction («pick). Je n’ai pas le droit car tout appel doit se faire instantanément.",
+    question: " Je suis défenseur. Je subis une obstruction et je décide d’attendre 2 secondes avant d’appeler «obstruction (« pick »). Je n’ai pas le droit car tout appel doit se faire instantanément.",
     image: undefined,
     answerChoices: {
       a: "Vrai",
