@@ -100,7 +100,7 @@ export default ({question, onSuccess, onFailure, time}) => {
           trackColor={theme.MAIN_COLOR_LIGHT}
         />
       )}
-      {!showResult && <Button title="Valider" onPress={onValidate} disabled={showResult} />}
+      {!showResult && <Button title="Valider" onPress={onValidate} disabled={showResult} containerStyle={styles.cta} />}
       {showResult && (
         <View style={styles.result}>
           {result ? (
@@ -139,6 +139,9 @@ const styles = StyleSheet.create({
   correctAnswer: {
     borderColor: '#6AA84F',
     borderWidth: 3,
+  },
+  cta: {
+    marginTop: 8,
   },
   result: {
     padding: 16,

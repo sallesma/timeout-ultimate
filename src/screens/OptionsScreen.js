@@ -26,8 +26,8 @@ export default (props) => {
       </View>
       <Text style={styles.header}>Temps par question</Text>
       <View style={styles.options}>
-        <Button type={time === 10 ? 'solid' : 'outline'} containerStyle={styles.button} title="10 sec" onPress={() => setTime(10)} />
-        <Button type={time === 60 ? 'solid' : 'outline'} containerStyle={styles.button} title="1 min" onPress={() => setTime(60)} />
+        <Button type={time === 15 ? 'solid' : 'outline'} containerStyle={styles.button} title="15 sec" onPress={() => setTime(15)} />
+        <Button type={time === 30 ? 'solid' : 'outline'} containerStyle={styles.button} title="30 sec" onPress={() => setTime(30)} />
         <Button type={time === null ? 'solid' : 'outline'} containerStyle={styles.button} title="Aucun" onPress={() => setTime(null)} />
       </View>
       <Text style={styles.header}>Niveau</Text>
