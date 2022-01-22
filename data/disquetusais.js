@@ -623,7 +623,6 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
   },
-// On dit pas à 0 du coup ? Je croyais que quand on disait "ca reprend à 1 le compteur commencera par "compté 2" ?
   {
     category: Categories.COUNT,
     question: "Après un appel de la défense, l’attaque ne conteste pas. Le compte reprend à combien au maximum ?",
