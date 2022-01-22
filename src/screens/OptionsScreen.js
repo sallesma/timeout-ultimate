@@ -9,7 +9,7 @@ import { Levels } from '../utils/config';
 
 export default (props) => {
   const [number, setNumber] = useState(10);
-  const [time, setTime] = useState(60);
+  const [time, setTime] = useState(30);
   const [level, setLevel] = useState(Levels.ANY);
 
   const startQuizz = () => {
