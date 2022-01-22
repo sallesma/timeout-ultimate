@@ -3,7 +3,7 @@ import { Levels, Categories } from '../src/utils/config';
 export default [
   {
     category: Categories.SPIRIT,
-    question: "Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple) je, je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.",
+    question: "Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple), je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.",
     answerChoices: {
         a: "Vrai",
         b: "Faux",
@@ -12,7 +12,7 @@ export default [
     explanation: `
 « Les joueurs doivent avoir à l’esprit qu’ils ont un rôle d’arbitre en toutes situations d’arbitrage entre équipes. Les joueurs doivent:
  - connaître les règles;
- - être impartial et objectif;
+ - être impartiaux et objectifs;
  - dire la vérité;
  - faire des appels à la faute (« call ») d'une manière cohérente au long d'un match, -  et faire un appel à une faute uniquement si une infraction est assez significative pour changer le résultat d'une action. »
     `,
@@ -144,7 +144,7 @@ réagir calmement aux désaccords et provocations. »
         b: "Il n'y a pas point",
     },
     correctAnswers: ['b'],
-    explanation: "Pour que le point soit validé il faut que le(s) premier(s) appui(s) soit uniquement dans la zone.",
+    explanation: "Pour que le point soit validé il faut que le(s) premier(s) appui(s) soi(en)t uniquement dans la zone.",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -328,7 +328,7 @@ réagir calmement aux désaccords et provocations. »
   },
   {
     category: Categories.PULL,
-    question: "Je peux appeler un hors jeu même si le disque a touché le sol",
+    question: "Je peux appeler un hors-jeu même si le disque a touché le sol",
     answerChoices: {
         a: "Vrai",
         b: "Faux",
@@ -364,7 +364,7 @@ réagir calmement aux désaccords et provocations. »
   },
   {
     category: Categories.PULL,
-    question: "Mon adversaire engage. Le disque touche le terrain et roule vers ma zone. Je peux arrêter le disque uniquement avec ma main, pour éviter qu'il se rapproche de trop de ma zone.",
+    question: "Mon adversaire engage. Le disque touche le terrain et roule vers ma zone. Je peux arrêter le disque uniquement avec ma main, pour éviter qu'il se rapproche trop de ma zone.",
     answerChoices: {
         a: "Vrai",
         b: "Faux",
@@ -406,7 +406,7 @@ réagir calmement aux désaccords et provocations. »
         c: "Il faut recommencer l'engagement",
     },
     correctAnswers: ['a'],
-    explanation: "Même si les défenseurs s’aperçoivent qu’il n’avait pas l’intention de l’arrêter, à partir du moment ou il le touche, il doit l’attraper. Il y a donc un changement de possession (« turnover »).",
+    explanation: "Même si les défenseurs s’aperçoivent qu’il n’avait pas l’intention de l’arrêter, à partir du moment où il le touche, il doit l’attraper. Il y a donc un changement de possession (« turnover »).",
     source: "Disque Tu Sais - Pablo",
     level: Levels.EASY,
   },
@@ -425,7 +425,7 @@ réagir calmement aux désaccords et provocations. »
   },
   {
     category: Categories.PULL,
-    question: "Lors de l’engagement, la force du vent renvoie le disque vers ma zone d’en-but. Après que le disque ait touché le sol, et avant que les attaquants ne le touchent, j’arrête le frisbee qui roule vers ma zone pour ne pas que les attaquants gagnent trop de terrain. Est-ce autorisé ?",
+    question: "Lors de l’engagement, la force du vent renvoie le disque vers ma zone d’en-but. Après que le disque ait touché le sol, et avant que les attaquants ne le touchent, j’arrête le disque qui roule vers ma zone pour ne pas que les attaquants gagnent trop de terrain. Est-ce autorisé ?",
     answerChoices: {
         a: "Oui",
         b: "Non",
@@ -503,7 +503,7 @@ réagir calmement aux désaccords et provocations. »
     question: "Quand est-ce que le disque est dit « mort » ?",
     answerChoices: {
         a: "Après le début d’un point, jusqu’à ce que le « pull » soit effectué",
-        b: "Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établit, jusqu’à ce qu’un pivot soit établit",
+        b: "Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établi, jusqu’à ce qu’un pivot soit établi",
         c: "Après un « call » qui arrête le jeu ou n’importe quel autre arrêt jusqu’à ce que le disque soit « checké »",
     },
     correctAnswers: ['a', 'b', 'c'],
@@ -1171,7 +1171,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "C’est un « dropped pull » et il y a donc turnover. Si je touche le disque je dois l’attraper sinon il y a turnover à l’endroit ou le disque s’arrête.",
+    explanation: "C’est un « dropped pull » et il y a donc turnover. Si je touche le disque je dois l’attraper sinon il y a turnover à l’endroit où le disque s’arrête.",
     source: "Disque Tu Sais - Pablo",
     level: Levels.EASY,
   },
@@ -1571,7 +1571,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
       b: "Faux",
     },
     correctAnswers: ['a'],
-    explanation: "Après un appel incorrect « rétracté », si l'équipe adverse gagne ou maintient la possession, les actions ayant suivies sont maintenues.",
+    explanation: "Après un appel incorrect « rétracté », si l'équipe adverse gagne ou maintient la possession, les actions ayant suivi sont maintenues.",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -1652,7 +1652,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
       b: "Faux",
     },
     correctAnswers: ['a'],
-    explanation: "Ne pas tenir compte de l'intégrité des joueurs indépendamment de quand et si un contact se produit est considérée comme jeu dangereux et doit être traitée comme une faute. Cette règle ne peut être supplantée par aucune autre. Si l'appel est incontesté celui-ci doit être traité comme la faute la plus appropriée",
+    explanation: "Ne pas tenir compte de l'intégrité des joueurs indépendamment de quand et si un contact se produit est considéré comme jeu dangereux et doit être traité comme une faute. Cette règle ne peut être supplantée par aucune autre. Si l'appel est incontesté celui-ci doit être traité comme la faute la plus appropriée",
     source: "Disque Tu Sais - Pablo",
     level: Levels.EASY,
   },
@@ -1690,7 +1690,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "Je conserve le disque là ou j’ai atterri et le point n’est donc pas marqué.",
+    explanation: "Je conserve le disque là où j’ai atterri et le point n’est donc pas marqué.",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -1712,8 +1712,8 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     question: "J’attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « faute ». Il ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "C'est un point car il ne conteste pas",
-      b: "Je récupère le disque et le jeu reprends à l'endroit de la faute",
-      c: "Je récupère le disque et le jeu reprends dans la zone centrale au plus près de la faute",
+      b: "Je récupère le disque et le jeu reprend à l'endroit de la faute",
+      c: "Je récupère le disque et le jeu reprend dans la zone centrale au plus près de la faute",
     },
     correctAnswers: ['b'],
     explanation: "Dans cette situation, si j’appelle une faute qui est incontestée, le jeu reprend par un check à l’endroit de la faute (dans la zone) et je dois me replacer au point le plus près sur la ligne de but pour faire ma passe. Le point n’est donc pas validé. Si j’avais appelé «strip», le point aurait été validé.",
@@ -1725,8 +1725,8 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     question: "J’attrape le disque dans la zone adverse et le contact de mon adversaire me fait perdre le disque. J’appelle « strip » (et non faute). Il ne conteste pas. Que se passe-t-il ?",
     answerChoices: {
       a: "C'est un point car il ne conteste pas",
-      b: "Je récupère le disque et le jeu reprends à l'endroit de la faute",
-      c: "Je récupère le disque et le jeu reprends dans la zone centrale au plus près de la faute",
+      b: "Je récupère le disque et le jeu reprend à l'endroit de la faute",
+      c: "Je récupère le disque et le jeu reprend dans la zone centrale au plus près de la faute",
     },
     correctAnswers: ['a'],
     explanation: "Un « strip » se produit quand une faute défensive fait que le réceptionneur ou le lanceur laisse tomber le disque après qu'il a gagné la possession.",
@@ -1809,7 +1809,7 @@ Si la faute est incontestée, le joueur ayant subi la faute peut se repositionne
     },
     correctAnswers: ['a'],
     explanation: `Si je le pousse, il peut appeler une faute, auquel cas le jeu s’arrête et le compte reprend au dernier nombre annoncé +1 (maximum 9).
-S'il est trop proche, je dois appeler « distance » ou « disc space » afin qu’il recule et reprennent le compte en ayant soustrait 1 au dernier chiffre énoncé.`,
+S'il est trop proche, je dois appeler « distance » ou « disc space » afin qu’il recule et reprenne le compte en ayant soustrait 1 au dernier chiffre énoncé.`,
     source: "Disque Tu Sais - Pablo",
     level: Levels.EASY,
   },
@@ -1854,7 +1854,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
       c: "Tant pis, on joue",
     },
     correctAnswers: ['b'],
-    explanation: "Une infraction de marquage peut être contestée par la défense, dans ce cas le jeu s'arrête. Après toute infraction de marquage non contestée, le marqueur doit reprendre le au compte au dernier nombre entièrement prononcé avant l'appel moins un (1).",
+    explanation: "Une infraction de marquage peut être contestée par la défense, dans ce cas le jeu s'arrête. Après toute infraction de marquage non contestée, le marqueur doit reprendre le compte au dernier nombre entièrement prononcé avant l'appel moins un (1).",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -1908,7 +1908,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
 //   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: "Le premier rideau de la zone est placée légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Étant défenseur et à 1 mètre du disque, je commence à compter. Voyant le premier rideau qui vient se replacer devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Voyant plus d’un joueur dans les 3 mètres à ce moment, un attaquant non-porteur du disque appelle « double team ». Je conteste. Ai-je raison ?",
+    question: "Le premier rideau de la zone est placé légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Étant défenseur et à 1 mètre du disque, je commence à compter. Voyant le premier rideau qui vient se replacer devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Voyant plus d’un joueur dans les 3 mètres à ce moment, un attaquant non-porteur du disque appelle « double team ». Je conteste. Ai-je raison ?",
     answerChoices: {
       a: "Oui",
       b: "Non",
@@ -1937,7 +1937,7 @@ Le règlement précise « qu’une simple course dans cette zone des 3 mètres 
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: "Je suis le marqueur. J’appelle un « marcher » à 4. Le lanceur à toujours le disque. Que se passe-t-il ?",
+    question: "Je suis le marqueur. J’appelle un « marcher » à 4. Le lanceur a toujours le disque. Que se passe-t-il ?",
     answerChoices: {
       a: "Le jeu s'arrête",
       b: "Le jeu ne s'arrête pas",
@@ -1945,7 +1945,7 @@ Le règlement précise « qu’une simple course dans cette zone des 3 mètres 
       d: "Je peux continuer de compter pendant que le lanceur replace correctement son pied de pivot",
     },
     correctAnswers: ['b'],
-    explanation: "Le jeu n’est pas mort. Par conséquent, les autres joueurs peuvent être mobiles. Le lanceur doit établir son pivot au bon endroit avant de pouvoir lancer le disque. Pendant ce temps, je ne compte plus. Un fois placé correctement, je reprends le compte ou il en était après avoir « checker ». Dans cette situation, « compté 5 ».",
+    explanation: "Le jeu n’est pas mort. Par conséquent, les autres joueurs peuvent être mobiles. Le lanceur doit établir son pivot au bon endroit avant de pouvoir lancer le disque. Pendant ce temps, je ne compte plus. Un fois placé correctement, je reprends le compte où il en était après avoir « checké ». Dans cette situation, « compté 5 ».",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -2010,7 +2010,7 @@ Il peut le faire si:
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "L’appel est correct car après avoir attrapé le disque et être retombé dans l’aire de jeu, je dois réduire ma vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce j’ai établi mon point pivot.",
+    explanation: "L’appel est correct car après avoir attrapé le disque et être retombé dans l’aire de jeu, je dois réduire ma vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce que j’ai établi mon point pivot.",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -2071,7 +2071,7 @@ Il peut le faire si:
       b: "Je me repositionne à la position que j'aurais eue s'il n'y avait pas eu d'obstruction",
     },
     correctAnswers: ['a', 'b'],
-    explanation: "Tous les joueurs se replacent là où ils étaient au moment de l’appel (« call ») et je me replace à la position que j’aurai eue s’il n’y avait pas eu d’obstruction.",
+    explanation: "Tous les joueurs se replacent là où ils étaient au moment de l’appel (« call ») et je me replace à la position que j’aurais eue s’il n’y avait pas eu d’obstruction.",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -2114,7 +2114,7 @@ Il peut le faire si:
   },
   {
     category: Categories.STOPPAGE,
-    question: "Je constate qu’un adversaire à besoin de sortir. Que puis-je faire pour l’aider?",
+    question: "Je constate qu’un adversaire a besoin de sortir. Que puis-je faire pour l’aider?",
     answerChoices: {
       a: "Rien",
       b: "Appeler « blessure » (« injury »)",
@@ -2186,7 +2186,7 @@ Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « tu
       b: "Appeler « technical »",
       b: "Appeler « freeze »",
     },
-    correctAnswers: [''],
+    correctAnswers: ['b'],
     explanation: `Je peux appeler une « interruption technique » en disant « technical ».
 « N'importe quel joueur qui identifie une condition qui met en danger des joueurs peut appeler « technical » pour arrêter le jeu. Le jeu doit s'arrêter immédiatement ».
 L’appel « freeze » n’existe pas.`,
@@ -2390,7 +2390,7 @@ Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort�
   },
   {
     category: Categories.APPENDIX,
-    question: "Après un pull ou si le turnover à lieu ailleurs que dans la zone centrale (zone d’en-but et touche), l’attaque a 15 secondes pour jouer.",
+    question: "Après un pull ou si le turnover a lieu ailleurs que dans la zone centrale (zone d’en-but et touche), l’attaque a 15 secondes pour jouer.",
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -2412,7 +2412,7 @@ Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », 
       c: "Seulement les capitaines de spirit",
     },
     correctAnswers: ['c'],
-    explanation: `Ce temps-mort ne peut être appelé que par les capitaines (d’ équipe ou spirit) ou un « game advisor ». L ‘appel peut être fait après un appel ayant arrêté le jeu ou après le début d’un point et avant l’engagement.
+    explanation: `Ce temps-mort ne peut être appelé que par les capitaines (d’ équipe ou spirit) ou un « game advisor ». L'appel peut être fait après un appel ayant arrêté le jeu ou après le début d’un point et avant l’engagement.
 Durant ce temps mort, aucun point tactique ne peut être abordé par les équipes.
 Après que les capitaines se soient réunis pour trouver les solutions à une amélioration de l’esprit du jeu, les deux équipes se réunissent en cercle au milieu du terrain pour que les capitaines énoncent les solutions trouvées.`,
     source: "Disque Tu Sais - Pablo",
