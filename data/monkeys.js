@@ -12,6 +12,7 @@ export default [
   {
     category: Categories.PULL,
     question: "Après avoir touché le sol, un pull roule sur le sol. J’ai le droit de l’arrêter…",
+    image: undefined,
     answerChoices: {
       a: "seulement si je suis en défense",
       b: "seulement si je suis en attaque",
@@ -26,6 +27,7 @@ export default [
   {
     category: Categories.FIELD,
     question: "Une passe sort des limites du terrain et est catchée par un défenseur avant que le disque ne touche le sol. Où ce joueur doit-il établir son pied de pivot ?",
+    image: undefined,
     answerChoices: {
       a: "À l'endroit où le disque est sorti",
       b: "À l'endroit le plus proche du catch (zones comprises)",
@@ -39,6 +41,7 @@ export default [
   {
     category: Categories.FIELD,
     question: "Je suis attaquant. Si je saute de l’extérieur du terrain, que j’attrape le disque en l’air et que je retombe à l’intérieur du terrain, il y a turnover ?",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -51,6 +54,7 @@ export default [
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question: "J’ai le droit à 3 pas maximum pour m’arrêter après avoir attraper le disque",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -63,6 +67,7 @@ export default [
   {
     category: Categories.CHECK,
     question: "Le jeu est arrêté et doit reprendre par un check. Le lanceur tente une passe avant le check mais celle-ci n’est pas complétée. Que se passe t-il ?",
+    image: undefined,
     answerChoices: {
       a: "Il y a turnover dans tous les cas.",
       b: "Le disque revient au lanceur et le jeu reprend par un check sauf si tous les joueurs impliqués estiment que l'absence de check n'a pas affecté le résultat de l'action.",
@@ -77,6 +82,7 @@ export default [
   {
     category: Categories.STOPPAGE,
     question: "Que dois-je appeler si je suis blessé ?",
+    image: undefined,
     answerChoices: {
       a: "Injury",
       b: "Technical",
@@ -91,6 +97,7 @@ export default [
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Lorsqu’un « travel » est appelé, le temps que le lanceur se replace, le marqueur peut continuer le compte.",
+    image: undefined,
     answerChoices: {
       a: "être dans sa zone d'en-but sans changer de position avec un autre joueur",
       b: "avoir un pied sur sa ligne d'en-but sans changer de position avec un autre joueur",
@@ -105,6 +112,7 @@ export default [
   {
     category: Categories.PULL,
     question: "En attendant le pull de l’équipe adverse, un(e) attaquant(e) doit :",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -117,6 +125,7 @@ export default [
   {
     category: "Réceptionneur et positionnement",
     question: "Je m’appuie sur un coéquipier pour gagner un duel en attaque. Je catch le disque et retombe dans la endzone.",
+    image: undefined,
     answerChoices: {
       a: "Il y a point",
       b: "Le disque revient au lanceur et le compte reprend où il en était avec un maximum de (6)",
@@ -131,6 +140,7 @@ export default [
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Je suis en défense sur le porteur du disque. Je commets une infraction (straddle) appelée par le porteur du disque.",
+    image: undefined,
     answerChoices: {
       a: "Je continue de compter sans que le jeu s’arrête en reprenant par le dernier nombre entièrement prononcé moins (1)",
       b: "Je recommence à compter à partir de (1) sans que le jeu s’arrête",
@@ -145,6 +155,7 @@ export default [
   {
     category: Categories.COUNT,
     question: "Je suis marqueur sur le porteur du disque. Un « pick » est appelé alors que je viens de compter « 8 ». Par quoi dois-je reprendre le compte ?",
+    image: undefined,
     answerChoices: {
       a: "Stalling 6",
       b: "Stalling 7",
@@ -159,6 +170,7 @@ export default [
   {
     category: Categories.STOPPAGE,
     question: "Le jeu est arrêté. Avant que le « check » ne soit effectué, un joueur peut demander quelques secondes pour refaire ses lacets.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -171,6 +183,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question: "Je suis en attaque et je cours après une longue. Mon défenseur me fait un croche pied et je tombe. J’appelle « Faute » et mon défenseur ne conteste pas. Je garde la possession du disque et le jeu reprend à (1) par un check à l’endroit où j’aurais dû attraper le disque.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -183,6 +196,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question: "Un pick est appelé par l’équipe en défense. Il n’est pas contesté. Que se passe-t-il ?",
+    image: undefined,
     answerChoices: {
       a: "Si le dernier nombre entièrement prononcé est (4), je reprend le compte par stalling 4",
       b: "Si le dernier nombre entièrement prononcé est (6), je reprend le compte par stalling 7",
@@ -197,6 +211,7 @@ export default [
   {
     category: Categories.FOULS,
     question: "Si un joueur en défense touche le disque puis le bras (et uniquement le bras) de l’attaquant sur une réception, il y a quand même faute du défenseur.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -209,6 +224,7 @@ export default [
   {
     category: Categories.FOULS,
     question: "Je suis un cutter en attaque. Avant d’attraper le disque, je commets une faute sur mon défenseur (faute offensive). Je ne conteste pas la faute.",
+    image: undefined,
     answerChoices: {
       a: "Le disque revient au lanceur et le compte reprend où il en était avec un maximum de (8)",
       b: "Il y a turnover",
@@ -223,6 +239,7 @@ export default [
   {
     category: Categories.FOULS,
     question: "Un joueur A court après le disque et est suivi par un joueur B. Le joueur A ralentit volontairement sa course pour s’assurer d’avoir le disque sans que le joueur B puisse le défendre. Le joueur B rentre en collision avec le joueur A.",
+    image: undefined,
     answerChoices: {
       a: "Il y a faute du joueur B",
       b: "Il y a faute des deux joueurs",
@@ -237,6 +254,7 @@ export default [
   {
     category: Categories.SPIRIT,
     question: "Je suis sur la sideline. Sur une action de jeu amenant un call, j’ai le droit de donner mon avis si les joueurs impliqués me le demandent.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -249,6 +267,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question: "Sur une faute défensive non-contestée dans la endzone attaquée, les 2 joueurs doivent revenir à la ligne d’entrée de endzone avant de checker.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -261,6 +280,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question: "Je suis marqueur sur le porteur du disque. Un « pick » est appelé alors que je viens de compter « 4 ». Par quoi dois-je reprendre le compte?",
+    image: undefined,
     answerChoices: {
       a: "Stalling 2",
       b: "Stalling 3",
@@ -275,6 +295,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question: "Je suis en attaque. J’appelle « faute » au moment du lancer. Elle n’est pas contestée, néanmoins ma passe est réceptionnée. Que se passe t-il?",
+    image: undefined,
     answerChoices: {
       a: "Le jeu continue si le lanceur appelle « play on »",
       b: "Le jeu continue même si le lanceur n'appelle pas « play on » et que la défense s'est arrêtée",
@@ -291,6 +312,7 @@ export default [
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Je suis en défense sur le porteur du disque. Je commets une infraction (straddle) appelée par le porteur du disque.",
+    image: undefined,
     answerChoices: {
       a: "Je continue de compter sans que le jeu s’arrête en reprenant par le dernier nombre entièrement prononcé moins (1)",
       b: "Le jeu s’arrête et reprend par un check avec un compte à (1)",
@@ -305,6 +327,7 @@ export default [
   {
     category: Categories.TURNOVERS,
     question: "J’ai le droit de catcher ma propre passe si un coéquipier l’a touché entre temps.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -317,6 +340,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question: "Après un stall-out non contesté, le jeu doit reprendre par un check",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -329,6 +353,7 @@ export default [
   {
     category: Categories.SPIRIT,
     question: "Les non-joueurs sur la sideline n’ont jamais le droit de donner leur avis sur une action de jeu.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -341,6 +366,7 @@ export default [
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Je suis en attaque et lors d’une réception, je jongle volontairement avec le disque pour gagner du terrain. Que doit appeler la défense ?",
+    image: undefined,
     answerChoices: {
       a: "Travel",
       b: "Faute",
@@ -355,6 +381,7 @@ export default [
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Je suis en attaque. Lors d’une réception, je dévie volontairement le disque (sans l’attraper) pour un coéquipier en zone. Que doit appeler la défense ?",
+    image: undefined,
     answerChoices: {
       a: "Travel",
       b: "Faute",
@@ -369,6 +396,7 @@ export default [
   {
     category: Categories.FOULS,
     question: "Je suis porteur du disque. J’appelle « contact ». Le marqueur ne conteste pas. Que se passe t-il ?",
+    image: undefined,
     answerChoices: {
       a: "Le marqueur reprend le compte par le dernier nombre entièrement prononcé moins (1) sans que le jeu s'arrête",
       b: "Le jeu s'arrête et le compte reprend à (1)",
@@ -384,6 +412,7 @@ export default [
   {
     category: Categories.PULL,
     question: "Je suis en attaque. Sur un pull de l’équipe adverse, mon équipe appelle un offside. Que se passe t-il ?",
+    image: undefined,
     answerChoices: {
       a: "Mon équipe prend possession au point de brick de mon équipe et le jeu reprend par un check.",
       b: "Mon équipe choisit entre prendre possession du disque où il est ou au au point de brick et le jeu reprend sans check.",
@@ -398,6 +427,7 @@ export default [
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question: "Un pick peut-il être appelé par un attaquant ?",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -410,6 +440,7 @@ export default [
   {
     category: Categories.FOULS,
     question: "Je suis en attaque et je cours après une longue. Mon défenseur me fait un croche pied et je tombe. Même si je pense que je ne pouvais en aucun cas attraper le disque (passe trop longue), je dois quand même appeler « faute » et maintenir mon call.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -422,6 +453,7 @@ export default [
   {
     category: Categories.TIMEOUT,
     question: "J’appelle un temps mort alors que le compte est à (8). Mon équipe n’a plus de temps mort. Que se passe t-il ?",
+    image: undefined,
     answerChoices: {
       a: "Il y a turnover",
       b: "Le jeu reprend par un check et Stalling 6",
@@ -436,6 +468,7 @@ export default [
   {
     category: Categories.FIELD,
     question: "Je suis en attaque sans le disque. J’ai le droit de sortir du terrain et d’y rentrer à un endroit différent",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -448,6 +481,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question: "Par quoi recommence le compte après un stall-out contesté ?",
+    image: undefined,
     answerChoices: {
       a: "Stalling 6",
       b: "Stalling 7",
@@ -462,6 +496,7 @@ export default [
   {
     category: Categories.STOPPAGE,
     question: "Je me tords la cheville tout seul pendant un point. J’appelle « Injury » et le jeu s’arrête. Mon équipe a encore un temps mort. Quelles sont les options?",
+    image: undefined,
     answerChoices: {
       a: "Je suis remplacé et l'équipe adverse peut changer un joueur si elle le souhaite",
       b: "On enlève un temps mort à mon équipe mais aucun temps mort n'a lieu et je reste sur le terrain",
@@ -476,6 +511,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question: "Après un pick non contesté, le compte reprend",
+    image: undefined,
     answerChoices: {
       a: "où il en était au moment du pick avec un maximum de (8)",
       b: "où il en était au moment du pick avec un maximum de (6)",
@@ -490,6 +526,7 @@ export default [
   {
     category: Categories.TIMEOUT,
     question: "Il y a un turnover en dehors du terrain. Je dois attendre d’avoir établi mon pied de pivot pour appeler le temps mort.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
@@ -502,6 +539,7 @@ export default [
   {
     category: Categories.STOPPAGE,
     question: "Au cours d’un point un joueur a son lacet défait. Le jeu peut-il être arrêté pour cette raison ?",
+    image: undefined,
     answerChoices: {
       a: "Non ce n'est pas une raison valable",
       b: "Oui peu importe si ce joueur est un attaquant ou un défenseur",
@@ -516,6 +554,7 @@ export default [
   {
     category: Categories.CHECK,
     question: "Un turnover intervient dans la endzone défendue, le lanceur revient à la ligne. Pour pouvoir jouer il doit attendre que son marqueur « check » le disque.",
+    image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",

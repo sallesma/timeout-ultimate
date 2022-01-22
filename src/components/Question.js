@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 import { CheckBox, Button, LinearProgress } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
@@ -20,7 +20,7 @@ export default ({question, onSuccess, onFailure, time}) => {
   useEffect(() => {
     setChecked([]);
     setResult(undefined);
-  }, [question.question]);
+  }, [question.question+question.image]);
 
   const onValidate = () => {
     if (currentTime < 1) setCurrentTime(1);
@@ -67,8 +67,13 @@ export default ({question, onSuccess, onFailure, time}) => {
 
   return (
     <View>
+      {question.image && (
+        <View style={styles.imageContainer}>
+          <Image style={styles.image} source={question.image} />
+        </View>
+      )}
       <Text style={styles.question}>{question.question}</Text>
-      <View style={styles.choicesArea}>
+      <View>
         {Object.keys(question.answerChoices).map((answerChoiceKey, index) => (
           <CheckBox
             key={answerChoiceKey}
@@ -112,11 +117,17 @@ export default ({question, onSuccess, onFailure, time}) => {
 }
 
 const styles = StyleSheet.create({
+  imageContainer: {
+    alignItems: 'center',
+    height: 100,
+    marginBottom: 16,
+  },
+  image: {
+    resizeMode: 'contain',
+    height: '100%',
+  },
   question: {
     fontSize: theme.FONT_SIZE_M,
-  },
-  choicesArea: {
-    paddingVertical: 16,
   },
   checkbox: {
     borderRadius: 8,
