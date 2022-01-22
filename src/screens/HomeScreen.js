@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from 'react';
+import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Pressable } from 'react-native';
 import { Button } from 'react-native-elements';
@@ -8,16 +8,6 @@ import theme from '../utils/theme.js';
 import questions from '../../data';
 
 export default (props) => {
-  useLayoutEffect(() =>
-    props.navigation.setOptions({
-      headerRight: () => (
-        <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
-          <MaterialCommunityIcons name="information-outline" style={styles.icon} />
-        </Pressable>
-      ),
-    }),
-  );
-
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Ultimate Quiz</Text>
@@ -27,6 +17,9 @@ export default (props) => {
         <Button containerStyle={styles.button} title="Historique" onPress={() => props.navigation.navigate('HistoryScreen')} />
         <Button containerStyle={styles.button} title="Règlement" onPress={() => props.navigation.navigate('RulesScreen')} />
       </View>
+      <Pressable onPress={() => props.navigation.navigate('AboutScreen')} style={styles.floatingInfo}>
+        <MaterialCommunityIcons name="information-outline" style={styles.icon} />
+      </Pressable>
       <StatusBar style="auto" />
     </View>
   );
@@ -38,11 +31,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 32,
     paddingVertical: 64,
     justifyContent: 'space-evenly',
-  },
-  icon: {
-    fontSize: theme.FONT_SIZE_ICON,
-    paddingVertical: 4,
-    paddingHorizontal: 8,
   },
   title: {
     color: theme.MAIN_COLOR,
@@ -68,5 +56,14 @@ const styles = StyleSheet.create({
   },
   mainButtonText: {
     fontSize: theme.FONT_SIZE_XL,
+  },
+  floatingInfo: {
+    position: 'absolute',
+    bottom: 16,
+    right: 16,
+  },
+  icon: {
+    fontSize: theme.FONT_SIZE_XXL,
+    padding: 8,
   },
 });
