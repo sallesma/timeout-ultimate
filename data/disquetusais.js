@@ -48,11 +48,11 @@ export default [
   },
   {
     category: Categories.SPIRIT,
-    question: "Enervé par les fautes successives d’un adversaire à mon encontre, je refuse de lui parler et de le checker à la fin du match. Est-ce la bonne attitude ?",
+    question: "Énervé par les fautes successives d’un adversaire à mon encontre, je refuse de lui parler et de le checker à la fin du match. Est-ce la bonne attitude ?",
     image: undefined,
     answerChoices: {
-        a: "Vrai",
-        b: "Faux",
+        a: "Oui",
+        b: "Non",
     },
     correctAnswers: ['b'],
     explanation: `
@@ -745,7 +745,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
 //   },
   {
     category: Categories.CHECK,
-    question: "Le jeu est mort et tous les joueurs sont placés correctement. J’ai le disque et mon marqueur est à un mètre de moi. Je peux « checker » le disc au sol et appeler « disc in » pour relancer le jeu ?",
+    question: "Le jeu est mort et tous les joueurs sont placés correctement. J’ai le disque et mon marqueur est à 1 mètre de moi. Je peux « checker » le disc au sol et appeler « disc in » pour relancer le jeu ?",
     image: undefined,
     answerChoices: {
       a: "Vrai",
@@ -892,7 +892,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   },
   {
     category: Categories.OUT,
-    question: "Un attaquant prend son appel à l’extérieur du terrain, attrape le disque avec les pieds décollés du sol et atterrit dans la zone d’en-but adverse. Le point est il validé ?",
+    question: "Un attaquant prend son appel à l’extérieur du terrain, attrape le disque avec les pieds décollés du sol et atterrit dans la zone d’en-but adverse. Le point est-il validé ?",
     image: undefined,
     answerChoices: {
       a: "Oui",
@@ -957,7 +957,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
       d: "Rien, le jeu a déjà repris",
     },
     correctAnswers: ['a'],
-    explanation: "Le disque est hors-jeu dès lors qu’il touche l’extérieur de l’aire de jeu ou un attaquant hors-jeu. L’attaquant doit donc établir son pivot dans l’aire de jeu au point le plus proche de l’endroit où le disque est sorti.",
+    explanation: "Le disque est « check » dès lors qu’il touche l’extérieur de l’aire de jeu ou un attaquant hors-jeu. L’attaquant doit donc établir son pivot dans l’aire de jeu au point le plus proche de l’endroit où le disque est sorti.",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -984,7 +984,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "Le lanceur doit porter le disque sur les trois derniers mettre jusqu’à l'aire de jeu. Il y a donc « violation ».",
+    explanation: "Le lanceur doit porter le disque sur les trois derniers mètres jusqu’à l'aire de jeu. Il y a donc « violation ».",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -1057,11 +1057,11 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
   },
   {
     category: Categories.RECEIVER,
-    question: "Au moment où j’attrape le disque, j’ai un pied sur la ligne d’en-but adverse et l’autre dans la zone attaquée. Le point est il valable.",
+    question: "Au moment où j’attrape le disque, j’ai un pied sur la ligne d’en-but adverse et l’autre dans la zone attaquée. Le point est-il valable ?",
     image: undefined,
     answerChoices: {
-      a: "Vrai",
-      b: "Faux",
+      a: "Oui",
+      b: "Non",
     },
     correctAnswers: ['b'],
     explanation: "La ligne d’en-but ne faisant pas partie de la zone, l’attaquant est toujours considéré dans l’aire de jeu centrale, malgré son autre appui.",
@@ -1175,7 +1175,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
   },
   {
     category: Categories.TURNOVERS,
-    question: "À la réception du « pull », je touche le disque involontairement avant qu’il ne touche le sol. Le disque tombe a terre. Il n’y a pas turnover car je n’ai pas voulu l’attraper.",
+    question: "À la réception du « pull », je touche le disque involontairement avant qu’il ne touche le sol. Le disque tombe à terre. Il n’y a pas turnover car je n’ai pas voulu l’attraper.",
     image: undefined,
     answerChoices: {
       a: "Vrai",
@@ -1265,7 +1265,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
     explanation: `Le jeu reprend là où je suis (que la passe soit réussie ou ratée) et tous les joueurs se replacent là où ils étaient au moment de l’appel.
 
 Si mon défenseur prend le disque en main, il devient le lanceur et je « check » le disque pour  relancer le jeu.
-Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au sol) et je dois alors « checker » le disc au sol pour relancer le jeu.`,
+Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au sol) et je dois alors « checker » le disque au sol pour relancer le jeu.`,
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -1485,7 +1485,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   },
   {
     category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
-    question: "Un non-respect des règles lié à un contact non accidentel entre deux ou plusieurs joueurs :",
+    question: "Une transgression des règles due au contact non mineur entre deux ou plusieurs adversaires est :",
     image: undefined,
     answerChoices: {
       a: "Une infraction",
@@ -1804,7 +1804,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
   },
   {
     category: Categories.FOULS,
-    question: "L’attaquant que je marque me bouscule avant d’attraper le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il y a turnover. Je ne suis pas obligé de le prendre. Je peux « checker » le disque et appeler « disc in » afin de relancer le jeu.",
+    question: "L’attaquant que je marque me bouscule avant d’attraper le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il y a turnover. Je ne suis pas obligé de prendre le disque. Je peux « checker » le disque et appeler « disc in » afin de relancer le jeu.",
     image: undefined,
     answerChoices: {
       a: "Vrai",

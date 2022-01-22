@@ -114,8 +114,10 @@ export default [
     question: "En attendant le pull de l’équipe adverse, un(e) attaquant(e) doit :",
     image: undefined,
     answerChoices: {
-      a: "Vrai",
-      b: "Faux",
+      a: "être dans sa zone d'en-but sans changer de position avec un autre joueur",
+      b: "avoir un pied sur sa ligne d'en-but sans changer de position avec un autre joueur",
+      c: "être dans sa zone d'en-but et bouger s'il le souhaite",
+      d: "avoir un pied sur sa ligne d'en-but et bouger s'il le souhaite",
     },
     correctAnswers: ['b'],
     explanation: "Le marqueur doit indiquer au lanceur à quel endroit son pied de pivot devrait être et attendre que le lanceur se soit correctement placé pour reprendre le compte là où il en était (18.2.6.2).",

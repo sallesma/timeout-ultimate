@@ -301,7 +301,7 @@ export default [
     image: timing_violation,
     answerChoices: {
       a: 'Offside',
-      b: 'Stalll Out',
+      b: 'Stall Out',
       c: 'Stoppage',
       d: 'Pick',
     },
