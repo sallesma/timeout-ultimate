@@ -1,26 +1,26 @@
 import React from 'react';
-import { StyleSheet, ScrollView, Text, View } from 'react-native';
+import { StyleSheet, Text, View, FlatList } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
+import { ListItem } from 'react-native-elements';
 
 import rules from '../../data/rules';
+import Chapter from '../components/rules/Chapter';
 
 export default (props) => {
-  const Rule = ({rule}) => {
-    const number = rule.match(/^(\d+.)+/)[0];
-    const indentation = (number.match(/\d+./g) || []).length;
-
-    return (
-      <View style={{ marginLeft: 8 * indentation, marginBottom: 4}}>
-        <Text>{rule}</Text>
-      </View>
-    )
-  }
-  console.log(rules);
   return (
-    <ScrollView style={styles.container}>
-      {rules.map((rule) => (<Rule rule={rule} />))}
+    <View style={styles.container}>
+      <FlatList
+        keyExtractor={(item, index) => index.toString()}
+        data={Object.keys(rules)}
+        renderItem={({ item }) => (
+          <Chapter
+            title = {item}
+            data = {rules[item]}
+            />
+        )}
+      />
       <StatusBar style="auto" />
-    </ScrollView>
+    </View>
   );
 }
 
