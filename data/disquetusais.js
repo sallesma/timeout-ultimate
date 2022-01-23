@@ -35,7 +35,7 @@ export default [
   },
   {
     category: Categories.SPIRIT,
-    question: "Je peux être malin et appeler une passe à un adversaire. A lui de faire attention à qui il donne le disque.",
+    question: "Je peux être malin et appeler une passe à un adversaire. À lui de faire attention à qui il donne le disque.",
     image: undefined,
     answerChoices: {
         a: "Vrai",
@@ -497,7 +497,7 @@ réagir calmement aux désaccords et provocations. »
   },
   {
     category: Categories.COUNT,
-    question: " L’intervalle de temps entre chaque nombre est d’une seconde minimum ?",
+    question: "Lors du compte, l’intervalle de temps entre chaque nombre est d’une seconde minimum ?",
     image: undefined,
     answerChoices: {
         a: "Vrai",
@@ -689,7 +689,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['c'],
     explanation: "Ils doivent se replacer là où ils étaient au moment où le disque à été lâché ou au moment de l’appel, considérant l’évènement arrivé en premier",
     source: "Disque Tu Sais - Pablo",
-    level: Levels.MIDDLE,
+    level: Levels.DIFFICULT,
   },
   {
     category: Categories.CHECK,
@@ -826,7 +826,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   },
   {
     category: Categories.CHECK,
-    question: "Turnover dans ma zone d’en-but. Je ramasse le disque et sors de ma zone. Je dois checker le disque au sol avant ma passe",
+    question: "Turnover dans ma zone d’en-but. Je ramasse le disque et sors de ma zone. Je dois checker le disque au sol avant ma passe.",
     image: undefined,
     answerChoices: {
       a: "Vrai",
@@ -839,7 +839,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   },
   {
     category: Categories.CHECK,
-    question: "Turnover pour mon équipe dans la zone d’en-but adverse. Je ramasse le disque, et sors de leur zone. Je dois checker le disque au sol avant ma passe",
+    question: "Turnover pour mon équipe dans la zone d’en-but adverse. Je ramasse le disque, et sors de leur zone. Je dois checker le disque au sol avant ma passe.",
     image: undefined,
     answerChoices: {
       a: "Vrai",
@@ -2273,7 +2273,7 @@ Si la blessure n'est pas la conséquence d'une faute, la complétion ou le « tu
     answerChoices: {
       a: "Rien",
       b: "Appeler « technical »",
-      b: "Appeler « freeze »",
+      c: "Appeler « freeze »",
     },
     correctAnswers: ['b'],
     explanation: `Je peux appeler une « interruption technique » en disant « technical ».
@@ -2509,7 +2509,7 @@ Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », 
   },
   {
     category: Categories.APPENDIX,
-    question: "Qui peut appeler un « temps-mort spirit » (« spirit timeout »)?",
+    question: "Qui peut appeler un « temps-mort spirit » (« spirit stoppage ») ?",
     image: undefined,
     answerChoices: {
       a: "N'importe quel joueur du match",
@@ -2518,7 +2518,7 @@ Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », 
       c: "Seulement les capitaines de spirit",
     },
     correctAnswers: ['c'],
-    explanation: `Ce temps-mort ne peut être appelé que par les capitaines (d’ équipe ou spirit) ou un « game advisor ». L'appel peut être fait après un appel ayant arrêté le jeu ou après le début d’un point et avant l’engagement.
+    explanation: `Ce temps-mort ne peut être appelé que par les capitaines (d’équipe ou spirit) ou un « game advisor ». L'appel peut être fait après un appel ayant arrêté le jeu ou après le début d’un point et avant l’engagement.
 Durant ce temps mort, aucun point tactique ne peut être abordé par les équipes.
 Après que les capitaines se soient réunis pour trouver les solutions à une amélioration de l’esprit du jeu, les deux équipes se réunissent en cercle au milieu du terrain pour que les capitaines énoncent les solutions trouvées.`,
     source: "Disque Tu Sais - Pablo",
