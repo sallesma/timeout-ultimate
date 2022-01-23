@@ -10,14 +10,13 @@ import { Levels } from '../utils/config'
 
 // Taken from https://stackoverflow.com/a/19270021
 function getRandomElementsFromArray(arr, n) {
-  var result = new Array(n),
+  let number = Math.min(n, arr.length);
+  var result = new Array(number),
     len = arr.length,
     taken = new Array(len);
-  if (n > len)
-    throw new RangeError("getRandomElementsFromArray: more elements taken than available");
-  while (n--) {
+  while (number--) {
     var x = Math.floor(Math.random() * len);
-    result[n] = arr[x in taken ? taken[x] : x];
+    result[number] = arr[x in taken ? taken[x] : x];
     taken[x] = --len in taken ? taken[len] : len;
   }
   return result;
