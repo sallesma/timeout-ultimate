@@ -1663,7 +1663,7 @@ Une fois la possession établie si l'équipe qui a appelé la faute ou la violat
   },
   {
     category: Categories.CONTINUATION,
-    question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est arrivée comme je le souhaitais mais mon partenaire fait une erreur de main et « drope » la passe. Que se passe-t-il ?",
+    question: "Je lance le disque et subis à ce moment un contact du défenseur. J’appelle faute. Ma passe est arrivée comme je le souhaitais mais mon partenaire fait une erreur de main et drope la passe. Que se passe-t-il ?",
     image: undefined,
     answerChoices: {
       a: "Je récupère le disque",
@@ -1747,7 +1747,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
   },
   {
     category: Categories.FOULS,
-    question: "En pivotant pour faire ma passe, le marqueur entre en contact avec moi. Je n’ai pas lancé le disque. J’appelle « contact ». Il ne conteste pas. Que se passe-t-il ?",
+    question: "Je suis lanceur. Lorsque je pivote pour faire ma passe, le marqueur entre en contact avec moi. Je n’ai pas lancé le disque. J’appelle « contact » et il ne conteste pas. Que se passe-t-il ?",
     image: undefined,
     answerChoices: {
       a: "Le jeu s'arrête et le compte reprendra à 1",
@@ -1976,7 +1976,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: "Le premier rideau de la zone est placé légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Étant défenseur et à 1 mètre du disque, je commence à compter. Voyant le premier rideau qui vient se replacer devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Voyant plus d’un joueur dans les 3 mètres à ce moment, un attaquant non-porteur du disque appelle « double team ». Je conteste. Ai-je raison ?",
+    question: "Le premier rideau de la zone est placé légitimement. Une passe parvient à le percer et un attaquant situé derrière ces défenseurs attrape le disque. Étant défenseur et à 1 mètre de ce joueur, je commence à compter. Lorsque le premier rideau se replace devant le lanceur, je stoppe mon compte et recule rapidement pour sortir des 3 mètres. Un attaquant non-porteur du disque appelle « double team » car il y a plus d’un joueur dans les 3 mètres à ce moment. Je conteste. Ai-je raison ?",
     image: undefined,
     answerChoices: {
       a: "Oui",

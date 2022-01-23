@@ -140,7 +140,7 @@ export default [
   },
   {
     category: Categories.CONTINUATION,
-    question: "Le lanceur subitt une faute pendant qu'il pivote. Il appelle la faute puis tente la passe",
+    question: "Le lanceur subit une faute pendant qu'il pivote. Il appelle la faute puis tente la passe",
     image: undefined,
     answerChoices: {
       a: "Si la passe est complétée, le jeu continue",

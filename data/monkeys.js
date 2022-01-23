@@ -404,7 +404,6 @@ export default [
       b: "Le jeu s'arrête et le compte reprend à (1)",
       c: "Le marqueur reprend le compte à (1) sans que le jeu s'arrête",
       d: "Le jeu s'arrête et le compte reprend où il en était avec un maximum de (6)",
-      b: "Faux",
     },
     correctAnswers: ['c'],
     explanation: "La réponse se trouve dans rules of ultimate, paragraphe 17.6.1.3",
@@ -441,7 +440,7 @@ export default [
   },
   {
     category: Categories.FOULS,
-    question: "Je suis en attaque et je cours après une longue. Mon défenseur me fait un croche pied et je tombe. Même si je pense que je ne pouvais en aucun cas attraper le disque (passe trop longue), je dois quand même appeler « faute » et maintenir mon call.",
+    question: "Je suis en attaque et je cours pour réceptionner une longue passe. Mon défenseur me fait un croche pied et je tombe. Même si je pense que je ne pouvais en aucun cas attraper le disque (passe trop longue), je dois quand même appeler « faute » et maintenir mon call.",
     image: undefined,
     answerChoices: {
       a: "Vrai",
