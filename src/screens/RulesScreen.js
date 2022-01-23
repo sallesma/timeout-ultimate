@@ -1,15 +1,26 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, ScrollView, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 
-import rules from '../../assets/WFDF Rules of Ultimate 2021-2024 - French.pdf';
+import rules from '../../data/rules';
 
 export default (props) => {
+  const Rule = ({rule}) => {
+    const number = rule.match(/^(\d+.)+/)[0];
+    const indentation = (number.match(/\d+./g) || []).length;
+
+    return (
+      <View style={{ marginLeft: 8 * indentation, marginBottom: 4}}>
+        <Text>{rule}</Text>
+      </View>
+    )
+  }
+  console.log(rules);
   return (
-    <View style={styles.container}>
-      <Text>À venir...</Text>
+    <ScrollView style={styles.container}>
+      {rules.map((rule) => (<Rule rule={rule} />))}
       <StatusBar style="auto" />
-    </View>
+    </ScrollView>
   );
 }
 
