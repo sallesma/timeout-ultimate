@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Pressable } from 'react-native';
 import { Button } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
-import questions from '../../data';
+import questions from '../../data/questions';
 import { Levels } from '../utils/config';
 
 export default (props) => {

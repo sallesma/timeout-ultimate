@@ -6,7 +6,7 @@
   > Aucun problème, tu prends les questions que tu veux dans le Quizz, c'est libre de tout droits d'auteur 😉
 */
 
-import { Levels, Categories } from '../src/utils/config';
+import { Levels, Categories } from '../../src/utils/config';
 
 export default [
   {

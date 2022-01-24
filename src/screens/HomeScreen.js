@@ -5,7 +5,7 @@ import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../utils/theme.js';
-import questions from '../../data';
+import questions from '../../data/questions';
 
 export default (props) => {
   return (

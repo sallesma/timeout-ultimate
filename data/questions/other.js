@@ -1,4 +1,4 @@
-import { Levels, Categories } from '../src/utils/config';
+import { Levels, Categories } from '../../src/utils/config';
 
 export default [
   {
