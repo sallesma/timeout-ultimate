@@ -15,7 +15,7 @@ export const saveQuizzResult = async (result) => {
 export const loadQuizzResults = async () => {
   try {
     const jsonResults = await AsyncStorage.getItem(STORAGE_KEY)
-    return jsonResults != null ? JSON.parse(jsonResults) : null;
+    return jsonResults != null ? JSON.parse(jsonResults) : [];
   } catch(e) {
     console.log('error reading value', e)
   }

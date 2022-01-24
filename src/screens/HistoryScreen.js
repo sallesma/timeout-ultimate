@@ -42,8 +42,9 @@ export default (props) => {
       <View style={styles.header}>
         <Text style={styles.headerText}>Questions : {totalQuestions}</Text>
         <Text style={styles.headerText}>Bonnes réponses : {totalRightAnswers}</Text>
-        <Text style={styles.headerText}>Pourcentage : {Math.round((totalRightAnswers / totalQuestions) * 100)} %</Text>
+        {results.length > 0 && <Text style={styles.headerText}>Pourcentage : {Math.round((totalRightAnswers / totalQuestions) * 100)} %</Text>}
       </View>
+      {results.length === 0 && <Text style={styles.incentive}>Il n'y a pas encore de résultats parce que tu n'as pas encore fait de quiz !</Text>}
       <ScrollView>
         {orderedResults.map((result, index) => (
           <Text key={index}>{formatDate(new Date(result.createdAt))} - {result.rightAnswersCount} bonnes réponse sur {result.quizzLength} ({result.rightAnswersCount * 100 / result.quizzLength} %)</Text>
@@ -66,6 +67,11 @@ const styles = StyleSheet.create({
     borderBottomColor: theme.MAIN_COLOR,
   },
   headerText: {
-    fontSize: 20,
+    fontSize: theme.FONT_SIZE_L,
+  },
+  incentive: {
+    marginTop: 32,
+    textAlign: 'center',
+    fontSize: theme.FONT_SIZE_M,
   },
 });
