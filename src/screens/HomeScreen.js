@@ -1,16 +1,20 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Pressable } from 'react-native';
+import { StyleSheet, Text, View, Pressable, Image } from 'react-native';
 import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../utils/theme.js';
 import questions from '../../data/questions';
+import logo from '../../assets/icon.png';
 
 export default (props) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Ultimate Quiz</Text>
+      <View style={styles.logoContainer}>
+        <Image style={styles.logo} source={logo} />
+      </View>
+      <Text style={styles.title}>Timeout Ultimate</Text>
       <Text style={styles.welcomeText}><Text style={styles.emphasis}>{questions.length}</Text> questions t'attendent pour apprendre les règles de l'ultimate !</Text>
       <View>
         <Button containerStyle={styles.button} titleStyle={styles.mainButtonText} title="Jouer" onPress={() => props.navigation.navigate('OptionsScreen')} />
@@ -30,7 +34,17 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 32,
     paddingVertical: 64,
-    justifyContent: 'space-evenly',
+    justifyContent: 'center',
+  },
+  logoContainer: {
+    alignItems: 'center',
+    height: 110,
+    marginVertical: 8,
+  },
+  logo: {
+    flex: 1,
+    resizeMode: 'contain',
+    borderRadius: 1000, // round
   },
   title: {
     color: theme.MAIN_COLOR,
