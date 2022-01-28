@@ -4,14 +4,14 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { ThemeProvider } from 'react-native-elements';
 
-import HomeScreen from './src/screens/HomeScreen.js';
-import OptionsScreen from './src/screens/OptionsScreen.js';
-import QuizzScreen from './src/screens/QuizzScreen.js';
-import HistoryScreen from './src/screens/HistoryScreen.js';
-import AboutScreen from './src/screens/AboutScreen.js';
-import RulesScreen from './src/screens/RulesScreen.js';
+import HomeScreen from './screens/HomeScreen.js';
+import OptionsScreen from './screens/OptionsScreen.js';
+import QuizzScreen from './screens/QuizzScreen.js';
+import HistoryScreen from './screens/HistoryScreen.js';
+import AboutScreen from './screens/AboutScreen.js';
+import RulesScreen from './screens/RulesScreen.js';
 
-import theme from './src/utils/theme.js';
+import theme from './utils/theme.js';
 
 const reactNativeElementsTheme = {
   colors: {

@@ -1,13 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, ScrollView, View, Linking, Pressable } from 'react-native';
 import Constants from 'expo-constants';
+import * as Updates from 'expo-updates';
 
 import theme from '../utils/theme.js';
 
 export default (props) => {
-  const { releaseChannel, version } = Constants.manifest;
-  const channel = releaseChannel === undefined ? 'DEV' : releaseChannel;
-
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
     <Text style={styles.header}>À propos</Text>
@@ -29,7 +27,7 @@ export default (props) => {
         <Text style={styles.info}>Informations techniques</Text>
         <Text style={styles.info}>Timeout Ultimate</Text>
         <Text style={styles.info}>2021 - {new Date().getFullYear()}</Text>
-        <Text style={styles.info}>Version {version}, release-channel {channel}</Text>
+        <Text style={styles.info}>Version {Constants.manifest.version}, release-channel {Updates.releaseChannel}</Text>
       </View>
       <StatusBar style="auto" />
     </ScrollView>

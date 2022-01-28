@@ -24,6 +24,7 @@
     "android": {
       "package": "com.ultimate.timeout",
       "versionCode": 1,
+      "icon": "./assets/android_icon.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#2a9d9d"

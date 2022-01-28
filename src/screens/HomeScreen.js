@@ -21,9 +21,11 @@ export default (props) => {
         <Button containerStyle={styles.button} title="Historique" onPress={() => props.navigation.navigate('HistoryScreen')} />
         <Button containerStyle={styles.button} title="Règlement" onPress={() => props.navigation.navigate('RulesScreen')} />
       </View>
-      <Pressable onPress={() => props.navigation.navigate('AboutScreen')} style={styles.floatingInfo}>
-        <MaterialCommunityIcons name="information-outline" style={styles.icon} />
-      </Pressable>
+      <View style={styles.infoArea}>
+        <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
+          <MaterialCommunityIcons name="information-outline" style={styles.icon} />
+        </Pressable>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
@@ -71,10 +73,8 @@ const styles = StyleSheet.create({
   mainButtonText: {
     fontSize: theme.FONT_SIZE_XL,
   },
-  floatingInfo: {
-    position: 'absolute',
-    bottom: 16,
-    right: 16,
+  infoArea: {
+    alignItems: 'flex-end',
   },
   icon: {
     fontSize: theme.FONT_SIZE_XXL,
