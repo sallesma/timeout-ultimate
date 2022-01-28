@@ -27,4 +27,4 @@ Les présentes Règles de confidentialité peuvent être amenées à évoluer. L
 
 ## Contact
 
-Vous pouvez me contacter par email à l'adresse salles.martin+ultimate@gmail.com
+Vous pouvez me contacter par email à l'adresse ultimate.timeout@gmail.com

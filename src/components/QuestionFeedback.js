@@ -21,7 +21,7 @@ export const FeedbackButton = ({question, style}) => {
 
   const sendEmailAsync = () => {
     const result = MailComposer.composeAsync({
-      recipients: ['ultimate.discin@gmail.com'],
+      recipients: ['ultimate.timeout@gmail.com'],
       subject: "Une question n'est pas claire sur UltiQuiz",
       body: `
 

@@ -17,9 +17,13 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.ultimate.timeout",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.ultimate.timeout",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#2a9d9d"
