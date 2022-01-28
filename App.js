@@ -41,7 +41,7 @@ export default function App() {
           fallback={<ActivityIndicator animating color={theme.MAIN_COLOR} style={{ top: '45%' }} size="large" />}
         >
           <Stack.Navigator>
-            <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: 'Ultimate rules quizz', headerShown: false }} />
+            <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: 'Timeout Ultimate', headerShown: false }} />
             <Stack.Screen name="OptionsScreen" component={OptionsScreen} options={{ title: 'Démarrer mon quizz' }} />
             <Stack.Screen name="QuizzScreen" component={QuizzScreen} />
             <Stack.Screen name="HistoryScreen" component={HistoryScreen} options={{ title: 'Historique' }} />

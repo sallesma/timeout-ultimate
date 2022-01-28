@@ -11,9 +11,9 @@ export default (props) => {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
     <Text style={styles.header}>À propos</Text>
-      <Text style={styles.text}>Bonjour ! Je suis Martin Salles, le développeur derrière 'Ultimate Rules Quizz'. C'est une application conçue par des joueurs d'ultimate pour aider d'autres joueurs à apprendre les règles de l'ultimate. Elle est et restera gratuite.</Text>
+      <Text style={styles.text}>Bonjour ! Je suis Martin Salles, le développeur derrière 'Timeout Ultimate'. C'est une application conçue par des joueurs d'ultimate pour aider d'autres joueurs à apprendre les règles de l'ultimate. Elle est et restera gratuite.</Text>
       <Text style={styles.header}>Remerciements</Text>
-      <Text style={styles.text}>Je souhaite remercier tous ceux qui ont contribué au développement de Ultimate Rules Quizz. Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo. Certaines questions ont été rédigées par Pierre Gruau pour les Monkeys. L'application utilise aussi les Hand Signals dessinés par Raphaël Candelier pour le PUC et la WFDF.</Text>
+      <Text style={styles.text}>Je souhaite remercier tous ceux qui ont contribué au développement de Timeout Ultimate. Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo. Certaines questions ont été rédigées par Pierre Gruau pour les Monkeys. L'application utilise aussi les Hand Signals dessinés par Raphaël Candelier pour le PUC et la WFDF.</Text>
       <Text style={styles.text}>Les règles de l'ultimate sont tirés du document "WFDF Rules of Ultimate 2021-2024" produit par la World Flying Disc Federation, puis traduit par la FFDF.</Text>
       <Text style={styles.header}>Contribuer</Text>
       <Text style={styles.text}>Que ce soit pour ajouter, corriger des questions ou maintenir l'application, toute aide est la bienvenue !</Text>
@@ -27,7 +27,7 @@ export default (props) => {
 
       <View style={styles.infoArea}>
         <Text style={styles.info}>Informations techniques</Text>
-        <Text style={styles.info}>Ultimate Rules Quizz</Text>
+        <Text style={styles.info}>Timeout Ultimate</Text>
         <Text style={styles.info}>2021 - {new Date().getFullYear()}</Text>
         <Text style={styles.info}>Version {version}, release-channel {channel}</Text>
       </View>
