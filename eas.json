@@ -1,6 +1,7 @@
 {
   "cli": {
-    "version": ">= 0.46.0"
+    "version": ">= 0.46.0",
+    "requireCommit": true
   },
   "build": {
     "development": {
@@ -17,6 +18,10 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "ios": {
+        "language": "fr-FR"
+      }
+    }
   }
 }
