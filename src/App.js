@@ -40,7 +40,7 @@ export default function App() {
           theme={reactNavigationTheme}
           fallback={<ActivityIndicator animating color={theme.MAIN_COLOR} style={{ top: '45%' }} size="large" />}
         >
-          <Stack.Navigator>
+          <Stack.Navigator screenOptions={{ headerBackTitle: 'Retour' }}>
             <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: 'Timeout Ultimate', headerShown: false }} />
             <Stack.Screen name="OptionsScreen" component={OptionsScreen} options={{ title: 'Démarrer mon quizz' }} />
             <Stack.Screen name="QuizzScreen" component={QuizzScreen} />
