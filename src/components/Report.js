@@ -20,7 +20,7 @@ export default ({navigation, rightAnswersCount, quizzLength}) => {
   const share = async () => {
     try {
       const result = await Share.share({
-        message: `J'ai obtenu ${rightAnswersCount} / ${quizzLength} sur un quizz sur les règles de l'ultimate`,
+        message: `J'ai obtenu ${rightAnswersCount} / ${quizzLength} sur un quizz sur les règles de l'ultimate sur Timeout Ultimate`,
         title: "Règles de l'ultimate",
       })
     } catch (error) {

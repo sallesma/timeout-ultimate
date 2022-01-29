@@ -2,10 +2,17 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, ScrollView, View, Linking, Pressable } from 'react-native';
 import Constants from 'expo-constants';
 import * as Updates from 'expo-updates';
+import * as MailComposer from 'expo-mail-composer';
 
 import theme from '../utils/theme.js';
 
 export default (props) => {
+  const sendEmailAsync = () => {
+    const result = MailComposer.composeAsync({
+      recipients: ['ultimate.timeout@gmail.com'],
+      subject: "À propos de Timeout Ultimate",
+    });
+  };
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
     <Text style={styles.header}>À propos</Text>
@@ -17,6 +24,9 @@ export default (props) => {
       <Text style={styles.text}>Que ce soit pour ajouter, corriger des questions ou maintenir l'application, toute aide est la bienvenue !</Text>
       <Text style={styles.header}>Feedback</Text>
       <Text style={styles.text}>L'application est en cours de création. J'ai plein d'idées pour la suite mais je serais ravi de connaître ton avis</Text>
+      <Pressable onPress={sendEmailAsync}>
+        <Text style={styles.linkText}>Envoyer un message</Text>
+      </Pressable>
       <Text style={styles.header}>Autres projets</Text>
       <Text style={styles.text}>En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'ultimate</Text>
       <Pressable onPress={() => Linking.openURL('https://discinapp.page.link/install')}>
