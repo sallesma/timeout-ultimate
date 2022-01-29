@@ -29,7 +29,7 @@ export default (props) => {
     props.navigation.setOptions({
       title: `${current} / ${number}`,
       headerRight: () => (
-        <Text style={{color: 'white'}}>{rightAnswersCount} bonnes réponses</Text>
+        <Text style={styles.headerRight}>{rightAnswersCount} bonnes réponses</Text>
       ),
     });
   });
@@ -88,6 +88,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+  },
+  headerRight: {
+    color: 'white',
+    marginLeft: 16,
   },
   contentContainer: {
     paddingBottom: 64,

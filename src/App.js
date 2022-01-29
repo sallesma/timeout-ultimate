@@ -24,7 +24,7 @@ const reactNavigationTheme = {
   colors: {
     ...DefaultTheme.colors,
     background: theme.MAIN_COLOR_LIGHT,
-    primary: theme.MAIN_COLOR,
+    primary: theme.MAIN_COLOR_LIGHT,
     card: theme.MAIN_COLOR,
     text: theme.MAIN_COLOR_LIGHT,
   },
