@@ -1044,7 +1044,7 @@ Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de je
   },
   {
     category: Categories.RECEIVER,
-    question: "Au moment où j’attrape le disque, j’ai un pied dans le terrain et un en dehors (simultanément). Un défenseur appelle « out ». A t-il raison ?",
+    question: "Au moment où j’attrape le disque, j’ai un pied dans le terrain et un en dehors (simultanément). Un défenseur appelle « out ». A-t-il raison ?",
     image: undefined,
     answerChoices: {
       a: "Oui",
