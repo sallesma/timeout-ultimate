@@ -107,7 +107,7 @@ export default [
     answerChoices: {
       a: 'Gender ratio femmes',
       b: 'Stoppage',
-      c: 'Gender ratio hommees',
+      c: 'Gender ratio hommes',
       d: 'Pick',
     },
     correctAnswers: ['c'],
