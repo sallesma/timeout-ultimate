@@ -1306,7 +1306,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
       c: "Le stall out contesté est ignoré et le turnover est maintenu",
     },
     correctAnswers: ['c'],
-    explanation: "Ayant raté ma passe, le turnover est maintenu et le jeu reprend par un check à l’endroit ou est le disque.",
+    explanation: "Ayant raté ma passe, le turnover est maintenu et le jeu reprend par un check à l’endroit où est le disque.",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -2503,7 +2503,7 @@ Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort�
     correctAnswers: ['b'],
     explanation: `
 Elle dispose de 20 secondes.
-Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », « 5 secondes », l’attaque n’a pas rejoué le disque dans le délai imparti, et s’il est à 3 mètres ou moins du disque (dans le cas ou le disque soit dans la zone) ou de l’endroit ou le pivot doit être établi (si le disque était sorti du terrain), alors le défenseur peut annoncer « disque en jeu » (« disc in ») et commencer le compte.`,
+Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », « 5 secondes », l’attaque n’a pas rejoué le disque dans le délai imparti, et s’il est à 3 mètres ou moins du disque (dans le cas où le disque est dans la zone) ou de l’endroit où le pivot doit être établi (si le disque était sorti du terrain), alors le défenseur peut annoncer « disque en jeu » (« disc in ») et commencer le compte.`,
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
   },
@@ -2552,7 +2552,7 @@ Après que les capitaines se soient réunis pour trouver les solutions à une am
   },
   {
     category: Categories.INDOOR,
-    question: "Je joue en salle (« indoor »).L’engagement adverse sort du terrain, à 13 mètres environ de ma zone, sans que le disque n’est touché le terrain ou un joueur. Je peux reprendre le jeu au milieu de la zone centrale au point le plus proche de l’endroit ou est sorti le disque.",
+    question: "Je joue en salle (« indoor »). L’engagement adverse sort du terrain à 13 mètres environ de ma zone, sans que le disque n’ait touché le terrain ou un joueur. Je peux reprendre le jeu au milieu de la zone centrale au point le plus proche de l’endroit où est sorti le disque.",
     image: undefined,
     answerChoices: {
       a: "Vrai",
