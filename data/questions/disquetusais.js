@@ -1817,10 +1817,10 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
   },
   {
     category: Categories.FOULS,
-    question: "En position légitime, je suis entrain de compter à 8. En réalisant son pivot, le lanceur me heurte. J’appelle une « faute » qu’il ne conteste pas. Que se passe-t-il ?",
+    question: "En position légitime, je suis en train de compter à 8. En réalisant son pivot, le lanceur me heurte. J’appelle une « faute » qu’il ne conteste pas. Que se passe-t-il ?",
     image: undefined,
     answerChoices: {
-      a: "Il garde le disque et je reprends à « compter 9 » après un check.",
+      a: "Il garde le disque et je reprends à « compté 9 » après un check.",
       b: "On ajoute 2 au compte et cela atteint 10 donc c'est un turnover",
       c: "La faute est non contestée donc c'est un turnover",
     },
@@ -1831,7 +1831,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
   },
   {
     category: Categories.FOULS,
-    question: "En position légitime, je viens de compter à 8 le lanceur. En réalisant son pivot, il me heurte. J’appelle une « faute » qu’il conteste. Il garde le disque et je reprends à « compter 8 » après un check.",
+    question: "En position légitime, je viens de compter à 8 le lanceur. En réalisant son pivot, il me heurte. J’appelle une « faute » qu’il conteste. Il garde le disque et je reprends à « compté 8 » après un check.",
     image: undefined,
     answerChoices: {
       a: "C'est un turnover",
