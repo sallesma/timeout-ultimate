@@ -937,12 +937,10 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
       a: "Oui",
       b: "Non",
     },
-    correctAnswers: ['b'],
-    explanation: `Le défenseur devrait appeler une « violation », auquel cas le point ne serait pas validé.
-En effet, en positionnant son pivot sur la ligne de touche, le lanceur ne replace pas son pivot dans l’aire de jeu.
-Le jeu s'arrête et le disque est retourné au lanceur. Le lanceur doit placer son pied au bon emplacement et le jeu doit reprendre avec un « check ».
+    correctAnswers: ['a'],
+    explanation: `Le pied de pivot doit être placé dans le terrain et les lignes n'en font pas partie.
 
-Si la passe avait échoué, il y aurait eu un « turnover » sans arrêt de jeu, car cette violation est appelée contre le lanceur. Les joueurs reconnaissant cette règle peuvent alors appeler « play on » (ou « avantage ») pour ne pas arrêter le jeu.`,
+Cependant, les annotations (13.11) précisent que les lignes étant très étroites et la conséquence sur le jeu négligeable, il est acceptable de placer son pied de pivot sur la ligne.`,
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
