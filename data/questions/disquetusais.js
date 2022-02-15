@@ -180,8 +180,8 @@ réagir calmement aux désaccords et provocations. »
     image: undefined,
     answerChoices: {
         a: "Tant pis, il faut s'arranger avec la situation",
-        b: "Le joueur peut apppeler une violation",
-        c: "Je peux apppeler une violation",
+        b: "Le joueur peut appeler une violation",
+        c: "Je peux appeler une violation",
     },
     correctAnswers: ['b, c'],
     explanation: "Tous les joueurs peuvent appeler une « violation » car aucun obstacle ne doit se situer à moins de 3 mètres de l ‘aire de jeu.",
@@ -1029,7 +1029,7 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
   },
   {
     category: Categories.RECEIVER,
-    question: "Je saute pour attraper le disque. Je suis au-dessus de l’aire de jeu au moment où je le maitrise et j'atterris hors du terrain. Il y a « turnover ».",
+    question: "Je suis en attaque et je saute pour attraper le disque. Je suis au-dessus de l’aire de jeu au moment où je le maitrise et j'atterris hors du terrain. Il y a « turnover ».",
     image: undefined,
     answerChoices: {
       a: "Vrai",
@@ -2486,7 +2486,7 @@ Si ce n’est pas la première fois, l’attaque impose alors un « temps-mort�
       b: "Faux",
     },
     correctAnswers: ['a'],
-    explanation: "La défense peut appeler a voix haute « 10 secondes », puis « 5 secondes ». 10 secondes après ce premier avertissement et s’il est à moins de 3 mètres du disque, le défenseur peut annoncer « disque en jeu » (« disc in ») et commencer le compte.",
+    explanation: "La défense peut appeler a voix haute « 10 secondes », puis « 5 secondes ». 10 secondes après ce premier avertissement et s’il est à moins de 3 mètres du disque, le défenseur peut annoncer « disque en jeu » (« disc in ») et commencer le compte. (Règle 8.5)",
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
   },
