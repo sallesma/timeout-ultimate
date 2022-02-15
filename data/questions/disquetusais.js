@@ -1378,7 +1378,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   },
   {
     category: Categories.TURNOVERS,
-    question: "Mon adversaire rate sa passe. Le disque roule, entre dans sa zone et s’arrête dans dedans après avoir décrit une courbe. Où vais-je établir mon pivot ?",
+    question: "Mon adversaire rate sa passe. Le disque roule, entre dans sa zone d'en-but et s’arrête dedans après avoir décrit une courbe. Où vais-je établir mon pivot ?",
     image: undefined,
     answerChoices: {
       a: "Là où le disque s'est arrêté",
