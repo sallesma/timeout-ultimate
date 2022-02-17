@@ -1207,7 +1207,7 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
       c: "C'est un turnover et n'importe quel défenseur peut prendre le disque",
     },
     correctAnswers: ['b'],
-    explanation: "Mon défenseur récupère le disque. Une faute ayant été appelée, le jeu s’arrête. Sur une faute offensive non contestée, c’est obligatoirement le défenseur qui l’a subie qui récupère le disque.",
+    explanation: "Mon défenseur récupère le disque. Une faute ayant été appelée, le jeu s’arrête. Sur une faute offensive non contestée, c’est obligatoirement le défenseur qui l’a subie qui récupère le disque (règle 13.5.1)",
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
