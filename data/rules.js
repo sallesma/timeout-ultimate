@@ -226,7 +226,7 @@ export default {
   "13.7.3.le lanceur se trouvait au moment de l’appel dans les cas 13.2.2, 13.2.3, 13.2.4, 13.2.5; ou",
   "13.7.4.l'attaquant se trouvait dans les cas 13.2.6 et 13.2.7 ; ou",
   "13.7.5.se produit la faute offensive acceptée sur une réception.",
-  "13.8.Si l'endroit du « turnover » est hors de l'aire de jeu ou que le disque touche la zone hors de l'aire de jeuaprès le « turnover » le lanceur doit établir un point pivot à l’endroit de la zone centrale le plus proche d'où le disque est sorti (11.8).",
+  "13.8.Si l'endroit du « turnover » est hors de l'aire de jeu ou que le disque touche la zone hors de l'aire de jeu après le « turnover » le lanceur doit établir un point pivot à l’endroit de la zone centrale le plus proche d'où le disque est sorti (11.8).",
   "13.8.1.Si 13.8 ne s'applique pas, un point pivot doit être établi selon 13.9, 13.10 ou 13.11.",
   "13.9.Si l'endroit du « turnover » est dans la zone centrale, le lanceur doit établir un point pivot à cet endroit.",
   "13.10.Si l'endroit du « turnover » est dans la zone d’en-but attaquée, le lanceur doit établir un point pivot à l’endroit le plus proche sur la ligne de but.",
