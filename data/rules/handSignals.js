@@ -117,12 +117,12 @@ export default [
   },
   {
     image: gender_ratio_men,
-    name: 'Gender ratio hommes',
+    name: 'Personnel ratio hommes',
     hint: 'Les mains derrière la tête, coudes sur les côtés',
   },
   {
     image: gender_ratio_women,
-    name: 'Gender ratio femmes',
+    name: 'Personnel ratio femmes',
     hint: 'Les bras tendus sur les côtés, poings fermés',
   },
   {
