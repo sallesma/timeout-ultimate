@@ -25,5 +25,5 @@ export const Categories = {
   APPENDIX: "Appendice",
   HAND_SIGNALS: "Gestes",
   INDOOR: "Indoor",
-  NONE: "",
+  OTHER: "Other",
 }
