@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, FlatList } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { ListItem } from 'react-native-elements';
 
-import rules from '../../data/rules';
+import rules from '../../data/rules/rules';
 import Chapter from '../components/rules/Chapter';
 
 export default (props) => {
