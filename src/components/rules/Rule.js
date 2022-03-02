@@ -3,8 +3,7 @@ import { StyleSheet, View, Text } from 'react-native';
 
 import theme from '../../utils/theme.js';
 
-export default ({rule}) => {
-  const number = rule.match(/^(\d+.)+/)[0];
+export default ({number, rule}) => {
   const indentation = (number.match(/\d+./g) || []).length - 2;
 
   return (

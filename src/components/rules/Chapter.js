@@ -18,7 +18,7 @@ export default (props) => {
       </TouchableOpacity>
         {expanded &&
           <View style={styles.content}>
-            {props.data.map((rule, index) => (<Rule key={index.toString()} rule={rule} />))}
+            {Object.keys(props.data).map((ruleNumber) => (<Rule key={ruleNumber} number={ruleNumber} rule={props.data[ruleNumber]} />))}
           </View>
         }
     </View>

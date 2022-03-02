@@ -50,12 +50,12 @@ pdfExtract.extract('./assets/WFDF Rules of Ultimate 2021-2024 - French.pdf', opt
     const indentation = (number.match(/\d+./g) || []).length;
     if (indentation === 1) {
       currentChapter = rule;
-      fileContentHash[currentChapter] = [];
+      fileContentHash[currentChapter] = {};
     } else {
-      fileContentHash[currentChapter].push(rule);
+      fileContentHash[currentChapter][number] = rule.replace(number, '');
     }
   });
-  fs.writeFileSync('./data/rules/rules.js', 'export default ' + JSON.stringify(fileContentHash, null, ' ') + ';\n')
+  fs.writeFileSync('./data/rules/rules.js', 'export default ' + JSON.stringify(fileContentHash, null, '  ') + ';\n')
 });
 
 console.log('Done extracting rules from the pdf.');
