@@ -4,7 +4,7 @@ import * as MailComposer from 'expo-mail-composer';
 import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-import theme from '../utils/theme.js';
+import theme from '../../utils/theme.js';
 
 export const FeedbackButton = ({question, style}) => {
   const feedbackAlert = () => {

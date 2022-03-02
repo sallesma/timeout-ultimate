@@ -3,7 +3,8 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import { CheckBox, Button, LinearProgress } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
-import QuestionFeedback from './QuestionFeedback.js';
+import Feedback from './questions/Feedback.js';
+import DisplayedRule from './questions/DisplayedRule.js';
 
 const colors = [
   '#cddff3',
@@ -109,7 +110,8 @@ export default ({question, onSuccess, onFailure, time}) => {
             <Text style={styles.wrong}>Mauvaise réponse...</Text>
           )}
           <Text>{question.explanation}</Text>
-          <QuestionFeedback question={question} style={styles.reportIcon} />
+          <DisplayedRule ruleNumber={question.rules} />
+          <Feedback question={question} style={styles.reportIcon} />
         </View>
       )}
     </View>

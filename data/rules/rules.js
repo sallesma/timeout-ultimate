@@ -51,7 +51,7 @@ export default {
     "2.4.": "Les lignes de but sont les lignes qui séparent la zone centrale des zones d’en-but et font partie de la zone centrale.",
     "2.5.": "Les marques de « brick » sont l'intersection de deux (2) lignes de un (1) mètre dans la zone centrale positionnées depuis chaque ligne d’en-but à une distance égale à la profondeur de l’en-but à mi-chemin entre les lignes de touche.",
     "2.6.": "Huit objets flexibles de couleur voyante (tels que des cônes en plastique) marquent les coins de la zone centrale et des zones d’en-but.",
-    "2.7.": "Les environs immédiats de l’aire de jeu seront gardés dégagés d’objets mobiles. Si le jeu est obstrué par des non-joueurs ou des objets à moins de trois (3) mètres des lignes de périmètre, n'importe quel joueur ou lanceur en possession qui est gêné peut appeler une « violation ».Figure 1"
+    "2.7.": "Les environs immédiats de l’aire de jeu seront gardés dégagés d’objets mobiles. Si le jeu est obstrué par des non-joueurs ou des objets à moins de trois (3) mètres des lignes de périmètre, n'importe quel joueur ou lanceur en possession qui est gêné peut appeler une « violation »."
   },
   "3.Équipement": {
     "3.1.": "N'importe quel disque volant accepté par les deux capitaines peut être employé.",
