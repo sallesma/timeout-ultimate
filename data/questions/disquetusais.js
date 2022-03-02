@@ -1510,7 +1510,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   },
   {
     category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
-    question: "Je n’ai pas le disque mais suis en attaque. Nos adversaires placent une défense de zone. Constatant qu’il y a deux joueurs dans les 3 mètres je peux appeler « double équipe » (ou « double team ») ?",
+    question: "Je n’ai pas le disque mais suis en attaque. Nos adversaires placent une défense de zone. Constatant qu’il y a deux défenseurs à moins de 3 mètres du lanceur, je peux appeler « double équipe » (ou « double team ») ?",
     image: undefined,
     answerChoices: {
       a: "Vrai",
