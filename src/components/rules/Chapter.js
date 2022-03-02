@@ -1,24 +1,42 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, TouchableOpacity, Text } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import Highlighter from 'react-native-highlight-words';
 
 import theme from '../../utils/theme.js';
 import Rule from './Rule';
 
-export default (props) => {
+export default ({title, rules, searchText}) => {
   const [expanded, setExpanded] = useState(false);
 
-  const number = props.title.match(/^(\d+.)+/)[0];
+  const number = title.match(/^(\d+.)+/)[0];
+
+  let displayedRuleNumbers = Object.keys(rules);
+  if (searchText.length > 0 ) {
+    if (title.indexOf(searchText) === -1) {
+      displayedRuleNumbers = displayedRuleNumbers.filter(
+        (ruleNumber) => rules[ruleNumber].search(new RegExp(searchText, 'gi')) !== -1);
+      if (displayedRuleNumbers.length === 0)
+        return null;
+    }
+  }
 
   return (
     <View>
       <TouchableOpacity style={styles.header} onPress={()=> setExpanded(!expanded) }>
         <MaterialCommunityIcons name={expanded ? 'chevron-down' : 'chevron-right'} size={30} color="#666666" />
-        <Text style={[styles.title, styles.font]}>{number} {props.title.replace(number, '')}</Text>
+        <Highlighter
+          style={styles.title}
+          highlightStyle={{backgroundColor: 'yellow'}}
+          searchWords={[searchText]}
+          textToHighlight={`${number} ${title.replace(number, '')}`}
+        />
       </TouchableOpacity>
         {expanded &&
           <View style={styles.content}>
-            {Object.keys(props.data).map((ruleNumber) => (<Rule key={ruleNumber} number={ruleNumber} rule={props.data[ruleNumber]} />))}
+            {displayedRuleNumbers.map((ruleNumber) => (
+              <Rule key={ruleNumber} number={ruleNumber} rule={rules[ruleNumber]} searchText={searchText} />
+            ))}
           </View>
         }
     </View>

@@ -1,7 +1,7 @@
 import React, { useState, useLayoutEffect } from 'react';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { BottomSheet, ListItem } from 'react-native-elements';
+import { BottomSheet, ListItem, Input } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../utils/theme.js';
@@ -13,17 +13,27 @@ import HandSignal from '../components/rules/HandSignal';
 
 export default (props) => {
   const [content, setContent] = useState('rules');
+  const [isSearchVisible, setIsSearchVisible] = useState(false);
+  const [searchText, setSearchText] = useState('');
   const [isSelectorVisible, setIsSelectorVisible] = useState(false);
 
   useLayoutEffect(() => {
     props.navigation.setOptions({
       headerRight: () => (
-        <MaterialCommunityIcons
-          name="format-list-bulleted"
-          size={theme.FONT_SIZE_ICON}
-          style={styles.headerRight}
-          onPress={() => setIsSelectorVisible(true)}
-        />
+        <View style={styles.headerRight}>
+          <MaterialCommunityIcons
+            name="text-search"
+            size={theme.FONT_SIZE_ICON}
+            style={styles.headerRightButton}
+            onPress={() => setIsSearchVisible(!isSearchVisible)}
+          />
+          <MaterialCommunityIcons
+            name="format-list-bulleted"
+            size={theme.FONT_SIZE_ICON}
+            style={styles.headerRightButton}
+            onPress={() => setIsSelectorVisible(true)}
+          />
+        </View>
       ),
     });
   });
@@ -40,18 +50,27 @@ export default (props) => {
 
   return (
     <View style={styles.container}>
+      {isSearchVisible && (
+        <Input
+          autoFocus={true}
+          value={searchText}
+          onChangeText={setSearchText}
+          placeholder="Rechercher un mot…"
+          rightIcon={<MaterialCommunityIcons name="close-circle" size={theme.FONT_SIZE_ICON} color="#666666" onPress={() => setSearchText('')} />}
+        />
+      )}
       {content === 'rules' && (
         <FlatList
           keyExtractor={(item, index) => index.toString()}
           data={Object.keys(rules)}
-          renderItem={({ item }) => (<Chapter title={item} data={rules[item]} />)}
+          renderItem={({ item }) => (<Chapter title={item} rules={rules[item]} searchText={searchText} />)}
         />
       )}
       {content === 'handSignals' && (
         <FlatList
           keyExtractor={(item, index) => index.toString()}
           data={handSignals}
-          renderItem={({ item }) => (<HandSignal item={item} />)}
+          renderItem={({ item }) => (<HandSignal item={item} searchText={searchText} />)}
         />
       )}
       <BottomSheet modalProps={{}} isVisible={isSelectorVisible}>
@@ -74,6 +93,9 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   headerRight: {
+    flexDirection: 'row',
+  },
+  headerRightButton: {
     color: 'white',
     marginLeft: 16,
   },
