@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
-import { StyleSheet, Pressable, Text } from 'react-native';
+import { StyleSheet, View, Pressable, Text } from 'react-native';
 import { BottomSheet, Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import rules from '../../../data/rules/rules';
 import theme from '../../utils/theme.js';
 
-export default ({ruleNumber}) => {
-  if (!ruleNumber) return null;
+export default ({ruleNumbers}) => {
+  if (!ruleNumbers) return null;
 
   const [isVisible, setIsVisible] = useState(false);
 
   const flattenedRules = Object.values(rules).reduce((accumulated, currentChapter) => Object.assign(accumulated, currentChapter), {});
-  const rule = flattenedRules[ruleNumber];
 
   return (
     <>
@@ -26,8 +25,12 @@ export default ({ruleNumber}) => {
       />
       <BottomSheet modalProps={{onRequestClose: () => setIsVisible(false)}} isVisible={isVisible}>
         <Pressable style={styles.ruleContainer} onPress={() => setIsVisible(false)} >
-          <Text style={styles.title}>Règle {ruleNumber}</Text>
-          <Text>{rule}</Text>
+          {ruleNumbers.map((ruleNumber) => (
+            <View key={ruleNumber}>
+              <Text style={styles.title}>Règle {ruleNumbers}</Text>
+              <Text>{flattenedRules[ruleNumber]}</Text>
+            </View>
+          ))}
           <Button
             type='clear'
             containerStyle={styles.closeIcon}

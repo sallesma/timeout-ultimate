@@ -110,7 +110,7 @@ export default ({question, onSuccess, onFailure, time}) => {
             <Text style={styles.wrong}>Mauvaise réponse...</Text>
           )}
           <Text>{question.explanation}</Text>
-          <DisplayedRule ruleNumber={question.rules} />
+          <DisplayedRule ruleNumbers={question.rules} />
           <Feedback question={question} style={styles.reportIcon} />
         </View>
       )}
