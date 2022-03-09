@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Pressable } from 'react-native';
+import { StyleSheet, ScrollView, Text, View, Pressable } from 'react-native';
 import { Button } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
@@ -17,7 +17,7 @@ export default (props) => {
   };
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
       <Text style={styles.header}>Nombre de questions</Text>
       <View style={styles.options}>
         <Button type={number === 5 ? 'solid' : 'outline'} containerStyle={styles.button} title="5" onPress={() => setNumber(5)} />
@@ -43,7 +43,7 @@ export default (props) => {
       </View>
 
       <StatusBar style="auto" />
-    </View>
+    </ScrollView>
   );
 }
 
