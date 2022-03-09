@@ -1030,7 +1030,7 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
   },
   {
     category: Categories.OUT,
-    question: "Deux attaquants attrapent le disque simultanément. L’un des deux est hors-jeu. Que se passe-t-il ?",
+    question: "Deux attaquants attrapent le disque simultanément. L’un des deux est du terrain. Que se passe-t-il ?",
     image: undefined,
     answerChoices: {
       a: "Turnover",
@@ -2212,14 +2212,14 @@ Il peut le faire si:
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: "Je viens d’attraper le disque et fais une passe, dès mon premier appui de décélération. Un défenseur appelle un « marcher » (« travel »). A-t-il raison ?",
+    question: "Je viens d’attraper le disque et fais une passe dès mon premier appui de décélération. Un défenseur appelle un « marcher » (« travel »). A-t-il raison ?",
     image: undefined,
     answerChoices: {
       a: "Oui",
       b: "Non",
     },
     correctAnswers: ['b'],
-    explanation: "« Le lanceur peut lancer le disque pendant sa phase de décélération tant qu’il reste en contact avec l’aire de jeu lors du mouvement du lancer ». L’adversaire doit donc percevoir cette décélération (si tant est que ce soit possible dès la première foulée).",
+    explanation: "Je peux faire une passe avant d'avoir établi mon point de pivot à condition que je ne change pas de direction, que je n'augmente pas ma vitesse et que j'ai maximum 2 points de contact avec le sol avant de lâcher le disque (règle 18.2.2.1)",
     rules: undefined,
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,

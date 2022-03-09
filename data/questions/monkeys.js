@@ -132,8 +132,8 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
     level: Levels.MIDDLE,
   },
   {
-    category: "Réceptionneur et positionnement",
-    question: "Je m’appuie sur un coéquipier pour gagner un duel en attaque. Je catch le disque et retombe dans la endzone.",
+    category: Categories.RECEIVER,
+    question: "Je m’appuie sur un coéquipier pour gagner un duel en attaque. Je catch le disque et retombe dans la endzone. Mon adversaire se plaint du coup de pouce dont j'ai bénéficié. Que se passe-t-il ?",
     image: undefined,
     answerChoices: {
       a: "Il y a point",
