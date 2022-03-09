@@ -2220,7 +2220,7 @@ Il peut le faire si:
     },
     correctAnswers: ['b'],
     explanation: "Je peux faire une passe avant d'avoir établi mon point de pivot à condition que je ne change pas de direction, que je n'augmente pas ma vitesse et que j'ai maximum 2 points de contact avec le sol avant de lâcher le disque (règle 18.2.2.1)",
-    rules: undefined,
+    rules: ['18.2.2.1.', '18.2.2.1.1.', '18.2.2.1.2.'],
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
