@@ -555,7 +555,7 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
     },
     correctAnswers: ['b'],
     explanation: "La bonne réponse se trouve dans Rules of ultimate, paragraphe 9.5.4.",
-    rules: undefined,
+    rules: ['9.5.4.'],
     source: "Monkeys - Pierre Gruau",
     level: Levels.MIDDLE,
   },
