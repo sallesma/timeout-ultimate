@@ -27,7 +27,7 @@ export default ({ruleNumbers}) => {
         <Pressable style={styles.ruleContainer} onPress={() => setIsVisible(false)} >
           {ruleNumbers.map((ruleNumber) => (
             <View key={ruleNumber}>
-              <Text style={styles.title}>Règle {ruleNumbers}</Text>
+              <Text style={styles.title}>Règle {ruleNumber}</Text>
               <Text>{flattenedRules[ruleNumber]}</Text>
             </View>
           ))}
