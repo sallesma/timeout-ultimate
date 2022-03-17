@@ -443,7 +443,7 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
     image: undefined,
     answerChoices: {
       a: "Mon équipe prend possession au point de brick de mon équipe et le jeu reprend par un check.",
-      b: "Mon équipe choisit entre prendre possession du disque où il est ou au au point de brick et le jeu reprend sans check.",
+      b: "Mon équipe choisit entre prendre possession du disque où il est ou au point de brick et le jeu reprend sans check.",
       c: "Mon équipe attend que le disque touche le sol, prend possession au point de brick de mon équipe et le jeu reprend sans check.",
       d: "Ce premier appel fait effet d'un premier avertissement et le jeu continue. ",
     },

@@ -730,7 +730,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     image: undefined,
     answerChoices: {
       a: "Là où ils étaient au moment de l'appel",
-      b: "Là où ils éaient au moment de la passe",
+      b: "Là où ils étaient au moment de la passe",
       c: "Au premier des deux événements (la passe ou l'appel)",
       d: "Au dernier des deux événements (la passe ou l'appel)",
     },
@@ -1030,11 +1030,11 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
   },
   {
     category: Categories.OUT,
-    question: "Deux attaquants attrapent le disque simultanément. L’un des deux est du terrain. Que se passe-t-il ?",
+    question: "Deux attaquantes attrapent le disque simultanément. L’une des deux est hors du terrain. Que se passe-t-il ?",
     image: undefined,
     answerChoices: {
       a: "Turnover",
-      b: "L'attaquant en jeu récupère la possession",
+      b: "L'attaquante en jeu récupère la possession",
       c: "Le disque est retourné au lanceur",
     },
     correctAnswers: ['a'],
@@ -1548,7 +1548,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   },
   {
     category: Categories.GOAL,
-    question: "Je saute en prenant appel dans la zone attaquée. J’attrape le disque en l’air mais avec mon élan je retombe hors de l’aire de jeu. Le point est marqué car mes derniers appuis avant le catch étaient dans la zone adverse.",
+    question: "Je saute en prenant appui dans la zone attaquée. J’attrape le disque en l’air mais avec mon élan je retombe hors de l’aire de jeu. Le point est marqué car mes derniers appuis avant le catch étaient dans la zone adverse.",
     image: undefined,
     answerChoices: {
       a: "Vrai",
@@ -1933,7 +1933,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
   },
   {
     category: Categories.FOULS,
-    question: "L’attaquant que je marque me bouscule avant d’attraper le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il y a turnover. Je ne suis pas obligé de prendre le disque. Je peux « checker » le disque et appeler « disc in » afin de relancer le jeu.",
+    question: "L’attaquant que je marque me bouscule avant d’attraper le disque. J’appelle  une « faute ». Il ne conteste pas le contact. Il y a turnover. Je ne suis pas obligé de prendre le disque. Je peux « checker » le disque sans le prendre et appeler « disc in » afin de relancer le jeu. La résolution est-elle correcte ?",
     image: undefined,
     answerChoices: {
       a: "Vrai",
@@ -1941,7 +1941,7 @@ Si la passe est complète et la faute est contestée, le disque revient au lance
     },
     correctAnswers: ['b'],
     explanation: "Si la faute n’est pas contestée, il y a « turnover » et le défenseur gagne la possession où la faute s’est produite.",
-    rules: undefined,
+    rules: ['17.2.2.'],
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
   },
@@ -2009,16 +2009,16 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
   },
   {
     category: Categories.FOULS,
-    question: "Lors de ma course, mon défenseur me fait chuter involontairement alors que j’allais recevoir le disque. Ma chute m’empêche de le recevoir. Que se passe-t-il ?",
+    question: "Lors de ma course, mon défenseur me fait chuter involontairement alors que j’allais recevoir le disque. Ma chute m’empêche de l'attraper. Que se passe-t-il ?",
     image: undefined,
     answerChoices: {
       a: "C'est un turnover",
       b: "Le disque est retourné au lanceur",
       c: "Je récupère le disque"
     },
-    correctAnswers: ['b'],
-    explanation: "Dans la mesure où la faute a eu une influence sur le jeu (étant pressenti comme le receveur), il s’agit d’un contact non accidentel. S’il « se produit quand deux ou plusieurs adversaires se déplacent simultanément vers un même point ce contact doit être traité comme une faute simultanée ».",
-    rules: undefined,
+    correctAnswers: ['c'],
+    explanation: "Dans la mesure où la faute a eu une influence sur le jeu (étant pressenti comme le receveur), il s’agit d’un contact non accidentel.",
+    rules: ['17.2.2.'],
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
   },
@@ -2095,9 +2095,9 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
       a: "Vrai",
       b: "Faux",
     },
-    correctAnswers: ['b'],
-    explanation: "C’est une infraction de marquage et non une violation. Il faut appeler « compte rapide » ou « fast count ».",
-    rules: undefined,
+    correctAnswers: ['a'],
+    explanation: "En général, le marqueur appelle une infraction de marque (« compte rapide » ou « fast count »), mais dans certains cas le marqueur peut appeler directement une violation (Règle 18.5.1.)",
+    rules: ['18.1.5.', '18.1.5.1.', '18.1.5.2.', '18.1.5.3.', '18.1.5.4.'],
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -2206,7 +2206,7 @@ Il peut le faire si:
     },
     correctAnswers: ['b'],
     explanation: "« Après avoir attrapé le disque et être retombé dans l’aire de jeu, le lanceur doit réduire sa vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce qu'il ait établi un point pivot ».",
-    rules: undefined,
+    rules: ['18.2.2.1.', '18.2.2.1.1.', '18.2.2.1.2'],
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
   },
