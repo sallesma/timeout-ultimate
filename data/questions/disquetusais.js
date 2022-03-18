@@ -1145,11 +1145,11 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
   },
   {
     category: Categories.RECEIVER,
-    question: "Un attaquante et une défenseuse attrapent simultanément le disque. Comment se règle cette situation ?",
+    question: "Une attaquante et une défenseuse attrapent simultanément le disque. Comment se règle cette situation ?",
     image: undefined,
     answerChoices: {
       a: "L'attaquante conserve le disque",
-      b: "Le défenseuse conserve le disque",
+      b: "La défenseuse conserve le disque",
       c: "Le disque est retourné au lanceur",
     },
     correctAnswers: ['a'],

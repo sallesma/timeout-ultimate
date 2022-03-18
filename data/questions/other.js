@@ -31,4 +31,20 @@ export default [
     source: "Martin",
     level: Levels.MIDDLE,
   },
+  {
+    category: Categories.TEAMS,
+    question: "En outdoor, combien de joueurs, au maximum, une équipe peut-elle aligner sur le terrain pour pouvoir jouer le point ?",
+    image: undefined,
+    answerChoices: {
+      a: "5",
+      b: "6",
+      c: "7",
+      d: "8",
+    },
+    correctAnswers: ['c'],
+    explanation: "",
+    rules: ['5.1.'],
+    source: "Martin",
+    level: Levels.EASY,
+  },
 ];

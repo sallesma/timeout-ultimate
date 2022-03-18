@@ -106,10 +106,10 @@ export default [
   },
   {
     category: Categories.RECEIVER,
-    question: "Une attaquante et une défenseure attrapent le disque exactement au même moment",
+    question: "Une attaquante et une défenseuse attrapent le disque exactement au même moment",
     image: undefined,
     answerChoices: {
-      a: "La défenseure prend la possession du disque",
+      a: "La défenseuse prend la possession du disque",
       b: "L'attaquante prend la possession du disque",
       c: "Le disque retourne à la lanceuse",
     },

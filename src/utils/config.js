@@ -8,6 +8,7 @@ export const Levels = {
 export const Categories = {
   SPIRIT: "Esprit du jeu",
   FIELD: "Aire de jeu",
+  TEAMS: "Les Équipes",
   PULL: "L'Engagement",
   STATUS: "Le statut du disque",
   COUNT: "Le Compte",
@@ -25,5 +26,4 @@ export const Categories = {
   APPENDIX: "Appendice",
   HAND_SIGNALS: "Gestes",
   INDOOR: "Indoor",
-  OTHER: "Other",
 }

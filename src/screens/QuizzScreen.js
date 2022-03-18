@@ -23,22 +23,13 @@ function getRandomElementsFromArray(arr, n) {
 }
 
 export default (props) => {
-  const { number, time, level } = props.route.params;
+  const { number, time, level, checkedCategories } = props.route.params;
 
-  useLayoutEffect(() => {
-    props.navigation.setOptions({
-      title: `${current} / ${number}`,
-      headerRight: () => (
-        <Text style={styles.headerRight}>{rightAnswersCount} bonnes réponses</Text>
-      ),
-    });
-  });
+  const filteredQuestions = questions.filter(question => (
+    (level === Levels.ANY || level === question.level) && (checkedCategories.length === 0 || checkedCategories.includes(question.category))
+  ));
 
-  const filteredQuestions = questions.filter(question => level === Levels.ANY || level === question.level);
-
-  const [selectedQuestions, _setSelectedQuestions] = useState(
-    Number.isInteger(number) ? getRandomElementsFromArray(filteredQuestions, number) : filteredQuestions
-  );
+  const [selectedQuestions, _setSelectedQuestions] = useState(getRandomElementsFromArray(filteredQuestions, number));
   const [current, setCurrent] = useState(1);
   const [rightAnswersCount, setRightAnswersCount] = useState(0);
   const [canMoveForward, setCanMoveForward] = useState(false);
@@ -52,6 +43,15 @@ export default (props) => {
   const onFailure = () => {
     setCanMoveForward(true)
   }
+
+  useLayoutEffect(() => {
+    props.navigation.setOptions({
+      title: `${current} / ${selectedQuestions.length}`,
+      headerRight: () => (
+        <Text style={styles.headerRight}>{rightAnswersCount} bonnes réponses</Text>
+      ),
+    });
+  });
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
@@ -67,7 +67,7 @@ export default (props) => {
       )}
       {canMoveForward && (
         <Button title="Question suivante" onPress={() => {
-          if (current === number) {
+          if (current === selectedQuestions.length) {
             setShowReport(true);
           }
           else {
@@ -77,7 +77,7 @@ export default (props) => {
         }} />
       )}
       {showReport && (
-        <Report rightAnswersCount={rightAnswersCount} quizzLength={number} navigation={props.navigation} />
+        <Report rightAnswersCount={rightAnswersCount} quizzLength={selectedQuestions.length} navigation={props.navigation} />
       )}
       <StatusBar style="auto" />
     </ScrollView>

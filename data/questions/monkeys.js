@@ -604,7 +604,7 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
     level: Levels.MIDDLE,
   },
   {
-    category: Categories.OTHER,
+    category: Categories.TEAMS,
     question: "En outdoor, combien de joueurs, au minimum, une équipe doit-elle aligner sur le terrain pour pouvoir jouer le point ?",
     image: undefined,
     answerChoices: {
@@ -614,8 +614,8 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
       d: "7",
     },
     correctAnswers: ['b'],
-    explanation: "La bonne réponse se trouve dans Rules of ultimate, paragraphe 5.1.",
-    rules: undefined,
+    explanation: "En dessous de 5 joueurs, l'équipe ne peut pas jouer le point.",
+    rules: ['5.1.'],
     source: "Monkeys - Pierre Gruau",
     level: Levels.MIDDLE,
   },
