@@ -118,7 +118,7 @@ export default {
     "8.5.3.": "Si, après un avertissement, l’attaque continue à enfreindre 8.5 ou 8.5.1, alors 9.3.1 ne s'applique pas et    le marqueur peut commencer le compte."
   },
   "9.« Stall Count » (Le Compte)": {
-    "9.1.": "Le marqueur débute un compte sur le lanceur en annonçant « stalling » (« compté ») puis compte de un (1) à dix (10). L’intervalle ente le début de chaque nombre du compte doit être d’au moins une (1) seconde.",
+    "9.1.": "Le marqueur débute un compte sur le lanceur en annonçant « stalling » (« compté ») puis compte de un (1) à dix (10). L’intervalle entre le début de chaque nombre du compte doit être d’au moins une (1) seconde.",
     "9.2.": "Le compte doit être clairement communiqué au lanceur.",
     "9.3.": "Le marqueur ne peut commencer et continuer un compte que:",
     "9.3.1.": "lorsque le jeu est « vivant » ou   après qu’un pivot est établi après un « turnover »;",

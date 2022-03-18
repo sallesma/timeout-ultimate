@@ -407,7 +407,7 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: "Je suis en attaque. Lors d’une réception, je dévie volontairement le disque (sans l’attraper) pour un coéquipier en zone. Que doit appeler la défense ?",
+    question: "Je suis en attaque. Lors d’une réception, je dévie volontairement le disque (sans l’attraper) pour une coéquipière en zone d'en-but. Que doit appeler la défense ?",
     image: undefined,
     answerChoices: {
       a: "Travel",
@@ -455,7 +455,7 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: "Un pick peut-il être appelé par un attaquant ?",
+    question: "Un pick peut-il être appelé par une attaquante ?",
     image: undefined,
     answerChoices: {
       a: "Vrai",
@@ -591,7 +591,7 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
   },
   {
     category: Categories.CHECK,
-    question: "Un turnover intervient dans la endzone défendue, le lanceur revient à la ligne. Pour pouvoir jouer il doit attendre que son marqueur « check » le disque.",
+    question: "Un turnover intervient dans la endzone défendue, la lanceuse revient à la ligne. Pour pouvoir jouer, elle doit attendre que sa marque « check » le disque.",
     image: undefined,
     answerChoices: {
       a: "Vrai",
