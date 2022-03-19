@@ -4,8 +4,9 @@ import { Button } from 'react-native-elements';
 
 import { saveQuizzResult } from '../utils/history';
 import theme from '../utils/theme.js';
+import ReportError from './questions/ReportError';
 
-export default ({navigation, rightAnswersCount, quizzLength}) => {
+export default ({navigation, rightAnswersCount, quizzLength, errors}) => {
   let message;
   if(rightAnswersCount === quizzLength){
     message = 'Bravo !';
@@ -31,7 +32,7 @@ export default ({navigation, rightAnswersCount, quizzLength}) => {
   return (
     <View>
       <View style={styles.header}>
-        <Text style={styles.report}>Bilan</Text>
+        <Text style={styles.title}>Bilan</Text>
       </View>
       <Text>{rightAnswersCount} bonnes réponses pour {quizzLength} questions</Text>
       <Text>Mon commentaire :</Text>
@@ -52,16 +53,27 @@ export default ({navigation, rightAnswersCount, quizzLength}) => {
           navigation.navigate('HomeScreen')
         }}
       />
+      {errors.length > 0 && (
+        <>
+          <View style={styles.header}>
+            <Text style={styles.title}>Détail des erreurs</Text>
+          </View>
+          {errors.map((error, index) => (
+            <ReportError key={index} question={error.question} checked={error.checked} />
+          ))}
+        </>
+      )}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  report: {
-    fontSize: theme.FONT_SIZE_XL,
-  },
   header: {
-    paddingBottom: 8,
+    marginTop: 16,
+    marginBottom: 8,
+  },
+  title: {
+    fontSize: theme.FONT_SIZE_XL,
   },
   result: {
     marginVertical: 8,

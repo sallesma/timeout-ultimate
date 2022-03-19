@@ -33,15 +33,17 @@ export default (props) => {
   const [current, setCurrent] = useState(1);
   const [rightAnswersCount, setRightAnswersCount] = useState(0);
   const [canMoveForward, setCanMoveForward] = useState(false);
+  const [errors, setErrors] = useState([]);
   const [showReport, setShowReport] = useState(false);
 
   const onSuccess = () => {
     setRightAnswersCount(rightAnswersCount + 1);
-    setCanMoveForward(true)
+    setCanMoveForward(true);
   }
 
-  const onFailure = () => {
-    setCanMoveForward(true)
+  const onFailure = (question, checked) => {
+    setCanMoveForward(true);
+    setErrors(errors.concat({question, checked}));
   }
 
   useLayoutEffect(() => {
@@ -77,7 +79,7 @@ export default (props) => {
         }} />
       )}
       {showReport && (
-        <Report rightAnswersCount={rightAnswersCount} quizzLength={selectedQuestions.length} navigation={props.navigation} />
+        <Report rightAnswersCount={rightAnswersCount} quizzLength={selectedQuestions.length} errors={errors} navigation={props.navigation} />
       )}
       <StatusBar style="auto" />
     </ScrollView>

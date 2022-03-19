@@ -8,4 +8,6 @@ export default {
 
   MAIN_COLOR: '#2a9d9d',
   MAIN_COLOR_LIGHT: '#f2fcfc',
+  RIGHT_COLOR: '#6aa84f',
+  WRONG_COLOR: '#e30000',
 };

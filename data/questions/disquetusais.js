@@ -2614,7 +2614,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
   },
   {
     category: Categories.APPENDIX,
-    question: "Dès que tous les attaquantes ont placé leur pied sur la ligne de but, au moins une d’entre-eux doit instantanément lever la main pour signaler qu’elles sont prêtes.",
+    question: "Dès que toutes les attaquantes ont placé leur pied sur la ligne de but, au moins une d’entre-elles doit instantanément lever la main pour signaler qu’elles sont prêtes.",
     image: undefined,
     answerChoices: {
       a: "Vrai",

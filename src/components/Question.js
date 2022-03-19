@@ -31,7 +31,7 @@ export default ({question, onSuccess, onFailure, time}) => {
     if (answerIsCorrect) {
       if (onSuccess) onSuccess();
     } else {
-      if (onFailure) onFailure();
+      if (onFailure) onFailure(question, checked);
     }
   }
 
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
     fontSize: theme.FONT_SIZE_M,
   },
   correctAnswer: {
-    borderColor: '#6AA84F',
+    borderColor: theme.RIGHT_COLOR,
     borderWidth: 3,
   },
   cta: {
@@ -158,10 +158,10 @@ const styles = StyleSheet.create({
     right: 0,
   },
   correct: {
-    color: '#6AA84F',
+    color: theme.RIGHT_COLOR,
     fontWeight: 'bold',
   },
   wrong: {
-    color: '#E30000',
+    color: theme.WRONG_COLOR,
   },
 });
