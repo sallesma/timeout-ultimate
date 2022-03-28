@@ -213,7 +213,7 @@ export default [
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: "Un défenseur essaie de suivre le joueur sur lequel il défend, mais il rentre dans l'une de ses coéquipieres. Le lanceur a toujours le disque",
+    question: "Un défenseur essaie de suivre le joueur sur lequel il défend, mais il rentre dans l'une de ses coéquipières. Le lanceur a toujours le disque",
     image: undefined,
     answerChoices: {
       a: "Ce n'est pas un pick car ils sont dans la même équipe",

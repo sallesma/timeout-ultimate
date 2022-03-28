@@ -826,7 +826,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   },
   {
     category: Categories.CHECK,
-    question: "Le jeu est mort et toutes les joueuses sont placés correctement. Le disque est au sol et à la portée d’aucune joueuse. Comment relance-t-on le jeu ?",
+    question: "Le jeu est mort et toutes les joueuses sont placées correctement. Le disque est au sol et à la portée d’aucune joueuse. Comment relance-t-on le jeu ?",
     image: undefined,
     answerChoices: {
       a: "La joueuse la plus proche va au disque pour faire le check",
