@@ -2694,7 +2694,7 @@ Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », 
       a: "N'importe quel joueur du match",
       b: "N'importe quel joueur sur le terrain",
       c: "Seulement les capitaines et capitaines de spirit",
-      c: "Seulement les capitaines de spirit",
+      d: "Seulement les capitaines de spirit",
     },
     correctAnswers: ['c'],
     explanation: `Ce temps-mort ne peut être appelé que par les capitaines (d’équipe ou spirit) ou un « game advisor ». L'appel peut être fait après un appel ayant arrêté le jeu ou après le début d’un point et avant l’engagement.
