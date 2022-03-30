@@ -217,7 +217,6 @@ export default [
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
-    /*  no rules found in rules or annotations
   {
     category: Categories.PULL,
     question: "Après un point marqué, combien de temps les équipes ont-elles pour se mettre en place ?",
@@ -228,11 +227,11 @@ export default [
         c: "45 secondes pour l’attaque, 60 secondes pour la défense",
     },
     correctAnswers: ['c'],
-    explanation: "",
+    explanation: "Ces durées sont mentionnées dans l'annexe des règles A5.4.1 (https://rules.wfdf.org/documents/wfdf-rules-of-ultimate-2021-2024-appendix-v2-0/download)",
     rules: undefined,
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
-  },*/
+  },
   {
     category: Categories.PULL,
     question: "Si une défenseuse non porteure du disque et une attaquante lèvent le bras, la joueuse ayant le disque peut-elle faire l’engagement ?",
@@ -369,8 +368,8 @@ export default [
         b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "",
-    rules: ["8.5."], // rules are not clear on that point. the delay of game in case of pull is not linked to a delay (only for turnover, not for pull)
+    explanation: "Ces durées sont mentionnées dans l'annexe des règles A5.8.2 (https://rules.wfdf.org/documents/wfdf-rules-of-ultimate-2021-2024-appendix-v2-0/download)",
+    rules: undefined,
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
