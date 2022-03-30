@@ -13,9 +13,10 @@ export default [
     explanation: `
 « Les joueurs doivent avoir à l’esprit qu’ils ont un rôle d’arbitre en toutes situations d’arbitrage entre équipes. Les joueurs doivent:
  - connaître les règles;
- - être impartiaux et objectifs;
+ - être impartiaux et objectifs;
  - dire la vérité;
- - faire des appels à la faute (« call ») d'une manière cohérente au long d'un match, -  et faire un appel à une faute uniquement si une infraction est assez significative pour changer le résultat d'une action. »
+ - faire des appels à la faute (« call ») d'une manière cohérente au long d'un match, 
+ - et faire un appel à une faute uniquement si une infraction est assez significative pour changer le résultat d'une action.»
     `,
     rules: ["1.3.","1.3.1","1.3.2","1.3.3","1.3.9","1.3.10"],
     source: "Disque Tu Sais - Pablo",
@@ -60,9 +61,9 @@ export default [
     correctAnswers: ['b'],
     explanation: `
 « Les joueurs doivent:
-laisser aux adversaires l’opportunité de parler;
-résoudre les disputes aussi vite que possible en utilisant un langage respectueux,
-réagir calmement aux désaccords et provocations. »
+- laisser aux adversaires l’opportunité de parler
+- résoudre les disputes aussi vite que possible en utilisant un langage respectueux
+- réagir calmement aux désaccords et provocations. »
 
 « La haute compétition est encouragée mais jamais au détriment du respect mutuel entre joueurs, de l’adhérence aux règles du jeu ou du simple plaisir de jouer ».
 `,
@@ -86,7 +87,7 @@ réagir calmement aux désaccords et provocations. »
   },
   {
     category: Categories.SPIRIT,
-    question: "Si je connais mieux les règles qu’un débutant, suis-je tenu de les expliquer et de les faire appliquer?",
+    question: "Si je connais mieux les règles qu’un débutant, suis-je tenu de les expliquer et de les faire appliquer ?",
     image: undefined,
     answerChoices: {
         a: "Vrai",
