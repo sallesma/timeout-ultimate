@@ -290,7 +290,7 @@ export default [
   },
   {
     category: Categories.PULL,
-    question: "Un hors-jeu est :",
+    question: "Un hors-jeu (offside) est :",
     image: undefined,
     answerChoices: {
         a: "Une infraction",
@@ -305,15 +305,15 @@ export default [
   },
   {
     category: Categories.PULL,
-    question: "Je peux appeler un hors-jeu même si le disque a touché le sol",
+    question: "Je peux appeler un hors-jeu (offside) même si le disque a touché le sol",
     image: undefined,
     answerChoices: {
         a: "Vrai",
         b: "Faux",
     },
     correctAnswers: ['a'],
-    explanation: "",
-    rules: undefined,
+    explanation: "Un hors-jeu (offside) doit être appelé avant que l'attaque ne touche le disque",
+    rules: ["7.5."],
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
