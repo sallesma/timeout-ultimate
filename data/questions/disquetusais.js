@@ -217,6 +217,7 @@ export default [
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
+    /*  no rules found in rules or annotations
   {
     category: Categories.PULL,
     question: "Après un point marqué, combien de temps les équipes ont-elles pour se mettre en place ?",
@@ -231,7 +232,7 @@ export default [
     rules: undefined,
     source: "Disque Tu Sais - Pablo",
     level: Levels.DIFFICULT,
-  },
+  },*/
   {
     category: Categories.PULL,
     question: "Si une défenseuse non porteure du disque et une attaquante lèvent le bras, la joueuse ayant le disque peut-elle faire l’engagement ?",
@@ -283,8 +284,8 @@ export default [
         b: "Dans leur zone d'en-but",
     },
     correctAnswers: ['b'],
-    explanation: "",
-    rules: undefined,
+    explanation: "Les joueurs ne peuvent pas quitter leur zone d'en-but avant que le disque ne soit laché.",
+    rules: ["7.6."],
     source: "Disque Tu Sais - Pablo",
     level: Levels.EASY,
   },
@@ -326,8 +327,8 @@ export default [
         b: "Non",
     },
     correctAnswers: ['b'],
-    explanation: "Je n’ai pas le droit de me faire d’auto-passe. L’attaque doit alors appelé une violation de « double contact » (« double touch).",
-    rules: undefined,
+    explanation: "Aucun joueur de l'équipe défensive ne peut toucher le disque après le « pull » avant qu'un membre de l'équipe attaquante ne touche le disque ou que le disque ne touche le sol.",
+    rules: ["7.7."],
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -340,14 +341,14 @@ export default [
         b: "Non",
     },
     correctAnswers: ['b'],
-    explanation: "Si personne n’a touché le disque après mon lancer, je ne suis pas autorisé à le retoucher. Si je le fais c’est une violation (« double touch »).",
-    rules: undefined,
+    explanation: "Aucun joueur de l'équipe défensive ne peut toucher le disque après le « pull » avant qu'un membre de l'équipe attaquante ne touche le disque ou que le disque ne touche le sol.",
+    rules: ["7.7."],
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
   {
     category: Categories.PULL,
-    question: "Mon adversaire engage. Le disque touche le terrain et roule vers ma zone. Je peux arrêter le disque uniquement avec ma main, pour éviter qu'il se rapproche trop de ma zone.",
+    question: "Mon adversaire engage. Le disque touche le terrain et roule vers ma zone. Je peux arrêter le disque mais uniquement avec ma main, pour éviter qu'il se rapproche trop de ma zone.",
     image: undefined,
     answerChoices: {
         a: "Vrai",
@@ -369,7 +370,7 @@ export default [
     },
     correctAnswers: ['b'],
     explanation: "",
-    rules: undefined,
+    rules: ["8.5."], // rules are not clear on that point. the delay of game in case of pull is not linked to a delay (only for turnover, not for pull)
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
   },
@@ -402,7 +403,7 @@ export default [
   },
   {
     category: Categories.PULL,
-    question: "Sur l’engagement, un attaquant tente d’attraper le disque dans le terrain, avant qu’il n’ait touché le sol. Il rate son catch. Que se passe t-il ?",
+    question: "Sur l’engagement, un attaquant tente d’attraper le disque dans le terrain, avant qu’il n’ait touché le sol. Il touche le disque mais rate son catch. Que se passe t-il ?",
     image: undefined,
     answerChoices: {
         a: "C'est un turnover",
@@ -410,8 +411,24 @@ export default [
         c: "Il faut recommencer l'engagement",
     },
     correctAnswers: ['a'],
-    explanation: "Changement de possession (« turnover »). Si ce « drop » a lieu dans sa zone, l’équipe qui a engagé reprend le disque sur la ligne d'en-but (entrée de zone).",
-    rules: undefined,
+    explanation: "Si un attaquant touche le disque, avant qu'il ne touche le sol, il y a « turnover »",
+    rules: ["7.8."],
+    source: "Disque Tu Sais - Pablo",
+    level: Levels.EASY,
+  },
+  {
+    category: Categories.PULL,
+    question: "Sur l’engagement, un attaquant tente d’attraper le disque dans le terrain, avant qu’il n’ait touché le sol. Il rate son catch sans toucher le disque. Que se passe t-il ?",
+    image: undefined,
+    answerChoices: {
+        a: "C'est un turnover",
+        b: "Le jeu continue",
+        c: "Il faut recommencer l'engagement",
+    },
+    correctAnswers: ['a'],
+    explanation: "Lors du pull, le disque peut toucher le sol sans provoquer de turnover. " +
+        "Pour cela il faut qu'aucun attaquant n'y ait touché.",
+    rules: ["7.11."],
     source: "Disque Tu Sais - Pablo",
     level: Levels.EASY,
   },
@@ -431,7 +448,7 @@ export default [
   },
   {
     category: Categories.PULL,
-    question: "Sur l’engagement, une attaquante tente d’attraper le disque hors du terrain, avant qu’il n’ait touché le sol. Elle rate son catch. Que se passe t-il ?",
+    question: "Sur l’engagement, une attaquante tente d’attraper le disque hors du terrain, avant qu’il n’ait touché le sol. Elle touche le disque mais rate son catch. Que se passe t-il ?",
     image: undefined,
     answerChoices: {
         a: "C'est un turnover et le jeu reprend là où le disque est sorti du terrain",
@@ -491,14 +508,15 @@ export default [
   },
   {
     category: Categories.STATUS,
-    question: "Quand est-ce que le disque est dit « mort » ?",
+    question: "Quand est-ce que le disque est dit « mort » ? (plusieurs réponses possibles)",
     image: undefined,
     answerChoices: {
         a: "Après le début d’un point, jusqu’à ce que le « pull » soit effectué",
         b: "Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établi, jusqu’à ce qu’un pivot soit établi",
         c: "Après un « call » qui arrête le jeu ou n’importe quel autre arrêt jusqu’à ce que le disque soit « checké »",
+        d: "Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.",
     },
-    correctAnswers: ['a', 'b', 'c'],
+    correctAnswers: ['a', 'b', 'c','d'],
     explanation: "",
     rules: ["8.1.","8.1.1.","8.1.2.","8.1.3.","8.1.4."],
     source: "Disque Tu Sais - Pablo",
@@ -674,7 +692,6 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
     correctAnswers: ['a'],
     explanation: `
 Lorsque le compte (x) est inférieur à 5, on reprend le compte (x) là où il en était en rajoutant 1. Soit « compté « x » plus 1 »
-
 Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c’est le maximum)`,
     rules: ['9.6.1.'],
     source: "Disque Tu Sais - Pablo",
@@ -692,7 +709,6 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
     correctAnswers: ['b'],
     explanation: `
 Lorsque le compte (x) est inférieur à 5, on reprend le compte (x) là où il en était en rajoutant 1. Soit « compté « x » plus 1 »
-
 Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c’est le maximum)`,
     rules: ['9.6.1.'],
     source: "Disque Tu Sais - Pablo",
