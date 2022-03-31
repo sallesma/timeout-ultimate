@@ -873,14 +873,14 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   },
   {
     category: Categories.CHECK,
-    question: " Je vais chercher le disque en touche. Avant ma passe je dois checker le disque au sol",
+    question: " Je vais chercher le disque en touche suite à un turnover. Avant ma passe je dois checker le disque au sol",
     image: undefined,
     answerChoices: {
       a: "Vrai",
       b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "Le jeu n’est pas mort sur une touche. Il n’y a donc pas de check au sol, ni de check de l’adversaire.",
+    explanation: "Le jeu n’est pas arrêté au moment d'un turnover. Il n’y a donc pas de check au sol, ni de check de l’adversaire.",
     rules: undefined,
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
