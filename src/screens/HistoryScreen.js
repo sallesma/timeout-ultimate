@@ -47,7 +47,7 @@ export default (props) => {
       {results.length === 0 && <Text style={styles.incentive}>Il n'y a pas encore de résultats parce que tu n'as pas encore fait de quiz !</Text>}
       <ScrollView>
         {orderedResults.map((result, index) => (
-          <Text key={index}>{formatDate(new Date(result.createdAt))} - {result.rightAnswersCount} bonnes réponse sur {result.quizzLength} ({result.rightAnswersCount * 100 / result.quizzLength} %)</Text>
+          <Text key={index}>{formatDate(new Date(result.createdAt))} - {result.rightAnswersCount} bonnes réponse sur {result.quizzLength} ({(result.rightAnswersCount * 100 / result.quizzLength).toFixed()} %)</Text>
         ))}
       </ScrollView>
       <StatusBar style="auto" />
