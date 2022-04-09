@@ -23,7 +23,7 @@ Please get in touch.
 
 You need a recent version of nodejs.
 
-Clone the project and install all its dependancies:
+Clone the project and install all its dependencies:
 
 ```
 git clone git@github.com:sallesma/timeout-ultimate.git
