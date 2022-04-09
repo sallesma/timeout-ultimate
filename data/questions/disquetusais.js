@@ -15,7 +15,7 @@ export default [
  - connaître les règles;
  - être impartiaux et objectifs;
  - dire la vérité;
- - faire des appels à la faute (« call ») d'une manière cohérente au long d'un match, 
+ - faire des appels à la faute (« call ») d'une manière cohérente au long d'un match,
  - et faire un appel à une faute uniquement si une infraction est assez significative pour changer le résultat d'une action.»
     `,
     rules: ["1.3.","1.3.1.","1.3.2.","1.3.3.","1.3.9.","1.3.10."],
@@ -544,7 +544,7 @@ export default [
         b: "Faux",
     },
     correctAnswers: ['b'],
-    explanation: "Cet intervalle peut être plus petit.",
+    explanation: "Cet intervalle peut être plus petit. C'est l'intervalle entre les nombres du compte qui doit être au moins d'une seconde.",
     rules: ['9.1.'],
     source: "Disque Tu Sais - Pablo",
     level: Levels.MIDDLE,
@@ -666,7 +666,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
   },
   {
     category: Categories.COUNT,
-    question: "« Fin du compte » («  stall out ») est appelé par le marqueur. Le lanceur conteste. À combien reprend le compte ?",
+    question: "« Fin du compte » (« stall out ») est appelé par le marqueur. Le lanceur conteste. À combien reprend le compte ?",
     image: undefined,
     answerChoices: {
         a: "À « compté 6 »",
