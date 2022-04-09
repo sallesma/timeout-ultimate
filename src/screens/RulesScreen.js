@@ -1,5 +1,5 @@
 import React, { useState, useLayoutEffect } from 'react';
-import { StyleSheet, Text, View, FlatList } from 'react-native';
+import { StyleSheet, View, FlatList } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { BottomSheet, ListItem, Input } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -41,36 +41,43 @@ export default (props) => {
   const switchContent = (newContent) => {
     setIsSelectorVisible(false);
     setContent(newContent);
-  }
+  };
 
   const list = [
-    { title: 'Règles', onPress: () => switchContent('rules')},
-    { title: 'Gestes', onPress: () => switchContent('handSignals')},
+    { title: 'Règles', onPress: () => switchContent('rules') },
+    { title: 'Gestes', onPress: () => switchContent('handSignals') },
   ];
 
   return (
     <View style={styles.container}>
       {isSearchVisible && (
         <Input
-          autoFocus={true}
+          autoFocus
           value={searchText}
           onChangeText={setSearchText}
           placeholder="Rechercher un mot…"
-          rightIcon={<MaterialCommunityIcons name="close-circle" size={theme.FONT_SIZE_ICON} color="#666666" onPress={() => setSearchText('')} />}
+          rightIcon={
+            <MaterialCommunityIcons
+              name="close-circle"
+              size={theme.FONT_SIZE_ICON}
+              color="#666666"
+              onPress={() => setSearchText('')}
+            />
+          }
         />
       )}
       {content === 'rules' && (
         <FlatList
           keyExtractor={(item, index) => index.toString()}
           data={Object.keys(rules)}
-          renderItem={({ item }) => (<Chapter title={item} rules={rules[item]} searchText={searchText} />)}
+          renderItem={({ item }) => <Chapter title={item} rules={rules[item]} searchText={searchText} />}
         />
       )}
       {content === 'handSignals' && (
         <FlatList
           keyExtractor={(item, index) => index.toString()}
           data={handSignals}
-          renderItem={({ item }) => (<HandSignal item={item} searchText={searchText} />)}
+          renderItem={({ item }) => <HandSignal item={item} searchText={searchText} />}
         />
       )}
       <BottomSheet modalProps={{}} isVisible={isSelectorVisible}>
@@ -85,7 +92,7 @@ export default (props) => {
       <StatusBar style="auto" />
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {

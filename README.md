@@ -1,6 +1,6 @@
 # 🥏 Timeout Ultimate
-Setting up a quizz mobile application to learn the rules of ultimate
 
+Setting up a quizz mobile application to learn the rules of ultimate
 
 ## 👏 Contributing
 
@@ -18,7 +18,6 @@ Not a developer? We always need people to help us with:
 
 Please get in touch.
 
-
 ## ⌨️ Development
 
 You need a recent version of nodejs.
@@ -33,12 +32,12 @@ yarn install
 ```
 
 And finally, start the project:
+
 ```
 yarn start
 ```
 
 If you need to update the rules, change the pdf file in the assets and run `npm run extractor`.
-
 
 ## 🚀 Release
 
@@ -48,7 +47,6 @@ To release a new version of the app :
 2. When it is merged, create a release on Github
 3. `expo publish --release-channel production`
 4. If needed, republish to the stores using `eas build --platform all --profile production`
-
 
 ## 📜 License
 

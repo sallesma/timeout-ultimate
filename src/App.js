@@ -15,9 +15,9 @@ import theme from './utils/theme.js';
 
 const reactNativeElementsTheme = {
   colors: {
-    primary: theme.MAIN_COLOR
-  }
-}
+    primary: theme.MAIN_COLOR,
+  },
+};
 
 const reactNavigationTheme = {
   ...DefaultTheme,
@@ -41,7 +41,11 @@ export default function App() {
           fallback={<ActivityIndicator animating color={theme.MAIN_COLOR} style={{ top: '45%' }} size="large" />}
         >
           <Stack.Navigator screenOptions={{ headerBackTitle: 'Retour' }}>
-            <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: 'Timeout Ultimate', headerShown: false }} />
+            <Stack.Screen
+              name="HomeScreen"
+              component={HomeScreen}
+              options={{ title: 'Timeout Ultimate', headerShown: false }}
+            />
             <Stack.Screen name="OptionsScreen" component={OptionsScreen} options={{ title: 'Démarrer mon quizz' }} />
             <Stack.Screen name="QuizzScreen" component={QuizzScreen} />
             <Stack.Screen name="HistoryScreen" component={HistoryScreen} options={{ title: 'Historique' }} />
