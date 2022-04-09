@@ -16,11 +16,27 @@ export default (props) => {
         <Image style={styles.logo} source={logo} />
       </View>
       <Text style={styles.title}>Timeout Ultimate</Text>
-      <Text style={styles.welcomeText}><Text style={styles.emphasis}>{questions.length}</Text> questions t'attendent pour apprendre les règles de l'ultimate !</Text>
+      <Text style={styles.welcomeText}>
+        <Text style={styles.emphasis}>{questions.length}</Text> questions t'attendent pour apprendre les règles de
+        l'ultimate !
+      </Text>
       <View style={styles.buttonsArea}>
-        <Button containerStyle={styles.button} titleStyle={styles.mainButtonText} title="Jouer" onPress={() => props.navigation.navigate('OptionsScreen')} />
-        <Button containerStyle={styles.button} title="Historique" onPress={() => props.navigation.navigate('HistoryScreen')} />
-        <Button containerStyle={styles.button} title="Règlement" onPress={() => props.navigation.navigate('RulesScreen')} />
+        <Button
+          containerStyle={styles.button}
+          titleStyle={styles.mainButtonText}
+          title="Jouer"
+          onPress={() => props.navigation.navigate('OptionsScreen')}
+        />
+        <Button
+          containerStyle={styles.button}
+          title="Historique"
+          onPress={() => props.navigation.navigate('HistoryScreen')}
+        />
+        <Button
+          containerStyle={styles.button}
+          title="Règlement"
+          onPress={() => props.navigation.navigate('RulesScreen')}
+        />
       </View>
       <View style={styles.infoArea}>
         <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
@@ -30,7 +46,7 @@ export default (props) => {
       <StatusBar style="auto" />
     </SafeAreaView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {

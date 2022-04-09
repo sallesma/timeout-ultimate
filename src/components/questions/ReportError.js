@@ -5,18 +5,21 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import theme from '../../utils/theme.js';
 import rules from '../../../data/rules/rules';
 
-export default ({question, checked}) => {
+export default ({ question, checked }) => {
   const [expanded, setExpanded] = useState(false);
 
-  const flattenedRules = Object.values(rules).reduce((accumulated, currentChapter) => Object.assign(accumulated, currentChapter), {});
+  const flattenedRules = Object.values(rules).reduce(
+    (accumulated, currentChapter) => Object.assign(accumulated, currentChapter),
+    {},
+  );
 
   return (
     <View>
-      <TouchableOpacity style={styles.header} onPress={()=> setExpanded(!expanded) }>
+      <TouchableOpacity style={styles.header} onPress={() => setExpanded(!expanded)}>
         <MaterialCommunityIcons name={expanded ? 'chevron-down' : 'chevron-right'} size={20} color="#666666" />
         <Text style={styles.title}>{question.question}</Text>
       </TouchableOpacity>
-      {expanded &&
+      {expanded && (
         <View style={styles.expanded}>
           {Object.keys(question.answerChoices).map((answerChoiceKey) => (
             <Text
@@ -24,23 +27,28 @@ export default ({question, checked}) => {
               style={[
                 styles.answerChoice,
                 checked.includes(answerChoiceKey) && styles.checkedAnwser,
-                checked.includes(answerChoiceKey) && !question.correctAnswers.includes(answerChoiceKey) && styles.wrongAnswer,
+                checked.includes(answerChoiceKey) &&
+                  !question.correctAnswers.includes(answerChoiceKey) &&
+                  styles.wrongAnswer,
                 question.correctAnswers.includes(answerChoiceKey) && styles.correctAnswer,
-              ]}>
+              ]}
+            >
               {question.answerChoices[answerChoiceKey]}
             </Text>
           ))}
-        <Text>{question.explanation}</Text>
-        {question.rules && (
-          <>
-            <Text style={{ marginTop: 8 }}>Règlement :</Text>
-            {question.rules.map((ruleNumber) => (
-              <Text key={ruleNumber} style={styles.rule}>{ruleNumber} {flattenedRules[ruleNumber]}</Text>
-            ))}
-          </>
-        )}
-      </View>
-      }
+          <Text>{question.explanation}</Text>
+          {question.rules && (
+            <>
+              <Text style={{ marginTop: 8 }}>Règlement :</Text>
+              {question.rules.map((ruleNumber) => (
+                <Text key={ruleNumber} style={styles.rule}>
+                  {ruleNumber} {flattenedRules[ruleNumber]}
+                </Text>
+              ))}
+            </>
+          )}
+        </View>
+      )}
     </View>
   );
 };
@@ -78,5 +86,5 @@ const styles = StyleSheet.create({
   },
   rule: {
     fontStyle: 'italic',
-  }
+  },
 });

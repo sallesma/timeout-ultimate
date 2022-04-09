@@ -6,12 +6,15 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import rules from '../../../data/rules/rules';
 import theme from '../../utils/theme.js';
 
-export default ({ruleNumbers}) => {
+export default ({ ruleNumbers }) => {
   if (!ruleNumbers) return null;
 
   const [isVisible, setIsVisible] = useState(false);
 
-  const flattenedRules = Object.values(rules).reduce((accumulated, currentChapter) => Object.assign(accumulated, currentChapter), {});
+  const flattenedRules = Object.values(rules).reduce(
+    (accumulated, currentChapter) => Object.assign(accumulated, currentChapter),
+    {},
+  );
 
   return (
     <>
@@ -23,8 +26,8 @@ export default ({ruleNumbers}) => {
         titleStyle={styles.ctaText}
         onPress={() => setIsVisible(true)}
       />
-      <BottomSheet modalProps={{onRequestClose: () => setIsVisible(false)}} isVisible={isVisible}>
-        <Pressable style={styles.ruleContainer} onPress={() => setIsVisible(false)} >
+      <BottomSheet modalProps={{ onRequestClose: () => setIsVisible(false) }} isVisible={isVisible}>
+        <Pressable style={styles.ruleContainer} onPress={() => setIsVisible(false)}>
           {ruleNumbers.map((ruleNumber) => (
             <View key={ruleNumber}>
               <Text style={styles.title}>Règle {ruleNumber}</Text>
@@ -32,7 +35,7 @@ export default ({ruleNumbers}) => {
             </View>
           ))}
           <Button
-            type='clear'
+            type="clear"
             containerStyle={styles.closeIcon}
             icon={<MaterialCommunityIcons name="close" size={theme.FONT_SIZE_ICON} color="#666666" />}
             onPress={() => setIsVisible(false)}

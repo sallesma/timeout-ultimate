@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import Highlighter from 'react-native-highlight-words';
 
 import theme from '../../utils/theme.js';
 
-export default ({number, rule, searchText}) => {
+export default ({ number, rule, searchText }) => {
   const indentation = (number.match(/\d+./g) || []).length - 2;
 
   return (
-    <View style={[styles.rule, indentation > 0 && styles.indented, { marginLeft: 16 * indentation}]}>
+    <View style={[styles.rule, indentation > 0 && styles.indented, { marginLeft: 16 * indentation }]}>
       <Text style={styles.text}>
         <Text style={styles.number}>{number}</Text>
         <Highlighter
           style={styles.text}
-          highlightStyle={{backgroundColor: 'yellow'}}
+          highlightStyle={{ backgroundColor: 'yellow' }}
           searchWords={[searchText]}
           textToHighlight={rule.replace(number, '')}
         />

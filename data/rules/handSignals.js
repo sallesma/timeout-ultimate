@@ -48,7 +48,7 @@ export default [
   {
     image: accepted,
     name: 'Accepté',
-    hint: 'Les avant-bras étendus devant la poitrine, coudes contre le corps et paumes vers le haut'
+    hint: 'Les avant-bras étendus devant la poitrine, coudes contre le corps et paumes vers le haut',
   },
   {
     image: retracted,
