@@ -209,7 +209,7 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
   {
     category: Categories.CONTINUATION,
     question:
-      'Je suis en attaque et je cours après une longue. Mon défenseur me fait un croche pied et je tombe. J’appelle « Faute » et mon défenseur ne conteste pas. Je garde la possession du disque et le jeu reprend à (1) par un check à l’endroit où j’aurais dû attraper le disque.',
+      'Je suis en attaque et je cours après une longue. Mon défenseur me fait un croche-pied et je tombe. J’appelle « Faute » et mon défenseur ne conteste pas. Je garde la possession du disque et le jeu reprend à (1) par un check à l’endroit où j’aurais dû attraper le disque.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -502,7 +502,7 @@ Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur pe
   {
     category: Categories.FOULS,
     question:
-      'Je suis en attaque et je cours pour réceptionner une longue passe. Mon défenseur me fait un croche pied et je tombe. Même si je pense que je ne pouvais en aucun cas attraper le disque (passe trop longue), je dois quand même appeler « faute » et maintenir mon call.',
+      'Je suis en attaque et je cours pour réceptionner une longue passe. Mon défenseur me fait un croche-pied et je tombe. Même si je pense que je ne pouvais en aucun cas attraper le disque (passe trop longue), je dois quand même appeler « faute » et maintenir mon call.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
