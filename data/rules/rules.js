@@ -307,7 +307,7 @@ export default {
       "Si un joueur pense qu'un « turnover » a eu lieu il doit immédiatement faire l'appel approprié. Si l'équipe adverse est en désaccord elle peut appeler « contest » et le jeu doit s’arrêter. Si, après discussion, les joueurs ne peuvent se mettre d'accord ou que les choses ne sont pas claires concernant l'action le disque doit être rendu au dernier lanceur non contesté.",
     '13.4.': 'Après un appel de « stall-out »:',
     '13.4.1.':
-      "Si le lanceur a toujours la possession du disque mais pense qu’un « fast count » (compte rapide) s’estproduit alors qu’il n'a pas eu une opportunité raisonnable d'appeler « fast count » avant le « stall-out », l’action est traitée soit comme une transgression acceptée par la défense (9.5.1) ou soit comme un « stall-out » contesté (9.5.3).",
+      "Si le lanceur a toujours la possession du disque mais pense qu’un « fast count » (compte rapide) s’est produit alors qu’il n'a pas eu une opportunité raisonnable d'appeler « fast count » avant le « stall-out », l’action est traitée soit comme une transgression acceptée par la défense (9.5.1) ou soit comme un « stall-out » contesté (9.5.3).",
     '13.4.2.':
       'Si le lanceur a effectué une passe réceptionnée, le lanceur peut contester s’il croit qu’il n’y avait pas de « stall-out » ou qu’il y avait un « fast-count » juste avant le « stall-out ».',
     '13.4.3.':
@@ -318,7 +318,7 @@ export default {
     '13.5.2.':
       'Après une faute de réception offensive et dans ce cas le joueur ayant subi la faute doit prendre possession.',
     '13.6.':
-      'Si le joueur en possession après un « turnover » ou après un « pull » ayant déjà touché le sol laisse tomberintentionnellement le disque, le place sur le sol ou transfert la possession du disque il doit rétablir la possession et le jeu reprend par un « check ».',
+      'Si le joueur en possession après un « turnover » ou après un « pull » ayant déjà touché le sol laisse tomber intentionnellement le disque, le place sur le sol ou transfert la possession du disque il doit rétablir la possession et le jeu reprend par un « check ».',
     '13.7.': "Après un « turnover », l'endroit du « turnover » est l’endroit où:",
     '13.7.1.': 'le disque s’est arrêté ou est ramassé par un attaquant; ou',
     '13.7.2.': 'le joueur qui intercepte s’arrête; ou',
@@ -326,14 +326,14 @@ export default {
     '13.7.4.': "l'attaquant se trouvait dans les cas 13.2.6 et 13.2.7 ; ou",
     '13.7.5.': 'se produit la faute offensive acceptée sur une réception.',
     '13.8.':
-      "Si l'endroit du « turnover » est hors de l'aire de jeu ou que le disque touche la zone hors de l'aire de jeuaprès le « turnover » le lanceur doit établir un point pivot à l’endroit de la zone centrale le plus proche d'où le disque est sorti (11.8).",
+      "Si l'endroit du « turnover » est hors de l'aire de jeu ou que le disque touche la zone hors de l'aire de jeu après le « turnover » le lanceur doit établir un point pivot à l’endroit de la zone centrale le plus proche d'où le disque est sorti (11.8).",
     '13.8.1.': "Si 13.8 ne s'applique pas, un point pivot doit être établi selon 13.9, 13.10 ou 13.11.",
     '13.9.':
       "Si l'endroit du « turnover » est dans la zone centrale, le lanceur doit établir un point pivot à cet endroit.",
     '13.10.':
       "Si l'endroit du « turnover » est dans la zone d’en-but attaquée, le lanceur doit établir un point pivot à l’endroit le plus proche sur la ligne de but.",
     '13.11.':
-      "Si l'endroit du « turnover » est dans la zone d’en-but défendue, le lanceur peut choisir d’établir un pointpivot:",
+      "Si l'endroit du « turnover » est dans la zone d’en-but défendue, le lanceur peut choisir d’établir un point pivot:",
     '13.11.1.': "à l’endroit du « turnover », en restant à l'endroit du turnover ou en feintant une passe; ou",
     '13.11.2.':
       "à l’endroit le plus proche du « turnover » sur la ligne de but, en se déplaçant depuis l'endroit du « turnover ».",
