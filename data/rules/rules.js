@@ -183,7 +183,7 @@ export default {
     '9.5.4.1.':
       "S'il y a un appel impliquant le lanceur, et une faute de réception séparée, et que le disque est retourné au lanceur, le compte est repris en fonction du résultat de l'appel impliquant le lanceur.",
     '9.5.4.2.':
-      'S’il y a une violation appelée liée au « check » (Section10.), le compte reprend au même nombre que celui déterminé avant cette violation.',
+      'S’il y a une violation appelée liée au « check » (Section 10.), le compte reprend au même nombre que celui déterminé avant cette violation.',
     '9.6.': 'Redémarrer un compte « à un maximum de n » où « n » est déterminé par 9.5.2, 9.5.4 ou 20.3.6 signifie:',
     '9.6.1.':
       'si « x » est le dernier nombre convenu entièrement énoncé avant le « call » alors le compte reprend à « stalling (x plus un) » ou « stalling n », en prenant le plus petit de ces deux nombres.',
