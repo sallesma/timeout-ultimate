@@ -253,7 +253,7 @@ export default [
   {
     category: Categories.PULL,
     question:
-      'Si une défenseuse non porteure du disque et une attaquante lèvent le bras, la joueuse ayant le disque peut-elle faire l’engagement ?',
+      'Si une défenseuse non porteuse du disque et une attaquante lèvent le bras, la joueuse ayant le disque peut-elle faire l’engagement ?',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
