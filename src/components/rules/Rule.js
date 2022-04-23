@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
+import * as Clipboard from 'expo-clipboard';
+import Toast from 'react-native-toast-message';
 
 import theme from '../../utils/theme.js';
 import NestedPressableHighlighter from './NestedPressableHighlighter.js';
@@ -11,9 +13,20 @@ export default ({ number, rule, searchText }) => {
   const dictionaryWords = Object.keys(dictionary);
   const [displayedWord, setDisplayedWord] = useState();
 
+  const onLongPress = () => {
+    const copiedText = `${number} : ${rule}`;
+    Clipboard.setString(copiedText);
+    Toast.show({
+      type: 'info',
+      text1: `La règle ${number} a été copiée.`,
+      text2: copiedText,
+      visibilityTime: 2000,
+    });
+  };
+
   return (
     <View style={[styles.rule, indentation > 0 && styles.indented, { marginLeft: 16 * indentation }]}>
-      <Text style={styles.text}>
+      <Text style={styles.text} onLongPress={onLongPress}>
         <Text style={styles.number}>{number}</Text>
         <NestedPressableHighlighter
           style={styles.text}

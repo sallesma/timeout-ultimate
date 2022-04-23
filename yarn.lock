@@ -4087,6 +4087,11 @@ expo-asset@~8.4.6:
     path-browserify "^1.0.0"
     url-parse "^1.4.4"
 
+expo-clipboard@~2.1.0:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/expo-clipboard/-/expo-clipboard-2.1.1.tgz#77a506eb70918e6a4708760e6cfb0fafdc18192d"
+  integrity sha512-ay4zv7JGIWT/lqFsonWK8BQ4FuMLaSNFg5gaYJQcIZgZoCyF9f7GRh1HrV3tA0rCPA3i9T6Kt8/8vMMrraH9RQ==
+
 expo-constants@~13.0.2:
   version "13.0.2"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-13.0.2.tgz#b489ecd575cc82a9a0b3dfbf2385d45a44300eb1"
@@ -7441,6 +7446,11 @@ react-native-size-matters@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/react-native-size-matters/-/react-native-size-matters-0.3.1.tgz#24d0cfc335a2c730f6d58bd7b43ea5a41be4b49f"
   integrity sha512-mKOfBLIBFBcs9br1rlZDvxD5+mAl8Gfr5CounwJtxI6Z82rGrMO+Kgl9EIg3RMVf3G855a85YVqHJL2f5EDRlw==
+
+react-native-toast-message@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/react-native-toast-message/-/react-native-toast-message-2.1.5.tgz#550acb9c6c0f1ee49c6b57b65a56d34e297eb723"
+  integrity sha512-mk3rELtBEhrhWBCN6CTaw0gypgL9ZNauX3xx1LUs4uee9vc0pVsghrKxO57vroUCcNL2hDeZSLJWdQNMCkGeaQ==
 
 react-native-web@0.17.1:
   version "0.17.1"

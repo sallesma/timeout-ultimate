@@ -3,6 +3,7 @@ import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { ThemeProvider } from 'react-native-elements';
+import Toast, { BaseToast } from 'react-native-toast-message';
 
 import HomeScreen from './screens/HomeScreen.js';
 import OptionsScreen from './screens/OptionsScreen.js';
@@ -32,6 +33,10 @@ const reactNavigationTheme = {
 
 const Stack = createNativeStackNavigator();
 
+const toastConfig = {
+  info: (props) => <BaseToast {...props} style={{ borderLeftColor: 'transparent' }} />,
+};
+
 export default function App() {
   return (
     <SafeAreaProvider>
@@ -53,6 +58,7 @@ export default function App() {
             <Stack.Screen name="RulesScreen" component={RulesScreen} options={{ title: 'Règlement' }} />
           </Stack.Navigator>
         </NavigationContainer>
+        <Toast config={toastConfig} />
       </ThemeProvider>
     </SafeAreaProvider>
   );
