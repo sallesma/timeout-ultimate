@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Pressable, Text } from 'react-native';
-import { BottomSheet, Button } from 'react-native-elements';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { StyleSheet, View, Text } from 'react-native';
+import { Button } from 'react-native-elements';
 
 import rules from '../../../data/rules/rules';
 import theme from '../../utils/theme.js';
+import BottomSheet from '../shared/BottomSheet.js';
 
 export default ({ ruleNumbers }) => {
   if (!ruleNumbers) return null;
@@ -26,21 +26,13 @@ export default ({ ruleNumbers }) => {
         titleStyle={styles.ctaText}
         onPress={() => setIsVisible(true)}
       />
-      <BottomSheet modalProps={{ onRequestClose: () => setIsVisible(false) }} isVisible={isVisible}>
-        <Pressable style={styles.ruleContainer} onPress={() => setIsVisible(false)}>
-          {ruleNumbers.map((ruleNumber) => (
-            <View key={ruleNumber}>
-              <Text style={styles.title}>Règle {ruleNumber}</Text>
-              <Text>{flattenedRules[ruleNumber]}</Text>
-            </View>
-          ))}
-          <Button
-            type="clear"
-            containerStyle={styles.closeIcon}
-            icon={<MaterialCommunityIcons name="close" size={theme.FONT_SIZE_ICON} color="#666666" />}
-            onPress={() => setIsVisible(false)}
-          />
-        </Pressable>
+      <BottomSheet onClose={() => setIsVisible(false)} isVisible={isVisible}>
+        {ruleNumbers.map((ruleNumber) => (
+          <View key={ruleNumber}>
+            <Text style={styles.title}>Règle {ruleNumber}</Text>
+            <Text>{flattenedRules[ruleNumber]}</Text>
+          </View>
+        ))}
       </BottomSheet>
     </>
   );
@@ -66,13 +58,5 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: theme.FONT_SIZE_L,
-  },
-  cta: {
-    textDecorationLine: 'underline',
-  },
-  closeIcon: {
-    position: 'absolute',
-    top: 0,
-    right: 0,
   },
 });

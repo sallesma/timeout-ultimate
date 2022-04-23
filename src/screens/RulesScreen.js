@@ -1,7 +1,7 @@
 import React, { useState, useLayoutEffect } from 'react';
 import { StyleSheet, View, FlatList } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { BottomSheet, ListItem, Input } from 'react-native-elements';
+import { ListItem, Input } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../utils/theme.js';
@@ -10,6 +10,7 @@ import handSignals from '../../data/rules/handSignals';
 
 import Chapter from '../components/rules/Chapter';
 import HandSignal from '../components/rules/HandSignal';
+import BottomSheet from '../components/shared/BottomSheet.js';
 
 export default (props) => {
   const [content, setContent] = useState('rules');
@@ -80,7 +81,7 @@ export default (props) => {
           renderItem={({ item }) => <HandSignal item={item} searchText={searchText} />}
         />
       )}
-      <BottomSheet modalProps={{}} isVisible={isSelectorVisible}>
+      <BottomSheet onClose={() => setIsSelectorVisible(false)} isVisible={isSelectorVisible}>
         {list.map((listItem, i) => (
           <ListItem key={i} onPress={listItem.onPress}>
             <ListItem.Content>
