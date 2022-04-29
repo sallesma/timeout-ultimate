@@ -2283,7 +2283,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     },
     correctAnswers: ['a'],
     explanation:
-      'En général, le marqueur appelle une infraction de marque (« compte rapide » ou « fast count »), mais dans certains cas le marqueur peut appeler directement une violation (Règle 18.5.1.)',
+      'En général, le marqueur appelle une infraction de marque (« compte rapide » ou « fast count »), mais dans certains cas le marqueur peut appeler directement une violation.',
     rules: ['18.1.5.', '18.1.5.1.', '18.1.5.2.', '18.1.5.3.', '18.1.5.4.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
