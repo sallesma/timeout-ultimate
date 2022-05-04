@@ -158,7 +158,7 @@ export default [
   {
     category: Categories.FIELD,
     question:
-      'Un joueur attrape le disque en l’air. À la réception, ses pieds touchent le sol en même temps avec un pied dans le l’aire de jeu et l’autre en dehors . « Turnover » ou pas ?',
+      'Un joueur attrape le disque en l’air. À la réception, ses pieds touchent le sol en même temps avec un pied dans l’aire de jeu et l’autre en dehors . « Turnover » ou pas ?',
     image: undefined,
     answerChoices: {
       a: 'Turnover',
@@ -2487,7 +2487,7 @@ Il peut le faire si:
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      ' Je suis défenseur. Je subis une obstruction et je décide d’attendre 2 secondes avant d’appeler «obstruction (« pick »). Je n’ai pas le droit car tout appel doit se faire instantanément.',
+      'Je suis défenseur. Je subis une obstruction et je décide d’attendre 2 secondes avant d’appeler «obstruction (« pick »). Je n’ai pas le droit car tout appel doit se faire instantanément.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
