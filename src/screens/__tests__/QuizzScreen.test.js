@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react-native';
+import { render, waitFor } from '@testing-library/react-native';
 
 import { Levels, Categories } from '../../utils/config';
 
@@ -16,7 +16,7 @@ describe('<QuizzScreen />', () => {
         checkedCategories: [Categories.STATUS],
       },
     };
-    const { toJSON } = render(<QuizzScreen navigation={navigation} route={route} />);
+    const { toJSON } = await waitFor(() => render(<QuizzScreen navigation={navigation} route={route} />));
 
     expect(toJSON()).toMatchSnapshot();
   });

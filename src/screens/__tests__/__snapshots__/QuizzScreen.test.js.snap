@@ -74,7 +74,29 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
                 }
               }
             >
-              <Text />
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "grey",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "minWidth": 24,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
               <Text
                 style={
                   Object {
@@ -132,7 +154,29 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
                 }
               }
             >
-              <Text />
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "grey",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "minWidth": 24,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
               <Text
                 style={
                   Object {
@@ -190,7 +234,29 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
                 }
               }
             >
-              <Text />
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "grey",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "minWidth": 24,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
               <Text
                 style={
                   Object {
@@ -248,7 +314,29 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
                 }
               }
             >
-              <Text />
+              <Text
+                allowFontScaling={false}
+                selectable={false}
+                style={
+                  Array [
+                    Object {
+                      "color": "grey",
+                      "fontSize": 24,
+                    },
+                    Object {
+                      "minWidth": 24,
+                    },
+                    Object {
+                      "fontFamily": "FontAwesome",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
               <Text
                 style={
                   Object {

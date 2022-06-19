@@ -63,6 +63,7 @@ const styles = StyleSheet.create({
     borderBottomColor: theme.MAIN_COLOR,
   },
   title: {
+    flex: 1,
     marginLeft: 8,
     fontSize: theme.FONT_SIZE_S,
   },
