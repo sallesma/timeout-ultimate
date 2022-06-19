@@ -13,9 +13,9 @@ export default ({ number, rule, searchText }) => {
   const dictionaryWords = Object.keys(dictionary);
   const [displayedWord, setDisplayedWord] = useState();
 
-  const onLongPress = () => {
+  const onLongPress = async () => {
     const copiedText = `${number} : ${rule}`;
-    Clipboard.setString(copiedText);
+    await Clipboard.setStringAsync(copiedText);
     Toast.show({
       type: 'info',
       text1: `La règle ${number} a été copiée.`,
