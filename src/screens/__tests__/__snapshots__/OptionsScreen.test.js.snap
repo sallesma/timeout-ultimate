@@ -57,6 +57,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -128,6 +129,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -199,6 +201,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -290,6 +293,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -361,6 +365,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -432,6 +437,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -528,6 +534,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -604,6 +611,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -680,6 +688,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -756,6 +765,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -839,6 +849,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
@@ -909,6 +920,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
             }
           }
           accessible={true}
+          collapsable={false}
           focusable={true}
           onClick={[Function]}
           onResponderGrant={[Function]}
