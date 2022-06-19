@@ -2,6 +2,14 @@
 
 exports[`<HomeScreen /> renders correctly 1`] = `
 <RNCSafeAreaView
+  edges={
+    Array [
+      "bottom",
+      "left",
+      "right",
+      "top",
+    ]
+  }
   style={
     Object {
       "flex": 1,
@@ -100,6 +108,7 @@ exports[`<HomeScreen /> renders correctly 1`] = `
           }
         }
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}
@@ -170,6 +179,7 @@ exports[`<HomeScreen /> renders correctly 1`] = `
           }
         }
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}
@@ -240,6 +250,7 @@ exports[`<HomeScreen /> renders correctly 1`] = `
           }
         }
         accessible={true}
+        collapsable={false}
         focusable={true}
         onClick={[Function]}
         onResponderGrant={[Function]}

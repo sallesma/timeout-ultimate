@@ -38,9 +38,11 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             accessibilityState={
               Object {
                 "checked": false,
+                "disabled": false,
               }
             }
             accessible={true}
+            collapsable={false}
             focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}
@@ -94,9 +96,11 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             accessibilityState={
               Object {
                 "checked": false,
+                "disabled": false,
               }
             }
             accessible={true}
+            collapsable={false}
             focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}
@@ -150,9 +154,11 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             accessibilityState={
               Object {
                 "checked": false,
+                "disabled": false,
               }
             }
             accessible={true}
+            collapsable={false}
             focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}
@@ -206,9 +212,11 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             accessibilityState={
               Object {
                 "checked": false,
+                "disabled": false,
               }
             }
             accessible={true}
+            collapsable={false}
             focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}
@@ -284,6 +292,7 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
           }
         >
           <View
+            collapsable={false}
             style={
               Object {
                 "backgroundColor": "rgb(42, 157, 157)",
@@ -326,6 +335,7 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
               }
             }
             accessible={true}
+            collapsable={false}
             focusable={true}
             onClick={[Function]}
             onResponderGrant={[Function]}

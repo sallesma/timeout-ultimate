@@ -225,7 +225,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
       >
         Version 
         , release-channel 
-        default
+        mock
       </Text>
     </View>
   </View>
