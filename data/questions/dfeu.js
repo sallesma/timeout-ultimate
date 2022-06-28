@@ -89,7 +89,7 @@ export default [
     },
     correctAnswers: ['b'],
     explanation:
-      "Le défenseur peut compter s'il est à moins de 3 mètres du lanceur et ne commet pas d'infraction de marque.",
+      "Le défenseur peut compter s'il est à moins de 3 mètres du lanceur et ne commet pas d'infraction de marquage.",
     rules: ['9.3.', '9.3.1.', '9.3.2.', '9.3.3.'],
     source: 'DFEU - Pablo',
     level: Levels.MIDDLE,
@@ -196,7 +196,7 @@ export default [
     answerChoices: {
       a: "Le jeu s'arrête",
       b: "Le jeu ne s'arrête pas",
-      c: 'La marqueuse ne peut pas contester une infraction de marque',
+      c: 'La marqueuse ne peut pas contester une infraction de marquage',
     },
     correctAnswers: ['a'],
     explanation: "Le jeu ne se serait pas arrêté si l'infraction avait été acceptée.",
