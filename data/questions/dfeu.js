@@ -176,12 +176,12 @@ export default [
   {
     category: Categories.FOULS,
     question:
-      "Un attaquant touche le disque en l'air en essayant de l'attraper, mais ne réussit pas. Le défenseur commet alors une faute sur l'attaquant et l'empêche de faire une deuxième tentative pour attrapper le disque",
+      "Un attaquant touche le disque en l'air en essayant de l'attraper, mais ne réussit pas. Le défenseur commet alors une faute sur l'attaquant et l'empêche de faire une deuxième tentative pour attraper le disque",
     image: undefined,
     answerChoices: {
       a: "C'est une faute « Strip »",
       b: "Ce n'est pas une faute car l'attaquant avait déjà raté son catch",
-      c: "C'est une faute car l'attaquant a été empêché d'attrapper le disque sur sa seconde tentative",
+      c: "C'est une faute car l'attaquant a été empêché d'attraper le disque sur sa seconde tentative",
     },
     correctAnswers: ['c'],
     explanation: '',
