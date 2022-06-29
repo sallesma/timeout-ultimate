@@ -210,9 +210,25 @@ export default [
       b: 'La joueuse peut appeler une violation',
       c: 'Je peux appeler une violation',
     },
-    correctAnswers: ['b', 'c'],
+    correctAnswers: ['b'],
     explanation:
-      'Tous les joueurs peuvent appeler une « violation » car aucun obstacle ne doit se situer à moins de 3 mètres de l ‘aire de jeu.',
+      'Tous les joueurs gênés peuvent appeler une « violation » car aucun obstacle ne doit se situer à moins de 3 mètres de l ‘aire de jeu.',
+    rules: ['2.7.'],
+    source: 'Disque Tu Sais - Pablo',
+    level: Levels.MIDDLE,
+  },
+  {
+    category: Categories.FIELD,
+    question:
+      "On me fait une passe proche de la ligne de touche. Au moment d'attraper le disque, je suis gêné par un non-joueur placé à 50 cm du terrain.",
+    image: undefined,
+    answerChoices: {
+      a: "Tant pis, il faut s'arranger avec la situation",
+      b: 'Je peux appeler une violation',
+    },
+    correctAnswers: ['b'],
+    explanation:
+      'Tous les joueurs gênés peuvent appeler une « violation » car aucun obstacle ne doit se situer à moins de 3 mètres de l ‘aire de jeu.',
     rules: ['2.7.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
