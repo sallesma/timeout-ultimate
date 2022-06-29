@@ -715,7 +715,8 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
       d: 'Là où il était',
     },
     correctAnswers: ['c'],
-    explanation: '',
+    explanation:
+      "Le compte ne peut pas reprendre à plus de 9 sur une transgression appelée par la défense et acceptée par l'attaque. Attention, cela ne concerne pas le « pick » (reprise à 6 maximum).",
     rules: ['9.5.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
