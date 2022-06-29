@@ -786,7 +786,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   },
   {
     category: Categories.CHECK,
-    question: "Je tente une passe avant le « check » ou après qu'une violation de placement ait été appelée. Elle n’est pas réceptionnée. Que se passe-t-il ?",
+    question: "Je tente une passe avant le « check » ou après qu'une violation de placement a été appelée. Elle n’est pas réceptionnée. Que se passe-t-il ?",
     image: undefined,
     answerChoices: {
       a: "Le résultat de la passe est conservé",
