@@ -1,12 +1,12 @@
 import React from 'react';
-import { StyleSheet, Alert } from 'react-native';
+import { Alert } from 'react-native';
 import * as MailComposer from 'expo-mail-composer';
 import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-import theme from '../utils/theme.js';
+import theme from '../../utils/theme.js';
 
-export const FeedbackButton = ({question, style}) => {
+export const FeedbackButton = ({ question, style }) => {
   const feedbackAlert = () => {
     Alert.alert(
       'Signalement',
@@ -20,7 +20,7 @@ export const FeedbackButton = ({question, style}) => {
   };
 
   const sendEmailAsync = () => {
-    const result = MailComposer.composeAsync({
+    MailComposer.composeAsync({
       recipients: ['ultimate.timeout@gmail.com'],
       subject: "Une question n'est pas claire sur Timeout Ultimate",
       body: `
@@ -32,9 +32,9 @@ export const FeedbackButton = ({question, style}) => {
     });
   };
 
-  return(
+  return (
     <Button
-      type='clear'
+      type="clear"
       containerStyle={style}
       icon={<MaterialCommunityIcons name="alert-octagon-outline" size={theme.FONT_SIZE_ICON} color="#666666" />}
       onPress={feedbackAlert}

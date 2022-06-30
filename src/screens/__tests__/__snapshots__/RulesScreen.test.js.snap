@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RulesScreen /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "padding": 16,
+    }
+  }
+>
+  <RCTScrollView
+    data={
+      Array [
+        "1.L’Esprit du Jeu",
+        "2.Aire de Jeu",
+        "3.Équipement",
+        "4.Point et Jeu",
+        "5.Équipes",
+        "6.Commencer un Match",
+        "7.Le « Pull » (Engagement)",
+        "8.Etat du Jeu",
+        "9.« Stall Count » (Le Compte)",
+        "10.Le « Check »",
+        "11.« Out » (Hors-limites)",
+        "12.Réceptionneur et Positionnement",
+        "13.« Turnovers »",
+        "14.Marquer un point",
+        "15.Appeler les Fautes, Infractions et Violations",
+        "16.Continuité après un appel",
+        "17.Fautes",
+        "18.Infractions et Violations",
+        "19.Interruptions de sécurité",
+        "20.Temps-Morts (« Time-Outs »)",
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              1. L’Esprit du Jeu
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              2. Aire de Jeu
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              3. Équipement
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              4. Point et Jeu
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              5. Équipes
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              6. Commencer un Match
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              7. Le « Pull » (Engagement)
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              8. Etat du Jeu
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              9. « Stall Count » (Le Compte)
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <View
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "alignItems": "center",
+                "borderBottomColor": "#2a9d9d",
+                "borderBottomWidth": 0.5,
+                "flexDirection": "row",
+                "marginTop": 8,
+                "opacity": 1,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text />
+            <Text
+              style={
+                Object {
+                  "fontSize": 20,
+                  "marginLeft": 8,
+                }
+              }
+            >
+              10. Le « Check »
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={true}
+    visible={false}
+  />
+</View>
+`;

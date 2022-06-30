@@ -6,16 +6,16 @@ import { Button } from 'react-native-elements';
 import Question from '../components/Question';
 import Report from '../components/Report';
 import questions from '../../data/questions';
-import { Levels } from '../utils/config'
+import { Levels } from '../utils/config';
 
 // Taken from https://stackoverflow.com/a/19270021
 function getRandomElementsFromArray(arr, n) {
   let number = Math.min(n, arr.length);
-  var result = new Array(number),
+  let result = new Array(number),
     len = arr.length,
     taken = new Array(len);
   while (number--) {
-    var x = Math.floor(Math.random() * len);
+    const x = Math.floor(Math.random() * len);
     result[number] = arr[x in taken ? taken[x] : x];
     taken[x] = --len in taken ? taken[len] : len;
   }
@@ -23,66 +23,70 @@ function getRandomElementsFromArray(arr, n) {
 }
 
 export default (props) => {
-  const { number, time, level } = props.route.params;
+  const { number, time, level, checkedCategories } = props.route.params;
 
-  useLayoutEffect(() => {
-    props.navigation.setOptions({
-      title: `${current} / ${number}`,
-      headerRight: () => (
-        <Text style={styles.headerRight}>{rightAnswersCount} bonnes réponses</Text>
-      ),
-    });
-  });
-
-  const filteredQuestions = questions.filter(question => level === Levels.ANY || level === question.level);
-
-  const [selectedQuestions, _setSelectedQuestions] = useState(
-    Number.isInteger(number) ? getRandomElementsFromArray(filteredQuestions, number) : filteredQuestions
+  const filteredQuestions = questions.filter(
+    (question) =>
+      (level === Levels.ANY || level === question.level) &&
+      (checkedCategories.length === 0 || checkedCategories.includes(question.category)),
   );
+
+  const [selectedQuestions, _setSelectedQuestions] = useState(getRandomElementsFromArray(filteredQuestions, number));
   const [current, setCurrent] = useState(1);
   const [rightAnswersCount, setRightAnswersCount] = useState(0);
   const [canMoveForward, setCanMoveForward] = useState(false);
+  const [errors, setErrors] = useState([]);
   const [showReport, setShowReport] = useState(false);
 
   const onSuccess = () => {
     setRightAnswersCount(rightAnswersCount + 1);
-    setCanMoveForward(true)
-  }
+    setCanMoveForward(true);
+  };
 
-  const onFailure = () => {
-    setCanMoveForward(true)
-  }
+  const onFailure = (question, checked) => {
+    setCanMoveForward(true);
+    setErrors(errors.concat({ question, checked }));
+  };
+
+  useLayoutEffect(() => {
+    props.navigation.setOptions({
+      title: `${current} / ${selectedQuestions.length}`,
+      headerRight: () => <Text style={styles.headerRight}>{rightAnswersCount} bonnes réponses</Text>,
+    });
+  });
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       {!showReport && (
         <View style={styles.question}>
-          <Question
-            question={selectedQuestions[current - 1]}
-            onSuccess={onSuccess}
-            onFailure={onFailure}
-            time={time}
-          />
+          <Question question={selectedQuestions[current - 1]} onSuccess={onSuccess} onFailure={onFailure} time={time} />
         </View>
       )}
       {canMoveForward && (
-        <Button title="Question suivante" onPress={() => {
-          if (current === number) {
-            setShowReport(true);
-          }
-          else {
-            setCurrent(current + 1);
-          }
-          setCanMoveForward(false);
-        }} />
+        <Button
+          title="Question suivante"
+          onPress={() => {
+            if (current === selectedQuestions.length) {
+              setShowReport(true);
+            } else {
+              setCurrent(current + 1);
+            }
+            setCanMoveForward(false);
+          }}
+        />
       )}
       {showReport && (
-        <Report rightAnswersCount={rightAnswersCount} quizzLength={number} navigation={props.navigation} />
+        <Report
+          rightAnswersCount={rightAnswersCount}
+          quizzLength={selectedQuestions.length}
+          errors={errors}
+          navigation={props.navigation}
+        />
       )}
       <StatusBar style="auto" />
     </ScrollView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {

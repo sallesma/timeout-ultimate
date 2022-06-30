@@ -12,3 +12,12 @@ web-build/
 
 # macOS
 .DS_Store
+
+# Google play account service credentials
+google-play-key.json
+
+.eslintcache
+
+# Test coverage
+coverage/
+junit.xml

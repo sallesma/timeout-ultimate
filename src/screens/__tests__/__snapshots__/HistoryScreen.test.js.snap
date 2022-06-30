@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HistoryScreen /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "padding": 16,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "#2a9d9d",
+        "borderBottomWidth": 1,
+        "marginBottom": 8,
+        "paddingBottom": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+        }
+      }
+    >
+      Questions : 
+      0
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+        }
+      }
+    >
+      Bonnes réponses : 
+      0
+    </Text>
+  </View>
+  <Text
+    style={
+      Object {
+        "fontSize": 16,
+        "marginTop": 32,
+        "textAlign": "center",
+      }
+    }
+  >
+    Il n'y a pas encore de résultats parce que tu n'as pas encore fait de quiz !
+  </Text>
+  <RCTScrollView>
+    <View />
+  </RCTScrollView>
+</View>
+`;
