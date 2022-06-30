@@ -1105,7 +1105,7 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
   {
     category: Categories.OUT,
     question:
-      'Un attaquant va chercher le disque en dehors de l’aire de jeu. Il établit son pivot sur la ligne de touche et fait une passe décisive. La point est-il valide ?',
+      'Un attaquant va chercher le disque en dehors de l’aire de jeu. Il établit son pivot sur la ligne de touche et fait une passe décisive. Le point est-il valide ?',
     image: undefined,
     answerChoices: {
       a: 'Oui',
