@@ -3,16 +3,12 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import { CheckBox, Button, LinearProgress } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
-import QuestionFeedback from './QuestionFeedback.js';
+import Feedback from './questions/Feedback.js';
+import DisplayedRule from './questions/DisplayedRule.js';
 
-const colors = [
-  '#cddff3',
-  '#F4C8A2',
-  '#f8f99c',
-  '#e5c9e5',
-];
+const colors = ['#cddff3', '#F4C8A2', '#f8f99c', '#e5c9e5'];
 
-export default ({question, onSuccess, onFailure, time}) => {
+export default ({ question, onSuccess, onFailure, time }) => {
   const [currentTime, setCurrentTime] = React.useState(0);
   const [checked, setChecked] = useState([]);
   const [result, setResult] = useState(undefined);
@@ -20,26 +16,26 @@ export default ({question, onSuccess, onFailure, time}) => {
   useEffect(() => {
     setChecked([]);
     setResult(undefined);
-  }, [question.question+question.image]);
+  }, [question.question + question.image]);
 
   const onValidate = () => {
     if (currentTime < 1) setCurrentTime(1);
 
-    const answerIsCorrect = JSON.stringify(checked.sort()) == JSON.stringify(question.correctAnswers.sort());
+    const answerIsCorrect = JSON.stringify(checked.sort()) === JSON.stringify(question.correctAnswers.sort());
     setResult(answerIsCorrect);
     if (answerIsCorrect) {
       if (onSuccess) onSuccess();
     } else {
-      if (onFailure) onFailure();
+      if (onFailure) onFailure(question, checked);
     }
-  }
+  };
 
   const onCheck = (choiceKey) => {
     const newChecked = checked.includes(choiceKey)
-      ? checked.filter((v) => v!== choiceKey)
+      ? checked.filter((v) => v !== choiceKey)
       : checked.concat([choiceKey]);
     setChecked(newChecked);
-  }
+  };
 
   const showResult = result !== undefined;
 
@@ -54,14 +50,14 @@ export default ({question, onSuccess, onFailure, time}) => {
       if (currentTime < 1) {
         setTimeout(() => {
           if (subs) {
-            setCurrentTime(currentTime + (1 / time));
+            setCurrentTime(currentTime + 1 / time);
           }
         }, 1000);
       }
       if (currentTime > 1) {
         onValidate();
       }
-      return () => subs = false;
+      return () => (subs = false);
     }, [currentTime]);
   }
 
@@ -84,7 +80,7 @@ export default ({question, onSuccess, onFailure, time}) => {
             containerStyle={[
               styles.checkbox,
               { backgroundColor: colors[index] },
-              showResult && question.correctAnswers.includes(answerChoiceKey) && styles.correctAnswer
+              showResult && question.correctAnswers.includes(answerChoiceKey) && styles.correctAnswer,
             ]}
             textStyle={styles.checkboxText}
             uncheckedColor="grey"
@@ -109,12 +105,13 @@ export default ({question, onSuccess, onFailure, time}) => {
             <Text style={styles.wrong}>Mauvaise réponse...</Text>
           )}
           <Text>{question.explanation}</Text>
-          <QuestionFeedback question={question} style={styles.reportIcon} />
+          <DisplayedRule ruleNumbers={question.rules} />
+          <Feedback question={question} style={styles.reportIcon} />
         </View>
       )}
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   imageContainer: {
@@ -137,7 +134,7 @@ const styles = StyleSheet.create({
     fontSize: theme.FONT_SIZE_M,
   },
   correctAnswer: {
-    borderColor: '#6AA84F',
+    borderColor: theme.RIGHT_COLOR,
     borderWidth: 3,
   },
   cta: {
@@ -156,10 +153,10 @@ const styles = StyleSheet.create({
     right: 0,
   },
   correct: {
-    color: '#6AA84F',
+    color: theme.RIGHT_COLOR,
     fontWeight: 'bold',
   },
   wrong: {
-    color: '#E30000',
+    color: theme.WRONG_COLOR,
   },
 });

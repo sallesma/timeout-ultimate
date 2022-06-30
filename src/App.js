@@ -3,6 +3,7 @@ import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { ThemeProvider } from 'react-native-elements';
+import Toast, { BaseToast } from 'react-native-toast-message';
 
 import HomeScreen from './screens/HomeScreen.js';
 import OptionsScreen from './screens/OptionsScreen.js';
@@ -15,9 +16,9 @@ import theme from './utils/theme.js';
 
 const reactNativeElementsTheme = {
   colors: {
-    primary: theme.MAIN_COLOR
-  }
-}
+    primary: theme.MAIN_COLOR,
+  },
+};
 
 const reactNavigationTheme = {
   ...DefaultTheme,
@@ -32,6 +33,10 @@ const reactNavigationTheme = {
 
 const Stack = createNativeStackNavigator();
 
+const toastConfig = {
+  info: (props) => <BaseToast {...props} style={{ borderLeftColor: 'transparent' }} />,
+};
+
 export default function App() {
   return (
     <SafeAreaProvider>
@@ -41,7 +46,11 @@ export default function App() {
           fallback={<ActivityIndicator animating color={theme.MAIN_COLOR} style={{ top: '45%' }} size="large" />}
         >
           <Stack.Navigator screenOptions={{ headerBackTitle: 'Retour' }}>
-            <Stack.Screen name="HomeScreen" component={HomeScreen} options={{ title: 'Timeout Ultimate', headerShown: false }} />
+            <Stack.Screen
+              name="HomeScreen"
+              component={HomeScreen}
+              options={{ title: 'Timeout Ultimate', headerShown: false }}
+            />
             <Stack.Screen name="OptionsScreen" component={OptionsScreen} options={{ title: 'Démarrer mon quizz' }} />
             <Stack.Screen name="QuizzScreen" component={QuizzScreen} />
             <Stack.Screen name="HistoryScreen" component={HistoryScreen} options={{ title: 'Historique' }} />
@@ -49,6 +58,7 @@ export default function App() {
             <Stack.Screen name="RulesScreen" component={RulesScreen} options={{ title: 'Règlement' }} />
           </Stack.Navigator>
         </NavigationContainer>
+        <Toast config={toastConfig} />
       </ThemeProvider>
     </SafeAreaProvider>
   );

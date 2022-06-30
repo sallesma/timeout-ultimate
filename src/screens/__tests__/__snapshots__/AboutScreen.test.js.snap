@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AboutScreen /> renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "paddingBottom": 64,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+      "padding": 16,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "marginTop": 8,
+        }
+      }
+    >
+      À propos
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginTop": 8,
+        }
+      }
+    >
+      Bonjour ! Je suis Martin Salles, le développeur derrière Timeout Ultimate. C'est une application conçue par des joueurs d'ultimate pour aider d'autres joueurs à apprendre les règles de l'ultimate. Elle est et restera gratuite.
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "marginTop": 8,
+        }
+      }
+    >
+      Remerciements
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginTop": 8,
+        }
+      }
+    >
+      Je souhaite remercier tous ceux qui ont contribué au développement de Timeout Ultimate. Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo. Certaines questions ont été rédigées par Pierre Gruau pour les Monkeys. L'application utilise aussi les Hand Signals dessinés par Raphaël Candelier pour le PUC et la WFDF.
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginTop": 8,
+        }
+      }
+    >
+      Les règles de l'ultimate sont tirés du document "WFDF Rules of Ultimate 2021-2024" produit par la World Flying Disc Federation, puis traduit par la FFDF.
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "marginTop": 8,
+        }
+      }
+    >
+      Contribuer
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginTop": 8,
+        }
+      }
+    >
+      Que ce soit pour ajouter, corriger des questions ou maintenir l'application, toute aide est la bienvenue !
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "marginTop": 8,
+        }
+      }
+    >
+      Feedback
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginTop": 8,
+        }
+      }
+    >
+      L'application est en cours de création. J'ai plein d'idées pour la suite mais je serais ravi de connaître ton avis
+    </Text>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2a9d9d",
+            "fontSize": 16,
+            "marginTop": 8,
+          }
+        }
+      >
+        Envoyer un message
+      </Text>
+    </View>
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "marginTop": 8,
+        }
+      }
+    >
+      Autres projets
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontSize": 14,
+          "marginTop": 8,
+        }
+      }
+    >
+      En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'ultimate
+    </Text>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+    >
+      <Text
+        style={
+          Object {
+            "color": "#2a9d9d",
+            "fontSize": 16,
+            "marginTop": 8,
+          }
+        }
+      >
+        Disc In
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "marginTop": 32,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": undefined,
+          }
+        }
+      >
+        Informations techniques
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": undefined,
+          }
+        }
+      >
+        Timeout Ultimate
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": undefined,
+          }
+        }
+      >
+        2021 - 
+        2022
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "grey",
+            "fontSize": undefined,
+          }
+        }
+      >
+        Version 
+        , release-channel 
+        mock
+      </Text>
+    </View>
+  </View>
+</RCTScrollView>
+`;

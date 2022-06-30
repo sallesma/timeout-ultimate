@@ -1,0 +1,386 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<QuizzScreen /> renders correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "paddingBottom": 64,
+    }
+  }
+  style={
+    Object {
+      "flex": 1,
+      "padding": 16,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "marginBottom": 16,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            Object {
+              "fontSize": 16,
+            }
+          }
+        >
+          Quand est-ce que le disque est dit « mort » ? (plusieurs réponses possibles)
+        </Text>
+        <View>
+          <View
+            accessibilityRole="checkbox"
+            accessibilityState={
+              Object {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#cddff3",
+                "borderColor": "#ededed",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "margin": 5,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "opacity": 1,
+                "padding": 16,
+              }
+            }
+            testID="checkbox"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text />
+              <Text
+                style={
+                  Object {
+                    "color": "#43484d",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                  }
+                }
+                testID="checkboxTitle"
+              >
+                a. Après le début d’un point, jusqu’à ce que le « pull » soit effectué
+              </Text>
+            </View>
+          </View>
+          <View
+            accessibilityRole="checkbox"
+            accessibilityState={
+              Object {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#F4C8A2",
+                "borderColor": "#ededed",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "margin": 5,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "opacity": 1,
+                "padding": 16,
+              }
+            }
+            testID="checkbox"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text />
+              <Text
+                style={
+                  Object {
+                    "color": "#43484d",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                  }
+                }
+                testID="checkboxTitle"
+              >
+                b. Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établi, jusqu’à ce qu’un pivot soit établi
+              </Text>
+            </View>
+          </View>
+          <View
+            accessibilityRole="checkbox"
+            accessibilityState={
+              Object {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#f8f99c",
+                "borderColor": "#ededed",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "margin": 5,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "opacity": 1,
+                "padding": 16,
+              }
+            }
+            testID="checkbox"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text />
+              <Text
+                style={
+                  Object {
+                    "color": "#43484d",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                  }
+                }
+                testID="checkboxTitle"
+              >
+                c. Après un « call » qui arrête le jeu ou n’importe quel autre arrêt jusqu’à ce que le disque soit « checké »
+              </Text>
+            </View>
+          </View>
+          <View
+            accessibilityRole="checkbox"
+            accessibilityState={
+              Object {
+                "checked": false,
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#e5c9e5",
+                "borderColor": "#ededed",
+                "borderRadius": 8,
+                "borderWidth": 1,
+                "margin": 5,
+                "marginLeft": 10,
+                "marginRight": 10,
+                "opacity": 1,
+                "padding": 16,
+              }
+            }
+            testID="checkbox"
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                }
+              }
+            >
+              <Text />
+              <Text
+                style={
+                  Object {
+                    "color": "#43484d",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                    "marginLeft": 10,
+                    "marginRight": 10,
+                  }
+                }
+                testID="checkboxTitle"
+              >
+                d. Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.
+              </Text>
+            </View>
+          </View>
+        </View>
+        <View
+          accessibilityRole="progressbar"
+          accessibilityValue={
+            Object {
+              "max": 1,
+              "min": 0,
+              "now": 0,
+            }
+          }
+          accessible={true}
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#f2fcfc",
+                "height": 4,
+                "overflow": "hidden",
+                "width": "100%",
+              },
+              Object {
+                "marginVertical": 10,
+              },
+            ]
+          }
+        >
+          <View
+            collapsable={false}
+            style={
+              Object {
+                "backgroundColor": "rgb(42, 157, 157)",
+                "flex": 1,
+                "transform": Array [
+                  Object {
+                    "translateX": -0,
+                  },
+                  Object {
+                    "scaleX": 0.0001,
+                  },
+                ],
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "borderRadius": 3,
+                "overflow": "hidden",
+              },
+              Object {
+                "borderRadius": 3,
+              },
+              Object {
+                "marginTop": 8,
+              },
+              false,
+            ]
+          }
+        >
+          <View
+            accessibilityRole="button"
+            accessibilityState={
+              Object {
+                "busy": false,
+                "disabled": false,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#2089dc",
+                  "borderColor": "#2089dc",
+                  "borderRadius": 3,
+                  "borderWidth": 0,
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                  "padding": 8,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "white",
+                    "fontSize": 18,
+                    "paddingVertical": 1,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Valider
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

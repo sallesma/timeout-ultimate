@@ -48,7 +48,7 @@ export default [
   {
     image: accepted,
     name: 'Accepté',
-    hint: 'Les avant-bras étendus devant la poitrine, coudes contre le corps et paumes vers le haut'
+    hint: 'Les avant-bras étendus devant la poitrine, coudes contre le corps et paumes vers le haut',
   },
   {
     image: retracted,
@@ -57,27 +57,27 @@ export default [
   },
   {
     image: in_out,
-    name: 'In ou Out',
+    name: 'In ou Out (Dedans ou Dehors)',
     hint: "Un bras tendu, paume ouverte, pouce parallèle aux doigts, vers la zone de jeu (in) ou l'extérieur (out)",
   },
   {
     image: disc_down,
-    name: 'Disque Down',
+    name: 'Disque Down (Disque au sol)',
     hint: "L'index pointé vers le sol à 45 degrés",
   },
   {
     image: disc_up,
-    name: 'Disque Up',
+    name: "Disque Up (Disque en l'air)",
     hint: "L'index pointé vers le ciel, coude contre la poitrine",
   },
   {
     image: pick,
-    name: 'Pick',
+    name: 'Pick (Obstruction)',
     hint: 'Les bras levés à angle droit, poings fermés, paumes du côté de la tête',
   },
   {
     image: travel,
-    name: 'Travel',
+    name: 'Travel (Marcher)',
     hint: "Poings fermés en rotation verticale l'un autour de l'autre",
   },
   {
@@ -87,12 +87,12 @@ export default [
   },
   {
     image: turnover,
-    name: 'Turnover',
+    name: 'Turnover (Changement de possession)',
     hint: 'Le bras droit tendu devant le corps, la paume vers le ciel puis retournée vers le sol',
   },
   {
     image: timing_violation,
-    name: 'Stall Out',
+    name: 'Stall Out (Fin du compte)',
     hint: 'La main, paume ouverte, vient taper sur la tête',
   },
   {
@@ -102,7 +102,7 @@ export default [
   },
   {
     image: timeOut,
-    name: 'Time-out',
+    name: 'Time-out (Temps mort)',
     hint: 'Les 2 mains forment un T, ou 1 main et le disque',
   },
   {
@@ -112,7 +112,7 @@ export default [
   },
   {
     image: stoppage,
-    name: 'Stoppage',
+    name: 'Stoppage (Interruption)',
     hint: 'Les mains se saisissent au dessus de la tête, bras pliés',
   },
   {
@@ -132,7 +132,7 @@ export default [
   },
   {
     image: match_point,
-    name: 'Match point',
+    name: 'Match point (Universe)',
     hint: 'Les deux bras pointent en haut à gauche, paumes ouvertes',
   },
   {
