@@ -1515,7 +1515,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     correctAnswers: ['c'],
     explanation:
       'Le jeu s’arrête puis reprend par un check à l’endroit où le disque s’est arrêté ou là où il a été intercepté.',
-    rules: undefined,
+    rules: ['13.4.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
