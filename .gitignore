@@ -17,3 +17,7 @@ web-build/
 google-play-key.json
 
 .eslintcache
+
+# Test coverage
+coverage/
+junit.xml
