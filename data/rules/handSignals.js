@@ -92,7 +92,7 @@ export default [
   },
   {
     image: timing_violation,
-    name: 'Stall Out (Fin du compte)',
+    name: 'Stall-Out (Fin du compte)',
     hint: 'La main, paume ouverte, vient taper sur la tête',
   },
   {

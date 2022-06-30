@@ -619,7 +619,7 @@ export default [
   },
   {
     category: Categories.COUNT,
-    question: ' Je n’ai pas obligation de dire « dix » à la fin du compte. je peux le remplacer par « stall out » ?',
+    question: ' Je n’ai pas obligation de dire « dix » à la fin du compte. je peux le remplacer par « stall-out » ?',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -636,7 +636,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
   },
   // {
   //   category: Categories.COUNT,
-  //   question: " A quel moment puis je appeler un « stall out » (« fin du compte ») ?",
+  //   question: " A quel moment puis je appeler un « stall-out » (« fin du compte ») ?",
   //   answerChoices: {
   //       a: "Vrai",
   //       b: "Faux",
@@ -724,7 +724,7 @@ Si au D de « dix » (ou T de « ten »), le lanceur avait le disque en main
   {
     category: Categories.COUNT,
     question:
-      '« Fin du compte » (« stall out ») est appelé par le marqueur. Le lanceur conteste. À combien reprend le compte ?',
+      '« Fin du compte » (« stall-out ») est appelé par le marqueur. Le lanceur conteste. À combien reprend le compte ?',
     image: undefined,
     answerChoices: {
       a: 'À « compté 6 »',
@@ -1486,7 +1486,7 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
   {
     category: Categories.TURNOVERS,
     question:
-      'Je lance le disque à « 10 » et ma passe est ratée. Mon défenseur, appelle « fin du compte » (ou « stall out ») lorsque le disque vole. Je ne conteste pas. Que se passe-t-il ?',
+      'Je lance le disque à « 10 » et ma passe est ratée. Mon défenseur, appelle « fin du compte » (ou « stall-out ») lorsque le disque vole. Je ne conteste pas. Que se passe-t-il ?',
     image: undefined,
     answerChoices: {
       a: "La défense récupère le disque quoi qu'il arrive de ma passe",
@@ -1505,12 +1505,12 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   {
     category: Categories.TURNOVERS,
     question:
-      'Mon marqueur appelle « fin du compte » (ou « stall out ») au moment où je lance et je conteste. Ma passe est ratée. Que se passe-t-il ?',
+      'Mon marqueur appelle « fin du compte » (ou « stall-out ») au moment où je lance et je conteste. Ma passe est ratée. Que se passe-t-il ?',
     image: undefined,
     answerChoices: {
-      a: "Le jeu reprend à l'endroit où je suis et je récupère le disque suite au stall out contesté",
-      b: "Le jeu reprend à l'endroit où je suis et la défense récupère le disque suite au stall out",
-      c: "Le stall out contesté est ignoré puisqu'il y a eu turnover et le jeu reprend là où le disque s'est arrêté",
+      a: "Le jeu reprend à l'endroit où je suis et je récupère le disque suite au stall-out contesté",
+      b: "Le jeu reprend à l'endroit où je suis et la défense récupère le disque suite au stall-out",
+      c: "Le stall-out contesté est ignoré puisqu'il y a eu turnover et le jeu reprend là où le disque s'est arrêté",
     },
     correctAnswers: ['c'],
     explanation:
@@ -1522,11 +1522,11 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   {
     category: Categories.TURNOVERS,
     question:
-      'Je lance le disque et ma passe est réussie. Mon adversaire appelle « fin du compte » (ou « stall out ») que je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?',
+      'Je lance le disque et ma passe est réussie. Mon adversaire appelle « fin du compte » (ou « stall-out ») que je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?',
     image: undefined,
     answerChoices: {
-      a: "Le stall out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
-      b: 'Le stall out est contesté le jeu reprend à « compté 8 »',
+      a: "Le stall-out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
+      b: 'Le stall-out est contesté, le jeu reprend à « compté 8 »',
     },
     correctAnswers: ['b'],
     explanation: 'Le disque revient au lanceur et le jeu reprend par un check et « compté 8 »',
@@ -1537,12 +1537,12 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   {
     category: Categories.TURNOVERS,
     question:
-      'Je lance le disque et ma passe est ratée (ou interceptée). Mon adversaire appelle « fin du compte » (ou « stall out »). Je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?',
+      'Je lance le disque et ma passe est ratée (ou interceptée). Mon adversaire appelle « fin du compte » (ou « stall-out »). Je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?',
     image: undefined,
     answerChoices: {
-      a: "Le stall out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
-      b: 'Le stall out est contesté le jeu reprend à « compté 8 »',
-      c: 'Le stall out contesté est ignoré et le turnover est maintenu',
+      a: "Le stall-out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
+      b: 'Le stall-out est contesté le jeu reprend à « compté 8 »',
+      c: 'Le stall-out contesté est ignoré et le turnover est maintenu',
     },
     correctAnswers: ['c'],
     explanation:
@@ -1664,7 +1664,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
   {
     category: Categories.TURNOVERS,
     question:
-      'J’appelle la « fin du compte » (« stall out ») et mon adversaire n’a pas lancé le disque. Le jeu est arrêté. Il me tend le disque. Je suis obligé de le prendre.',
+      'J’appelle la « fin du compte » (« stall-out ») et mon adversaire n’a pas lancé le disque. Le jeu est arrêté. Il me tend le disque. Je suis obligé de le prendre.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',

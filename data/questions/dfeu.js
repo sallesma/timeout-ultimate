@@ -136,7 +136,7 @@ export default [
     },
     correctAnswers: ['c'],
     explanation:
-      "C'est bien le « d » de « dix » qui marque la fin du compte. L'appel « Stall out » vient simplement signifier que « dix » a été atteint.",
+      "C'est bien le « d » de « dix » qui marque la fin du compte. L'appel « Stall-out » vient simplement signifier que « dix » a été atteint.",
     rules: ['13.2.', '13.2.2.'],
     source: 'DFEU - Pablo',
     level: Levels.EASY,
@@ -255,7 +255,7 @@ export default [
   },
   {
     category: Categories.CONTINUATION,
-    question: 'Sur un « Stall out » accepté',
+    question: 'Sur un « Stall-out » accepté',
     image: undefined,
     answerChoices: {
       a: "Turnover, c'est le marqueur qui reprend la possession du disque",
