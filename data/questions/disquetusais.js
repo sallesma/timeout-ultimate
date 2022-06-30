@@ -1530,7 +1530,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     },
     correctAnswers: ['b'],
     explanation: 'Le disque revient au lanceur et le jeu reprend par un check et « compté 8 »',
-    rules: undefined,
+    rules: ['13.4.1.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
