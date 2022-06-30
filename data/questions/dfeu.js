@@ -89,7 +89,7 @@ export default [
     },
     correctAnswers: ['b'],
     explanation:
-      "Le défenseur peut compter s'il est à moins de 3 mètres du lanceur et ne commet pas d'infraction de marque.",
+      "Le défenseur peut compter s'il est à moins de 3 mètres du lanceur et ne commet pas d'infraction de marquage.",
     rules: ['9.3.', '9.3.1.', '9.3.2.', '9.3.3.'],
     source: 'DFEU - Pablo',
     level: Levels.MIDDLE,
@@ -176,12 +176,12 @@ export default [
   {
     category: Categories.FOULS,
     question:
-      "Un attaquant touche le disque en l'air en essayant de l'attraper, mais ne réussit pas. Le défenseur commet alors une faute sur l'attaquant et l'empêche de faire une deuxième tentative pour attrapper le disque",
+      "Un attaquant touche le disque en l'air en essayant de l'attraper, mais ne réussit pas. Le défenseur commet alors une faute sur l'attaquant et l'empêche de faire une deuxième tentative pour attraper le disque",
     image: undefined,
     answerChoices: {
       a: "C'est une faute « Strip »",
       b: "Ce n'est pas une faute car l'attaquant avait déjà raté son catch",
-      c: "C'est une faute car l'attaquant a été empêché d'attrapper le disque sur sa seconde tentative",
+      c: "C'est une faute car l'attaquant a été empêché d'attraper le disque sur sa seconde tentative",
     },
     correctAnswers: ['c'],
     explanation: '',
@@ -196,7 +196,7 @@ export default [
     answerChoices: {
       a: "Le jeu s'arrête",
       b: "Le jeu ne s'arrête pas",
-      c: 'La marqueuse ne peut pas contester une infraction de marque',
+      c: 'La marqueuse ne peut pas contester une infraction de marquage',
     },
     correctAnswers: ['a'],
     explanation: "Le jeu ne se serait pas arrêté si l'infraction avait été acceptée.",

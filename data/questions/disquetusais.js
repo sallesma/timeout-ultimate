@@ -284,7 +284,7 @@ export default [
   {
     category: Categories.PULL,
     question:
-      'Après que le « puller » ait levé le bras, il faut que deux attaquants minimum lèvent le bras pour pouvoir faire l’engagement ?',
+      'Après que le « puller » a levé le bras, il faut que deux attaquants minimum lèvent le bras pour pouvoir faire l’engagement ?',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -483,7 +483,7 @@ export default [
   {
     category: Categories.PULL,
     question:
-      'Lors de l’engagement, la force du vent renvoie le disque vers ma zone d’en-but. Après que le disque ait touché le sol, et avant que les attaquants ne le touchent, j’arrête le disque qui roule vers ma zone pour ne pas que les attaquants gagnent trop de terrain. Est-ce autorisé ?',
+      'Lors de l’engagement, la force du vent renvoie le disque vers ma zone d’en-but. Après que le disque a touché le sol, et avant que les attaquants ne le touchent, j’arrête le disque qui roule vers ma zone pour ne pas que les attaquants gagnent trop de terrain. Est-ce autorisé ?',
     image: undefined,
     answerChoices: {
       a: 'Oui',
@@ -2841,7 +2841,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
   {
     category: Categories.APPENDIX,
     question:
-      'Après qu’un point ait été marqué, de combien de temps dispose l’équipe en attaque pour se placer sur la ligne de but (un pied) et rester immobile ?',
+      'Après qu’un point a été marqué, de combien de temps dispose l’équipe en attaque pour se placer sur la ligne de but (un pied) et rester immobile ?',
     image: undefined,
     answerChoices: {
       a: '45 secondes',
@@ -2871,7 +2871,7 @@ Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « changeme
   {
     category: Categories.APPENDIX,
     question:
-      'Après qu’un point ait été marqué, l’équipe en défense a plus de temps que l’attaque pour se placer dans sa zone d’en-but?',
+      'Après qu’un point a été marqué, l’équipe en défense a plus de temps que l’attaque pour se placer dans sa zone d’en-but?',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -2945,7 +2945,7 @@ Si après avoir annoncé a voix haute « 20 secondes », « 10 secondes », 
     correctAnswers: ['c'],
     explanation: `Ce temps-mort ne peut être appelé que par les capitaines (d’équipe ou spirit) ou un « game advisor ». L'appel peut être fait après un appel ayant arrêté le jeu ou après le début d’un point et avant l’engagement.
 Durant ce temps mort, aucun point tactique ne peut être abordé par les équipes.
-Après que les capitaines se soient réunis pour trouver les solutions à une amélioration de l’esprit du jeu, les deux équipes se réunissent en cercle au milieu du terrain pour que les capitaines énoncent les solutions trouvées.`,
+Après que les capitaines se sont réunis pour trouver les solutions à une amélioration de l’esprit du jeu, les deux équipes se réunissent en cercle au milieu du terrain pour que les capitaines énoncent les solutions trouvées.`,
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
