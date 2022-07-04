@@ -521,7 +521,7 @@ export default {
       "quand le lanceur doit se déplacer vers un endroit spécifié, le lanceur n'établit pas de point pivot avant la préparation ou de le début l’acte de lancer;",
     '18.2.5.4.': 'le lanceur ne maintient pas son point pivot établi jusqu’à ce que le disque soit relâché;',
     '18.2.5.5.':
-      'un joueur fait exprès de mal attraper le disque ou met du temps à bien le maîtriser dans le seulbut de se déplacer dans une direction spécifique.',
+      'un joueur fait exprès de mal attraper le disque ou met du temps à bien le maîtriser dans le seul but de se déplacer dans une direction spécifique.',
     '18.2.6.': 'Après qu’une infraction de « travel » acceptée est appelée, le jeu ne s’arrête pas.',
     '18.2.6.1.':
       "Le lanceur établit un point pivot à l’endroit correct, comme indiqué par le joueur qui a appelé le « travel ». Ceci doit se produire sans délai de la part de l'un et l'autre des joueurs impliqués.",
