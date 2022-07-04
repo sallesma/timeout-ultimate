@@ -534,7 +534,7 @@ export default {
     '18.2.9.': "Après une infraction de « travel » contestée où le lanceur n'a pas lancé le disque, le jeu est arrêté.",
     '18.3.': 'Violations de type « Pick »:',
     '18.3.1.':
-      "Si un défenseur guarde un attaquant et qu’il est gêné dans son mouvement vers/avec ce joueur par un autre joueur, le défenseur peut appeler « pick ». Cependant ce n'est pas un « pick » si le joueur défendu et le joueur bloquant font tous deux une action sur le disque.",
+      "Si un défenseur garde un attaquant et qu’il est gêné dans son mouvement vers/avec ce joueur par un autre joueur, le défenseur peut appeler « pick ». Cependant ce n'est pas un « pick » si le joueur défendu et le joueur bloquant font tous deux une action sur le disque.",
     '18.3.1.1.':
       "Avant de faire un appel de « pick », le défenseur peut retarder son appel jusqu'à deux (2) secondes pour voir si l'obstruction va affecter le jeu.",
     '18.3.2.':
