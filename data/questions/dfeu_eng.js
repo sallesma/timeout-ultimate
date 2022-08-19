@@ -64,13 +64,13 @@ export default [
     {
         category: Categories.PULL,
         question:
-            'The pull exits the field from one side without having made contact with the ground. The pitcher can put her pivot foot in',
+            'The pull exits the field from one side without having made contact with the ground. The thrower can put her pivot foot in',
         image: undefined,
         answerChoices: {
-            a: 'at the mark of the brig, or at the middle of the field, or at the sideline where the disc went out',
-            b: 'at the mark of the brig, or at the middle of the end line',
-            c: 'at the mark of the brig, or at the point on the sideline where the disc went out',
-            d: 'at the mark of the brig, or at the point on the sideline nearest to where the disc landed',
+            a: 'at the brick mark, or at the middle of the field, or at the sideline where the disc went out',
+            b: 'at the brick mark, or at the middle of the end line',
+            c: 'at the brick mark, or at the point on the sideline where the disc went out',
+            d: 'at the brick mark, or at the point on the sideline nearest to where the disc landed',
         },
         correctAnswers: ['c'],
         explanation: "It is the attacking team's choice",
@@ -127,7 +127,7 @@ export default [
 
     {
         category: Categories.COUNT,
-        question: 'For a stall-out, the launcher must still be in possession of the disk when',
+        question: 'For a stall-out, the thrower must still be in possession of the disk when',
         image: undefined,
         answerChoices: {
             a: 'the marker starts to say "Stall", after reaching ten',
@@ -169,7 +169,7 @@ export default [
             d: 'The thrower can only call "Contact" when contact occurs outside the throwing motion',
         },
         correctAnswers: ['c'],
-        explanation: 'The play stops immediately when the pitcher calls "foul", so the pass is ignored.',
+        explanation: 'The play stops immediately when the thrower calls "foul", so the pass is ignored.',
         rules: ['16.1.'],
         source: 'DFEU - Pablo',
         level: Levels.MIDDLE,
@@ -192,7 +192,7 @@ export default [
     },
     {
         category: Categories.INFRACTIONS_VIOLATIONS,
-        question: 'The pitcher calls "Disc space" and the scorekeeper disputes it',
+        question: 'The thrower calls "Disc space" and the defender contests it',
         image: undefined,
         answerChoices: {
             a: 'The game stops',
@@ -225,7 +225,7 @@ export default [
     {
         category: Categories.INFRACTIONS_VIOLATIONS,
         question:
-            "A defender tries to follow the player he is defending on, but he runs into one of his teammates. The thrower still has the disc",
+            "A defender tries to follow the player he is defending, but he runs into one of his teammates. The thrower still has the disc",
         image: undefined,
         answerChoices: {
             a: "This is not a pick because they are on the same team",
@@ -243,14 +243,14 @@ export default [
     {
         category: Categories.FIELD,
         question:
-            "After establishing his pivot foot in the field, one player successfully completes his pass by putting the other out",
+            "After establishing his pivot foot in the field, one player successfully completes a pass by putting the other out",
         image: undefined,
         answerChoices: {
             a: 'There is a turnover because he had one foot outside the field',
             b: 'There is no turnover',
         },
         correctAnswers: ['b'],
-        explanation: 'With the pivot foot established in the field, the player is considered onside',
+        explanation: 'With the pivot foot established in the field, the player is considered in bounds',
         rules: ['11.3.3.'],
         source: 'DFEU - Pablo',
         level: Levels.MIDDLE,
