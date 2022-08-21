@@ -13,7 +13,7 @@ const options = {
   lastPage: 15,
 };
 
-pdfExtract.extract('./assets/WFDF Rules of Ultimate 2021-2024 - French.pdf', options, (err, data) => {
+pdfExtract.extract('./assets/WFDF Rules of Ultimate 2021-2024.pdf', options, (err, data) => {
   if (err) return console.log(err);
 
   const fileContentArray = data.pages.reduce((totalContent, page) => {
