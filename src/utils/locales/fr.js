@@ -31,6 +31,14 @@ export default {
       [Categories.INDOOR]: 'Indoor',
     },
   },
+  navigation: {
+    back: 'Retour',
+    homeScreen: 'Timeout Ultimate',
+    optionsScreen: 'Démarrer mon quizz',
+    historyScreen: 'Historique',
+    aboutScreen: 'À propos',
+    rulesScreen: 'Règlement',
+  },
   homeScreen: {
     appName: 'Timeout Ultimate',
     subtitle: " questions t'attendent pour apprendre les règles de l'ultimate !",
@@ -96,5 +104,46 @@ export default {
     rules: 'Règles',
     handSignals: 'Gestes',
     searchPlaceholder: 'Rechercher un mot…',
+  },
+  question: {
+    cta: 'Valider',
+    rightAnswer: 'Bonne réponse !',
+    wrongAnswer: 'Mauvaise réponse…',
+  },
+  report: {
+    header: 'Bilan',
+    result: {
+      one: '{{count}} bonne réponse pour {{total}} questions',
+      other: '{{count}} bonnes réponses pour {{total}} questions',
+    },
+    commentHeader: 'Notre commentaire',
+    perfect: 'Bravo !',
+    good: 'Pas si mal, encore un effort !',
+    average: 'Il y a encore du boulot',
+    bad: "C'est pas top…",
+    shareCta: 'Partager mon résultat',
+    homeCta: "Retourner à l'accueil",
+    errorsHeader: 'Détail des erreurs',
+    shareTitle: "Règles de l'ultimate",
+    shareMessage: "J'ai obtenu {{right}} / {{total}} sur un quizz sur les règles de l'ultimate sur Timeout Ultimate",
+  },
+  questions: {
+    displayedRule: {
+      seeRule: 'Voir la règle',
+      ruleHeader: 'Règle {{number}',
+    },
+    feedback: {
+      incentiveHeader: 'Signalement',
+      incentiveText: "Si une question n'est pas claire ou non conforme aux règles, merci de nous le signaler",
+      incentiveCancel: 'Annuler',
+      incentiveCta: 'Message',
+      mailSubject: "Une question n'est pas claire sur Timeout Ultimate",
+      mailBody: `
+
+> Question concernée : {{question}}
+
+
+      `,
+    },
   },
 };
