@@ -9,6 +9,7 @@ from pyjsparser import parse as parsejs
 
 translation_fixes = {
     "a sweater": "the pull",
+    "sweater": "pull",
     "The sweater": "The pull",
     "the sweater": "the pull",
     "on the attack": "on offense",
@@ -37,6 +38,11 @@ translation_fixes = {
     "hommes": "MMP (Male Matching Player)",
     "Femmes": "FMP (Female Matching Player)",
     "Trademark infringement": "Marking infraction",
+    "Fake": "False",
+    "turnoer": "turnover",
+    "Aïe": "Ouch",
+    "Il y": "It is",
+    "a marker on the": "marking the"
 }
 
 
@@ -206,6 +212,6 @@ def translate_file(file_name, target_language="EN-US"):
 
 # translate_file(file_name="other.js", target_language="EN-US")
 # translate_file(file_name="dfeu.js", target_language="EN-US")
-translate_file(file_name="handsignals.js", target_language="EN-US")
+# translate_file(file_name="handsignals.js", target_language="EN-US")
 # translate_file(file_name="monkeys.js", target_language="EN-US")
 # translate_file(file_name="disquetusais.js", target_language="EN-US")
