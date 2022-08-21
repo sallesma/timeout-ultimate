@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
-import Highlighter from 'react-native-highlight-words';
 
+import Highlighter from '../shared/Highlighter.js';
 import theme from '../../utils/theme.js';
 
 export default ({ item, searchText }) => {
