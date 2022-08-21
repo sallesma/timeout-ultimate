@@ -28,6 +28,15 @@ translation_fixes = {
     "Turnover belt": "Not a turnover",  # a mis translation of french Pas
     "first support": "first point of contact",
     "pull-up": "pull",
+    "onside": "in bounds",
+    "his pass": "a pass",
+    "defending on": "defending",
+    "scorekeeper disputes": "defender contests",
+    "Contesté": "Contest",
+    "Faute": "Foul",
+    "hommes": "MMP (Male Matching Player)",
+    "Femmes": "FMP (Female Matching Player)",
+    "Trademark infringement": "Marking infraction",
 }
 
 
@@ -196,4 +205,7 @@ def translate_file(file_name, target_language="EN-US"):
 
 
 # translate_file(file_name="other.js", target_language="EN-US")
-translate_file(file_name="dfeu.js", target_language="EN-US")
+# translate_file(file_name="dfeu.js", target_language="EN-US")
+translate_file(file_name="handsignals.js", target_language="EN-US")
+# translate_file(file_name="monkeys.js", target_language="EN-US")
+# translate_file(file_name="disquetusais.js", target_language="EN-US")
