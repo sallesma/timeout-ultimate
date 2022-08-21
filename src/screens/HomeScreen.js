@@ -6,7 +6,8 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import theme from '../utils/theme.js';
-import questions from '../../data/questions';
+import i18n from '../utils/i18n';
+import questions from '../../data/questions_EN_US';
 import logo from '../../assets/icon.png';
 
 export default (props) => {
@@ -24,17 +25,17 @@ export default (props) => {
         <Button
           containerStyle={styles.button}
           titleStyle={styles.mainButtonText}
-          title="Jouer"
+          title="Play" //{i18n.t('buttons.play')}
           onPress={() => props.navigation.navigate('OptionsScreen')}
         />
         <Button
           containerStyle={styles.button}
-          title="Historique"
+          title="History" //{i18n.t('buttons.history')}
           onPress={() => props.navigation.navigate('HistoryScreen')}
         />
         <Button
           containerStyle={styles.button}
-          title="Règlement"
+          title="Rules" //{i18n.t('buttons.rules')}
           onPress={() => props.navigation.navigate('RulesScreen')}
         />
       </View>

@@ -5,7 +5,7 @@ import { Button } from 'react-native-elements';
 
 import Question from '../components/Question';
 import Report from '../components/Report';
-import questions from '../../data/questions';
+import questions from '../../data/questions_EN_US';
 import { Levels } from '../utils/config';
 
 // Taken from https://stackoverflow.com/a/19270021

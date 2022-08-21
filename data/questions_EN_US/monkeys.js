@@ -283,7 +283,7 @@ export default [
     },
     correctAnswers: ['a'],
     explanation:
-      'Here player A gives B the opportunity to adjust her stroke to avoid the collision by slowing down, so it is player B who commits a foul.',
+      'Here player A gives B the opportunity to adjust her stride to avoid the collision by slowing down, so it is player B who commits a foul.',
     rules: ['12.7.', '12.7.1.', '12.7.2.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,

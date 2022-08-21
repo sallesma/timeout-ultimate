@@ -42,7 +42,7 @@ translation_fixes = {
     "turnoer": "turnover",
     "Aïe": "Ouch",
     "Il y": "It is",
-    "a marker on the": "marking the"
+    "a marker on the": "marking the",
 }
 
 
@@ -212,6 +212,6 @@ def translate_file(file_name, target_language="EN-US"):
 
 # translate_file(file_name="other.js", target_language="EN-US")
 # translate_file(file_name="dfeu.js", target_language="EN-US")
-# translate_file(file_name="handsignals.js", target_language="EN-US")
+# translate_file(file_name="handSignals.js", target_language="EN-US")
 # translate_file(file_name="monkeys.js", target_language="EN-US")
-# translate_file(file_name="disquetusais.js", target_language="EN-US")
+# translate_file(file_name="disquetusais.js", target_language="EN-US") ##needs special logic for multi-line questions

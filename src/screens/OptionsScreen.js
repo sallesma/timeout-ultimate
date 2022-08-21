@@ -4,7 +4,7 @@ import { StyleSheet, ScrollView, Text, View } from 'react-native';
 import { CheckBox, Button } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
-import questions from '../../data/questions';
+import questions from '../../data/questions_EN_US';
 import { Levels, Categories } from '../utils/config';
 
 export default (props) => {
