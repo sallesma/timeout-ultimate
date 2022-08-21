@@ -5,7 +5,7 @@ import en from './locales/en';
 import fr from './locales/fr';
 
 const i18n = new I18n({
-  en,
+  // en,
   fr,
 });
 
