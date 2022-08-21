@@ -1,7 +1,8 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
 import { findAll } from 'highlight-words-core';
-import Highlighter from 'react-native-highlight-words';
+
+import Highlighter from '../shared/Highlighter.js';
 
 // Taken from https://stackoverflow.com/questions/54461242/react-native-highlight-word-and-make-it-clickable
 // Introduces extra props (pressable) to introduce a nested highlighter
