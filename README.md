@@ -39,6 +39,20 @@ yarn start
 
 If you need to update the rules, change the pdf file in the assets and run `npm run extractor`.
 
+## Translation
+
+Set deepl auth_key as env var DEEPL_AUTH_KEY
+
+1. Get Deepl.com account to get AUTH_KEY. It will have :fx at the end if a free trial account. It does unfortunately require a credit card number to register
+   1. export auth_key so don't expose it in python file `echo 'export DEEPL_AUTH_KEY=xxxx-de1d-6bba-c67c-xxxx:fx' >> ~/.zshrc`
+2. Setup venv `cd scripts; python3 -m venv venv; source ./scripts/venv/activate; cd ..`
+3. Install requirements `pip install -r reqiurements.txt`
+4. run the script
+
+   ```bash
+   python ./scripts/translate_to_english.py
+   ```
+
 ## 🚀 Release
 
 To release a new version of the app :

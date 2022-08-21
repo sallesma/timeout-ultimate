@@ -1,0 +1,8 @@
+{
+    "python.defaultInterpreterPath": "./scripts/venv/bin/python",
+    "cSpell.words": [
+        "deepl",
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.enabled": true
+}
