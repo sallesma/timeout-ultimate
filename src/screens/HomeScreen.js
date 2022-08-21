@@ -8,6 +8,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import theme from '../utils/theme.js';
 import questions from '../../data/questions';
 import logo from '../../assets/icon.png';
+import I18n from '../utils/i18n';
 
 export default (props) => {
   return (
@@ -15,7 +16,7 @@ export default (props) => {
       <View style={styles.logoContainer}>
         <Image style={styles.logo} source={logo} />
       </View>
-      <Text style={styles.title}>Timeout Ultimate</Text>
+      <Text style={styles.title}>{I18n.t('homePage.appName')}</Text>
       <Text style={styles.welcomeText}>
         <Text style={styles.emphasis}>{questions.length}</Text> questions t'attendent pour apprendre les règles de
         l'ultimate !
