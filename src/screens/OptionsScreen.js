@@ -6,6 +6,7 @@ import { CheckBox, Button } from 'react-native-elements';
 import theme from '../utils/theme.js';
 import questions from '../../data/questions';
 import { Levels, Categories } from '../utils/config';
+import I18n from '../utils/i18n';
 
 export default (props) => {
   const [seeMore, setSeeMore] = useState(false);
@@ -30,7 +31,7 @@ export default (props) => {
 
   return (
     <ScrollView style={styles.container}>
-      <Text style={styles.header}>Nombre de questions</Text>
+      <Text style={styles.header}>{I18n.t('optionsScreen.countHeader')}</Text>
       <View style={styles.options}>
         <Button
           type={number === 5 ? 'solid' : 'outline'}
@@ -51,72 +52,74 @@ export default (props) => {
           onPress={() => setNumber(30)}
         />
       </View>
-      <Text style={styles.header}>Temps par question</Text>
+      <Text style={styles.header}>{I18n.t('optionsScreen.timeHeader')}</Text>
       <View style={styles.options}>
         <Button
           type={time === 30 ? 'solid' : 'outline'}
           containerStyle={styles.button}
-          title="30 sec"
+          title={I18n.t('optionsScreen.shortTime')}
           onPress={() => setTime(30)}
         />
         <Button
           type={time === 120 ? 'solid' : 'outline'}
           containerStyle={styles.button}
-          title="2 min"
+          title={I18n.t('optionsScreen.longTime')}
           onPress={() => setTime(120)}
         />
         <Button
           type={time === null ? 'solid' : 'outline'}
           containerStyle={styles.button}
-          title="Aucun"
+          title={I18n.t('optionsScreen.noTime')}
           onPress={() => setTime(null)}
         />
       </View>
-      <Text style={styles.header}>Niveau</Text>
+      <Text style={styles.header}>{I18n.t('optionsScreen.levelHeader')}</Text>
       <View style={styles.options}>
         <Button
           type={level === Levels.EASY ? 'solid' : 'outline'}
           containerStyle={[styles.button, styles.wrapped]}
-          title="Facile"
+          title={I18n.t(`config.levels.EASY`)}
           onPress={() => setLevel(Levels.EASY)}
         />
         <Button
           type={level === Levels.MIDDLE ? 'solid' : 'outline'}
           containerStyle={[styles.button, styles.wrapped]}
-          title="Moyen"
+          title={I18n.t(`config.levels.MIDDLE`)}
           onPress={() => setLevel(Levels.MIDDLE)}
         />
         <Button
           type={level === Levels.DIFFICULT ? 'solid' : 'outline'}
           containerStyle={[styles.button, styles.wrapped]}
-          title="Difficile"
+          title={I18n.t(`config.levels.DIFFICULT`)}
           onPress={() => setLevel(Levels.DIFFICULT)}
         />
         <Button
           type={level === Levels.ANY ? 'solid' : 'outline'}
           containerStyle={[styles.button, styles.wrapped]}
-          title="Tous"
+          title={I18n.t(`config.levels.ANY`)}
           onPress={() => setLevel(Levels.ANY)}
         />
       </View>
       <View style={styles.centered}>
-        <Button containerStyle={styles.cta} title="JOUER" onPress={startQuizz} type="solid" />
+        <Button containerStyle={styles.cta} title={I18n.t('optionsScreen.playCta')} onPress={startQuizz} type="solid" />
         <Button
           containerStyle={styles.cta}
-          title={seeMore ? "- d'options" : "+ d'options"}
+          title={seeMore ? I18n.t('optionsScreen.lessOptionsCta') : I18n.t('optionsScreen.moreOptionsCta')}
           onPress={() => setSeeMore(!seeMore)}
           type="outline"
         />
       </View>
       {seeMore && (
         <>
-          <Text style={styles.header}>Chapitre des règles</Text>
+          <Text style={styles.header}>{I18n.t('optionsScreen.chapterHeader')}</Text>
           {Object.keys(Categories).map((category, index) => (
             <CheckBox
               key={index}
               checked={checkedCategories.includes(Categories[category])}
               onPress={() => onCheck(Categories[category])}
-              title={`${Categories[category]} (${countByCategory[Categories[category]]})`}
+              title={`${I18n.t(`config.categories.${Categories[category]}`)} (${
+                countByCategory[Categories[category]]
+              })`}
               containerStyle={styles.checkbox}
               textStyle={styles.checkboxText}
               uncheckedColor="grey"
@@ -127,7 +130,7 @@ export default (props) => {
             <Button containerStyle={styles.cta} title="JOUER" onPress={startQuizz} type="solid" />
             <Button
               containerStyle={styles.cta}
-              title={seeMore ? "- d'options" : "+ d'options"}
+              title={seeMore ? I18n.t('optionsScreen.lessOptionsCta') : I18n.t('optionsScreen.moreOptionsCta')}
               onPress={() => setSeeMore(!seeMore)}
               type="outline"
             />
