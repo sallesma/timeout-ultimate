@@ -27,7 +27,6 @@ Clone the project and install all its dependencies:
 ```
 git clone git@github.com:sallesma/timeout-ultimate.git
 cd timeout-ultimate
-npm install -g expo-cli
 yarn install
 ```
 
