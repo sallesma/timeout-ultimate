@@ -6,8 +6,8 @@ export default [
     question: 'In outdoor, how is the Brick point positioned?',
     image: undefined,
     answerChoices: {
-      a: '10 meters from the endzone line',
-      b: '18 meters from the endzone line',
+      a: '10 meters from the end zone line',
+      b: '18 meters from the end zone line',
       c: '10 meters from the middle of the field',
       d: '18 meters from midfield',
     },
@@ -21,7 +21,7 @@ export default [
   {
     category: Categories.FIELD,
     question:
-      'I am on defense, an attacker comes within 3 meters of the disc carrier. I have the right to interfere with the thrower in this 3 meter zone.',
+      'I am on defense, an attacker comes within 3 meters of the thrower. I have the right to interfere with the thrower in this 3 meter zone.',
     image: undefined,
     answerChoices: {
       a: 'True',

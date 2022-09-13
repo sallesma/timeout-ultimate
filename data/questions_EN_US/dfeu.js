@@ -4,7 +4,7 @@ export default [
   {
     category: Categories.FIELD,
     question: 'The dimensions of an outdoor field are :',
-    image: undefined,
+    image: undefined, //TODO could show field dimensions image which was added to assets but need new feature to show image after answer toggle
     answerChoices: {
       a: '90m x 30m',
       b: '97m x 35m',
@@ -12,7 +12,7 @@ export default [
     },
     correctAnswers: ['c'],
     explanation: 'See the diagram in Chapter 2 of the rules.',
-    rules: undefined,
+    rules: ['2.1.', '2.2.', '2.3.', '2.4.', '2.5.', '2.6.', '2.7.'],
     source: 'DFEU - Pablo',
     level: Levels.EASY,
   },
@@ -75,14 +75,14 @@ export default [
     },
     correctAnswers: ['c'],
     explanation: 'It is up to the attacking team to choose.',
-    rules: ['7.12.'],
+    rules: ['7.12.', '11.8.'],
     source: 'DFEU - Pablo',
     level: Levels.MIDDLE,
   },
   {
     category: Categories.COUNT,
     question:
-      "A player has just dived for the disc. As soon as it lands on his chest, the defender says 'stalling' and starts counting",
+      "A player has just dived (bid/layedout) for the disc. As soon as bidder lands on their chest, the defender says 'stalling' and starts counting",
     image: undefined,
     answerChoices: {
       a: 'The defender must wait for the player to get up before starting to count',
@@ -180,7 +180,7 @@ export default [
     image: undefined,
     answerChoices: {
       a: "This is a 'Strip' foul",
-      b: 'This is not a foul because the striker had already missed his catch',
+      b: 'This is not a foul because the offensive player had already missed his catch',
       c: 'It is a foul because the attacker was prevented from catching the disc on his second attempt',
     },
     correctAnswers: ['c'],
@@ -191,12 +191,12 @@ export default [
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: "Thrower calls 'Disc Space' and scorer challenges",
+    question: "Thrower calls 'Disc Space' and marker contests",
     image: undefined,
     answerChoices: {
       a: 'The game stops',
       b: "The game doesn't stop",
-      c: 'The scorer cannot challenge a scoring infraction',
+      c: 'The marker cannot contest a marking infraction',
     },
     correctAnswers: ['a'],
     explanation: 'The game would not have stopped if the infraction had been accepted.',

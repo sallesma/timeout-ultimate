@@ -1,5 +1,19 @@
 {
     "recommendations": [
-        "ms-python.python"
+        "ms-python.python",
+        "streetsidesoftware.code-spell-checker",
+        "docsmsft.docs-markdown",
+        "kisstkondoros.vscode-gutter-preview",
+        "orta.vscode-jest",
+        "kavod-io.vscode-jest-test-adapter",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "christian-kohler.npm-intellisense",
+        "esbenp.prettier-vscode",
+        "littlefoxteam.vscode-python-test-adapter",
+        "ms-python.vscode-pylance",
+        "avencera.svgmini",
+        "hbenl.vscode-test-explorer",
+        "redhat.vscode-yaml"
     ]
 }

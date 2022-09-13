@@ -1,7 +1,24 @@
 {
     "python.defaultInterpreterPath": "./scripts/venv/bin/python",
     "cSpell.words": [
+        "behaviour",
+        "behaviours",
         "deepl",
+        "defence",
+        "DFEU",
+        "layedout",
+        "millimetres",
+        "nent",
+        "offence",
+        "predeploy",
+        "Pressable",
+        "proptypes",
+        "recognised",
+        "recognises",
+        "sallesma",
+        "unimodules",
+        "venv",
+        "WFDF"
     ],
     "python.formatting.provider": "black",
     "python.linting.enabled": true

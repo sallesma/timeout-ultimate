@@ -1,3 +1,4 @@
+from audioop import mul
 import json
 import os
 import time
@@ -5,7 +6,6 @@ import time
 import deepl
 import requests
 import requests_random_user_agent  # it auto populates a random user_agent
-from pyjsparser import parse as parsejs
 
 translation_fixes = {
     "a sweater": "the pull",
@@ -22,6 +22,7 @@ translation_fixes = {
     "Pitcher": "Thrower",
     "pitcher": "thrower",
     "launcher": "thrower",
+    "disc carrier": "thrower",
     "putting the other outside": "putting the other out-of-bounds",
     "pull drop": "dropped pull",
     "where it left off": "where it stopped",
@@ -43,6 +44,11 @@ translation_fixes = {
     "Aïe": "Ouch",
     "Il y": "It is",
     "a marker on the": "marking the",
+    "Oui": "True",
+    "Non": "False",
+    "striker": "offensive player",
+    "Striker": "Offensive player",
+    "challenge": "contest",
 }
 
 
@@ -177,6 +183,7 @@ def translate_file(file_name, target_language="EN-US"):
     with open(file_path_french) as f:
         with open(file_path_english, "w+") as english_file:
             for line in f:
+                multi_line = False
                 if (
                     line.lstrip().startswith("question:")
                     or line.lstrip().startswith("explanation:")
@@ -191,6 +198,15 @@ def translate_file(file_name, target_language="EN-US"):
                         english_file.write(line)
                         line = f.readline()
                         text_after_first_colon = line[::-1]
+                    elif line.endswith(": `\n"):
+                        multi_line = True
+                        # if answer or text to translate is on new line need to write that line and then go ahead with translation
+                        # write line before reading next one
+                        english_file.write(line)
+                        line = f.readline()
+                        while not line.endswith("`,\n"):
+                            line += f.readline()
+                        text_after_first_colon = line[::-1]
                     else:
                         text_after_first_colon = line.split(":", 1)[1][::-1]
 
@@ -202,6 +218,8 @@ def translate_file(file_name, target_language="EN-US"):
                         target_language=target_language,
                     )
                     translated_line = line.replace(text_to_translate, t)
+                    if multi_line:
+                        translated_line = "« " + translated_line[1:-3] + "»\n    `,\n"
                     print(translated_line)
                     english_file.write(translated_line)
                 else:
@@ -214,4 +232,6 @@ def translate_file(file_name, target_language="EN-US"):
 # translate_file(file_name="dfeu.js", target_language="EN-US")
 # translate_file(file_name="handSignals.js", target_language="EN-US")
 # translate_file(file_name="monkeys.js", target_language="EN-US")
-# translate_file(file_name="disquetusais.js", target_language="EN-US") ##needs special logic for multi-line questions
+translate_file(
+    file_name="disquetusais.js", target_language="EN-US"
+)  ##needs special logic for multi-line questions

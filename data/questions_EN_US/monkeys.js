@@ -37,15 +37,15 @@ export default [
     },
     correctAnswers: ['c'],
     explanation:
-      'A defender is always considered in-play, so the disc is considered to have left the playing area when the defender touches it. We must therefore resume as close as possible to this point.This fact of play is deepened in WFDF Rules of ultimate 2013 – Interpretations, paragraph 11.3.',
-    rules: ['11.2.'],
+      'A defender is always considered in-play, so the disc is considered to have left the playing area when the defender touches it. We must therefore resume as close as possible to this point.',
+    rules: ['11.2.', '11.3.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
   {
     category: Categories.FIELD,
     question:
-      "I'm an attacker. If I jump from the outside of the field, catch the disc in the air and fall back inside the field, is it a turnover?",
+      "I'm an attacker. If I jump from the out of bounds, catch the disc in the air and fall back inside the field, is it a turnover?",
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -118,7 +118,7 @@ export default [
     correctAnswers: ['b'],
     explanation:
       'The defender should indicate to the thrower where she should establish the pivot point and wait until they are correctly positioned to resume the count.',
-    rules: ['18.2.6.', '18.2.6.2.', '18.6.2.3.'],
+    rules: ['18.2.6.', '18.2.6.2.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
@@ -141,7 +141,7 @@ export default [
   {
     category: Categories.RECEIVER,
     question:
-      'I lean on a teammate to win a duel on offense. I catch the disc and fall back into the endzone. My opponent complains about the boost I received. What happens?',
+      'I lean on a teammate to win a duel on offense. I catch the disc and fall back into the end zone. My opponent complains about the boost I received. What happens?',
     image: undefined,
     answerChoices: {
       a: 'It is a point',
@@ -158,7 +158,7 @@ export default [
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      "I am defending the disc carrier. I commit a 'straddle' called by the disc carrier. 'Straddle – a line between a defensive player’s feet comes within one disc diameter of the thrower’s pivot point.'",
+      "I am defending the thrower. I commit a 'straddle' called by the thrower. 'Straddle – a line between a defensive player’s feet comes within one disc diameter of the thrower’s pivot point.'",
     image: undefined,
     answerChoices: {
       a: 'I continue to count without the game stopping, starting with the last number completely pronounced minus (1)',
@@ -176,7 +176,7 @@ export default [
   {
     category: Categories.COUNT,
     question:
-      "I am marking the disc carrier. A 'pick' is called when I have just counted '8'. What do I need to do to get the count back?",
+      "I am marking the thrower. A 'pick' is called when I have just counted '8'. What number does the count continue with?",
     image: undefined,
     answerChoices: {
       a: 'Stall 6',
@@ -186,7 +186,7 @@ export default [
     },
     correctAnswers: ['a'],
     explanation: 'After a pick, the count resumes at a maximum of 6.',
-    rules: ['9.5.4.'],
+    rules: ['9.5.4.', '9.5.4.1.', '9.5.4.2.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
@@ -208,7 +208,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question:
-      "I'm on offense and I run after a huck. My defender trips me and I fall. I call 'Foul' and my defender accepts. I retain possession of the disc and the play resumes at (1) with a check where I should have caught the disc.",
+      "I'm on offense and I run after a huck. My defender trips me and I fall. I call 'Foul' and my defender accepts. I obtain possession of the disc and the play resumes at (1) with a check where I would have caught the disc.",
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -237,22 +237,22 @@ export default [
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
-  {
-    category: Categories.FOULS,
-    question:
-      'If a defending player touches the disc and then the arm (and only the arm) of the attacker on a catch, it is still a foul by the defender.',
-    image: undefined,
-    answerChoices: {
-      a: 'True',
-      b: 'False',
-    },
-    correctAnswers: ['b'],
-    explanation:
-      'Contact on the arms after the defense must be avoided but is not a foul (excluding strip and dangerous play)',
-    rules: ['17.2.1.1.'],
-    source: 'Monkeys - Pierre Gruau',
-    level: Levels.MIDDLE,
-  },
+  // {
+  //   category: Categories.FOULS,
+  //   question:
+  //     'If a defending player touches the disc and then the arm (and only the arm) of the attacker after a catch.  Is a foul by the defender.',
+  //   image: undefined,
+  //   answerChoices: {
+  //     a: 'True',
+  //     b: 'False',
+  //   },
+  //   correctAnswers: ['b'],
+  //   explanation:
+  //     'Contact on the arms after the defense must be avoided but is not a foul (excluding strip and dangerous play)',
+  //   rules: ['17.2.1.1.'],
+  //   source: 'Monkeys - Pierre Gruau',
+  //   level: Levels.MIDDLE,
+  // },
   {
     category: Categories.FOULS,
     question:
@@ -307,7 +307,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question:
-      'On an uncontested defensive foul in the attacked endzone, both players must return to the endzone entry line before checking.',
+      'On an uncontested defensive foul in the attacked end zone, both players must return to the end zone entry line before checking.',
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -323,7 +323,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question:
-      "I am a marker on the disc carrier. A 'pick' is called when I just counted '4'. What do I need to do to get the count back?",
+      "I am a marker on the thrower. A 'pick' is called when I just counted '4'. What number does the count continue with?",
     image: undefined,
     answerChoices: {
       a: 'Stall 2',
@@ -341,7 +341,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question:
-      "I am on offense. I call 'foul' on the throw. It is not challenged, however my pass is caught. What happens?",
+      "I am on offense. I call 'foul' on the throw. It is not contested, however my pass is caught. What happens?",
     image: undefined,
     answerChoices: {
       a: "The game continues if the thrower calls 'play on'",
@@ -350,16 +350,14 @@ export default [
       d: 'Play stops, possession remains with the receiver and play resumes at (1) with a check',
     },
     correctAnswers: ['a'],
-    explanation: `La réponse se trouve dans:
-"-rules of ultimate", paragraphe 16.2.4
--official annotations 16.6`,
-    rules: undefined,
+    explanation: undefined,
+    rules: ['16.2.4.', '16.6.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: 'I am defending the disc carrier. I commit a straddle called by the disc carrier.',
+    question: 'I am defending the thrower. I commit a straddle called by the thrower.',
     image: undefined,
     answerChoices: {
       a: 'I continue to count without the game stopping, starting with the last number completely pronounced minus (1)',
@@ -368,7 +366,7 @@ export default [
       d: 'I start counting again from (1) without the game stopping',
     },
     correctAnswers: ['a'],
-    explanation: 'Play is stopped only if the scoring infraction is challenged.',
+    explanation: 'Play is stopped only if the scoring infraction is contested.',
     rules: ['18.1.3.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
@@ -420,7 +418,7 @@ export default [
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      "I'm on offense and on a reception, I purposely juggle the disc to gain ground. What should the defense call?",
+      "I'm on offense and during a catch, I purposely juggle the disc to gain ground. What should the defense call?",
     image: undefined,
     answerChoices: {
       a: 'Travel',
@@ -429,28 +427,28 @@ export default [
       d: "Nothing, it's allowed",
     },
     correctAnswers: ['a'],
-    explanation: 'The answer can be found in the rules of ultimate, paragraph 18.2.5.6',
+    explanation: undefined,
     rules: ['18.2.5.', '18.2.5.5.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
   },
-  {
-    category: Categories.INFRACTIONS_VIOLATIONS,
-    question:
-      'I am on offense. On a catch, I intentionally deflect the disc (without catching it) to a teammate in the end zone. What should the defense call?',
-    image: undefined,
-    answerChoices: {
-      a: 'Travel',
-      b: 'Foul',
-      c: 'Violation',
-      d: 'Nothing, it is allowed. There is a point',
-    },
-    correctAnswers: ['d'],
-    explanation: 'The answer can be found in the official annotations, paragraph 18.12',
-    rules: undefined,
-    source: 'Monkeys - Pierre Gruau',
-    level: Levels.DIFFICULT,
-  },
+  // {
+  //   category: Categories.INFRACTIONS_VIOLATIONS,
+  //   question:
+  //     'I am on offense. On a catch, I intentionally deflect the disc (without catching it) to a teammate in the end zone. What should the defense call?',
+  //   image: undefined,
+  //   answerChoices: {
+  //     a: 'Travel',
+  //     b: 'Foul',
+  //     c: 'Violation',
+  //     d: 'Nothing, it is allowed. There is a point',
+  //   },
+  //   correctAnswers: ['d'],
+  //   explanation: undefined,
+  //   // rules: ['18.12.'], //TODO rule does not exist so need rules if will show this question
+  //   source: 'Monkeys - Pierre Gruau',
+  //   level: Levels.DIFFICULT,
+  // },
   {
     category: Categories.FOULS,
     question: "I carry the disc. I call 'contact'. The marker does not contest. What happens?",
@@ -479,22 +477,22 @@ export default [
       d: 'This first call acts as a first warning and the game continues',
     },
     correctAnswers: ['c'],
-    explanation: 'The correct answer can be found in Rules of ultimate, Appendix V4.0 paragraph 7.5.',
+    explanation: undefined,
     rules: ['7.5.', '7.5.2.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: 'Can a pick be called by a striker?',
+    question: 'Can a pick be called by a offensive player?',
     image: undefined,
     answerChoices: {
       a: 'True',
       b: 'False',
     },
     correctAnswers: ['b'],
-    explanation: 'The answer can be found in the official annotations, paragraph 18.15',
-    rules: undefined,
+    explanation: 'only defenders can call picks',
+    rules: ['18.3.', '18.3.1.', '18.3.1.1.', '18.3.2.', '18.3.3.', '18.3.3.1.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
@@ -508,8 +506,8 @@ export default [
       b: 'False',
     },
     correctAnswers: ['b'],
-    explanation: 'The correct answer can be found in Interpretations - Rules of ultimate, paragraph 17.4.',
-    rules: undefined,
+    explanation: '',
+    rules: ['17.4.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
@@ -529,20 +527,20 @@ export default [
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
-  {
-    category: Categories.FIELD,
-    question: "I'm on offense without the disc. I'm allowed to go out of bounds and come in at a different place",
-    image: undefined,
-    answerChoices: {
-      a: 'True',
-      b: 'False',
-    },
-    correctAnswers: ['a'],
-    explanation: 'The answer can be found in rules of ultimate, official annotations, paragraph 11.5',
-    rules: undefined,
-    source: 'Monkeys - Pierre Gruau',
-    level: Levels.DIFFICULT,
-  },
+  // {
+  //   category: Categories.FIELD,
+  //   question: "I'm on offense without the disc. I'm allowed to go out of bounds and come in at a different place",
+  //   image: undefined,
+  //   answerChoices: {
+  //     a: 'True',
+  //     b: 'False',
+  //   },
+  //   correctAnswers: ['a'],
+  //   explanation: undefined,
+  //   rules: ['11.5.'], //TODO fix the rule here it does not match
+  //   source: 'Monkeys - Pierre Gruau',
+  //   level: Levels.DIFFICULT,
+  // },
   {
     category: Categories.CONTINUATION,
     question: 'How does the count start again after a contested stall-out?',
@@ -571,7 +569,7 @@ export default [
       d: 'I stay on the field without my team taking a timeout',
     },
     correctAnswers: ['a', 'b'],
-    explanation: 'The rule is completed by the annotations, paragraph 19.1.',
+    explanation: undefined,
     rules: ['19.1.2.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
@@ -595,15 +593,15 @@ export default [
   {
     category: Categories.TIMEOUT,
     question:
-      "There's a turnover off the court. I have to wait until I have established my pivot foot to call a timeout.",
+      "There's a turnover and the disc goes out of bounds. I have to wait until I have established my pivot foot to call a timeout.",
     image: undefined,
     answerChoices: {
       a: 'True',
       b: 'False',
     },
     correctAnswers: ['b'],
-    explanation: 'The answer can be found in the official annotations, paragraph 20.1',
-    rules: undefined,
+    explanation: undefined,
+    rules: ['20.1.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
   },
@@ -615,7 +613,7 @@ export default [
       a: 'No, this is not a valid reason',
       b: "Yes, it doesn't matter if this player is an attacker or a defender",
       c: 'Yes, but only if the opponent agrees',
-      d: 'Yes, but only if this player is a striker',
+      d: 'Yes, but only if this player is a offensive player',
     },
     correctAnswers: ['a'],
     explanation: '',
@@ -626,16 +624,15 @@ export default [
   {
     category: Categories.CHECK,
     question:
-      "A turnover occurs in the defended endzone, the thrower returns to the line. In order to play, she must wait for her marker to 'check' the disc.",
+      "A turnover occurs in the defended end zone, the thrower returns to the line. In order to play, she must wait for her marker to 'check' the disc.",
     image: undefined,
     answerChoices: {
       a: 'True',
       b: 'False',
     },
     correctAnswers: ['b'],
-    explanation:
-      'If the turnover occurred without a call that stopped the game, no check is needed. The correct answer can be found in the annotations, paragraph 10.1.',
-    rules: undefined,
+    explanation: 'If the turnover occurred without a call that stopped the game, no check is needed',
+    rules: ['10.1.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
@@ -657,7 +654,7 @@ export default [
   },
   {
     category: Categories.OUT,
-    question: 'Are the outer lines of the field cin boundsred offside (out)?',
+    question: 'The outer lines of the field out of bounds (out)',
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -671,7 +668,7 @@ export default [
   },
   {
     category: Categories.COUNT,
-    question: 'To be able to count, a defender must be at..',
+    question: 'To be able to count, a defender must be..',
     image: undefined,
     answerChoices: {
       a: "less than 5 meters from the thrower's pivot point",
