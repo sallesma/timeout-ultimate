@@ -1590,13 +1590,13 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     image: undefined,
     answerChoices: {
       a: 'Je peux refaire mon lacet avant de reprendre le jeu',
-      b: "Je dois appeler « Technical » pour avoir le droit d'arrêter le jeu pour un problème technique comme mon lacet",
+      b: "Je dois appeler « technical » pour avoir le droit d'arrêter le jeu pour un problème technique comme mon lacet",
       c: "Je n'ai pas le droit d'arrêter le jeu et je dois jouer avec mon lacet défait",
       d: "C'est un double-turnover car j'ai posé le disque par terre",
     },
     correctAnswers: ['c'],
     explanation:
-      "Il y a une violation de ma part, sans « turnover », si j'arrête le jeu pour refaire mon lacet. Je dois attendre un arrêt de jeu.",
+      "Je ne peux pas arrêter le jeu en appelant « technical » pour refaire mon lacet, seulement prolonger un arrêt de jeu déjà existant. Il y a une violation de ma part, sans « turnover », si j'arrête le jeu pour refaire mon lacet.",
     rules: ['13.6.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
