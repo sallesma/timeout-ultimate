@@ -1048,8 +1048,9 @@ Si le compte était égal ou supérieur a 5, on reprend à « compté 6 » (c�
       a: "Il n'y a pas turnover car le défenseur n'est pas dans le terrain",
       b: 'Il y a turnover et le jeu reprend là où le disque a quitté le terrain',
       c: "Il y a turnover et le jeu reprend au point le plus proche de là où le disque s'est arrêté",
+      d: 'Il y a turnover et le jeu reprend au point le plus proche de là où le disque a été touché par le défenseur',
     },
-    correctAnswers: ['c'],
+    correctAnswers: ['d'],
     explanation:
       'Il y a un « turnover » et le jeu reprend dans la zone centrale au point le plus proche de là où le défenseur a touché/intercepté le disque. Seuls les défenseurs sont considérés « dans l’aire de jeu » lorsqu’ils sont à l’extérieur.',
     rules: ['11.2.', '11.8.', '11.8.2.'],
@@ -1129,9 +1130,9 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
       c: 'Une faute',
       d: 'Rien, le jeu a déjà repris',
     },
-    correctAnswers: ['a'],
+    correctAnswers: ['b'],
     explanation:
-      "L’attaquante doit établir son pivot dans l’aire de jeu au point le plus proche de l’endroit où le disque est sorti. C'est une violation (« travel »)",
+      "L’attaquante doit établir son pivot dans l’aire de jeu au point le plus proche de l’endroit où le disque est sorti. C'est une infraction (« travel »)",
     rules: ['13.8.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
@@ -1281,7 +1282,7 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
   {
     category: Categories.RECEIVER,
     question:
-      'Le disque plane. Mon adversaire ne cesse de se placer entre le disque et moi pour m’empêcher de l’attraper. Il a le droit tant qu’il ne me touche pas. Il protège son disque.',
+      'Le disque plane. Mon adversaire ne cesse de se placer entre le disque et moi uniquement pour m’empêcher de l’attraper. Il a le droit tant qu’il ne me touche pas. Il protège son disque.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -1289,7 +1290,7 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
     },
     correctAnswers: ['b'],
     explanation:
-      ' Quand le disque est en l’air, un joueur ne peut se déplacer de manière à uniquement empêcher un adversaire de prendre une trajectoire inoccupée vers le disque. Il fait obstruction aux déplacements de l’adversaire. Il y a donc une violation.',
+      'Quand le disque est en l’air, un joueur ne peut se déplacer de manière à uniquement empêcher un adversaire de prendre une trajectoire inoccupée vers le disque. Il fait obstruction aux déplacements de l’adversaire. Il y a donc une violation.',
     rules: ['12.5.1.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
@@ -1313,7 +1314,7 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
   {
     category: Categories.RECEIVER,
     question:
-      'Lors de mon replacement dans le stack, mon adversaire me fait un croche-pied involontaire. J’appelle faute et mon adversaire conteste. Il a tort.',
+      'Lors de mon replacement dans le stack, mon adversaire me touche avec le bras. J’appelle faute et mon adversaire conteste. Il a tort.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -1321,8 +1322,24 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
     },
     correctAnswers: ['b'],
     explanation:
-      "« Tous les joueurs doivent essayer d’éviter les contacts. Néanmoins un contact accidentel n’affectant pas le résultat d’une action ou la sécurité des joueurs n'est pas considéré comme une faute ». Il avait donc raison de contester car c’est moi qui n’aurait pas dû appeler la faute.",
+      "Mon adversaire provoque un contact mineur, n'ayant pas d'impact sur le jeu. Il avait donc raison de contester car c’est moi qui n’aurait pas dû appeler la faute.",
     rules: ['12.8.'],
+    source: 'Disque Tu Sais - Pablo',
+    level: Levels.DIFFICULT,
+  },
+  {
+    category: Categories.RECEIVER,
+    question:
+      'Lors de mon replacement dans le stack, mon adversaire me fait un croche-pied. J’appelle faute et mon adversaire conteste. Il a tort.',
+    image: undefined,
+    answerChoices: {
+      a: 'Vrai',
+      b: 'Faux',
+    },
+    correctAnswers: ['a'],
+    explanation:
+      "Un croche-pied qui me fait chuter n'est pas un contact mineur, je peux donc appeler une faute indirecte.",
+    rules: ['17.8.1.', '17.8.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
   },
@@ -1573,13 +1590,13 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
     image: undefined,
     answerChoices: {
       a: 'Je peux refaire mon lacet avant de reprendre le jeu',
-      b: "Je dois appeler « Technical » pour avoir le droit d'arrêter le jeu pour un problème technique comme mon lacet",
+      b: "Je dois appeler « technical » pour avoir le droit d'arrêter le jeu pour un problème technique comme mon lacet",
       c: "Je n'ai pas le droit d'arrêter le jeu et je dois jouer avec mon lacet défait",
       d: "C'est un double-turnover car j'ai posé le disque par terre",
     },
     correctAnswers: ['c'],
     explanation:
-      "Il y a une violation de ma part, sans « turnover », si j'arrête le jeu pour refaire mon lacet. Je dois attendre un arrêt de jeu.",
+      "Je ne peux pas arrêter le jeu en appelant « technical » pour refaire mon lacet, seulement prolonger un arrêt de jeu déjà existant. Il y a une violation de ma part, sans « turnover », si j'arrête le jeu pour refaire mon lacet.",
     rules: ['13.6.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
