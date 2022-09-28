@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import Highlighter from 'react-native-highlight-words';
+import Highlighter from '../shared/Highlighter.js';
 
 import theme from '../../utils/theme.js';
 import Rule from './Rule';

@@ -521,7 +521,7 @@ export default {
       "quand le lanceur doit se déplacer vers un endroit spécifié, le lanceur n'établit pas de point pivot avant la préparation ou de le début l’acte de lancer;",
     '18.2.5.4.': 'le lanceur ne maintient pas son point pivot établi jusqu’à ce que le disque soit relâché;',
     '18.2.5.5.':
-      'un joueur fait exprès de mal attraper le disque ou met du temps à bien le maîtriser dans le seulbut de se déplacer dans une direction spécifique.',
+      'un joueur fait exprès de mal attraper le disque ou met du temps à bien le maîtriser dans le seul but de se déplacer dans une direction spécifique.',
     '18.2.6.': 'Après qu’une infraction de « travel » acceptée est appelée, le jeu ne s’arrête pas.',
     '18.2.6.1.':
       "Le lanceur établit un point pivot à l’endroit correct, comme indiqué par le joueur qui a appelé le « travel ». Ceci doit se produire sans délai de la part de l'un et l'autre des joueurs impliqués.",
@@ -534,7 +534,7 @@ export default {
     '18.2.9.': "Après une infraction de « travel » contestée où le lanceur n'a pas lancé le disque, le jeu est arrêté.",
     '18.3.': 'Violations de type « Pick »:',
     '18.3.1.':
-      "Si un défenseur guarde un attaquant et qu’il est gêné dans son mouvement vers/avec ce joueur par un autre joueur, le défenseur peut appeler « pick ». Cependant ce n'est pas un « pick » si le joueur défendu et le joueur bloquant font tous deux une action sur le disque.",
+      "Si un défenseur garde un attaquant et qu’il est gêné dans son mouvement vers/avec ce joueur par un autre joueur, le défenseur peut appeler « pick ». Cependant ce n'est pas un « pick » si le joueur défendu et le joueur bloquant font tous deux une action sur le disque.",
     '18.3.1.1.':
       "Avant de faire un appel de « pick », le défenseur peut retarder son appel jusqu'à deux (2) secondes pour voir si l'obstruction va affecter le jeu.",
     '18.3.2.':
