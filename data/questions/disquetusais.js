@@ -4,7 +4,7 @@ export default [
   {
     category: Categories.SPIRIT,
     question:
-      'Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple), je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.',
+      'Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple), je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’Ultimate.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -261,7 +261,7 @@ export default [
     },
     correctAnswers: ['c'],
     explanation:
-      "Ces durées sont mentionnées dans l'annexe des règles A5.4.1 (https://rules.wfdf.org/documents/wfdf-rules-of-ultimate-2021-2024-appendix-v2-0/download)",
+      "Ces durées sont mentionnées dans l'annexe des règles A5.4.1 (https://rules.wfdf.org/documents/wfdf-rules-of-Ultimate-2021-2024-appendix-v2-0/download)",
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
@@ -412,7 +412,7 @@ export default [
     },
     correctAnswers: ['b'],
     explanation:
-      "J'ai 20 secondes pour jouer le disque. Ce délais et les cas particuliers sont mentionnées dans l'annexe des règles A5.8.2 (https://rules.wfdf.org/documents/wfdf-rules-of-ultimate-2021-2024-appendix-v2-0/download)",
+      "J'ai 20 secondes pour jouer le disque. Ce délais et les cas particuliers sont mentionnées dans l'annexe des règles A5.8.2 (https://rules.wfdf.org/documents/wfdf-rules-of-Ultimate-2021-2024-appendix-v2-0/download)",
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
