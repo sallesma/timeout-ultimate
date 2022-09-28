@@ -16,12 +16,14 @@
     "@react-navigation/native-stack": "^6.7.0",
     "expo": "~46.0.0",
     "expo-clipboard": "~3.1.0",
+    "expo-localization": "~13.1.0",
     "expo-mail-composer": "~11.3.0",
     "expo-splash-screen": "~0.16.2",
     "expo-modules-autolinking": "^0.8.1",
     "expo-status-bar": "~1.4.0",
     "expo-updates": "~0.14.4",
     "highlight-words-core": "^1.2.2",
+    "i18n-js": "^4.0.2",
     "pdf.js-extract": "^0.2.0",
     "react": "18.1.0",
     "react-native": "0.70.1",
@@ -59,7 +61,7 @@
       "./setupJest.js"
     ],
     "transformIgnorePatterns": [
-      "node_modules/(?!((jest-)?react-native(-.*)?|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|@sentry/.*|native-base|react-native-svg)"
+      "node_modules/(?!((jest-)?react-native(-.*)?|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|@sentry/.*|i18n-js|native-base|react-native-svg)"
     ]
   },
   "lint-staged": {

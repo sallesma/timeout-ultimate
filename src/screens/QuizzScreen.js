@@ -7,6 +7,7 @@ import Question from '../components/Question';
 import Report from '../components/Report';
 import questions from '../../data/questions';
 import { Levels } from '../utils/config';
+import I18n from '../utils/i18n';
 
 // Taken from https://stackoverflow.com/a/19270021
 function getRandomElementsFromArray(arr, n) {
@@ -51,7 +52,9 @@ export default (props) => {
   useLayoutEffect(() => {
     props.navigation.setOptions({
       title: `${current} / ${selectedQuestions.length}`,
-      headerRight: () => <Text style={styles.headerRight}>{rightAnswersCount} bonnes réponses</Text>,
+      headerRight: () => (
+        <Text style={styles.headerRight}>{I18n.t('quizzScreen.headerRight', { count: rightAnswersCount })}</Text>
+      ),
     });
   });
 
@@ -64,7 +67,7 @@ export default (props) => {
       )}
       {canMoveForward && (
         <Button
-          title="Question suivante"
+          title={I18n.t('quizzScreen.nextQuestion')}
           onPress={() => {
             if (current === selectedQuestions.length) {
               setShowReport(true);

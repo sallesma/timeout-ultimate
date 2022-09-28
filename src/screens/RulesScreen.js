@@ -7,6 +7,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import theme from '../utils/theme.js';
 import rules from '../../data/rules/rules';
 import handSignals from '../../data/rules/handSignals';
+import I18n from '../utils/i18n';
 
 import Chapter from '../components/rules/Chapter';
 import HandSignal from '../components/rules/HandSignal';
@@ -45,8 +46,8 @@ export default (props) => {
   };
 
   const list = [
-    { title: 'Règles', onPress: () => switchContent('rules') },
-    { title: 'Gestes', onPress: () => switchContent('handSignals') },
+    { title: I18n.t('rulesScreen.rules'), onPress: () => switchContent('rules') },
+    { title: I18n.t('rulesScreen.handSignals'), onPress: () => switchContent('handSignals') },
   ];
 
   return (
@@ -56,7 +57,7 @@ export default (props) => {
           autoFocus
           value={searchText}
           onChangeText={setSearchText}
-          placeholder="Rechercher un mot…"
+          placeholder={I18n.t('rulesScreen.searchPlaceholder')}
           rightIcon={
             <MaterialCommunityIcons
               name="close-circle"
