@@ -1,28 +1,28 @@
-import accepted from '../../assets/handSignals/accepted.png';
-import contest from '../../assets/handSignals/contest.png';
-import disc_down from '../../assets/handSignals/disc_down.png';
-import disc_up from '../../assets/handSignals/disc_up.png';
-import foul from '../../assets/handSignals/foul.png';
-import gender_ratio_men from '../../assets/handSignals/gender_ratio_men.png';
-import gender_ratio_women from '../../assets/handSignals/gender_ratio_women.png';
-import goal from '../../assets/handSignals/goal.png';
-import in_out from '../../assets/handSignals/in_out.png';
-import marking_infraction from '../../assets/handSignals/marking_infraction.png';
-import match_point from '../../assets/handSignals/match_point.png';
-import offside from '../../assets/handSignals/offside.png';
-import pick from '../../assets/handSignals/pick.png';
-import play_has_stopped from '../../assets/handSignals/play_has_stopped.png';
-import retracted from '../../assets/handSignals/retracted.png';
-import spirit_stoppage from '../../assets/handSignals/spirit_stoppage.png';
-import stoppage from '../../assets/handSignals/stoppage.png';
-import timeOut from '../../assets/handSignals/time-out.png';
-import timing_violation from '../../assets/handSignals/timing_violation.png';
-import travel from '../../assets/handSignals/travel.png';
-import turnover from '../../assets/handSignals/turnover.png';
-import violation from '../../assets/handSignals/violation.png';
-import who_made_the_call from '../../assets/handSignals/who_made_the_call.png';
+import accepted from '../../../assets/handSignals/accepted.png';
+import contest from '../../../assets/handSignals/contest.png';
+import disc_down from '../../../assets/handSignals/disc_down.png';
+import disc_up from '../../../assets/handSignals/disc_up.png';
+import foul from '../../../assets/handSignals/foul.png';
+import gender_ratio_men from '../../../assets/handSignals/gender_ratio_men.png';
+import gender_ratio_women from '../../../assets/handSignals/gender_ratio_women.png';
+import goal from '../../../assets/handSignals/goal.png';
+import in_out from '../../../assets/handSignals/in_out.png';
+import marking_infraction from '../../../assets/handSignals/marking_infraction.png';
+import match_point from '../../../assets/handSignals/match_point.png';
+import offside from '../../../assets/handSignals/offside.png';
+import pick from '../../../assets/handSignals/pick.png';
+import play_has_stopped from '../../../assets/handSignals/play_has_stopped.png';
+import retracted from '../../../assets/handSignals/retracted.png';
+import spirit_stoppage from '../../../assets/handSignals/spirit_stoppage.png';
+import stoppage from '../../../assets/handSignals/stoppage.png';
+import timeOut from '../../../assets/handSignals/time-out.png';
+import timing_violation from '../../../assets/handSignals/timing_violation.png';
+import travel from '../../../assets/handSignals/travel.png';
+import turnover from '../../../assets/handSignals/turnover.png';
+import violation from '../../../assets/handSignals/violation.png';
+import who_made_the_call from '../../../assets/handSignals/who_made_the_call.png';
 
-import { Levels, Categories } from '../../src/utils/config';
+import { Levels, Categories } from '../../../src/utils/config';
 
 export default [
   {
