@@ -63,11 +63,11 @@ export default {
       "Que ce soit pour ajouter, corriger des questions ou maintenir l'application, toute aide est la bienvenue !",
     feedbackHeader: 'Feedback',
     feedbackText:
-      "L'application est en cours de création. J'ai plein d'idées pour la suite mais je serais ravi de connaître ton avis",
+      "L'application est en cours de création. J'ai plein d'idées pour la suite mais je serais ravi de connaître ton avis.",
     feedbackCta: 'Envoyer un message',
     discInHeader: 'Autres projets',
     discInText:
-      "En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'Ultimate",
+      "En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'Ultimate.",
     discInCta: 'Disc In',
     information: 'Informations techniques',
   },

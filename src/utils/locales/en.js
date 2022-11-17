@@ -41,7 +41,7 @@ export default {
   },
   homeScreen: {
     appName: 'Timeout Ultimate',
-    subtitle: ' questions are waiting for you to start learning the rules of Ultimate !',
+    subtitle: ' questions are waiting for you to start learning the rules of Ultimate!',
     menu: {
       play: 'Play',
       history: 'History',
@@ -52,21 +52,22 @@ export default {
     mailSubject: 'About Timeout Ultimate',
     aboutHeader: 'About',
     aboutText:
-      "Hello ! I'm Martin Salles, the developer behind Timeout Ultimate. It's an application designed by ultimate players to help other players learn the rules of ultimate. It is and will remain free.",
+      "Hello! I'm Martin Salles, the developer behind Timeout Ultimate. It's an application designed by ultimate players to help other players learn the rules of ultimate. It is and will remain free.",
     thanksHeader: 'Acknowledgements',
     thanksText:
-      "I would like to thank everyone who contributed to the development of Timeout Ultimate. Many of the questions come from Pablo's Disque Tu Sais game. Some questions were written by Pierre Gruau for the Monkeys. The application also uses the Hand Signals designed by Raphaël Candelier for the PUC and the WFDF.",
+      "I would like to thank everyone who contributed to the development of Timeout Ultimate. Many of the questions come from Pablo's Disque Tu Sais game. Some questions were written by Pierre Gruau for the Monkeys. The application also uses the Hand Signals designed by Raphaël Candelier for the PUC and the WFDF. Finally, the English version was set up by Brandon Sneider.",
     rulesDisclaimer:
       'The rules of Ultimate are taken from the "WFDF Rules of Ultimate 2021-2024" produced by the World Flying Disc Federation and translated by the FFDF.',
     contributeHeader: 'Contribute',
-    contributeText: "Whether it's adding, correcting questions or maintaining the application, all help is welcome!",
+    contributeText:
+      "Whether it's adding, correcting questions or maintaining the application, any kind of help is welcome!",
     feedbackHeader: 'Feedback',
     feedbackText:
-      "The application is in the process of being created. I have a lot of ideas for the next step but I'd love to hear your opinion",
+      "The application is in the process of being created. I have a lot of ideas for the next step but I'd love to hear your opinion.",
     feedbackCta: 'Send a message',
     discInHeader: 'Other projets',
     discInText:
-      'In addition to this application, I am also working on the Disc In application, which allows you to prepare Ultimate workouts',
+      'In addition to this application, I am also working on the Disc In application, which allows you to prepare Ultimate practices.',
     discInCta: 'Disc In',
     information: 'Technical information',
   },
@@ -106,7 +107,7 @@ export default {
   },
   question: {
     cta: 'Check the answer',
-    rightAnswer: 'Correct answer !',
+    rightAnswer: 'Correct answer!',
     wrongAnswer: 'Wrong answer…',
   },
   report: {
@@ -116,8 +117,8 @@ export default {
       other: '{{count}} correct answers out of {{total}} questions',
     },
     commentHeader: 'Our comment',
-    perfect: 'Good job !',
-    good: 'Not so bad, one more effort !',
+    perfect: 'Good job!',
+    good: 'Not so bad, one more effort!',
     average: 'There is still work to do',
     bad: "It's not great…",
     shareCta: 'Share my result',
