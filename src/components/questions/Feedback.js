@@ -5,15 +5,16 @@ import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../../utils/theme.js';
+import I18n from '../../utils/i18n';
 
 export const FeedbackButton = ({ question, style }) => {
   const feedbackAlert = () => {
     Alert.alert(
-      'Signalement',
-      "Si une question n'est pas claire ou non conforme aux règles, merci de nous le signaler",
+      I18n.t('questions.feedback.incentiveHeader'),
+      I18n.t('questions.feedback.incentiveText'),
       [
-        { text: 'Annuler', style: 'cancel' },
-        { text: 'Message', onPress: sendEmailAsync },
+        { text: I18n.t('questions.feedback.incentiveCancel'), style: 'cancel' },
+        { text: I18n.t('questions.feedback.incentiveCta'), onPress: sendEmailAsync },
       ],
       { cancelable: true },
     );
@@ -22,13 +23,8 @@ export const FeedbackButton = ({ question, style }) => {
   const sendEmailAsync = () => {
     MailComposer.composeAsync({
       recipients: ['ultimate.timeout@gmail.com'],
-      subject: "Une question n'est pas claire sur Timeout Ultimate",
-      body: `
-
-> Question concernée : ${question.question}
-
-
-      `,
+      subject: I18n.t('questions.feedback.mailSubject'),
+      body: I18n.t('questions.feedback.mailBody', { question: question.question }),
     });
   };
 

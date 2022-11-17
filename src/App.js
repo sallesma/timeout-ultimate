@@ -13,6 +13,7 @@ import AboutScreen from './screens/AboutScreen.js';
 import RulesScreen from './screens/RulesScreen.js';
 
 import theme from './utils/theme.js';
+import I18n from './utils/i18n';
 
 const reactNativeElementsTheme = {
   colors: {
@@ -45,17 +46,33 @@ export default function App() {
           theme={reactNavigationTheme}
           fallback={<ActivityIndicator animating color={theme.MAIN_COLOR} style={{ top: '45%' }} size="large" />}
         >
-          <Stack.Navigator screenOptions={{ headerBackTitle: 'Retour' }}>
+          <Stack.Navigator screenOptions={{ headerBackTitle: I18n.t('navigation.back') }}>
             <Stack.Screen
               name="HomeScreen"
               component={HomeScreen}
-              options={{ title: 'Timeout Ultimate', headerShown: false }}
+              options={{ title: I18n.t('navigation.homeScreen'), headerShown: false }}
             />
-            <Stack.Screen name="OptionsScreen" component={OptionsScreen} options={{ title: 'Démarrer mon quizz' }} />
+            <Stack.Screen
+              name="OptionsScreen"
+              component={OptionsScreen}
+              options={{ title: I18n.t('navigation.optionsScreen') }}
+            />
             <Stack.Screen name="QuizzScreen" component={QuizzScreen} />
-            <Stack.Screen name="HistoryScreen" component={HistoryScreen} options={{ title: 'Historique' }} />
-            <Stack.Screen name="AboutScreen" component={AboutScreen} options={{ title: 'À propos' }} />
-            <Stack.Screen name="RulesScreen" component={RulesScreen} options={{ title: 'Règlement' }} />
+            <Stack.Screen
+              name="HistoryScreen"
+              component={HistoryScreen}
+              options={{ title: I18n.t('navigation.historyScreen') }}
+            />
+            <Stack.Screen
+              name="AboutScreen"
+              component={AboutScreen}
+              options={{ title: I18n.t('navigation.aboutScreen') }}
+            />
+            <Stack.Screen
+              name="RulesScreen"
+              component={RulesScreen}
+              options={{ title: I18n.t('navigation.rulesScreen') }}
+            />
           </Stack.Navigator>
         </NavigationContainer>
         <Toast config={toastConfig} />

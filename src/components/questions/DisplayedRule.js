@@ -5,6 +5,7 @@ import { Button } from 'react-native-elements';
 import rules from '../../../data/rules/rules';
 import theme from '../../utils/theme.js';
 import BottomSheet from '../shared/BottomSheet.js';
+import I18n from '../../utils/i18n';
 
 export default ({ ruleNumbers }) => {
   if (!ruleNumbers) return null;
@@ -20,7 +21,7 @@ export default ({ ruleNumbers }) => {
     <>
       <Button
         type="outline"
-        title="Voir la règle"
+        title={I18n.t('questions.displayedRule.seeRule')}
         containerStyle={styles.ctaContainer}
         buttonStyle={styles.ctaButton}
         titleStyle={styles.ctaText}
@@ -29,7 +30,7 @@ export default ({ ruleNumbers }) => {
       <BottomSheet onClose={() => setIsVisible(false)} isVisible={isVisible}>
         {ruleNumbers.map((ruleNumber) => (
           <View key={ruleNumber}>
-            <Text style={styles.title}>Règle {ruleNumber}</Text>
+            <Text style={styles.title}>{I18n.t('questions.displayedRule.ruleHeader', { number: ruleNumber })}</Text>
             <Text>{flattenedRules[ruleNumber]}</Text>
           </View>
         ))}
