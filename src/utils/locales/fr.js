@@ -9,23 +9,23 @@ export default {
       [Levels.ANY]: 'Tous',
     },
     categories: {
-      [Categories.SPIRIT]: 'Esprit du jeu',
+      [Categories.SPIRIT]: "L'Esprit du jeu",
       [Categories.FIELD]: 'Aire de jeu',
-      [Categories.TEAMS]: 'Les Équipes',
+      [Categories.TEAMS]: 'Équipes',
       [Categories.PULL]: "L'Engagement",
-      [Categories.STATUS]: 'Le statut du disque',
+      [Categories.STATUS]: 'Etat du Jeu',
       [Categories.COUNT]: 'Le Compte',
       [Categories.CHECK]: 'Le Check',
-      [Categories.OUT]: 'Hors des limites',
-      [Categories.RECEIVER]: 'Réceptionneur et positionnement',
+      [Categories.OUT]: 'Hors-limites',
+      [Categories.RECEIVER]: 'Réceptionneur et Positionnement',
       [Categories.TURNOVERS]: 'Turnovers',
       [Categories.GOAL]: 'Marquer un point',
-      [Categories.FOULS_INFRACTIONS_VIOLATIONS]: 'Fautes, infractions, violations',
-      [Categories.CONTINUATION]: 'Continuité après un appel de faute ou violation',
+      [Categories.FOULS_INFRACTIONS_VIOLATIONS]: 'Fautes, Infractions, Violations',
+      [Categories.CONTINUATION]: 'Continuité après un Appel',
       [Categories.FOULS]: 'Fautes',
-      [Categories.INFRACTIONS_VIOLATIONS]: 'Infractions et violations',
-      [Categories.STOPPAGE]: 'Stoppage',
-      [Categories.TIMEOUT]: 'Temps-morts',
+      [Categories.INFRACTIONS_VIOLATIONS]: 'Infractions et Violations',
+      [Categories.STOPPAGE]: 'Interruptions de sécurité',
+      [Categories.TIMEOUT]: 'Temps-mMorts',
       [Categories.APPENDIX]: 'Appendice',
       [Categories.HAND_SIGNALS]: 'Gestes',
       [Categories.INDOOR]: 'Indoor',
@@ -41,7 +41,7 @@ export default {
   },
   homeScreen: {
     appName: 'Timeout Ultimate',
-    subtitle: " questions t'attendent pour apprendre les règles de l'ultimate !",
+    subtitle: " questions t'attendent pour apprendre les règles de l'Ultimate !",
     menu: {
       play: 'Jouer',
       history: 'Historique',
@@ -52,12 +52,12 @@ export default {
     mailSubject: 'À propos de Timeout Ultimate',
     aboutHeader: 'À propos',
     aboutText:
-      "Bonjour ! Je suis Martin Salles, le développeur derrière Timeout Ultimate. C'est une application conçue par des joueurs d'ultimate pour aider d'autres joueurs à apprendre les règles de l'ultimate. Elle est et restera gratuite.",
+      "Bonjour ! Je suis Martin Salles, le développeur derrière Timeout Ultimate. C'est une application conçue par des joueurs d'Ultimate pour aider d'autres joueurs à apprendre les règles de l'Ultimate. Elle est et restera gratuite.",
     thanksHeader: 'Remerciements',
     thanksText:
       "Je souhaite remercier tous ceux qui ont contribué au développement de Timeout Ultimate. Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo. Certaines questions ont été rédigées par Pierre Gruau pour les Monkeys. L'application utilise aussi les Hand Signals dessinés par Raphaël Candelier pour le PUC et la WFDF.",
     rulesDisclaimer:
-      'Les règles de l\'ultimate sont tirés du document "WFDF Rules of Ultimate 2021-2024" produit par la World Flying Disc Federation, puis traduit par la FFDF.',
+      'Les règles de l\'Ultimate sont tirés du document "WFDF Rules of Ultimate 2021-2024" produit par la World Flying Disc Federation, puis traduit par la FFDF.',
     contributeHeader: 'Contribuer',
     contributeText:
       "Que ce soit pour ajouter, corriger des questions ou maintenir l'application, toute aide est la bienvenue !",
@@ -67,7 +67,7 @@ export default {
     feedbackCta: 'Envoyer un message',
     discInHeader: 'Autres projets',
     discInText:
-      "En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'ultimate",
+      "En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'Ultimate",
     discInCta: 'Disc In',
     information: 'Informations techniques',
   },
@@ -124,8 +124,8 @@ export default {
     shareCta: 'Partager mon résultat',
     homeCta: "Retourner à l'accueil",
     errorsHeader: 'Détail des erreurs',
-    shareTitle: "Règles de l'ultimate",
-    shareMessage: "J'ai obtenu {{right}} / {{total}} sur un quizz sur les règles de l'ultimate sur Timeout Ultimate",
+    shareTitle: "Règles de l'Ultimate",
+    shareMessage: "J'ai obtenu {{right}} / {{total}} sur un quizz sur les règles de l'Ultimate sur Timeout Ultimate",
   },
   questions: {
     displayedRule: {

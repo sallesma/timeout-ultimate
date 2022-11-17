@@ -56,7 +56,7 @@ export default [
       b: "est considérée comme ne faisant pas partie de l'aire de jeu",
     },
     correctAnswers: ['b'],
-    explanation: "À l'ultimate, les lignes ne font pas partie du terrain.",
+    explanation: "À l'Ultimate, les lignes ne font pas partie du terrain.",
     rules: ['11.1.'],
     source: 'DFEU - Pablo',
     level: Levels.EASY,

@@ -33,7 +33,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         }
       }
     >
-      Bonjour ! Je suis Martin Salles, le développeur derrière Timeout Ultimate. C'est une application conçue par des joueurs d'ultimate pour aider d'autres joueurs à apprendre les règles de l'ultimate. Elle est et restera gratuite.
+      Bonjour ! Je suis Martin Salles, le développeur derrière Timeout Ultimate. C'est une application conçue par des joueurs d'Ultimate pour aider d'autres joueurs à apprendre les règles de l'Ultimate. Elle est et restera gratuite.
     </Text>
     <Text
       style={
@@ -63,7 +63,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         }
       }
     >
-      Les règles de l'ultimate sont tirés du document "WFDF Rules of Ultimate 2021-2024" produit par la World Flying Disc Federation, puis traduit par la FFDF.
+      Les règles de l'Ultimate sont tirés du document "WFDF Rules of Ultimate 2021-2024" produit par la World Flying Disc Federation, puis traduit par la FFDF.
     </Text>
     <Text
       style={
@@ -149,7 +149,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         }
       }
     >
-      En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'ultimate
+      En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'Ultimate
     </Text>
     <View
       accessible={true}

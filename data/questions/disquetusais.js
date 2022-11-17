@@ -4,7 +4,7 @@ export default [
   {
     category: Categories.SPIRIT,
     question:
-      'Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple), je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.',
+      'Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple), je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’Ultimate.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -1542,7 +1542,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
       'Je lance le disque et ma passe est réussie. Mon adversaire appelle « fin du compte » (ou « stall-out ») que je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?',
     image: undefined,
     answerChoices: {
-      a: "Le stall-out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
+      a: "Le stall-out ne peut pas être contesté, j'aurais dû appeler Fast Count plus tôt",
       b: 'Le stall-out est contesté, le jeu reprend à « compté 8 »',
     },
     correctAnswers: ['b'],
