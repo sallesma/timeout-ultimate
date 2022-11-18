@@ -1,4 +1,4 @@
-import { Levels, Categories } from '../../src/utils/config';
+import { Levels, Categories } from '../../../src/utils/config';
 // TODO finish the translation of all of these to english that makes sense
 // TODO use the id to not repeat questions previously gotten correct
 export default [

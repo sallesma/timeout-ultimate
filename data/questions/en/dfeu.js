@@ -1,4 +1,4 @@
-import { Levels, Categories } from '../../src/utils/config';
+import { Levels, Categories } from '../../../src/utils/config';
 
 export default [
   {
@@ -146,7 +146,7 @@ export default [
     },
     correctAnswers: ['c'],
     explanation:
-      "It is the 'd' in 'ten' that marks the end of the count. The call 'Stall-out' simply means that 'ten' has been reached.",
+      "It is the 't' in 'ten' that marks the end of the count. The call 'Stall-out' simply means that 'ten' has been reached.",
     rules: ['13.2.', '13.2.2.'],
     source: 'DFEU - Pablo',
     level: Levels.EASY,
