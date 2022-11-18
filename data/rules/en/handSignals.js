@@ -27,7 +27,7 @@ import { Levels, Categories } from '../../../src/utils/config';
 export default [
   {
     image: foul,
-    name: 'Faute',
+    name: 'Foul',
     hint: "Un bras tendu, l'avant-bras de l'autre vient s'appuyer en travers",
   },
   {
@@ -42,67 +42,67 @@ export default [
   },
   {
     image: contest,
-    name: 'Contesté',
+    name: 'Contested',
     hint: "Les deux poings l'un contre l'autre devant la poitrine, paumes vers la poitrine",
   },
   {
     image: accepted,
-    name: 'Accepté',
+    name: 'Accepted',
     hint: 'Les avant-bras étendus devant la poitrine, coudes contre le corps et paumes vers le haut',
   },
   {
     image: retracted,
-    name: 'Rétracté',
+    name: 'Rétracted',
     hint: "Les bras font un mouvement d'essuie-glace devant le corps, paumes vers le bas",
   },
   {
     image: in_out,
-    name: 'In ou Out (Dedans ou Dehors)',
+    name: 'In or Out',
     hint: "Un bras tendu, paume ouverte, pouce parallèle aux doigts, vers la zone de jeu (in) ou l'extérieur (out)",
   },
   {
     image: disc_down,
-    name: 'Disque Down (Disque au sol)',
+    name: 'Disc down',
     hint: "L'index pointé vers le sol à 45 degrés",
   },
   {
     image: disc_up,
-    name: "Disque Up (Disque en l'air)",
+    name: 'Disc up',
     hint: "L'index pointé vers le ciel, coude contre la poitrine",
   },
   {
     image: pick,
-    name: 'Pick (Obstruction)',
+    name: 'Pick',
     hint: 'Les bras levés à angle droit, poings fermés, paumes du côté de la tête',
   },
   {
     image: travel,
-    name: 'Travel (Marcher)',
+    name: 'Travel',
     hint: "Poings fermés en rotation verticale l'un autour de l'autre",
   },
   {
     image: marking_infraction,
-    name: 'Infraction de marque',
+    name: 'Marking Infraction',
     hint: "Les bras étendus sur les côtés, paumes ouvertes vers l'avant",
   },
   {
     image: turnover,
-    name: 'Turnover (Changement de possession)',
+    name: 'Turnover',
     hint: 'Le bras droit tendu devant le corps, la paume vers le ciel puis retournée vers le sol',
   },
   {
     image: timing_violation,
-    name: 'Stall-Out (Fin du compte)',
+    name: 'Stall-Out',
     hint: 'La main, paume ouverte, vient taper sur la tête',
   },
   {
     image: offside,
-    name: 'Hors-jeu',
+    name: 'Offside',
     hint: 'Les bras croisés au dessus de la tête, poings fermés',
   },
   {
     image: timeOut,
-    name: 'Time-out (Temps mort)',
+    name: 'Time-out',
     hint: 'Les 2 mains forment un T, ou 1 main et le disque',
   },
   {
@@ -112,22 +112,22 @@ export default [
   },
   {
     image: stoppage,
-    name: 'Stoppage (Interruption)',
+    name: 'Stoppage',
     hint: 'Les mains se saisissent au dessus de la tête, bras pliés',
   },
   {
     image: gender_ratio_men,
-    name: 'Ratio : hommes',
+    name: 'Ratio : men',
     hint: 'Les mains derrière la tête, coudes sur les côtés',
   },
   {
     image: gender_ratio_women,
-    name: 'Ratio : femmes',
+    name: 'Ratio : women',
     hint: 'Les bras tendus sur les côtés, poings fermés',
   },
   {
     image: play_has_stopped,
-    name: 'Le jeu est arrêté',
+    name: 'Play has stopped',
     hint: "Les bras tendus au dessus de la tête dans un mouvement d'essuie-glace",
   },
   {
@@ -137,7 +137,7 @@ export default [
   },
   {
     image: who_made_the_call,
-    name: 'Qui a fait le call',
+    name: 'Who made the call',
     hint: "Les deux bras tendus vers la end-zone défendue par l'équipe qui a fait le call",
   },
 ];
