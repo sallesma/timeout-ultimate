@@ -57,7 +57,7 @@ export default {
     thanksText:
       "I would like to thank everyone who contributed to the development of Timeout Ultimate. Many of the questions come from Pablo's Disque Tu Sais game. Some questions were written by Pierre Gruau for the Monkeys. The application also uses the Hand Signals designed by Raphaël Candelier for the PUC and the WFDF. Finally, the English version was set up by Brandon Sneider justhuckitstudios+wfdfrulesquiz@gmail.com creator of UltiApp and https://GotSpirit.games .",
     rulesDisclaimer:
-      'The rules of Ultimate are taken from the "WFDF Rules of Ultimate 2021-2024" produced by the World Flying Disc Federation and translated by the FFDF.',
+      'The rules of Ultimate are taken from the "WFDF Rules of Ultimate 2021-2024" produced by the World Flying Disc Federation.',
     contributeHeader: 'Contribute',
     contributeText:
       "Whether it's adding, correcting questions or maintaining the application, any kind of help is welcome!",
@@ -144,6 +144,9 @@ export default {
 
 
       `,
+    },
+    reportError: {
+      rule: 'Rule:',
     },
   },
 };

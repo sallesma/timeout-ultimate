@@ -4,6 +4,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../../utils/theme.js';
 import rules from '../../../data/rules/rules';
+import I18n from '../../utils/i18n';
 
 export default ({ question, checked }) => {
   const [expanded, setExpanded] = useState(false);
@@ -39,7 +40,7 @@ export default ({ question, checked }) => {
           <Text>{question.explanation}</Text>
           {question.rules && (
             <>
-              <Text style={{ marginTop: 8 }}>Règlement :</Text>
+              <Text style={{ marginTop: 8 }}>{I18n.t('questions.reportError.rule')}</Text>
               {question.rules.map((ruleNumber) => (
                 <Text key={ruleNumber} style={styles.rule}>
                   {ruleNumber} {flattenedRules[ruleNumber]}

@@ -145,5 +145,8 @@ export default {
 
       `,
     },
+    reportError: {
+      rule: 'Règlement :',
+    },
   },
 };

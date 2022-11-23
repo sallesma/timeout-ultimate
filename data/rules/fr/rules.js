@@ -255,9 +255,9 @@ export default {
   },
   '12.Réceptionneur et Positionnement': {
     '12.1.':
-      "Un « catch » (attraper) se produit lorsqu'un joueur a un disque sans rotation coincé entre au moins deux parties du corps. Un « catch » peut permettre à un joueur d'établir la possession du disque.",
+      "Un « catch » (attraper) se produit lorsqu'un joueur a un disque sans rotation coincé entre au moins deux parties du corps. Un « catch » peut permettre à un joueur d'établir la possession du disque.",
     '12.1.1.':
-      'Si le joueur ne parvient pas à maintenir son « catch » en raison d’un contact avec le sol ou d’un contact avec un coéquipier ou un joueur adverse légitimement placé, la possession est considérée comme n’ayant pas eu lieu.',
+      'Si le joueur ne parvient pas à maintenir son « catch » en raison d’un contact avec le sol ou d’un contact avec un coéquipier ou un joueur adverse légitimement placé, la possession est considérée comme n’ayant pas eu lieu.',
     '12.2.': 'Après avoir établi la possession, ce joueur devient le lanceur.',
     '12.3.': "Si un attaquant et un défenseur attrapent le disque simultanément, l'attaquant conserve la possession.",
     '12.4.':
@@ -506,7 +506,7 @@ export default {
       'Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur peut faire une passe sans réduire sa vitesse et sans établir de point pivot, à condition:',
     '18.2.2.1.1.': "qu’il ne change pas de direction ou n'augmente pas sa vitesse jusqu'à ce qu'il lâche le disque; et",
     '18.2.2.1.2.':
-      "qu’un maximum de deux points de contact avec le sol supplémentaires soient établis après le « catch » et avant qu'il ne lâche le disque.",
+      "qu’un maximum de deux points de contact avec le sol supplémentaires soient établis après le « catch » et avant qu'il ne lâche le disque.",
     '18.2.3.':
       'Le lanceur peut bouger dans toutes les directions (« pivoter ») uniquement en établissant un « point pivot », qui est un point précis du sol avec lequel une partie de son corps demeure en contact permanent jusqu’à ce que le disque soit lancé.',
     '18.2.4.':
@@ -515,7 +515,7 @@ export default {
       "S’il se lève il ne s'agit pas d'un « travel », du moment qu'il établit un point pivot au même endroit.",
     '18.2.5.': 'Une infraction de « travel » se produit si:',
     '18.2.5.1.':
-      'le lanceur établit un point pivot à un endroit incorrect y compris en ne réduisant pas sa vitesse le plus rapidement possible après un « catch » ou en changeant de direction après un « catch »;',
+      'le lanceur établit un point pivot à un endroit incorrect y compris en ne réduisant pas sa vitesse le plus rapidement possible après un « catch » ou en changeant de direction après un « catch »;',
     '18.2.5.2.': 'le lanceur fait une passe en infraction avec 18.2.2.1;',
     '18.2.5.3.':
       "quand le lanceur doit se déplacer vers un endroit spécifié, le lanceur n'établit pas de point pivot avant la préparation ou de le début l’acte de lancer;",

@@ -7,7 +7,7 @@ export default {
     "La zone incluant la zone centrale et les zones d’en-but mais excluant les lignes de périmètre. Une infraction affecte le jeu s'il est raisonnable de penser que le résultat de l'action aurait été significativement différent sans cette infraction. Un joueur dont l’équipe est en possession du disque.",
   call: 'Un appel clairement communiqué qu’une faute, infraction, violation, « turnover » ou blessure s’est produit. Les termes suivants peuvent être utilisés: « foul » (« faute »), « travel », le nom spécifique d’une infraction de marquage, « violation » (ou le nom spécifique de la violation), le nom spécifique d’un « turnover », « technical » et « injury ».',
   catch:
-    "Un disque sans rotation coincé entre au moins deux parties du corps. Si un joueur attrape initialement une passe puis, avant d'établir la possession, il ne maintient pas la prise (« maintenir la prise » signifie continuer à avoir un disque qui ne tourne pas coincé entre au moins deux parties du corps), ce « catch » initial est considéré comme terminé.",
+    "Un disque sans rotation coincé entre au moins deux parties du corps. Si un joueur attrape initialement une passe puis, avant d'établir la possession, il ne maintient pas la prise (« maintenir la prise » signifie continuer à avoir un disque qui ne tourne pas coincé entre au moins deux parties du corps), ce « catch » initial est considéré comme terminé.",
   'contact avec le sol':
     'Réfère à tout joueur touchant le sol suite à un événement ou une action incluant l’atterrissage ou la reprise d’appui après une perte d’équilibre (i.e. sauter, plonger, se pencher ou tomber).',
   'contact mineur':
@@ -54,7 +54,7 @@ Un joueur établit un point pivot en plaçant, ou en gardant, une partie particu
     'La position stationnaire ou en mouvement établie par un joueur qui n’est en infraction avec aucune règle.',
   'possession du disque': `Un joueur établit la possession d’une passe quand:
 - il attrape une passe et ensuite maintient cette prise pendant plus d'un instant perceptible, et
-- il maintient la prise tout au long du contact avec le sol lié à ce « catch », ou jusqu’à ce qu’il lance le disque.
+- il maintient la prise tout au long du contact avec le sol lié à ce « catch », ou jusqu’à ce qu’il lance le disque.
 Un joueur peut également établir la possession lorsqu'un disque qui a déjà touché le sol est ramassé, ou lui est donné, après un « turnover », un « pull » ou une interruption.
 Une fois qu'un joueur a établi la possession, il peut changer sa prise sur le disque et cela n'affecte pas sa possession, tant qu'il reste en contact avec le disque.
 Un disque en possession d’un joueur, ou attrapé par un joueur est considéré comme faisant partie de ce joueur.
