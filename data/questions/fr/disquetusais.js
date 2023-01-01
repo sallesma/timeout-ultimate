@@ -2457,13 +2457,13 @@ Il peut le faire si:
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      'J’attrape le disque et décélère en changeant la direction de ma course (courbe). Un adversaire appelle un « marcher ». Il a tort car je décélérais.',
+      'J’attrape le disque et décélère en changeant la direction de ma course (courbe). Un adversaire appelle un « marcher ».',
     image: undefined,
     answerChoices: {
-      a: 'Vrai',
-      b: 'Faux',
+      a: 'Il a raison',
+      b: 'Il a tort car je décélérais',
     },
-    correctAnswers: ['b'],
+    correctAnswers: ['a'],
     explanation:
       "L’appel est correct car après avoir attrapé le disque et être retombé dans l’aire de jeu, je dois réduire ma vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce que j’ai établi mon point pivot.",
     rules: undefined,
