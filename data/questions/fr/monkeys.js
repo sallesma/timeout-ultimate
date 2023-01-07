@@ -377,7 +377,7 @@ export default [
   },
   {
     category: Categories.TURNOVERS,
-    question: 'J’ai le droit de catcher ma propre passe si un coéquipier l’a touché entre temps.',
+    question: 'J’ai le droit de rattraper ma propre passe si un coéquipier l’a touchée entre-temps.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
