@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, TouchableOpacity, Text } from 'react-native';
+import { StyleSheet, View, TouchableOpacity, Text, Image } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../../utils/theme.js';
@@ -22,6 +22,11 @@ export default ({ question, checked }) => {
       </TouchableOpacity>
       {expanded && (
         <View style={styles.expanded}>
+          {question.image && (
+            <View style={styles.imageContainer}>
+              <Image style={styles.image} source={question.image} />
+            </View>
+          )}
           {Object.keys(question.answerChoices).map((answerChoiceKey) => (
             <Text
               key={answerChoiceKey}
@@ -70,6 +75,15 @@ const styles = StyleSheet.create({
   },
   expanded: {
     padding: 16,
+  },
+  imageContainer: {
+    alignItems: 'center',
+    height: 80,
+    marginBottom: 8,
+  },
+  image: {
+    resizeMode: 'contain',
+    height: '100%',
   },
   answerChoice: {
     paddingLeft: 32,
