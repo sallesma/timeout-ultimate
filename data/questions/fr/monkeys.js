@@ -354,7 +354,7 @@ export default [
     explanation: `La réponse se trouve dans:
 -rules of Ultimate, paragraphe 16.2.4
 -official annotations 16.6`,
-    rules: undefined,
+    rules: ['16.2.4.', '16.2.4.1.', '16.2.4.2.', '16.2.4.2.1.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
   },
@@ -496,7 +496,7 @@ export default [
     },
     correctAnswers: ['b'],
     explanation: 'La réponse se trouve dans official annotations, paragraphe 18.15',
-    rules: undefined,
+    rules: ['18.3.', '18.3.1.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
