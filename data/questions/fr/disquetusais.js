@@ -569,7 +569,7 @@ export default [
       d: 'Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.',
     },
     correctAnswers: ['a', 'b', 'c', 'd'],
-    explanation: '',
+    explanation: 'Ces 4 situations correspondent à un disque mort.',
     rules: ['8.1.', '8.1.1.', '8.1.2.', '8.1.3.', '8.1.4.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
