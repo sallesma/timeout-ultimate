@@ -1,4 +1,5 @@
 export default {
+  "Les appendices des règles n'ont pas de traduction officielle en français. Toute aide est la bienvenue.\n": {},
   'Appendix A: WFDF Additional Championship Game Rules': {
     'A1. Playing Field': {
       'A1.1.': 'The entire surface of the field of play must be one of the following:',

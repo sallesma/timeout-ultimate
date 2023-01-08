@@ -53,7 +53,7 @@ export default ({ number, rule, searchText }) => {
         styles.rule,
         ruleAnnotations && styles.withAnnotations,
         indentation > 0 && styles.indented,
-        { marginLeft: 16 * indentation },
+        { marginLeft: 8 * Math.max(indentation, 0) },
       ]}
     >
       <Text
@@ -63,7 +63,7 @@ export default ({ number, rule, searchText }) => {
       >
         <Text style={styles.number}>{number}</Text>
         <NestedPressableHighlighter
-          style={styles.text}
+          style={[styles.text, indentation < 0 && styles.bold]}
           highlightStyle={styles.searchedText}
           pressableHighlightStyle={styles.pressableText}
           pressableSearchWords={dictionaryWords}
@@ -82,11 +82,11 @@ export default ({ number, rule, searchText }) => {
             onPress={() => setDisplayAnnotations(!displayAnnotations)}
             onLongPress={() => copyAnnotation(annotation)}
           >
-            <Text style={styles.annotationTitle}>{annotation.title}</Text>
+            <Text style={styles.bold}>{annotation.title}</Text>
             {annotation.content.map((content, contentIndex) => (
               <View key={contentIndex} style={styles.annotationContent}>
                 <Text>
-                  <Text style={styles.annotationTitle}>{I18n.t(`rule.annotationContent.${content.type}`)} </Text>
+                  <Text style={styles.bold}>{I18n.t(`rule.annotationContent.${content.type}`)} </Text>
                   {content.text}
                 </Text>
               </View>
@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: theme.FONT_SIZE_L,
   },
-  annotationTitle: {
+  bold: {
     fontWeight: 'bold',
   },
 });

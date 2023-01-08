@@ -128,7 +128,7 @@ export default {
       content: [
         {
           type: 'Note',
-          text: "Les joueurs peuvent visionner des photos ou des vidéos d'un appel si cela est disponible. Cependant, le jeu ne peut pas être trop retarder pour cela. Voir l'Annexe pour plus de détails.",
+          text: "Les joueurs peuvent visionner des photos ou des vidéos d'un appel si cela est disponible. Cependant, le jeu ne peut pas être trop retarder pour cela. Voir les appendices pour plus de détails.",
         },
         {
           type: 'Extra',
@@ -157,7 +157,7 @@ export default {
           text: `Avant que le disque ne retourne au lanceur quand les joueurs ne sont pas d'accord, ils doivent discuter de ce qu'il s'est passé. Tous les joueurs concernés doivent expliquer clairement ce qu'ils pensent s'être passé, et écouter le point de vue de l'adversaire ou des autres joueurs avec une bonne perspective sur l'action.
 Si la discussion est rendu difficile du fait de la barrière de la langue alors les gestes ou une reconstitution de l'incident peut être utilisés pour illustrer ce qu'il s'est passé lors de l'incident. (par exemple, taper sa propre main pour montrer qu'on a subi un contact sur celle-ci au moment d'attraper le disque). Les équipes peuvent faire appel à un non joueur comme interprète pour aider à la communication pendant l'interruption.
 Parfois il n'est pas possible d'être raisonnablement certain de ce qu'il s'est produit. (par exemple si personne n'a de bonne perspective, ou si cela s'est passé trop vite). Parfois, il est difficile de savoir si quelque chose à affecter le jeu. Dans ces circonstances, le disque doit être retourné au dernier lanceur non contesté.
-Les discussions doivent être aussi brèves que possible et se finir sur un appel accepté ou contesté. Cependant s'il devient clair qu'une telle résolution n'arrivera pas, le disque doit revenir au dernier lanceur non contesté. La durée maximum suggérée pour une discussion lors d'une interruption est de quarante-cinq (45) secondes. Voir l'Annexe pour des compléments sur les règles concernant les durées.`,
+Les discussions doivent être aussi brèves que possible et se finir sur un appel accepté ou contesté. Cependant s'il devient clair qu'une telle résolution n'arrivera pas, le disque doit revenir au dernier lanceur non contesté. La durée maximum suggérée pour une discussion lors d'une interruption est de quarante-cinq (45) secondes. Voir les appendices pour des compléments sur les règles concernant les durées.`,
         },
       ],
     },
@@ -170,7 +170,7 @@ Les discussions doivent être aussi brèves que possible et se finir sur un appe
           type: 'Note',
           text: `L'aire de jeu est longue de cent (100) mètres et large de trente-sept (37) mètres. L'aire de jeu est découpée en une zone centrale de soixante-quatre mètres de long et deux zones d'en-but prodondent de dix-huit mètres à chaque extrémité de la zone centrale.
 Toutes les lignes ont une largeur comprises entre soixante-quinze (75) et cent-vingt (120) millimètres et tracées avec un produit non caustique.
-S'il n'y a pas assez d'espace pour tracer un terrain dans les bonnes dimensions, les zones d'en-but doivent être réduites avant la zone centrale. Voir l'Annexe pour plus de détails.
+S'il n'y a pas assez d'espace pour tracer un terrain dans les bonnes dimensions, les zones d'en-but doivent être réduites avant la zone centrale. Voir les appendices pour plus de détails.
 S'il n'y a pas de lignes tracées et que les cônes utilisés pour matérialiser une ligne ne sont pas alignés, alors la limite est considérée comme étant la droite entre les deux cônes des zones d'en-but concernés. Par exemple, si un joueur est proche d'une ligne latérale dans la zone d'en-but, ceux sont les deux premiers cônes des deux zones d'en-but de ce coté du terrain qui sont concernés. Si un joueur est proche d'une ligne latérale dans une zone d'en-but, ceux sont les deux cônes de cette même zone d'en-but, de ce coté du terrain qui sont concernés.`,
         },
       ],
@@ -202,7 +202,7 @@ S'il n'y a pas de lignes tracées et que les cônes utilisés pour matérialiser
       content: [
         {
           type: 'Note',
-          text: "Un match peut aussi être jouer avec une limite de temps, voir l'Annexe pour plus de détails",
+          text: 'Un match peut aussi être jouer avec une limite de temps, voir les appendices pour plus de détails',
         },
       ],
     },
@@ -213,7 +213,7 @@ S'il n'y a pas de lignes tracées et que les cônes utilisés pour matérialiser
       content: [
         {
           type: 'Note',
-          text: "Une mi-temps dure habituellement sept (7) minutes pour un match avec une limite de temps de cent (100) minutes. Voir l'Annexe pour plus de détails.",
+          text: 'Une mi-temps dure habituellement sept (7) minutes pour un match avec une limite de temps de cent (100) minutes. Voir les appendices pour plus de détails.',
         },
       ],
     },
@@ -224,7 +224,7 @@ S'il n'y a pas de lignes tracées et que les cônes utilisés pour matérialiser
       content: [
         {
           type: 'Note',
-          text: 'Dans un match mixte, où hommes et femmes jouent dans la même équipe, les deux équipes doivent avoir le même ratio Homme/Femme sur le terrain pour chaque point. Les modalités du choix du ratio, pour chaque point, peuvent être retrouvées en Annexe.',
+          text: 'Dans un match mixte, où hommes et femmes jouent dans la même équipe, les deux équipes doivent avoir le même ratio Homme/Femme sur le terrain pour chaque point. Les modalités du choix du ratio, pour chaque point, peuvent être retrouvées dans les Appendices.',
         },
       ],
     },
@@ -255,7 +255,7 @@ S'il n'y a pas de lignes tracées et que les cônes utilisés pour matérialiser
       content: [
         {
           type: 'Note',
-          text: 'Il est recommandé que les représentants des équipes utiliser la procédure décrite en Annexe pour décider honnêtement.',
+          text: 'Il est recommandé que les représentants des équipes utiliser la procédure décrite dans les Appendices pour décider honnêtement.',
         },
       ],
     },
@@ -274,7 +274,7 @@ Les activités suivantes sont considérées comme raisonnable avant un pull :
   o qui marque qui
   o les positions offensives
   o quelle type de défense et/ou attaque sera utilisée
-Pour avoir un ordre de grandeur, le pull devrait être lancé dans les soixante-quinze secondes après le début du point (qui commence au début de la mi-temps ou quand le point précédent est marqué). Voir l'Annexe pour plus de détails qui peuvent s'appliquer dans certaines compétitions.`,
+Pour avoir un ordre de grandeur, le pull devrait être lancé dans les soixante-quinze secondes après le début du point (qui commence au début de la mi-temps ou quand le point précédent est marqué). Voir les appendices pour plus de détails qui peuvent s'appliquer dans certaines compétitions.`,
         },
       ],
     },
@@ -498,7 +498,7 @@ Un hors-jeu contesté interrompt le jeu et nécessite de refaire l'engagement. P
         },
         {
           type: 'Extra',
-          text: "Pour les compétitions où l'Annexe est utilisé, les limites de temps s'appliquent aussi pour les disques hors limites et pour l'engagement. Il est recommandé d'avertir l'équipe adverse et de s'assurer qu'elle connaît la règle avant de lui opposer une limite de temps. Si l'attaque considère que les limites de temps sont décomptées trop rapidement, elle peut appeler un fast count ( compte rapide). La défense doit laisser un accès dégagé au disque et au point pivot.",
+          text: "Pour les compétitions où les appendices est utilisé, les limites de temps s'appliquent aussi pour les disques hors limites et pour l'engagement. Il est recommandé d'avertir l'équipe adverse et de s'assurer qu'elle connaît la règle avant de lui opposer une limite de temps. Si l'attaque considère que les limites de temps sont décomptées trop rapidement, elle peut appeler un fast count ( compte rapide). La défense doit laisser un accès dégagé au disque et au point pivot.",
         },
       ],
     },
@@ -2249,7 +2249,7 @@ L'arrêt ne devrait être utilisé que pour régler le problème du sang.`,
         },
         {
           type: 'Extra',
-          text: "Pour les matchs utilisant l'annexe, se référer à la section des timings spécifiques.",
+          text: 'Pour les matchs utilisant les appendices, se référer à la section des timings spécifiques.',
         },
       ],
     },

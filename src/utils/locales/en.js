@@ -103,6 +103,7 @@ export default {
   rulesScreen: {
     rules: 'Rules',
     handSignals: 'Gestures',
+    appendix: 'Appendice',
     searchPlaceholder: 'Search for a word…',
   },
   question: {
