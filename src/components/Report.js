@@ -23,7 +23,7 @@ export default ({ navigation, rightAnswersCount, quizzLength, errors }) => {
     try {
       await Share.share({
         title: I18n.t('report.shareTitle'),
-        message: I18n.t('report.shareTitle', { right: rightAnswersCount, total: quizzLength }),
+        message: I18n.t('report.shareMessage', { right: rightAnswersCount, total: quizzLength }),
       });
     } catch (error) {
       console.log('Error sharing result', error);
