@@ -149,4 +149,16 @@ export default {
       rule: 'Règlement :',
     },
   },
+  rule: {
+    ruleCopied: 'La règle {{number}} a été copiée.',
+    annotationCopied: "L'annotation a été copiée.",
+    annotationContent: {
+      Note: 'Note',
+      Example: 'Exemple',
+      What: 'Situation',
+      Result: 'Résultat',
+      Why: 'Pourquoi',
+      Extra: 'Extra',
+    },
+  },
 };
