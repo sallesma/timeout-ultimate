@@ -126,7 +126,7 @@ export default {
     '7.7.':
       "Aucun joueur de l'équipe défensive ne peut toucher le disque après le « pull » avant qu'un membre de l'équipe attaquante ne touche le disque ou que le disque ne touche le sol.",
     '7.8.':
-      "Si un attaquant, à l’intérieur ou à l’extérieur de l’aire de jeu, touche le disque avant qu'il ne touche le sol et que l’équipe attaquante ne parvient pas à établir la possession conséquemment, il y a « turnover » (un « dropped pull »).",
+      "Si un attaquant, à l’intérieur ou à l’extérieur de l’aire de jeu, touche le disque avant qu'il ne touche le sol et que l’équipe attaquante ne parvient pas à établir la possession conséquemment, il y a « turnover » (un « dropped pull »).",
     '7.9.':
       "Si un attaquant attrape le « pull » et établit conséquemment la possession il doit établir un point pivot dans l'aire de jeu à l’endroit le plus proche d’où la possession a été établie, même si ce point pivot est à l'intérieur de sa propre zone d'en-but.",
     '7.10.':
@@ -139,10 +139,10 @@ export default {
       "Si le disque touche la zone hors de l’aire de jeu sans d'abord toucher l’aire de jeu ou un attaquant, le lanceur peut établir un point pivot soit sur la marque de « brick » la plus proche de sa zone d’en-but défensive, soit à l’endroit de la zone centrale le plus proche d'où le disque est sorti (section 11.8). L'option engageante du « brick » doit être signalée par n'importe quel attaquant en levant un bras au-dessus de sa tête et en appelant « brick » avant que le disque ne soit ramassé.",
   },
   '8.Etat du Jeu': {
-    '8.1.': 'Le jeu est « mort », sans « turnover » possible:',
+    '8.1.': 'Le jeu est « mort », sans « turnover » possible:',
     '8.1.1.': 'Après le début d’un point, jusqu’à ce que le « pull » soit effectué;',
     '8.1.2.':
-      'Quand le disque doit être amené à l’endroit où le pivot doit être établi après le « pull » ou un « turnover », jusqu’à ce qu’un point pivot soit établi;',
+      'Quand le disque doit être amené à l’endroit où le pivot doit être établi après le « pull » ou un « turnover », jusqu’à ce qu’un point pivot soit établi;',
     '8.1.3.':
       'Après un « call » qui arrête le jeu ou n’importe quelle autre interruption jusqu’à ce que le disque soit « checké »; ou',
     '8.1.4.': 'Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.',
@@ -153,9 +153,9 @@ export default {
     '8.4.1.':
       'Si, en essayant d’arrêter le disque, un joueur modifie significativement la position du disque, l’équipe adverse peut demander que le point pivot soit établi à l’endroit où le disque a été touché.',
     '8.5.':
-      'Après un « turnover » et après le « pull », un attaquant doit se diriger au pas ou plus vite directement vers le disque et établir un point pivot.',
+      'Après un « turnover » et après le « pull », un attaquant doit se diriger au pas ou plus vite directement vers le disque et établir un point pivot.',
     '8.5.1.':
-      "En plus de 8.5, après un « turnover » l'attaque doit mettre le disque en jeu dans les limites de temps suivantes, si le disque n'est pas sorti et que la position du disque est:",
+      "En plus de 8.5, après un « turnover » l'attaque doit mettre le disque en jeu dans les limites de temps suivantes, si le disque n'est pas sorti et que la position du disque est:",
     '8.5.1.1.': "dans la zone centrale – sous dix (10) secondes après l'arrêt du disque.",
     '8.5.1.2.': "dans une zone d'en-but – sous vingt (20) secondes après l'arrêt du disque.",
     '8.5.2.':
@@ -168,7 +168,7 @@ export default {
       'Le marqueur débute un compte sur le lanceur en annonçant « stalling » (« compté ») puis compte de un (1) à dix (10). L’intervalle entre le début de chaque nombre du compte doit être d’au moins une (1) seconde.',
     '9.2.': 'Le compte doit être clairement communiqué au lanceur.',
     '9.3.': 'Le marqueur ne peut commencer et continuer un compte que:',
-    '9.3.1.': 'lorsque le jeu est « vivant » ou après qu’un pivot est établi après un « turnover »;',
+    '9.3.1.': 'lorsque le jeu est « vivant » ou après qu’un pivot est établi après un « turnover »;',
     '9.3.2.':
       'Il est à une distance de moins de trois (3) mètres du point pivot du lanceur, ou de l’endroit du pivot si le lanceur n’est pas à cet endroit; et',
     '9.3.3.': 'tous les défenseurs sont légalement positionnés (Section 18.1).',
@@ -190,7 +190,7 @@ export default {
   },
   '10.Le « Check »': {
     '10.1.':
-      'Quand le jeu s’arrête pendant un point pour une faute, une violation, un « turnover » contesté, un « turnover » appelé, un point contesté, une interruption, une discussion ou à l’issue d’un temps-mort le jeu doit reprendre aussi vite que possible avec un « check ». Le « check » ne peut être retardé que par une discussion concernant un appel.',
+      'Quand le jeu s’arrête pendant un point pour une faute, une violation, un « turnover » contesté, un « turnover » appelé, un point contesté, une interruption, une discussion ou à l’issue d’un temps-mort le jeu doit reprendre aussi vite que possible avec un « check ». Le « check » ne peut être retardé que par une discussion concernant un appel.',
     '10.2.':
       'Positionnement des joueurs après un « call » (excepté dans le cas d’un temps-mort et sauf indication contraire):',
     '10.2.1.':
@@ -237,7 +237,7 @@ export default {
       'S’il sort de l’aire de jeu, il doit y établir un point pivot à l’endroit le plus proche d’où il est sorti(à moins que 14.3 ne s’applique).',
     '11.3.3.': "Un lanceur qui touche une zone hors-limites est considéré en-jeu jusqu'à ce qu'il fasse une passe.",
     '11.3.4.': "Le contact entre joueurs ne transmet pas à l’un ou l’autre le statut d'être en-jeu ou hors-limites.",
-    '11.4.': 'Sont considérés comme « turnover » hors-limites et la réception n’a pas eu lieu:',
+    '11.4.': 'Sont considérés comme « turnover » hors-limites et la réception n’a pas eu lieu:',
     '11.4.1.': 'une partie du réceptionneur attaquant est hors-limites quand il entre en contact avec le disque; ou',
     '11.4.2.':
       'après avoir attrapé le disque alors que le joueur est en l’air le premier appui du réceptionneur attaquant est hors-limites alors qu’il est toujours en contact avec le disque',
@@ -282,7 +282,7 @@ export default {
       "Aucun joueur ne peut aider physiquement le mouvement d'un autre joueur, ou utiliser un équipement ou objet pour faciliter le contact avec le disque.",
   },
   '13.« Turnovers »': {
-    '13.1.': "Un « turnover » qui transfère la possession du disque d'une équipe à l'autre se produit quand:",
+    '13.1.': "Un « turnover » qui transfère la possession du disque d'une équipe à l'autre se produit quand:",
     '13.1.1.': "le disque touche le sol alors qu'il n'est pas en la possession d'un attaquant (« down »);",
     '13.1.1.1.':
       "cependant, il n'est pas « down » si un receveur attrape une passe avant que le disque n'entre en contact avec le sol, et maintient la prise pendant que le disque est en contact avec le sol.",
@@ -291,7 +291,7 @@ export default {
     '13.1.4.':
       "durant le « pull », l’attaque touche le disque avant qu'il n'entre en contact avec le sol, et conséquemment n’établit pas la possession du disque (« dropped pull »).",
     '13.2.':
-      "Un « turnover » qui transfère la possession du disque d'une équipe à l'autre et arrête le jeu se produit quand:",
+      "Un « turnover » qui transfère la possession du disque d'une équipe à l'autre et arrête le jeu se produit quand:",
     '13.2.1.': 'il y a une faute offensive acceptée sur une réception;',
     '13.2.2.':
       "le lanceur n'a pas lancé le disque avant que le marqueur n’ait commencé à prononcer le mot « dix » lors du compte (« stall-out »);",
@@ -304,45 +304,45 @@ export default {
     '13.2.6.': "un attaquant aide intentionnellement le mouvement d'un coéquipier pour attraper le disque, ou",
     '13.2.7.': 'un attaquant utilise un équipement ou un objet pour aider à attraper une passe.',
     '13.3.':
-      "Si un joueur pense qu'un « turnover » a eu lieu il doit immédiatement faire l'appel approprié. Si l'équipe adverse est en désaccord elle peut appeler « contest » et le jeu doit s’arrêter. Si, après discussion, les joueurs ne peuvent se mettre d'accord ou que les choses ne sont pas claires concernant l'action le disque doit être rendu au dernier lanceur non contesté.",
+      "Si un joueur pense qu'un « turnover » a eu lieu il doit immédiatement faire l'appel approprié. Si l'équipe adverse est en désaccord elle peut appeler « contest » et le jeu doit s’arrêter. Si, après discussion, les joueurs ne peuvent se mettre d'accord ou que les choses ne sont pas claires concernant l'action le disque doit être rendu au dernier lanceur non contesté.",
     '13.4.': 'Après un appel de « stall-out »:',
     '13.4.1.':
       "Si le lanceur a toujours la possession du disque mais pense qu’un « fast count » (compte rapide) s’est produit alors qu’il n'a pas eu une opportunité raisonnable d'appeler « fast count » avant le « stall-out », l’action est traitée soit comme une transgression acceptée par la défense (9.5.1) ou soit comme un « stall-out » contesté (9.5.3).",
     '13.4.2.':
       'Si le lanceur a effectué une passe réceptionnée, le lanceur peut contester s’il croit qu’il n’y avait pas de « stall-out » ou qu’il y avait un « fast-count » juste avant le « stall-out ».',
     '13.4.3.':
-      'Si le lanceur conteste le « stall-out » mais tente tout de même une passe et que celle-ci n’est pas rattrapée, alors le « turnover » est maintenu et le jeu reprend par un « check ».',
-    '13.5.': "N'importe quel attaquant peut prendre possession du disque après un « turnover » sauf :",
+      'Si le lanceur conteste le « stall-out » mais tente tout de même une passe et que celle-ci n’est pas rattrapée, alors le « turnover » est maintenu et le jeu reprend par un « check ».',
+    '13.5.': "N'importe quel attaquant peut prendre possession du disque après un « turnover » sauf :",
     '13.5.1.':
       "Après une interception et dans ce cas le joueur qui a fait l'interception doit maintenir la possession ; et",
     '13.5.2.':
       'Après une faute de réception offensive et dans ce cas le joueur ayant subi la faute doit prendre possession.',
     '13.6.':
-      'Si le joueur en possession après un « turnover » ou après un « pull » ayant déjà touché le sol laisse tomber intentionnellement le disque, le place sur le sol ou transfert la possession du disque il doit rétablir la possession et le jeu reprend par un « check ».',
-    '13.7.': "Après un « turnover », l'endroit du « turnover » est l’endroit où:",
+      'Si le joueur en possession après un « turnover » ou après un « pull » ayant déjà touché le sol laisse tomber intentionnellement le disque, le place sur le sol ou transfert la possession du disque il doit rétablir la possession et le jeu reprend par un « check ».',
+    '13.7.': "Après un « turnover », l'endroit du « turnover » est l’endroit où:",
     '13.7.1.': 'le disque s’est arrêté ou est ramassé par un attaquant; ou',
     '13.7.2.': 'le joueur qui intercepte s’arrête; ou',
     '13.7.3.': 'le lanceur se trouvait au moment de l’appel dans les cas 13.2.2, 13.2.3, 13.2.4, 13.2.5; ou',
     '13.7.4.': "l'attaquant se trouvait dans les cas 13.2.6 et 13.2.7 ; ou",
     '13.7.5.': 'se produit la faute offensive acceptée sur une réception.',
     '13.8.':
-      "Si l'endroit du « turnover » est hors de l'aire de jeu ou que le disque touche la zone hors de l'aire de jeu après le « turnover » le lanceur doit établir un point pivot à l’endroit de la zone centrale le plus proche d'où le disque est sorti (11.8).",
+      "Si l'endroit du « turnover » est hors de l'aire de jeu ou que le disque touche la zone hors de l'aire de jeu après le « turnover » le lanceur doit établir un point pivot à l’endroit de la zone centrale le plus proche d'où le disque est sorti (11.8).",
     '13.8.1.': "Si 13.8 ne s'applique pas, un point pivot doit être établi selon 13.9, 13.10 ou 13.11.",
     '13.9.':
-      "Si l'endroit du « turnover » est dans la zone centrale, le lanceur doit établir un point pivot à cet endroit.",
+      "Si l'endroit du « turnover » est dans la zone centrale, le lanceur doit établir un point pivot à cet endroit.",
     '13.10.':
-      "Si l'endroit du « turnover » est dans la zone d’en-but attaquée, le lanceur doit établir un point pivot à l’endroit le plus proche sur la ligne de but.",
+      "Si l'endroit du « turnover » est dans la zone d’en-but attaquée, le lanceur doit établir un point pivot à l’endroit le plus proche sur la ligne de but.",
     '13.11.':
-      "Si l'endroit du « turnover » est dans la zone d’en-but défendue, le lanceur peut choisir d’établir un point pivot:",
-    '13.11.1.': "à l’endroit du « turnover », en restant à l'endroit du turnover ou en feintant une passe; ou",
+      "Si l'endroit du « turnover » est dans la zone d’en-but défendue, le lanceur peut choisir d’établir un point pivot:",
+    '13.11.1.': "à l’endroit du « turnover », en restant à l'endroit du turnover ou en feintant une passe; ou",
     '13.11.2.':
-      "à l’endroit le plus proche du « turnover » sur la ligne de but, en se déplaçant depuis l'endroit du « turnover ».",
+      "à l’endroit le plus proche du « turnover » sur la ligne de but, en se déplaçant depuis l'endroit du « turnover ».",
     '13.11.2.1.':
       "Le futur lanceur, avant de prendre le disque, peut indiquer l'option de la ligne de but en étendant complètement un bras au-dessus de sa tête.",
     '13.11.3.':
-      'le mouvement immédiat, rester à l’endroit du « turnover », feinter une passe ou indiquer la ligne de but détermine l’endroit où établir un point pivot et ne peut pas être modifié.',
+      'le mouvement immédiat, rester à l’endroit du « turnover », feinter une passe ou indiquer la ligne de but détermine l’endroit où établir un point pivot et ne peut pas être modifié.',
     '13.12.':
-      " Si, après un « turnover » accepté, le jeu a continué sans connaissance du « turnover », le jeu s'arrête et le disque est retourné à l'endroit du « turnover », les joueurs reprennent leurs positions lors du « turnover » et le jeu reprend avec un « check ».",
+      " Si, après un « turnover » accepté, le jeu a continué sans connaissance du « turnover », le jeu s'arrête et le disque est retourné à l'endroit du « turnover », les joueurs reprennent leurs positions lors du « turnover » et le jeu reprend avec un « check ».",
   },
   '14.Marquer un point': {
     '14.1.': 'Un point est marqué si un joueur en-jeu attrape une passe légale et:',
@@ -390,7 +390,7 @@ export default {
   },
   '16.Continuité après un appel': {
     '16.1.':
-      "Chaque fois qu'une faute ou violation est appelée, ou qu’un joueur essaye d’arrêter le jeu de quelque manière que ce soit, le jeu s'arrête immédiatement et aucun « turnover » n’est possible (sauf dans les situations spécifiées en 15.9, 16.2 et 16.3).",
+      "Chaque fois qu'une faute ou violation est appelée, ou qu’un joueur essaye d’arrêter le jeu de quelque manière que ce soit, le jeu s'arrête immédiatement et aucun « turnover » n’est possible (sauf dans les situations spécifiées en 15.9, 16.2 et 16.3).",
     '16.2.': 'Si une faute ou violation:',
     '16.2.1.': 'est appelée contre le lanceur et que le lanceur tente une passe, ou',
     '16.2.2.': 'est appelée par le lanceur pendant qu’il exécute un mouvement de lancer, ou',
@@ -496,7 +496,7 @@ export default {
     '18.1.5.3.': 'il y a une infraction de marquage atroce, ou',
     '18.1.5.4.': "Il y a une répétition systématique d'infractions de marquage",
     '18.1.6.':
-      "Si une infraction de marquage ou une violation de marquage est appelée et que le lanceur tente une passe avant pendant ou après le « call », l'appel n'a aucune conséquence (sauf si 18.1.2.1 s’applique)et si la passe n'est pas attrapée le « turnover » est maintenu.",
+      "Si une infraction de marquage ou une violation de marquage est appelée et que le lanceur tente une passe avant pendant ou après le « call », l'appel n'a aucune conséquence (sauf si 18.1.2.1 s’applique)et si la passe n'est pas attrapée le « turnover » est maintenu.",
     '18.2.': 'Infractions de type « Travel » (marché):',
     '18.2.1.':
       'Le lanceur peut faire une passe à tout moment tant qu’il est entièrement dans l’aire de jeu ou a établi un point pivot dans l’aire de jeu.',
@@ -555,7 +555,7 @@ export default {
     '19.1.5.':
       "L'interruption pour blessure est considérée avoir été appelé au moment de la blessure, sauf si le joueur blessé choisi de continuer de jouer avant que l'interruption soit appelée.",
     '19.1.6.':
-      "Si le disque était en l’air quand l'interruption a été appelée, le jeu continue jusqu'à ce qu’un joueur établisse la possession ou que le disque touche le sol. Si la blessure n'est pas la conséquence d'une faute par un adversaire, la complétion ou le « turnover » est maintenu et le jeu reprend à cet endroit après l’interruption.",
+      "Si le disque était en l’air quand l'interruption a été appelée, le jeu continue jusqu'à ce qu’un joueur établisse la possession ou que le disque touche le sol. Si la blessure n'est pas la conséquence d'une faute par un adversaire, la complétion ou le « turnover » est maintenu et le jeu reprend à cet endroit après l’interruption.",
     '19.2.': 'Interruption Technique (« Technical »)',
     '19.2.1.':
       "Tout joueur qui identifie une condition qui met en danger les joueurs, y compris si un joueur a une blessure ouverte ou saignante, doit appeler une interruption technique en appelant « technical » ou « stop ». Le jeu doit s'arrêter immédiatement.",
@@ -568,7 +568,7 @@ export default {
     '19.2.3.':
       "Après un appel d'interruption technique alors que le disque est en l’air, ou si le jeu s’est poursuivisans en avoir pris connaissance:",
     '19.2.3.1.':
-      "si l'appel ou le problème technique n'ont pas affecté le jeu, la passe réceptionnée ou le « turnover » est maintenu et le jeu reprend à cet endroit,",
+      "si l'appel ou le problème technique n'ont pas affecté le jeu, la passe réceptionnée ou le « turnover » est maintenu et le jeu reprend à cet endroit,",
     '19.2.3.2.': "si l'appel ou le problème technique ont affecté le jeu, le disque est retourné au lanceur.",
     '19.3.':
       "Si un joueur est remplacé après une blessure ou à cause d’un équipement illégal ou défectueux, l'équipe adverse peut également choisir de remplacer un joueur.",
@@ -591,6 +591,6 @@ export default {
     '20.3.6.':
       'Le compte reprend à un maximum de neuf (9). Cependant si le marqueur a changé, le compte reprend à « stalling one (1) ».',
     '20.4.':
-      "Si le lanceur appelle un temps-mort quand le jeu est vivant alors que son équipe n'en dispose plus, le jeu est arrêté. Le marqueur doit ajouter deux (2) secondes au compte qu'il aurait prononcé, avant de reprendre le jeu avec un « check ». Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « turnover » de type « stall-out ».",
+      "Si le lanceur appelle un temps-mort quand le jeu est vivant alors que son équipe n'en dispose plus, le jeu est arrêté. Le marqueur doit ajouter deux (2) secondes au compte qu'il aurait prononcé, avant de reprendre le jeu avec un « check ». Si ceci a comme conséquence un compte à dix (10) ou plus, c'est un « turnover » de type « stall-out ».",
   },
 };

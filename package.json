@@ -7,7 +7,8 @@
     "ios": "expo start --ios",
     "test": "jest --watch --notify --coverage=false --changedSince=main",
     "test-ci": "jest --ci --coverage=true --reporters=default --reporters=jest-junit",
-    "extractor": "node rulesExtractor.js",
+    "extractor-rules": "node scripts/rulesExtractor.js",
+    "extractor-annotations": "node scripts/annotationsExtractor.js",
     "prepare": "husky install"
   },
   "dependencies": {
