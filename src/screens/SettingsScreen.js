@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { DevSettings, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { DevSettings, ScrollView, StyleSheet, View } from 'react-native';
 
-import theme from '../utils/theme.js';
 import I18n from '../utils/i18n';
 import { Button } from 'react-native-elements';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -43,19 +42,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
-  },
-  header: {
-    paddingBottom: 16,
-    marginBottom: 8,
-    borderBottomWidth: 1,
-    borderBottomColor: theme.MAIN_COLOR,
-  },
-  headerText: {
-    fontSize: theme.FONT_SIZE_L,
-  },
-  incentive: {
-    marginTop: 32,
-    textAlign: 'center',
-    fontSize: theme.FONT_SIZE_M,
   },
 });
