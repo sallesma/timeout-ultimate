@@ -7,12 +7,12 @@ import * as MailComposer from 'expo-mail-composer';
 import theme from '../utils/theme.js';
 import I18n from '../utils/i18n';
 
-export default (props) => {
+export default () => {
   const sendEmailAsync = () => {
     MailComposer.composeAsync({
       recipients: ['ultimate.timeout@gmail.com'],
       subject: I18n.t('aboutScreen.mailSubject'),
-    });
+    }).then();
   };
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
@@ -72,7 +72,7 @@ const styles = StyleSheet.create({
     marginTop: 32,
   },
   info: {
-    fontSize: theme.FONT_SIZE_SMALL,
+    fontSize: theme.FONT_SIZE_S,
     color: 'grey',
   },
 });

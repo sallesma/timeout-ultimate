@@ -1,16 +1,16 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, ScrollView } from 'react-native';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { loadQuizzResults } from '../utils/history';
 import theme from '../utils/theme.js';
 import I18n from '../utils/i18n';
 
 function formatDate(date) {
-  let d = new Date(date),
-    month = '' + (d.getMonth() + 1),
-    day = '' + d.getDate(),
+  const d = new Date(date),
     year = d.getFullYear();
+  let month = '' + (d.getMonth() + 1),
+    day = '' + d.getDate();
 
   if (month.length < 2) month = '0' + month;
   if (day.length < 2) day = '0' + day;
@@ -18,7 +18,7 @@ function formatDate(date) {
   return [day, month, year].join('/');
 }
 
-export default (props) => {
+export default () => {
   const [results, setResults] = useState([]);
 
   useEffect(() => {
@@ -52,8 +52,7 @@ export default (props) => {
       <ScrollView>
         {orderedResults.map((result, index) => (
           <Text key={index}>
-            {formatDate(new Date(result.createdAt))}
-             - 
+            {formatDate(new Date(result.createdAt))}-
             {I18n.t('historyScreen.result', {
               count: result.rightAnswersCount,
               total: result.quizzLength,
