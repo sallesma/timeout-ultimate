@@ -15,7 +15,6 @@ i18n.fallbacks = true;
 i18n.enableFallback = true;
 
 AsyncStorage.getItem('language').then((lang) => {
-  console.log(lang);
   i18n.locale = lang;
   AsyncStorage.setItem('language', lang ? lang : Localization.locale.slice(0, 2)).then();
 });
