@@ -38,6 +38,11 @@ export default (props) => {
           title={I18n.t('homeScreen.menu.rules')}
           onPress={() => props.navigation.navigate('RulesScreen')}
         />
+        <Button
+          containerStyle={styles.button}
+          title={I18n.t('homeScreen.menu.settings')}
+          onPress={() => props.navigation.navigate('SettingsScreen')}
+        />
       </View>
       <View style={styles.infoArea}>
         <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>

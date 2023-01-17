@@ -38,6 +38,7 @@ export default {
     historyScreen: 'Historique',
     aboutScreen: 'À propos',
     rulesScreen: 'Règlement',
+    settingsScreen: 'Paramètres',
   },
   homeScreen: {
     appName: 'Timeout Ultimate',
@@ -46,6 +47,7 @@ export default {
       play: 'Jouer',
       history: 'Historique',
       rules: 'Règlement',
+      settings: 'Paramètres',
     },
   },
   aboutScreen: {
@@ -105,6 +107,10 @@ export default {
     handSignals: 'Gestes',
     appendix: 'Appendice',
     searchPlaceholder: 'Rechercher un mot…',
+  },
+  settingsScreen: {
+    languageToen: 'Change language to English (app will restart)',
+    languageTofr: "Changer la langue en Français (l'appli va redémarrer)",
   },
   question: {
     cta: 'Valider',
