@@ -9,23 +9,23 @@ export default {
       [Levels.ANY]: 'Tous',
     },
     categories: {
-      [Categories.SPIRIT]: 'Esprit du jeu',
+      [Categories.SPIRIT]: "L'Esprit du jeu",
       [Categories.FIELD]: 'Aire de jeu',
-      [Categories.TEAMS]: 'Les Équipes',
+      [Categories.TEAMS]: 'Équipes',
       [Categories.PULL]: "L'Engagement",
-      [Categories.STATUS]: 'Le statut du disque',
+      [Categories.STATUS]: 'Etat du Jeu',
       [Categories.COUNT]: 'Le Compte',
       [Categories.CHECK]: 'Le Check',
-      [Categories.OUT]: 'Hors des limites',
-      [Categories.RECEIVER]: 'Réceptionneur et positionnement',
+      [Categories.OUT]: 'Hors-limites',
+      [Categories.RECEIVER]: 'Réceptionneur et Positionnement',
       [Categories.TURNOVERS]: 'Turnovers',
       [Categories.GOAL]: 'Marquer un point',
-      [Categories.FOULS_INFRACTIONS_VIOLATIONS]: 'Fautes, infractions, violations',
-      [Categories.CONTINUATION]: 'Continuité après un appel de faute ou violation',
+      [Categories.FOULS_INFRACTIONS_VIOLATIONS]: 'Fautes, Infractions, Violations',
+      [Categories.CONTINUATION]: 'Continuité après un Appel',
       [Categories.FOULS]: 'Fautes',
-      [Categories.INFRACTIONS_VIOLATIONS]: 'Infractions et violations',
-      [Categories.STOPPAGE]: 'Stoppage',
-      [Categories.TIMEOUT]: 'Temps-morts',
+      [Categories.INFRACTIONS_VIOLATIONS]: 'Infractions et Violations',
+      [Categories.STOPPAGE]: 'Interruptions de sécurité',
+      [Categories.TIMEOUT]: 'Temps-mMorts',
       [Categories.APPENDIX]: 'Appendice',
       [Categories.HAND_SIGNALS]: 'Gestes',
       [Categories.INDOOR]: 'Indoor',
@@ -63,11 +63,11 @@ export default {
       "Que ce soit pour ajouter, corriger des questions ou maintenir l'application, toute aide est la bienvenue !",
     feedbackHeader: 'Feedback',
     feedbackText:
-      "L'application est en cours de création. J'ai plein d'idées pour la suite mais je serais ravi de connaître ton avis",
+      "L'application est en cours de création. J'ai plein d'idées pour la suite mais je serais ravi de connaître ton avis.",
     feedbackCta: 'Envoyer un message',
     discInHeader: 'Autres projets',
     discInText:
-      "En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'Ultimate",
+      "En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'Ultimate.",
     discInCta: 'Disc In',
     information: 'Informations techniques',
   },
@@ -103,6 +103,7 @@ export default {
   rulesScreen: {
     rules: 'Règles',
     handSignals: 'Gestes',
+    appendix: 'Appendice',
     searchPlaceholder: 'Rechercher un mot…',
   },
   question: {
@@ -144,6 +145,21 @@ export default {
 
 
       `,
+    },
+    reportError: {
+      rule: 'Règlement :',
+    },
+  },
+  rule: {
+    ruleCopied: 'La règle {{number}} a été copiée.',
+    annotationCopied: "L'annotation a été copiée.",
+    annotationContent: {
+      Note: 'Note',
+      Example: 'Exemple',
+      What: 'Situation',
+      Result: 'Résultat',
+      Why: 'Pourquoi',
+      Extra: 'Extra',
     },
   },
 };

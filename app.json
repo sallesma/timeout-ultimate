@@ -2,7 +2,7 @@
   "expo": {
     "name": "Timeout Ultimate",
     "slug": "timeout-ultimate",
-    "version": "2.2.0",
+    "version": "3.2.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,15 +13,17 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "buildNumber": "2.0.0",
+      "buildNumber": "3.0.0",
       "bundleIdentifier": "com.ultimate.timeout",
       "supportsTablet": true
     },
     "android": {
       "package": "com.ultimate.timeout",
-      "versionCode": 2,
+      "versionCode": 3,
       "icon": "./assets/android_icon.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -30,6 +32,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bdbe4131-12df-4e7c-973f-04f055b870df"
+      }
     }
   }
 }

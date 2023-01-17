@@ -9,7 +9,7 @@ const i18n = new I18n({
   fr,
 });
 
-i18n.defaultLocale = 'en';
+i18n.defaultLocale = 'fr';
 i18n.locale = Localization.locale;
 i18n.fallbacks = true;
 i18n.enableFallback = true;

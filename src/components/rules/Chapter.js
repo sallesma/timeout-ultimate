@@ -8,8 +8,7 @@ import Rule from './Rule';
 
 export default ({ title, rules, searchText }) => {
   const [expanded, setExpanded] = useState(false);
-
-  const number = title.match(/^(\d+.)+/)[0];
+  const number = title.match(/^\S?(\d+.)+/)[0]; // Matching rule chapter AND appendice chapter
 
   let displayedRuleNumbers = Object.keys(rules);
   if (searchText.length > 0) {

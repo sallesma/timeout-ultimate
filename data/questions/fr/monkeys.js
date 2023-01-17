@@ -6,7 +6,7 @@
   > Aucun problème, tu prends les questions que tu veux dans le Quizz, c'est libre de tout droits d'auteur 😉
 */
 
-import { Levels, Categories } from '../../src/utils/config';
+import { Levels, Categories } from '../../../src/utils/config';
 
 export default [
   {
@@ -354,7 +354,7 @@ export default [
     explanation: `La réponse se trouve dans:
 -rules of Ultimate, paragraphe 16.2.4
 -official annotations 16.6`,
-    rules: undefined,
+    rules: ['16.2.4.', '16.2.4.1.', '16.2.4.2.', '16.2.4.2.1.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
   },
@@ -377,7 +377,7 @@ export default [
   },
   {
     category: Categories.TURNOVERS,
-    question: 'J’ai le droit de catcher ma propre passe si un coéquipier l’a touché entre temps.',
+    question: 'J’ai le droit de rattraper ma propre passe si un coéquipier l’a touchée entre-temps.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -496,7 +496,7 @@ export default [
     },
     correctAnswers: ['b'],
     explanation: 'La réponse se trouve dans official annotations, paragraphe 18.15',
-    rules: undefined,
+    rules: ['18.3.', '18.3.1.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
