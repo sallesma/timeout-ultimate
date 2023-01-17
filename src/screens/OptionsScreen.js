@@ -129,7 +129,12 @@ export default (props) => {
               />
             ))}
           <View style={styles.centered}>
-            <Button containerStyle={styles.cta} title="JOUER" onPress={startQuizz} type="solid" />
+            <Button
+              containerStyle={styles.cta}
+              title={I18n.t('optionsScreen.playCta')}
+              onPress={startQuizz}
+              type="solid"
+            />
             <Button
               containerStyle={styles.cta}
               title={seeMore ? I18n.t('optionsScreen.lessOptionsCta') : I18n.t('optionsScreen.moreOptionsCta')}

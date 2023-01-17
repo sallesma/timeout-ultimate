@@ -3,10 +3,10 @@ import { Levels, Categories } from '../config';
 export default {
   config: {
     levels: {
-      [Levels.EASY]: 'Facile',
-      [Levels.MIDDLE]: 'Moyen',
-      [Levels.DIFFICULT]: 'Difficile',
-      [Levels.ANY]: 'Tous',
+      [Levels.EASY]: 'Easy',
+      [Levels.MIDDLE]: 'Medium',
+      [Levels.DIFFICULT]: 'Hard',
+      [Levels.ANY]: 'All',
     },
     categories: {
       [Categories.SPIRIT]: 'Spirit of the Game',
@@ -28,7 +28,7 @@ export default {
       [Categories.TIMEOUT]: 'Time-Outs',
       [Categories.APPENDIX]: 'Appendix',
       [Categories.HAND_SIGNALS]: 'Gestures',
-      [Categories.INDOOR]: 'Indoor',
+      [Categories.INDOOR]: 'Indoors',
     },
   },
   navigation: {

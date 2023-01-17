@@ -188,7 +188,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         style={
           Object {
             "color": "grey",
-            "fontSize": undefined,
+            "fontSize": 14,
           }
         }
       >
@@ -198,7 +198,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         style={
           Object {
             "color": "grey",
-            "fontSize": undefined,
+            "fontSize": 14,
           }
         }
       >
@@ -208,7 +208,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         style={
           Object {
             "color": "grey",
-            "fontSize": undefined,
+            "fontSize": 14,
           }
         }
       >
@@ -219,7 +219,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         style={
           Object {
             "color": "grey",
-            "fontSize": undefined,
+            "fontSize": 14,
           }
         }
       >
