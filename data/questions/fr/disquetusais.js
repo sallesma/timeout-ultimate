@@ -2002,7 +2002,7 @@ Quel que soit le moment de l'appel de faute ou violation, si le jeu ne s'est pas
 
 Si le résultat était un point marqué, le point est valable.
 Si le résultat n'était pas un point marqué, les joueurs affectés peuvent réajuster leurs placements désavantageux provoqués par la faute, la violation ou l'appel, et le jeu reprend par un « check ».`,
-    rules: ['16.2.4.2.1.'],
+    rules: ['16.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
