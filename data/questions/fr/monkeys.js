@@ -6,7 +6,7 @@
   > Aucun problème, tu prends les questions que tu veux dans le Quizz, c'est libre de tout droits d'auteur 😉
 */
 
-import { Levels, Categories } from '../../src/utils/config';
+import { Levels, Categories } from '../../../src/utils/config';
 
 export default [
   {
@@ -37,7 +37,7 @@ export default [
     },
     correctAnswers: ['c'],
     explanation:
-      "Un défenseur est toujours considéré comme en-jeu, donc le disque est considéré avoir quitté l'aire de jeu lorsque le défenseur l'a touché. On doit donc reprendre au plus proche de ce point. Ce fait de jeu est appprofondit dans WFDF Rules of ultimate 2013 – Interpretations, paragraphe 11.3.",
+      "Un défenseur est toujours considéré comme en-jeu, donc le disque est considéré avoir quitté l'aire de jeu lorsque le défenseur l'a touché. On doit donc reprendre au plus proche de ce point. Ce fait de jeu est appprofondit dans WFDF Rules of Ultimate 2013 – Interpretations, paragraphe 11.3.",
     rules: ['11.2.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
@@ -352,9 +352,9 @@ export default [
     },
     correctAnswers: ['a'],
     explanation: `La réponse se trouve dans:
--rules of ultimate, paragraphe 16.2.4
+-rules of Ultimate, paragraphe 16.2.4
 -official annotations 16.6`,
-    rules: undefined,
+    rules: ['16.2.4.', '16.2.4.1.', '16.2.4.2.', '16.2.4.2.1.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
   },
@@ -377,7 +377,7 @@ export default [
   },
   {
     category: Categories.TURNOVERS,
-    question: 'J’ai le droit de catcher ma propre passe si un coéquipier l’a touché entre temps.',
+    question: 'J’ai le droit de rattraper ma propre passe si un coéquipier l’a touchée entre-temps.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -431,7 +431,7 @@ export default [
       d: "Rien, c'est autorisé",
     },
     correctAnswers: ['a'],
-    explanation: 'La réponse se trouve dans rules of ultimate, paragraphe 18.2.5.6',
+    explanation: 'La réponse se trouve dans rules of Ultimate, paragraphe 18.2.5.6',
     rules: ['18.2.5.', '18.2.5.5.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
@@ -481,7 +481,7 @@ export default [
       d: "Ce premier appel fait effet d'un premier avertissement et le jeu continue. ",
     },
     correctAnswers: ['c'],
-    explanation: 'La bonne réponse se trouve dans Rules of ultimate, Appendix V4.0 paragraphe 7.5.',
+    explanation: 'La bonne réponse se trouve dans Rules of Ultimate, Appendix V4.0 paragraphe 7.5.',
     rules: ['7.5.', '7.5.2.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,
@@ -496,7 +496,7 @@ export default [
     },
     correctAnswers: ['b'],
     explanation: 'La réponse se trouve dans official annotations, paragraphe 18.15',
-    rules: undefined,
+    rules: ['18.3.', '18.3.1.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
   },
@@ -510,7 +510,7 @@ export default [
       b: 'Faux',
     },
     correctAnswers: ['b'],
-    explanation: 'La bonne réponse se trouve dans Interpretations – Rules of ultimate, paragraphe 17.4.',
+    explanation: 'La bonne réponse se trouve dans Interpretations – Rules of Ultimate, paragraphe 17.4.',
     rules: undefined,
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
@@ -542,7 +542,7 @@ export default [
       b: 'Faux',
     },
     correctAnswers: ['a'],
-    explanation: 'La réponse se trouve dans rules of ultimate, official annotations, paragraphe 11.5',
+    explanation: 'La réponse se trouve dans rules of Ultimate, official annotations, paragraphe 11.5',
     rules: undefined,
     source: 'Monkeys - Pierre Gruau',
     level: Levels.DIFFICULT,

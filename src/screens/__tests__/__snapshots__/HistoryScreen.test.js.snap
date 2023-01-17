@@ -26,8 +26,7 @@ exports[`<HistoryScreen /> renders correctly 1`] = `
         }
       }
     >
-      Questions : 
-      0
+      Questions : 0
     </Text>
     <Text
       style={
@@ -36,8 +35,7 @@ exports[`<HistoryScreen /> renders correctly 1`] = `
         }
       }
     >
-      Bonnes réponses : 
-      0
+      Bonnes réponses : 0
     </Text>
   </View>
   <Text

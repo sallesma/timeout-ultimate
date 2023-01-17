@@ -72,7 +72,7 @@ exports[`<HomeScreen /> renders correctly 1`] = `
     >
       270
     </Text>
-     questions t'attendent pour apprendre les règles de l'ultimate !
+     questions t'attendent pour apprendre les règles de l'Ultimate !
   </Text>
   <View
     style={

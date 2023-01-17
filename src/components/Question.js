@@ -5,6 +5,7 @@ import { CheckBox, Button, LinearProgress } from 'react-native-elements';
 import theme from '../utils/theme.js';
 import Feedback from './questions/Feedback.js';
 import DisplayedRule from './questions/DisplayedRule.js';
+import I18n from '../utils/i18n';
 
 const colors = ['#cddff3', '#F4C8A2', '#f8f99c', '#e5c9e5'];
 
@@ -96,13 +97,15 @@ export default ({ question, onSuccess, onFailure, time }) => {
           trackColor={theme.MAIN_COLOR_LIGHT}
         />
       )}
-      {!showResult && <Button title="Valider" onPress={onValidate} disabled={showResult} containerStyle={styles.cta} />}
+      {!showResult && (
+        <Button title={I18n.t('question.cta')} onPress={onValidate} disabled={showResult} containerStyle={styles.cta} />
+      )}
       {showResult && (
         <View style={styles.result}>
           {result ? (
-            <Text style={styles.correct}>Bonne réponse !</Text>
+            <Text style={styles.correct}>{I18n.t('question.rightAnswer')}</Text>
           ) : (
-            <Text style={styles.wrong}>Mauvaise réponse...</Text>
+            <Text style={styles.wrong}>{I18n.t('question.wrongAnswer')}</Text>
           )}
           <Text>{question.explanation}</Text>
           <DisplayedRule ruleNumbers={question.rules} />

@@ -40,8 +40,6 @@ pdfExtract.extract('./assets/WFDF Rules of Ultimate 2021-2024 - French.pdf', opt
     return totalContent.concat(formattedPageContent);
   }, []);
 
-  const fs = require('fs');
-
   const fileContentHash = {};
   let currentChapter = ';';
   fileContentArray.forEach((rule) => {
@@ -54,6 +52,8 @@ pdfExtract.extract('./assets/WFDF Rules of Ultimate 2021-2024 - French.pdf', opt
       fileContentHash[currentChapter][number] = rule.replace(number, '');
     }
   });
+
+  const fs = require('fs');
   fs.writeFileSync('./data/rules/rules.js', 'export default ' + JSON.stringify(fileContentHash, null, '  ') + ';\n');
 });
 

@@ -1,5 +1,5 @@
 import React, { useState, useLayoutEffect } from 'react';
-import { StyleSheet, View, FlatList } from 'react-native';
+import { StyleSheet, View, FlatList, Text, SectionList } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { ListItem, Input } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -7,6 +7,8 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import theme from '../utils/theme.js';
 import rules from '../../data/rules/rules';
 import handSignals from '../../data/rules/handSignals';
+import appendix from '../../data/rules/appendix';
+import I18n from '../utils/i18n';
 
 import Chapter from '../components/rules/Chapter';
 import HandSignal from '../components/rules/HandSignal';
@@ -45,8 +47,9 @@ export default (props) => {
   };
 
   const list = [
-    { title: 'Règles', onPress: () => switchContent('rules') },
-    { title: 'Gestes', onPress: () => switchContent('handSignals') },
+    { title: I18n.t('rulesScreen.rules'), onPress: () => switchContent('rules') },
+    { title: I18n.t('rulesScreen.handSignals'), onPress: () => switchContent('handSignals') },
+    { title: I18n.t('rulesScreen.appendix'), onPress: () => switchContent('appendix') },
   ];
 
   return (
@@ -56,7 +59,7 @@ export default (props) => {
           autoFocus
           value={searchText}
           onChangeText={setSearchText}
-          placeholder="Rechercher un mot…"
+          placeholder={I18n.t('rulesScreen.searchPlaceholder')}
           rightIcon={
             <MaterialCommunityIcons
               name="close-circle"
@@ -79,6 +82,23 @@ export default (props) => {
           keyExtractor={(item, index) => index.toString()}
           data={handSignals}
           renderItem={({ item }) => <HandSignal item={item} searchText={searchText} />}
+        />
+      )}
+      {content === 'appendix' && (
+        <SectionList
+          keyExtractor={(item, index) => index.toString()}
+          sections={Object.keys(appendix).map((appendixSection) => ({
+            title: appendixSection,
+            data: Object.keys(appendix[appendixSection]),
+          }))}
+          renderSectionHeader={({ section }) => (
+            <View style={styles.appendixSection}>
+              <Text style={styles.appendixSectionText}>{section.title}</Text>
+            </View>
+          )}
+          renderItem={({ item, section }) => (
+            <Chapter title={item} rules={appendix[section.title][item]} searchText={searchText} />
+          )}
         />
       )}
       <BottomSheet onClose={() => setIsSelectorVisible(false)} isVisible={isSelectorVisible}>
@@ -106,5 +126,13 @@ const styles = StyleSheet.create({
   headerRightButton: {
     color: 'white',
     marginLeft: 16,
+  },
+  appendixSection: {
+    backgroundColor: theme.MAIN_COLOR_LIGHT,
+  },
+  appendixSectionText: {
+    fontSize: theme.FONT_SIZE_L,
+    fontWeight: 'bold',
+    color: theme.MAIN_COLOR,
   },
 });

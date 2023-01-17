@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, ScrollView } from 'react-native';
 
 import { loadQuizzResults } from '../utils/history';
 import theme from '../utils/theme.js';
+import I18n from '../utils/i18n';
 
 function formatDate(date) {
   let d = new Date(date),
@@ -39,24 +40,25 @@ export default (props) => {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.headerText}>Questions : {totalQuestions}</Text>
-        <Text style={styles.headerText}>Bonnes réponses : {totalRightAnswers}</Text>
+        <Text style={styles.headerText}>{I18n.t('historyScreen.questions', { count: totalQuestions })}</Text>
+        <Text style={styles.headerText}>{I18n.t('historyScreen.rightAnwsers', { count: totalRightAnswers })}</Text>
         {results.length > 0 && (
           <Text style={styles.headerText}>
-            Pourcentage : {Math.round((totalRightAnswers / totalQuestions) * 100)} %
+            {I18n.t('historyScreen.percentage', { count: Math.round((totalRightAnswers / totalQuestions) * 100) })}
           </Text>
         )}
       </View>
-      {results.length === 0 && (
-        <Text style={styles.incentive}>
-          Il n'y a pas encore de résultats parce que tu n'as pas encore fait de quiz !
-        </Text>
-      )}
+      {results.length === 0 && <Text style={styles.incentive}>{I18n.t('historyScreen.empty')}</Text>}
       <ScrollView>
         {orderedResults.map((result, index) => (
           <Text key={index}>
-            {formatDate(new Date(result.createdAt))} - {result.rightAnswersCount} bonnes réponse sur{' '}
-            {result.quizzLength} ({((result.rightAnswersCount * 100) / result.quizzLength).toFixed()} %)
+            {formatDate(new Date(result.createdAt))}
+             - 
+            {I18n.t('historyScreen.result', {
+              count: result.rightAnswersCount,
+              total: result.quizzLength,
+              percentage: ((result.rightAnswersCount * 100) / result.quizzLength).toFixed(),
+            })}
           </Text>
         ))}
       </ScrollView>

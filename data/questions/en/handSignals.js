@@ -1,39 +1,41 @@
-import accepted from '../../assets/handSignals/accepted.png';
-import contest from '../../assets/handSignals/contest.png';
-import disc_down from '../../assets/handSignals/disc_down.png';
-import disc_up from '../../assets/handSignals/disc_up.png';
-import foul from '../../assets/handSignals/foul.png';
-import gender_ratio_men from '../../assets/handSignals/gender_ratio_men.png';
-import gender_ratio_women from '../../assets/handSignals/gender_ratio_women.png';
-import goal from '../../assets/handSignals/goal.png';
-import in_out from '../../assets/handSignals/in_out.png';
-import marking_infraction from '../../assets/handSignals/marking_infraction.png';
-import match_point from '../../assets/handSignals/match_point.png';
-import offside from '../../assets/handSignals/offside.png';
-import pick from '../../assets/handSignals/pick.png';
-import play_has_stopped from '../../assets/handSignals/play_has_stopped.png';
-import retracted from '../../assets/handSignals/retracted.png';
-import spirit_stoppage from '../../assets/handSignals/spirit_stoppage.png';
-import stoppage from '../../assets/handSignals/stoppage.png';
-import timeOut from '../../assets/handSignals/time-out.png';
-import timing_violation from '../../assets/handSignals/timing_violation.png';
-import travel from '../../assets/handSignals/travel.png';
-import turnover from '../../assets/handSignals/turnover.png';
-import violation from '../../assets/handSignals/violation.png';
-import who_made_the_call from '../../assets/handSignals/who_made_the_call.png';
+/* eslint-disable camelcase */
+import accepted from '../../../assets/handSignals/accepted.png';
+import contest from '../../../assets/handSignals/contest.png';
+import disc_down from '../../../assets/handSignals/disc_down.png';
+import disc_up from '../../../assets/handSignals/disc_up.png';
+import foul from '../../../assets/handSignals/foul.png';
+import gender_ratio_men from '../../../assets/handSignals/gender_ratio_men.png';
+import gender_ratio_women from '../../../assets/handSignals/gender_ratio_women.png';
+import goal from '../../../assets/handSignals/goal.png';
+import in_out from '../../../assets/handSignals/in_out.png';
+import marking_infraction from '../../../assets/handSignals/marking_infraction.png';
+import match_point from '../../../assets/handSignals/match_point.png';
+import offside from '../../../assets/handSignals/offside.png';
+import pick from '../../../assets/handSignals/pick.png';
+import play_has_stopped from '../../../assets/handSignals/play_has_stopped.png';
+import retracted from '../../../assets/handSignals/retracted.png';
+import spirit_stoppage from '../../../assets/handSignals/spirit_stoppage.png';
+import stoppage from '../../../assets/handSignals/stoppage.png';
+import timeOut from '../../../assets/handSignals/time-out.png';
+import timing_violation from '../../../assets/handSignals/timing_violation.png';
+import travel from '../../../assets/handSignals/travel.png';
+import turnover from '../../../assets/handSignals/turnover.png';
+import violation from '../../../assets/handSignals/violation.png';
+import who_made_the_call from '../../../assets/handSignals/who_made_the_call.png';
 
-import { Levels, Categories } from '../../src/utils/config';
+import { Levels, Categories } from '../../../src/utils/config';
 
 export default [
   {
+    id: 67,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: accepted,
     answerChoices: {
-      a: 'Accepté',
-      b: 'Rétracté',
-      c: 'Infraction de marque',
-      d: "J'ai besoin de réfléchir",
+      a: 'Accepted',
+      b: 'Retracted',
+      c: 'Marking infraction',
+      d: 'I need to think',
     },
     correctAnswers: ['a'],
     explanation: '',
@@ -42,13 +44,14 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 68,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: contest,
     answerChoices: {
-      a: 'Contesté',
-      b: 'Infraction de marque',
-      c: 'Faute',
+      a: 'Contest',
+      b: 'Marking infraction',
+      c: 'Foul',
       d: 'Turnover',
     },
     correctAnswers: ['a'],
@@ -58,8 +61,9 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 69,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: disc_down,
     answerChoices: {
       a: 'Turnover',
@@ -74,11 +78,12 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 70,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: disc_up,
     answerChoices: {
-      a: 'Qui a fait le call',
+      a: 'Who made the call',
       b: 'Disc Up',
       c: 'Point',
       d: 'Stoppage',
@@ -90,13 +95,14 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 71,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: foul,
     answerChoices: {
-      a: 'Contesté',
+      a: 'Contest',
       b: 'Offside',
-      c: 'Faute',
+      c: 'Foul',
       d: 'Pick',
     },
     correctAnswers: ['c'],
@@ -106,13 +112,14 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 72,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: gender_ratio_men,
     answerChoices: {
-      a: 'Gender ratio femmes',
+      a: 'Gender ratio FMP (Female Matching Player)',
       b: 'Stoppage',
-      c: 'Gender ratio hommes',
+      c: 'Gender ratio MMP (Male Matching Player)',
       d: 'Pick',
     },
     correctAnswers: ['c'],
@@ -122,24 +129,25 @@ export default [
     level: Levels.MIDDLE,
   },
   {
+    id: 73,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: gender_ratio_women,
     answerChoices: {
-      a: 'Infraction de marque',
+      a: 'Marking infraction',
       b: 'Stoppage',
-      c: 'Gender ratio hommes',
-      d: 'Gender ratio femmes',
+      c: 'Gender ratio MMP (Male Matching Player)',
+      d: 'Gender ratio FMP (Female Matching Player)',
     },
     correctAnswers: ['d'],
-    explanation:
-      "Attention, la seule différence avec le geste d'infraction de marque est : les mains sont poings fermées.",
+    explanation: 'Attention, the only difference with the mark infraction gesture is: the hands are closed fists.',
     source: 'Hand Signals - Raphy Candelier',
     level: Levels.DIFFICULT,
   },
   {
+    id: 74,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: goal,
     answerChoices: {
       a: 'Match point',
@@ -154,13 +162,14 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 75,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: in_out,
     answerChoices: {
-      a: 'In ou Out',
-      b: 'Qui a fait le call',
-      c: 'Infraction de marque',
+      a: 'In or Out',
+      b: 'Who made the call',
+      c: 'Marking infraction',
       d: 'Turnover',
     },
     correctAnswers: ['a'],
@@ -170,45 +179,48 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 76,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: marking_infraction,
     answerChoices: {
-      a: 'Infraction de marque',
+      a: 'Marking infraction',
       b: 'Violation',
-      c: 'Gender ratio femmes',
+      c: 'Gender ratio FMP (Female Matching Player)',
       d: 'Stall-out',
     },
     correctAnswers: ['a'],
     explanation:
-      'Attention, la seule différence avec le geste de gender ratio Femmes de marque est : les mains sont poings ouvertes.',
+      'Attention, the only difference with the gesture of gender ratio FMP (Female Matching Player) is: the hands are open facing up.',
     source: 'Hand Signals - Raphy Candelier',
     level: Levels.MIDDLE,
   },
   {
+    id: 77,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: match_point,
     answerChoices: {
-      a: 'Faute',
+      a: 'Foul',
       b: 'Match Point',
       c: 'Offside',
       d: 'Stall-Out',
     },
     correctAnswers: ['b'],
-    explanation: "On appelle souvent ce point l'universe.",
+    explanation: 'This is often referred to as the universe, or double game point.',
     source: 'Hand Signals - Raphy Candelier',
     level: Levels.MIDDLE,
   },
   {
+    id: 78,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: offside,
     answerChoices: {
-      a: 'Faute',
+      a: 'Foul',
       b: 'Offside',
       c: 'Turnover',
-      d: 'Contesté',
+      d: 'Contest',
     },
     correctAnswers: ['b'],
     explanation: '',
@@ -217,14 +229,15 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 79,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: pick,
     answerChoices: {
       a: 'Violation',
       b: 'Point',
       c: 'Pick',
-      d: 'Infraction de marque',
+      d: 'Marking infraction',
     },
     correctAnswers: ['c'],
     explanation: '',
@@ -233,14 +246,15 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 80,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: play_has_stopped,
     answerChoices: {
       a: 'Travel',
       b: 'Violation',
-      c: 'Le jeu est arrêté',
-      d: 'Qui a fait le call',
+      c: 'The game is stopped',
+      d: 'Who made the call',
     },
     correctAnswers: ['c'],
     explanation: '',
@@ -249,14 +263,15 @@ export default [
     level: Levels.MIDDLE,
   },
   {
+    id: 81,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: retracted,
     answerChoices: {
-      a: 'Faute',
+      a: 'Foul',
       b: 'Travel',
-      c: 'Accepté',
-      d: 'Retracté',
+      c: 'Accepted',
+      d: 'Retracted',
     },
     correctAnswers: ['d'],
     explanation: '',
@@ -265,13 +280,14 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 82,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: spirit_stoppage,
     answerChoices: {
       a: 'Time-out',
       b: 'Travel',
-      c: 'Faute',
+      c: 'Foul',
       d: 'Spirit Stoppage',
     },
     correctAnswers: ['d'],
@@ -281,13 +297,14 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 83,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: stoppage,
     answerChoices: {
       a: 'Stoppage',
-      b: 'Gender ratio femmes',
-      c: 'Gender ratio hommes',
+      b: 'Gender ratio FMP (Female Matching Player)',
+      c: 'Gender ratio MMP (Male Matching Player)',
       d: 'Stall-Out',
     },
     correctAnswers: ['a'],
@@ -297,13 +314,14 @@ export default [
     level: Levels.MIDDLE,
   },
   {
+    id: 84,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: timeOut,
     answerChoices: {
       a: 'Time-out',
-      b: 'Faute',
-      c: 'Spirit stoppage',
+      b: 'Foul',
+      c: 'Spirit stop',
       d: 'Travel',
     },
     correctAnswers: ['a'],
@@ -313,8 +331,9 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 85,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: timing_violation,
     answerChoices: {
       a: 'Offside',
@@ -329,13 +348,14 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 86,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: travel,
     answerChoices: {
-      a: 'Rétracté',
+      a: 'Retracted',
       b: 'Travel',
-      c: 'Accepté',
+      c: 'Accepted',
       d: 'Pick',
     },
     correctAnswers: ['b'],
@@ -345,12 +365,13 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 87,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: turnover,
     answerChoices: {
       a: 'Disc up',
-      b: 'Contesté',
+      b: 'Contest',
       c: 'Turnover',
       d: 'Disc down',
     },
@@ -361,8 +382,9 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 88,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: violation,
     answerChoices: {
       a: 'Point',
@@ -377,14 +399,15 @@ export default [
     level: Levels.EASY,
   },
   {
+    id: 89,
     category: Categories.HAND_SIGNALS,
-    question: 'Que signifie ce geste ?',
+    question: 'What does this gesture mean?',
     image: who_made_the_call,
     answerChoices: {
-      a: 'In ou Out',
-      b: 'Faute',
+      a: 'In or Out',
+      b: 'Foul',
       c: 'Point',
-      d: 'Qui a fait le call',
+      d: 'Who made the call',
     },
     correctAnswers: ['d'],
     explanation: '',

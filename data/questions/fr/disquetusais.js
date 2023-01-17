@@ -1,10 +1,10 @@
-import { Levels, Categories } from '../../src/utils/config';
+import { Levels, Categories } from '../../../src/utils/config';
 
 export default [
   {
     category: Categories.SPIRIT,
     question:
-      'Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple), je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’ultimate.',
+      'Dans la mesure où je trouve que mes adversaires font trop d’appels litigieux (des marchers par exemple), je fais de même pour être sur un pied d’égalité. Je suis dans l’esprit de l’Ultimate.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -569,7 +569,7 @@ export default [
       d: 'Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.',
     },
     correctAnswers: ['a', 'b', 'c', 'd'],
-    explanation: '',
+    explanation: 'Ces 4 situations correspondent à un disque mort.',
     rules: ['8.1.', '8.1.1.', '8.1.2.', '8.1.3.', '8.1.4.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
@@ -1542,7 +1542,7 @@ Si mon défenseur ne veut pas lancer, il ne prend pas le disque (le laisse au so
       'Je lance le disque et ma passe est réussie. Mon adversaire appelle « fin du compte » (ou « stall-out ») que je conteste car il comptait trop vite et que je n’ai pas eu le temps d’appeler « compte rapide « (ou « fast count »). Que se passe-t-il ?',
     image: undefined,
     answerChoices: {
-      a: "Le stall-out ne peut pas être contesté, j'aurais du appeler Fast Count plus tôt",
+      a: "Le stall-out ne peut pas être contesté, j'aurais dû appeler Fast Count plus tôt",
       b: 'Le stall-out est contesté, le jeu reprend à « compté 8 »',
     },
     correctAnswers: ['b'],
@@ -2457,13 +2457,13 @@ Il peut le faire si:
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      'J’attrape le disque et décélère en changeant la direction de ma course (courbe). Un adversaire appelle un « marcher ». Il a tort car je décélérais.',
+      'J’attrape le disque et décélère en changeant la direction de ma course (courbe). Un adversaire appelle un « marcher ».',
     image: undefined,
     answerChoices: {
-      a: 'Vrai',
-      b: 'Faux',
+      a: 'Il a raison',
+      b: 'Il a tort car je décélérais',
     },
-    correctAnswers: ['b'],
+    correctAnswers: ['a'],
     explanation:
       "L’appel est correct car après avoir attrapé le disque et être retombé dans l’aire de jeu, je dois réduire ma vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce que j’ai établi mon point pivot.",
     rules: undefined,
