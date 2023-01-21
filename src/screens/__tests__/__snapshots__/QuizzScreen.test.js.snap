@@ -671,7 +671,9 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
           >
             Mauvaise réponse…
           </Text>
-          <Text />
+          <Text>
+            Ces 4 situations correspondent à un disque mort.
+          </Text>
           <View
             style={
               Array [
