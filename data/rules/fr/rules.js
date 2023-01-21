@@ -318,7 +318,7 @@ export default {
     '13.5.2.':
       'Après une faute de réception offensive et dans ce cas le joueur ayant subi la faute doit prendre possession.',
     '13.6.':
-      'Si le joueur en possession après un « turnover » ou après un « pull » ayant déjà touché le sol laisse tomber intentionnellement le disque, le place sur le sol ou transfert la possession du disque il doit rétablir la possession et le jeu reprend par un « check ».',
+      'Si le joueur en possession après un « turnover » ou après un « pull » ayant déjà touché le sol laisse tomber intentionnellement le disque, le place sur le sol ou transfère la possession du disque il doit rétablir la possession et le jeu reprend par un « check ».',
     '13.7.': "Après un « turnover », l'endroit du « turnover » est l’endroit où:",
     '13.7.1.': 'le disque s’est arrêté ou est ramassé par un attaquant; ou',
     '13.7.2.': 'le joueur qui intercepte s’arrête; ou',
