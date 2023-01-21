@@ -2028,7 +2028,7 @@ Regardless of when a foul or violation is called, if play has not come to a comp
 If the result was a point scored, the point stands.
 If the result was not a scored point, the affected players may readjust their disadvantageous placements caused by the foul, violation or call, and play resumes with a check.»
     `,
-    rules: undefined,
+    rules: ['16.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2043,7 +2043,7 @@ If the result was not a scored point, the affected players may readjust their di
     correctAnswers: ['a'],
     explanation:
       'Disregarding the integrity of the players regardless of when and if contact occurs is cin boundsred dangerous play and must be treated as a foul. This rule cannot be superseded by any other rule. If the call is accepted it must be treated as the most appropriate foul',
-    rules: undefined,
+    rules: ['17.1.', '17.1.1.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.EASY,
   },
@@ -2060,7 +2060,7 @@ If the result was not a scored point, the affected players may readjust their di
     correctAnswers: ['c'],
     explanation:
       'After an uncontested defensive receiving foul (contact with a receiver before, during, or directly after either player takes action on the disc), the receiver gains possession at the location of the foul. The count resumes at 1.',
-    rules: undefined,
+    rules: ['17.2.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2076,7 +2076,7 @@ If the result was not a scored point, the affected players may readjust their di
     },
     correctAnswers: ['a'],
     explanation: '',
-    rules: undefined,
+    rules: ['17.5.', '17.5.1.', '17.5.1.1.', '17.5.2.', '17.5.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2091,7 +2091,7 @@ If the result was not a scored point, the affected players may readjust their di
     },
     correctAnswers: ['b'],
     explanation: 'I keep the disc where I landed and the point is therefore not scored.',
-    rules: undefined,
+    rules: ['17.5.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2108,7 +2108,7 @@ If the result was not a scored point, the affected players may readjust their di
     correctAnswers: ['b'],
     explanation:
       'If he does not contest, the play does not stop and the count resumes at 1. By calling a contact violation rather than a foul (he has a choice), the thrower does not want to stop the play.',
-    rules: undefined,
+    rules: ['17.6.1.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
   },
@@ -2125,7 +2125,7 @@ If the result was not a scored point, the affected players may readjust their di
     correctAnswers: ['b'],
     explanation:
       'In this situation, if I call a foul that is accepted, play resumes with a check at the spot of the foul (in the zone) and I must move back to the nearest point on the goal line to make my pass. The point is not validated. If I had called strip, the point would have been validated.',
-    rules: undefined,
+    rules: ['17.2.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2142,7 +2142,7 @@ If the result was not a scored point, the affected players may readjust their di
     correctAnswers: ['a'],
     explanation:
       'A strip occurs when a defensive foul causes the receiver or thrower to drop the disc after gaining possession.',
-    rules: undefined,
+    rules: ['17.3.', '17.3.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2161,7 +2161,7 @@ If the result was not a scored point, the affected players may readjust their di
 If the foul is not contested, it is a turnover and the defender wins the possession where the foul occurred.
 If the pass is complete and the foul is contested, the disc returns to the thrower.»
   `,
-    rules: undefined,
+    rules: ['17.2.1.', '17.2.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
   },
