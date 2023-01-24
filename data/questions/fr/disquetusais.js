@@ -261,7 +261,7 @@ export default [
     },
     correctAnswers: ['c'],
     explanation:
-      "Ces durées sont mentionnées dans l'annexe des règles A5.4.1 (https://rules.wfdf.org/documents/wfdf-rules-of-ultimate-2021-2024-appendix-v2-0/download)",
+      "Ces durées sont mentionnées dans l'annexe des règles A5.4.1 (https://rules.wfdf.org/documents/wfdf-rules-of-ultimate-2021-2024-appendix-v3/download)",
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
@@ -412,7 +412,7 @@ export default [
     },
     correctAnswers: ['b'],
     explanation:
-      "J'ai 20 secondes pour jouer le disque. Ce délais et les cas particuliers sont mentionnées dans l'annexe des règles A5.8.2 (https://rules.wfdf.org/documents/wfdf-rules-of-ultimate-2021-2024-appendix-v2-0/download)",
+      "J'ai 20 secondes pour jouer le disque. Ce délais et les cas particuliers sont mentionnées dans l'annexe des règles A5.8.2 (https://rules.wfdf.org/documents/wfdf-rules-of-ultimate-2021-2024-appendix-v3/download)",
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
@@ -1990,7 +1990,7 @@ Une fois la possession établie si l'équipe qui a appelé la faute ou la violat
   {
     category: Categories.CONTINUATION,
     question:
-      'Je suis en attaque et n’ai pas le disque. Le disque est en l’air au moment où mon défenseur me fait tomber involontairement, lors d’une course n’influençant pas le jeu. La passe n’est pas rattrapée par mon partenaire concerné par la passe. La faute étant acceptée, le lanceur récupéré le disque.',
+      'Je suis en attaque et n’ai pas le disque. Le disque est en l’air au moment où mon défenseur me fait tomber involontairement, lors d’une course n’influençant pas le jeu. La passe n’est pas rattrapée par mon partenaire concerné par la passe. La faute étant acceptée, le lanceur récupère le disque.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -2002,7 +2002,7 @@ Quel que soit le moment de l'appel de faute ou violation, si le jeu ne s'est pas
 
 Si le résultat était un point marqué, le point est valable.
 Si le résultat n'était pas un point marqué, les joueurs affectés peuvent réajuster leurs placements désavantageux provoqués par la faute, la violation ou l'appel, et le jeu reprend par un « check ».`,
-    rules: undefined,
+    rules: ['16.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2017,7 +2017,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['a'],
     explanation:
       "Ne pas tenir compte de l'intégrité des joueurs indépendamment de quand et si un contact se produit est considéré comme jeu dangereux et doit être traité comme une faute. Cette règle ne peut être supplantée par aucune autre. Si l'appel est accepté celui-ci doit être traité comme la faute la plus appropriée",
-    rules: undefined,
+    rules: ['17.1.', '17.1.1.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.EASY,
   },
@@ -2034,7 +2034,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['c'],
     explanation:
       "Après une faute de réception défensive (contact avec un réceptionneur avant, pendant, ou directement après que l'un ou l'autre des joueurs fasse une action sur le disque) non contestée, le réceptionneur gagne la possession à l’endroit de la faute. Le compte reprend à 1.",
-    rules: undefined,
+    rules: ['17.2.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2050,7 +2050,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     },
     correctAnswers: ['a'],
     explanation: '',
-    rules: undefined,
+    rules: ['17.5.', '17.5.1.', '17.5.1.1.', '17.5.2.', '17.5.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2065,7 +2065,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     },
     correctAnswers: ['b'],
     explanation: 'Je conserve le disque là où j’ai atterri et le point n’est donc pas marqué.',
-    rules: undefined,
+    rules: ['17.5.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2082,7 +2082,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['b'],
     explanation:
       'S’il ne conteste pas, le jeu ne s’arrête pas et le compte reprend à 1. En appelant une « infraction de contact » plutôt qu’une faute (il a le choix), le lanceur ne veut pas stopper le jeu.',
-    rules: undefined,
+    rules: ['17.6.1.3.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
   },
@@ -2099,7 +2099,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['b'],
     explanation:
       'Dans cette situation, si j’appelle une faute qui est acceptée, le jeu reprend par un check à l’endroit de la faute (dans la zone) et je dois me replacer au point le plus près sur la ligne de but pour faire ma passe. Le point n’est donc pas validé. Si j’avais appelé «strip», le point aurait été validé.',
-    rules: undefined,
+    rules: ['17.2.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2116,7 +2116,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     correctAnswers: ['a'],
     explanation:
       "Un « strip » se produit quand une faute défensive fait que le réceptionneur ou le lanceur laisse tomber le disque après qu'il a gagné la possession.",
-    rules: undefined,
+    rules: ['17.3.', '17.3.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
@@ -2133,7 +2133,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
     explanation: `Une faute de réception offensive se produit quand un réceptionneur entre en contact avec un défenseur avant, pendant ou directement après que chaque joueur fasse une action sur le disque.
 Si la faute n’est pas contestée, il y a « turnover » et le défenseur gagne la possession où la faute s’est produite.
 Si la passe est complète et la faute est contestée, le disque revient au lanceur.`,
-    rules: undefined,
+    rules: ['17.2.1.', '17.2.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
   },

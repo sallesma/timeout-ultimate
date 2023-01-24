@@ -28,7 +28,7 @@ export default [
   {
     category: Categories.FIELD,
     question:
-      'Une passe sort des limites du terrain et est catchée par un défenseur avant que le disque ne touche le sol. Où ce joueur doit-il établir son pied de pivot ?',
+      'Une passe sort des limites du terrain et est attrapée par un défenseur avant que le disque ne touche le sol. Où ce joueur doit-il établir son pied de pivot ?',
     image: undefined,
     answerChoices: {
       a: "À l'endroit où le disque est sorti",
@@ -37,7 +37,7 @@ export default [
     },
     correctAnswers: ['c'],
     explanation:
-      "Un défenseur est toujours considéré comme en-jeu, donc le disque est considéré avoir quitté l'aire de jeu lorsque le défenseur l'a touché. On doit donc reprendre au plus proche de ce point. Ce fait de jeu est appprofondit dans WFDF Rules of Ultimate 2013 – Interpretations, paragraphe 11.3.",
+      "Un défenseur est toujours considéré comme en-jeu, même lorsqu'il est à l'extérieur des limites du terrain. Le disque est donc considéré avoir quitté l'aire de jeu lorsque le défenseur l'a touché. On doit donc reprendre au plus proche de ce point. Ce fait de jeu est appprofondit dans WFDF Rules of Ultimate 2013 – Interpretations, paragraphe 11.3.",
     rules: ['11.2.'],
     source: 'Monkeys - Pierre Gruau',
     level: Levels.MIDDLE,
