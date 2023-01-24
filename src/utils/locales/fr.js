@@ -108,6 +108,7 @@ export default {
     searchPlaceholder: 'Rechercher un mot…',
   },
   settingsScreen: {
+    choseLanguage: 'Langue:',
     languageToen: 'Change language to English (app will restart)',
     languageTofr: "Changer la langue en Français (l'appli va redémarrer)",
   },

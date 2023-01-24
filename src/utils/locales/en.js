@@ -108,6 +108,9 @@ export default {
     appendix: 'Appendice',
     searchPlaceholder: 'Search for a word…',
   },
+  settingsScreen: {
+    choseLanguage: 'Language:',
+  },
   question: {
     cta: 'Check the answer',
     rightAnswer: 'Correct answer!',
