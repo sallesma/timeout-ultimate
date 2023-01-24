@@ -1,17 +1,16 @@
-import I18n from '../../src/utils/i18n';
 import fr from './fr';
 import en from './en';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
-let questions;
-switch (I18n.locale.slice(0, 2)) {
-  case 'fr':
-    questions = fr;
-    break;
-  case 'en':
-    questions = en;
-    break;
-  default:
-    questions = fr;
+async function getQuestions() {
+  switch (await AsyncStorage.getItem('language')) {
+    case 'fr':
+      return fr;
+    case 'en':
+      return en;
+    default:
+      return fr;
+  }
 }
 
-export default questions;
+export default getQuestions;

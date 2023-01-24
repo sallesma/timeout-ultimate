@@ -1,43 +1,44 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useState, useLayoutEffect, useEffect, useMemo } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, ScrollView, Text, View } from 'react-native';
 import { Button } from 'react-native-elements';
-
 import Question from '../components/Question';
 import Report from '../components/Report';
-import questions from '../../data/questions';
 import { Levels } from '../utils/config';
 import I18n from '../utils/i18n';
+import getQuestions from '../../data/questions';
 
-// Taken from https://stackoverflow.com/a/19270021
 function getRandomElementsFromArray(arr, n) {
-  let number = Math.min(n, arr.length);
-  let result = new Array(number),
-    len = arr.length,
-    taken = new Array(len);
-  while (number--) {
-    const x = Math.floor(Math.random() * len);
-    result[number] = arr[x in taken ? taken[x] : x];
-    taken[x] = --len in taken ? taken[len] : len;
-  }
-  return result;
+  return arr.sort(() => 0.5 - Math.random()).slice(0, n);
 }
 
 export default (props) => {
   const { number, time, level, checkedCategories } = props.route.params;
-
-  const filteredQuestions = questions.filter(
-    (question) =>
-      (level === Levels.ANY || level === question.level) &&
-      (checkedCategories.length === 0 || checkedCategories.includes(question.category)),
-  );
-
-  const [selectedQuestions, _setSelectedQuestions] = useState(getRandomElementsFromArray(filteredQuestions, number));
   const [current, setCurrent] = useState(1);
   const [rightAnswersCount, setRightAnswersCount] = useState(0);
   const [canMoveForward, setCanMoveForward] = useState(false);
   const [errors, setErrors] = useState([]);
   const [showReport, setShowReport] = useState(false);
+  const [questions, setQuestions] = useState([]);
+  const filteredQuestions = useMemo(
+    () =>
+      questions.filter(
+        (q) =>
+          (level === Levels.ANY || level === q.level) &&
+          (checkedCategories.length === 0 || checkedCategories.includes(q.category)),
+      ),
+    [checkedCategories, level, questions],
+  );
+  const selectedQuestions = useMemo(
+    () => getRandomElementsFromArray(filteredQuestions, number),
+    [filteredQuestions, number],
+  );
+
+  useEffect(() => {
+    (async function loadResults() {
+      setQuestions(await getQuestions());
+    })();
+  }, []);
 
   const onSuccess = () => {
     setRightAnswersCount(rightAnswersCount + 1);
@@ -60,31 +61,42 @@ export default (props) => {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
-      {!showReport && (
-        <View style={styles.question}>
-          <Question question={selectedQuestions[current - 1]} onSuccess={onSuccess} onFailure={onFailure} time={time} />
+      {selectedQuestions.length === 0 ? (
+        <Text>Loading...</Text>
+      ) : (
+        <View>
+          {!showReport && (
+            <View style={styles.question}>
+              <Question
+                question={selectedQuestions[current - 1]}
+                onSuccess={onSuccess}
+                onFailure={onFailure}
+                time={time}
+              />
+            </View>
+          )}
+          {canMoveForward && (
+            <Button
+              title={I18n.t('quizzScreen.nextQuestion')}
+              onPress={() => {
+                if (current === selectedQuestions.length) {
+                  setShowReport(true);
+                } else {
+                  setCurrent(current + 1);
+                }
+                setCanMoveForward(false);
+              }}
+            />
+          )}
+          {showReport && (
+            <Report
+              rightAnswersCount={rightAnswersCount}
+              quizzLength={selectedQuestions.length}
+              errors={errors}
+              navigation={props.navigation}
+            />
+          )}
         </View>
-      )}
-      {canMoveForward && (
-        <Button
-          title={I18n.t('quizzScreen.nextQuestion')}
-          onPress={() => {
-            if (current === selectedQuestions.length) {
-              setShowReport(true);
-            } else {
-              setCurrent(current + 1);
-            }
-            setCanMoveForward(false);
-          }}
-        />
-      )}
-      {showReport && (
-        <Report
-          rightAnswersCount={rightAnswersCount}
-          quizzLength={selectedQuestions.length}
-          errors={errors}
-          navigation={props.navigation}
-        />
       )}
       <StatusBar style="auto" />
     </ScrollView>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Button } from 'react-native-elements';
@@ -6,11 +6,19 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import theme from '../utils/theme.js';
-import questions from '../../data/questions';
+import getQuestions from '../../data/questions';
 import logo from '../../assets/icon.png';
 import I18n from '../utils/i18n';
 
 export default (props) => {
+  const [questions, setQuestions] = useState({});
+
+  useEffect(() => {
+    (async function loadResults() {
+      setQuestions(await getQuestions());
+    })();
+  }, []);
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.logoContainer}>

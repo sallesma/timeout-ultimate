@@ -1,3 +1,4 @@
+import I18n from './utils/i18n';
 import { ActivityIndicator } from 'react-native';
 import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -14,7 +15,6 @@ import RulesScreen from './screens/RulesScreen.js';
 import SettingsScreen from './screens/SettingsScreen.js';
 
 import theme from './utils/theme.js';
-import I18n from './utils/i18n';
 
 const reactNativeElementsTheme = {
   colors: {
