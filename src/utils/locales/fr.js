@@ -47,7 +47,6 @@ export default {
       play: 'Jouer',
       history: 'Historique',
       rules: 'Règlement',
-      settings: 'Paramètres',
     },
   },
   aboutScreen: {

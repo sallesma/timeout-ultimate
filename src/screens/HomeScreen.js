@@ -1,6 +1,6 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Pressable, Image } from 'react-native';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -38,16 +38,16 @@ export default (props) => {
           title={I18n.t('homeScreen.menu.rules')}
           onPress={() => props.navigation.navigate('RulesScreen')}
         />
-        <Button
-          containerStyle={styles.button}
-          title={I18n.t('homeScreen.menu.settings')}
-          onPress={() => props.navigation.navigate('SettingsScreen')}
-        />
       </View>
       <View style={styles.infoArea}>
-        <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
-          <MaterialCommunityIcons name="information-outline" style={styles.icon} />
-        </Pressable>
+        <View style={{ flexDirection: 'row', width: '100%', justifyContent: 'space-between' }}>
+          <Pressable onPress={() => props.navigation.navigate('SettingsScreen')}>
+            <MaterialCommunityIcons name="cog" style={styles.icon} />
+          </Pressable>
+          <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
+            <MaterialCommunityIcons name="information-outline" style={styles.icon} />
+          </Pressable>
+        </View>
       </View>
       <StatusBar style="auto" />
     </SafeAreaView>
