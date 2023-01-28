@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, ScrollView, Text, View } from 'react-native';
 import { CheckBox, Button } from 'react-native-elements';
 
 import theme from '../utils/theme.js';
-import questions from '../../data/questions';
 import { Levels, Categories } from '../utils/config';
 import I18n from '../utils/i18n';
+import getQuestions from '../../data/questions';
 
 export default (props) => {
   const [seeMore, setSeeMore] = useState(false);
@@ -14,6 +14,15 @@ export default (props) => {
   const [time, setTime] = useState(30);
   const [level, setLevel] = useState(Levels.ANY);
   const [checkedCategories, setCheckedCategories] = useState([]);
+  const [questions, setQuestions] = useState([]);
+  const countByCategory = {};
+  questions.forEach((q) => (countByCategory[q.category] = (countByCategory[q.category] || 0) + 1));
+
+  useEffect(() => {
+    (async function loadResults() {
+      setQuestions(await getQuestions());
+    })();
+  }, []);
 
   const onCheck = (category) => {
     const newCheckedCategories = checkedCategories.includes(category)
@@ -25,9 +34,6 @@ export default (props) => {
   const startQuizz = () => {
     props.navigation.navigate('QuizzScreen', { number, time, level, checkedCategories });
   };
-
-  const countByCategory = {};
-  questions.forEach((question) => (countByCategory[question.category] = (countByCategory[question.category] || 0) + 1));
 
   return (
     <ScrollView style={styles.container}>

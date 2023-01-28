@@ -1,3 +1,4 @@
+import I18n from './utils/i18n';
 import { ActivityIndicator } from 'react-native';
 import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -11,9 +12,9 @@ import QuizzScreen from './screens/QuizzScreen.js';
 import HistoryScreen from './screens/HistoryScreen.js';
 import AboutScreen from './screens/AboutScreen.js';
 import RulesScreen from './screens/RulesScreen.js';
+import SettingsScreen from './screens/SettingsScreen.js';
 
 import theme from './utils/theme.js';
-import I18n from './utils/i18n';
 
 const reactNativeElementsTheme = {
   colors: {
@@ -72,6 +73,11 @@ export default function App() {
               name="RulesScreen"
               component={RulesScreen}
               options={{ title: I18n.t('navigation.rulesScreen') }}
+            />
+            <Stack.Screen
+              name="SettingsScreen"
+              component={SettingsScreen}
+              options={{ title: I18n.t('navigation.settingsScreen') }}
             />
           </Stack.Navigator>
         </NavigationContainer>

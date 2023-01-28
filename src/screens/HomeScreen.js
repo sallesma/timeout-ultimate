@@ -1,16 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Pressable, Image } from 'react-native';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import theme from '../utils/theme.js';
-import questions from '../../data/questions';
+import getQuestions from '../../data/questions';
 import logo from '../../assets/icon.png';
 import I18n from '../utils/i18n';
 
 export default (props) => {
+  const [questions, setQuestions] = useState({});
+
+  useEffect(() => {
+    (async function loadResults() {
+      setQuestions(await getQuestions());
+    })();
+  }, []);
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.logoContainer}>
@@ -40,9 +48,14 @@ export default (props) => {
         />
       </View>
       <View style={styles.infoArea}>
-        <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
-          <MaterialCommunityIcons name="information-outline" style={styles.icon} />
-        </Pressable>
+        <View style={{ flexDirection: 'row', width: '100%', justifyContent: 'space-between' }}>
+          <Pressable onPress={() => props.navigation.navigate('SettingsScreen')}>
+            <MaterialCommunityIcons name="cog" style={styles.icon} />
+          </Pressable>
+          <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
+            <MaterialCommunityIcons name="information-outline" style={styles.icon} />
+          </Pressable>
+        </View>
       </View>
       <StatusBar style="auto" />
     </SafeAreaView>

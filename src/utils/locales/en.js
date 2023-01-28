@@ -38,6 +38,7 @@ export default {
     historyScreen: 'History',
     aboutScreen: 'About',
     rulesScreen: 'Rules',
+    settingsScreen: 'Settings',
   },
   homeScreen: {
     appName: 'Timeout Ultimate',
@@ -46,6 +47,7 @@ export default {
       play: 'Play',
       history: 'History',
       rules: 'Rules',
+      settings: 'Settings',
     },
   },
   aboutScreen: {
@@ -105,6 +107,9 @@ export default {
     handSignals: 'Gestures',
     appendix: 'Appendice',
     searchPlaceholder: 'Search for a word…',
+  },
+  settingsScreen: {
+    choseLanguage: 'Language:',
   },
   question: {
     cta: 'Check the answer',
