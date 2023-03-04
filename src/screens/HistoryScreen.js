@@ -52,7 +52,7 @@ export default () => {
       <ScrollView>
         {orderedResults.map((result, index) => (
           <Text key={index}>
-            {formatDate(new Date(result.createdAt))}-
+            {formatDate(new Date(result.createdAt))} - 
             {I18n.t('historyScreen.result', {
               count: result.rightAnswersCount,
               total: result.quizzLength,
