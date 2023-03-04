@@ -508,7 +508,7 @@ export default [
     },
     correctAnswers: ['b'],
     explanation: 'Le jeu reprend au point le plus près de l’endroit où le disque a été touché, dans la zone centrale.',
-    rules: ['7.8.'],
+    rules: ['7.8.', '11.8.', '11.8.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
   },
@@ -1196,7 +1196,8 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
       c: "Oui, c'est un hors-jeu (offside)",
     },
     correctAnswers: ['c'],
-    explanation: '',
+    explanation:
+      "La violation hors-jeu (offside) doit être appelée par un joueur sur le terrain, mais rien n'empêche un partenaire mieux placé de le signaler aux joueurs sur le terrain. C'est même suggéré par les annotations des règles !",
     rules: ['7.4.', '7.5.', '7.5.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
@@ -2614,7 +2615,7 @@ Il peut le faire si:
   {
     category: Categories.STOPPAGE,
     question:
-      'Sur un contre-appel, je me tords la cheville. Un partenaire appelle « injury ». Comme ce n’est pas moi qui l’ait appelé j’ai la possibilité de rester sur le terrain ou de sortir.',
+      'Sur un contre-appel, je me tords la cheville. Un partenaire appelle « injury ». Comme ce n’est pas moi qui l’ait appelé j’ai la possibilité de rester sur le terrain sans conséquence.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -2622,8 +2623,8 @@ Il peut le faire si:
     },
     correctAnswers: ['b'],
     explanation:
-      "Que ce soit le joueur concerné ou un de ses partenaires qui ait appelé « injury », « si la blessure n’a pas été causée par un adversaire, le joueur doit choisir d'être remplacé ou de faire prendre un temps-mort à sa propre équipe ».",
-    rules: undefined,
+      "Que ce soit le joueur concerné ou un de ses partenaires qui ait appelé « injury » ne change rien : si la blessure n'a pas été causée par un adversaire, je dois sortir ou faire perdre un temps-mort à mon équipe.",
+    rules: ['19.1.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
   },
