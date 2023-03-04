@@ -3,7 +3,7 @@
 exports[`<OptionsScreen /> renders correctly 1`] = `
 <RCTScrollView
   style={
-    Object {
+    {
       "flex": 1,
       "padding": 16,
     }
@@ -12,7 +12,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
   <View>
     <Text
       style={
-        Object {
+        {
           "fontSize": 16,
           "margin": 8,
         }
@@ -22,7 +22,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     </Text>
     <View
       style={
-        Object {
+        {
           "flexDirection": "row",
           "flexWrap": "wrap",
           "marginBottom": 16,
@@ -31,15 +31,15 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     >
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Object {
+            {
               "flex": 1,
               "flexBasis": "25%",
               "margin": 8,
@@ -51,9 +51,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -67,14 +78,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "transparent",
                 "borderColor": "#2089dc",
@@ -88,7 +99,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#2089dc",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -103,15 +114,15 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
       </View>
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Object {
+            {
               "flex": 1,
               "flexBasis": "25%",
               "margin": 8,
@@ -123,9 +134,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -139,14 +161,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "#2089dc",
                 "borderColor": "#2089dc",
@@ -160,7 +182,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "white",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -175,15 +197,15 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
       </View>
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Object {
+            {
               "flex": 1,
               "flexBasis": "25%",
               "margin": 8,
@@ -195,9 +217,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -211,14 +244,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "transparent",
                 "borderColor": "#2089dc",
@@ -232,7 +265,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#2089dc",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -248,7 +281,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     </View>
     <Text
       style={
-        Object {
+        {
           "fontSize": 16,
           "margin": 8,
         }
@@ -258,7 +291,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     </Text>
     <View
       style={
-        Object {
+        {
           "flexDirection": "row",
           "flexWrap": "wrap",
           "marginBottom": 16,
@@ -267,15 +300,15 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     >
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Object {
+            {
               "flex": 1,
               "flexBasis": "25%",
               "margin": 8,
@@ -287,9 +320,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -303,14 +347,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "#2089dc",
                 "borderColor": "#2089dc",
@@ -324,7 +368,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "white",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -339,15 +383,15 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
       </View>
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Object {
+            {
               "flex": 1,
               "flexBasis": "25%",
               "margin": 8,
@@ -359,9 +403,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -375,14 +430,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "transparent",
                 "borderColor": "#2089dc",
@@ -396,7 +451,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#2089dc",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -411,15 +466,15 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
       </View>
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Object {
+            {
               "flex": 1,
               "flexBasis": "25%",
               "margin": 8,
@@ -431,9 +486,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -447,14 +513,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "transparent",
                 "borderColor": "#2089dc",
@@ -468,7 +534,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#2089dc",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -484,7 +550,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     </View>
     <Text
       style={
-        Object {
+        {
           "fontSize": 16,
           "margin": 8,
         }
@@ -494,7 +560,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     </Text>
     <View
       style={
-        Object {
+        {
           "flexDirection": "row",
           "flexWrap": "wrap",
           "marginBottom": 16,
@@ -503,21 +569,21 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     >
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
                 "flexBasis": "25%",
                 "margin": 8,
               },
-              Object {
+              {
                 "flexBasis": "40%",
               },
             ],
@@ -528,9 +594,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -544,14 +621,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "transparent",
                 "borderColor": "#2089dc",
@@ -565,7 +642,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#2089dc",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -580,21 +657,21 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
       </View>
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
                 "flexBasis": "25%",
                 "margin": 8,
               },
-              Object {
+              {
                 "flexBasis": "40%",
               },
             ],
@@ -605,9 +682,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -621,14 +709,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "transparent",
                 "borderColor": "#2089dc",
@@ -642,7 +730,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#2089dc",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -657,21 +745,21 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
       </View>
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
                 "flexBasis": "25%",
                 "margin": 8,
               },
-              Object {
+              {
                 "flexBasis": "40%",
               },
             ],
@@ -682,9 +770,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -698,14 +797,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "transparent",
                 "borderColor": "#2089dc",
@@ -719,7 +818,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#2089dc",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -734,21 +833,21 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
       </View>
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Array [
-              Object {
+            [
+              {
                 "flex": 1,
                 "flexBasis": "25%",
                 "margin": 8,
               },
-              Object {
+              {
                 "flexBasis": "40%",
               },
             ],
@@ -759,9 +858,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -775,14 +885,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "#2089dc",
                 "borderColor": "#2089dc",
@@ -796,7 +906,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "white",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -812,7 +922,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     </View>
     <View
       style={
-        Object {
+        {
           "alignItems": "center",
           "borderTopColor": "#2a9d9d",
           "borderTopWidth": 1,
@@ -824,15 +934,15 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
     >
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Object {
+            {
               "marginVertical": 32,
               "width": "45%",
             },
@@ -843,9 +953,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -859,14 +980,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "#2089dc",
                 "borderColor": "#2089dc",
@@ -880,7 +1001,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "white",
                   "fontSize": 18,
                   "paddingVertical": 1,
@@ -895,15 +1016,15 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
       </View>
       <View
         style={
-          Array [
-            Object {
+          [
+            {
               "borderRadius": 3,
               "overflow": "hidden",
             },
-            Object {
+            {
               "borderRadius": 3,
             },
-            Object {
+            {
               "marginVertical": 32,
               "width": "45%",
             },
@@ -914,9 +1035,20 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         <View
           accessibilityRole="button"
           accessibilityState={
-            Object {
+            {
               "busy": false,
+              "checked": undefined,
               "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
             }
           }
           accessible={true}
@@ -930,14 +1062,14 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           style={
-            Object {
+            {
               "opacity": 1,
             }
           }
         >
           <View
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "backgroundColor": "transparent",
                 "borderColor": "#2089dc",
@@ -951,7 +1083,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
           >
             <Text
               style={
-                Object {
+                {
                   "color": "#2089dc",
                   "fontSize": 18,
                   "paddingVertical": 1,

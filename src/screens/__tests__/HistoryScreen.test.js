@@ -7,6 +7,6 @@ describe('<HistoryScreen />', () => {
   it('renders correctly', async () => {
     const { toJSON } = await waitFor(() => render(<HistoryScreen />));
 
-    expect(toJSON()).toMatchSnapshot();
+    await waitFor(() => expect(toJSON()).toMatchSnapshot());
   });
 });
