@@ -3,7 +3,7 @@
 exports[`<RulesScreen /> renders correctly 1`] = `
 <View
   style={
-    Object {
+    {
       "flex": 1,
       "padding": 16,
     }
@@ -11,7 +11,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
 >
   <RCTScrollView
     data={
-      Array [
+      [
         "1.L’Esprit du Jeu",
         "2.Aire de Jeu",
         "3.Équipement",
@@ -47,16 +47,34 @@ exports[`<RulesScreen /> renders correctly 1`] = `
     removeClippedSubviews={false}
     renderItem={[Function]}
     scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
-    viewabilityConfigCallbackPairs={Array []}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
   >
     <View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -68,7 +86,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -82,7 +100,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -94,11 +112,29 @@ exports[`<RulesScreen /> renders correctly 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -110,7 +146,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -124,7 +160,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -136,11 +172,29 @@ exports[`<RulesScreen /> renders correctly 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -152,7 +206,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -166,7 +220,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -178,11 +232,29 @@ exports[`<RulesScreen /> renders correctly 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -194,7 +266,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -208,7 +280,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -220,11 +292,29 @@ exports[`<RulesScreen /> renders correctly 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -236,7 +326,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -250,7 +340,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -262,11 +352,29 @@ exports[`<RulesScreen /> renders correctly 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -278,7 +386,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -292,7 +400,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -304,11 +412,29 @@ exports[`<RulesScreen /> renders correctly 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -320,7 +446,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -334,7 +460,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -346,11 +472,29 @@ exports[`<RulesScreen /> renders correctly 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -362,7 +506,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -376,7 +520,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -388,11 +532,29 @@ exports[`<RulesScreen /> renders correctly 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -404,7 +566,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -418,7 +580,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -430,11 +592,29 @@ exports[`<RulesScreen /> renders correctly 1`] = `
         </View>
       </View>
       <View
+        onFocusCapture={[Function]}
         onLayout={[Function]}
         style={null}
       >
         <View>
           <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
             accessible={true}
             collapsable={false}
             focusable={true}
@@ -446,7 +626,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              Object {
+              {
                 "alignItems": "center",
                 "borderBottomColor": "#2a9d9d",
                 "borderBottomWidth": 0.5,
@@ -460,7 +640,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
             <Text />
             <Text
               style={
-                Object {
+                {
                   "fontSize": 20,
                   "marginLeft": 8,
                 }
@@ -473,7 +653,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
       </View>
       <View
         style={
-          Object {
+          {
             "height": 0,
           }
         }

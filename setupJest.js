@@ -3,3 +3,7 @@ import mockAsyncStorage from '@react-native-async-storage/async-storage/jest/asy
 jest.mock('@react-native-async-storage/async-storage', () => mockAsyncStorage);
 
 jest.mock('react-native/Libraries/Animated/NativeAnimatedHelper');
+
+// Font issue with expo 48: https://github.com/expo/expo/issues/21434
+jest.mock('expo-font');
+jest.mock('expo-asset');
