@@ -42,6 +42,8 @@ export default {
   homeScreen: {
     appName: 'Timeout Ultimate',
     subtitle: ' questions are waiting for you to start learning the rules of Ultimate!',
+    incentive:
+      'Only {{count}}! A lot more exist in the French version of the app, feel free to help translating them to make the English version better!',
     menu: {
       play: 'Play',
       history: 'History',

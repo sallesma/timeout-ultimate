@@ -17,10 +17,11 @@ export default (props) => {
         <Image style={styles.logo} source={logo} />
       </View>
       <Text style={styles.title}>{I18n.t('homeScreen.appName')}</Text>
-      <Text style={styles.welcomeText}>
+      <Text style={styles.subtitle}>
         <Text style={styles.emphasis}>{questions.length}</Text>
         {I18n.t('homeScreen.subtitle')}
       </Text>
+      <Text style={styles.incentive}>{I18n.t('homeScreen.incentive', { count: questions.length })}</Text>
       <View style={styles.buttonsArea}>
         <Button
           containerStyle={styles.button}
@@ -73,15 +74,18 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 16,
   },
-  welcomeText: {
+  subtitle: {
     fontSize: theme.FONT_SIZE_L,
-    marginBottom: 32,
     textAlign: 'center',
   },
   emphasis: {
     color: theme.MAIN_COLOR,
     fontSize: theme.FONT_SIZE_XL,
     fontWeight: 'bold',
+  },
+  incentive: {
+    marginBottom: 16,
+    fontStyle: 'italic',
   },
   buttonsArea: {
     marginHorizontal: 16,

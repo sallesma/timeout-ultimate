@@ -42,6 +42,7 @@ export default {
   homeScreen: {
     appName: 'Timeout Ultimate',
     subtitle: " questions t'attendent pour apprendre les règles de l'Ultimate !",
+    incentive: '',
     menu: {
       play: 'Jouer',
       history: 'Historique',
