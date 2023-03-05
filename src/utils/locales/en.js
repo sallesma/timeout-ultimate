@@ -55,7 +55,7 @@ export default {
       "Hello! I'm Martin Salles, the developer behind Timeout Ultimate. It's an application designed by ultimate players to help other players learn the rules of ultimate. It is and will remain free.",
     thanksHeader: 'Acknowledgements',
     thanksText:
-      "I would like to thank everyone who contributed to the development of Timeout Ultimate. Many of the questions come from Pablo's Disque Tu Sais game. Some questions were written by Pierre Gruau for the Monkeys. The application also uses the Hand Signals designed by Raphaël Candelier for the PUC and the WFDF. Finally, the English version was set up by Brandon Sneider justhuckitstudios+wfdfrulesquiz@gmail.com creator of UltiApp and https://GotSpirit.games .",
+      "I would like to thank everyone who contributed to the development of Timeout Ultimate. Many of the questions come from Pablo's Disque Tu Sais game. Some questions were written by Pierre Gruau for the Monkeys. The application also uses the Hand Signals designed by Raphaël Candelier for the PUC and the WFDF. Finally, the English version was set up by Brandon Sneider justhuckitstudios+wfdfrulesquiz@gmail.com creator of UltiApp and https://GotSpirit.games .\n\nThe deployment of Timeout Ultimate on the stores is partly funded by Paris Université Club.",
     rulesDisclaimer:
       'The rules of Ultimate are taken from the "WFDF Rules of Ultimate 2021-2024" produced by the World Flying Disc Federation.',
     contributeHeader: 'Contribute',

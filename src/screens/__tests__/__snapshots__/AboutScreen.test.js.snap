@@ -54,6 +54,8 @@ exports[`<AboutScreen /> renders correctly 1`] = `
       }
     >
       Je souhaite remercier tous ceux qui ont contribué au développement de Timeout Ultimate. Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo. Certaines questions ont été rédigées par Pierre Gruau pour les Monkeys. L'application utilise aussi les Hand Signals dessinés par Raphaël Candelier pour le PUC et la WFDF.
+
+Le déploiement de Timeout Ultimate sur les stores est en partie financé par le PUC.
     </Text>
     <Text
       style={
