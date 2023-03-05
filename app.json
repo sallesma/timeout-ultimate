@@ -11,7 +11,8 @@
       "backgroundColor": "#2a9d9d"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/bdbe4131-12df-4e7c-973f-04f055b870df"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -37,6 +38,9 @@
     },
     "plugins": [
       "expo-localization"
-    ]
+    ],
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }

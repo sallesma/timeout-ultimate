@@ -39,7 +39,7 @@ export default () => {
         <Text style={styles.info}>Timeout Ultimate</Text>
         <Text style={styles.info}>2021 - {new Date().getFullYear()}</Text>
         <Text style={styles.info}>
-          Version {Constants.manifest.version}, release-channel {Updates.releaseChannel}
+          Version {Constants.expoConfig.version}, release-channel {Updates.channel}
         </Text>
       </View>
       <StatusBar style="auto" />
