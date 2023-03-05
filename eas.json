@@ -6,18 +6,18 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "releaseChannel": "development",
+      "channel": "development",
       "distribution": "internal"
     },
     "preview": {
-      "releaseChannel": "staging",
+      "channel": "staging",
       "distribution": "internal",
       "android": {
         "buildType": "apk"
       }
     },
     "production": {
-      "releaseChannel": "production"
+      "channel": "production"
     }
   },
   "submit": {
