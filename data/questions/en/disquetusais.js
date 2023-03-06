@@ -614,7 +614,7 @@ For this, no attacker must have touched it.
     image: undefined,
     answerChoices: {
       a: 'No problem',
-      b: 'He is wrong about the account',
+      b: 'He is wrong about the count',
     },
     correctAnswers: ['b'],
     explanation: "He should always start by saying 'Counted' or 'Stalling'",

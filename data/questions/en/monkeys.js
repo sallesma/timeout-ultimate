@@ -562,7 +562,7 @@ export default [
   {
     id: 122,
     category: Categories.CONTINUATION,
-    question: 'After an uncontested pick, the account resumes:',
+    question: 'After an uncontested pick, the stall resumes:',
     image: undefined,
     answerChoices: {
       a: 'where it was at the time of the pick MINUS 2 with a maximum of (6)',
