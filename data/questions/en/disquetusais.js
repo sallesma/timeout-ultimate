@@ -284,7 +284,7 @@ export default [
     id: 34,
     category: Categories.PULL,
     question:
-      'If a defender not carrying the disc and an attacker raise their arms, can the player with the disc make the snap?',
+      'If a defender not carrying the disc and an attacker raise their arms, can the player with the disc make the pull?',
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -395,7 +395,7 @@ export default [
     id: 41,
     category: Categories.PULL,
     question:
-      'On the snap, the force of the wind blows the disc back to my end zone. Before the disc hits the ground, and before the attackers can touch it, I drop the disc so that the attackers do not gain too much ground. Is this allowed?',
+      'On the pull, the force of the wind blows the disc back to my end zone. Before the disc hits the ground, and before the attackers can touch it, I drop the disc so that the attackers do not gain too much ground. Is this allowed?',
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -456,7 +456,7 @@ export default [
   {
     id: 45,
     category: Categories.PULL,
-    question: 'On the snap, an attacker deliberately drops the disc to the ground to gain ground.',
+    question: 'On the pull, an attacker deliberately drops the disc to the ground to gain ground.',
     image: undefined,
     answerChoices: {
       a: 'It is a turnover',
@@ -474,7 +474,7 @@ export default [
     id: 46,
     category: Categories.PULL,
     question:
-      'On the snap, an attacker tries to catch the disc in the field before it hits the ground. He touches the disc but misses his catch. What happens?',
+      'On the pull, an attacker tries to catch the disc in the field before it hits the ground. He touches the disc but misses his catch. What happens?',
     image: undefined,
     answerChoices: {
       a: 'It is a turnover',
@@ -491,7 +491,7 @@ export default [
     id: 47,
     category: Categories.PULL,
     question:
-      'On the snap, an attacker tries to catch the disc in the field before it hits the ground. He misses his catch without touching the disc. What happens?',
+      'On the pull, an attacker tries to catch the disc in the field before it hits the ground. He misses his catch without touching the disc. What happens?',
     image: undefined,
     answerChoices: {
       a: 'It is a turnover',
@@ -511,7 +511,7 @@ For this, no attacker must have touched it.
     id: 48,
     category: Categories.PULL,
     question:
-      'On the snap, the force of the wind blows the disc back to my end zone. After the disc hits the ground, and before the attackers touch it, I stop the disc as it rolls toward my end zone so that the attackers do not gain too much ground. Is this allowed?',
+      'On the pull, the force of the wind blows the disc back to my end zone. After the disc hits the ground, and before the attackers touch it, I stop the disc as it rolls toward my end zone so that the attackers do not gain too much ground. Is this allowed?',
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -527,7 +527,7 @@ For this, no attacker must have touched it.
     id: 49,
     category: Categories.PULL,
     question:
-      'On the snap, an attacker tries to catch the disc out of bounds before it hits the ground. She touches the disc but misses her catch. What happens?',
+      'On the pull, an attacker tries to catch the disc out of bounds before it hits the ground. She touches the disc but misses her catch. What happens?',
     image: undefined,
     answerChoices: {
       a: 'This is a turnover and play resumes where the disc left the field',
@@ -548,7 +548,7 @@ For this, no attacker must have touched it.
     image: undefined,
     answerChoices: {
       a: 'All offensive players',
-      b: 'The attacker who recovers the disc on the snap',
+      b: 'The attacker who recovers the disc on the pull',
       c: 'Le puller',
       d: 'All advocates',
     },
@@ -1217,7 +1217,7 @@ However, the rules (13.11) state that since the lines are very narrow and the ef
   {
     category: Categories.OUT,
     question:
-      'At the snap, a partner on the side line warns me that the thrower had one foot on the line and another attacker had one foot out of their zone at the time of the throw. Can I call something?',
+      'At the pull, a partner on the side line warns me that the thrower had one foot on the line and another attacker had one foot out of their zone at the time of the throw. Can I call something?',
     image: undefined,
     answerChoices: {
       a: 'No, there is no violation of the rules',
@@ -2277,13 +2277,13 @@ If he is too close, I must call distance or disc space so that he moves back and
     },
     correctAnswers: ['c'],
     explanation: `
-« (fast count)
-  (straddle)
-  Distance(disc space)
-  (wrapping)
-  (double team)
+« Fast count
+  Straddle
+  Disc space
+  Wrapping
+  Double team
   Vision
-  (Travel)»
+  Travel»
     `,
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
