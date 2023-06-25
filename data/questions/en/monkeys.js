@@ -34,8 +34,8 @@ export default [
     image: undefined,
     answerChoices: {
       a: 'At the place where the disc is released',
-      b: 'At the location closest to the catch (including areas)',
-      c: 'At the location in the core area closest to the catch (not including areas)',
+      b: 'At the location closest to where the defender contacted the disc (including endzone)',
+      c: 'At the location in the core area closest to the catch (not including endzone)',
     },
     correctAnswers: ['c'],
     explanation:
@@ -566,8 +566,8 @@ export default [
     image: undefined,
     answerChoices: {
       a: 'where it was at the time of the pick MINUS 2 with a maximum of (6)',
-      b: 'where it was at the time of the pickup with a maximum of (6)',
-      c: 'where it was at the time of the pickup with a maximum of (8)',
+      b: 'where it was at the time of the pick with a maximum of (6)',
+      c: 'where it was at the time of the pick with a maximum of (8)',
       d: 'where it was at the time of the pick with a maximum of (9)',
     },
     correctAnswers: ['b'],
