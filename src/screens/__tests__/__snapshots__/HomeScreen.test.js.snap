@@ -73,14 +73,6 @@ exports[`<HomeScreen /> renders correctly 1`] = `
     </Text>
      questions t'attendent pour apprendre les règles de l'Ultimate !
   </Text>
-  <Text
-    style={
-      {
-        "fontStyle": "italic",
-        "marginBottom": 16,
-      }
-    }
-  />
   <View
     style={
       {

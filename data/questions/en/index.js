@@ -1,6 +1,7 @@
 import dfeu from './dfeu';
+import disquetusais from './disquetusais';
 import handSignals from './handSignals';
 import monkeys from './monkeys';
 import other from './other';
 
-export default [...dfeu, ...handSignals, ...monkeys, ...other];
+export default [...dfeu, ...disquetusais, ...handSignals, ...monkeys, ...other];
