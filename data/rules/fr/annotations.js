@@ -82,7 +82,7 @@ export default {
         },
         {
           type: 'Example',
-          text: "Si un lanceur établit un point pivot à un centimètre du l'endroit approprié, le marcher « travel » ne doit pas être appelé.",
+          text: "Si un lanceur établit un point de pivot à un centimètre du l'endroit approprié, le marcher « travel » ne doit pas être appelé.",
         },
       ],
     },
@@ -358,7 +358,7 @@ Un hors-jeu contesté interrompt le jeu et nécessite de refaire l'engagement. P
         },
         {
           type: 'Result',
-          text: "L'attaque peut encore appeler brick. Le lanceur établit son point pivot sur la marque de brick la plus proche de la zone d'en-but qu'il défend. Tous les autres attaquant établissent une position stationnaire. La défense établit une position stationnaire. Le disque est checké et le jeu reprend.",
+          text: "L'attaque peut encore appeler brick. Le lanceur établit son point de pivot sur la marque de brick la plus proche de la zone d'en-but qu'il défend. Tous les autres attaquant établissent une position stationnaire. La défense établit une position stationnaire. Le disque est checké et le jeu reprend.",
         },
         {
           type: 'Extra',
@@ -498,7 +498,7 @@ Un hors-jeu contesté interrompt le jeu et nécessite de refaire l'engagement. P
         },
         {
           type: 'Extra',
-          text: "Pour les compétitions où les appendices est utilisé, les limites de temps s'appliquent aussi pour les disques hors limites et pour l'engagement. Il est recommandé d'avertir l'équipe adverse et de s'assurer qu'elle connaît la règle avant de lui opposer une limite de temps. Si l'attaque considère que les limites de temps sont décomptées trop rapidement, elle peut appeler un fast count ( compte rapide). La défense doit laisser un accès dégagé au disque et au point pivot.",
+          text: "Pour les compétitions où les appendices est utilisé, les limites de temps s'appliquent aussi pour les disques hors limites et pour l'engagement. Il est recommandé d'avertir l'équipe adverse et de s'assurer qu'elle connaît la règle avant de lui opposer une limite de temps. Si l'attaque considère que les limites de temps sont décomptées trop rapidement, elle peut appeler un fast count ( compte rapide). La défense doit laisser un accès dégagé au disque et au point de pivot.",
         },
       ],
     },
@@ -633,9 +633,9 @@ Si un lanceur réceptionne une passe dans la zone centrale, mais que l'élan l'e
       content: [
         {
           type: 'Note',
-          text: `Un check n'est pas requis après un pull ou un « turnover », même si le lanceur doit marcher jusqu'au point de pivot. Le lanceur peut faire une passe et le marqueur commencer à compter dès que le point pivot est établi à la bonne position.
-Si le point pivot n'est pas établi au bon endroit, c'est une infraction de marcher.
-Si le marquer commence à compter avant que le point pivot ne soit établi, c'est une infraction de compte rapide « fast-count ».
+          text: `Un check n'est pas requis après un pull ou un « turnover », même si le lanceur doit marcher jusqu'au point de pivot. Le lanceur peut faire une passe et le marqueur commencer à compter dès que le point de pivot est établi à la bonne position.
+Si le point de pivot n'est pas établi au bon endroit, c'est une infraction de marcher.
+Si le marquer commence à compter avant que le point de pivot ne soit établi, c'est une infraction de compte rapide « fast-count ».
 Pour s'assurer que le jeu ne soit pas interrompu, il est recommandé que le lanceur et le marqueur pointent l'endroit où ils pensent que le pivot doit être établi avant que celui-ci ne soit établi.
 Le lanceur ne doit pas faire de feinte ou commencer son geste de lancer tant qu'il n'a pas établi sont point de pivot ( règle 18.2.5.3).`,
         },
@@ -1240,11 +1240,11 @@ La marqueur de l'équipe A qui appelle une fin de compte (stall out) récupère 
       content: [
         {
           type: 'Note',
-          text: "L'emplacement officiel est juste à coté de la ligne (puisque la ligne ne fait pas parti de l'aire de jeu) mais un pied de pivot sur la ligne est aussi acceptable. En effet, étant donné que les lignes de périmètre sont larges de quelques centimètres seulement, l'erreur est trop peu significative. Alors que la règles dit que le point pivot doit être établi dans le terrain, la règle 11.3.3 indique également que ce n'est pas un problème si le pied pivot touche l'extérieur de l'aire de jeu.",
+          text: "L'emplacement officiel est juste à coté de la ligne (puisque la ligne ne fait pas parti de l'aire de jeu) mais un pied de pivot sur la ligne est aussi acceptable. En effet, étant donné que les lignes de périmètre sont larges de quelques centimètres seulement, l'erreur est trop peu significative. Alors que la règles dit que le point de pivot doit être établi dans le terrain, la règle 11.3.3 indique également que ce n'est pas un problème si le pied pivot touche l'extérieur de l'aire de jeu.",
         },
         {
           type: 'Extra',
-          text: "Si le disque sort par le coté de la zone d'en-but, il y a un cône là où le point de pivot doit être établi. La règle 2.6. dit que la limite de la zone centrale doit être marquée par un cône, le joueur ne doit donc pas le déplacer. C'est pourquoi le point pivot doit être établi sur la ligne de la zone d'en-but à coté du cône. Les joueurs ne doivent pas déplacer le cône. Notez que le joueur doit avoir suffisamment de place pour pivoter autour de son pied de pivot (sinon des situations risquées pourrait survenir lors du pivot).",
+          text: "Si le disque sort par le coté de la zone d'en-but, il y a un cône là où le point de pivot doit être établi. La règle 2.6. dit que la limite de la zone centrale doit être marquée par un cône, le joueur ne doit donc pas le déplacer. C'est pourquoi le point de pivot doit être établi sur la ligne de la zone d'en-but à coté du cône. Les joueurs ne doivent pas déplacer le cône. Notez que le joueur doit avoir suffisamment de place pour pivoter autour de son pied de pivot (sinon des situations risquées pourrait survenir lors du pivot).",
         },
       ],
     },
@@ -2025,7 +2025,7 @@ Si un défenseur commet intentionnellement un double marquage, sans avoir d'atta
       content: [
         {
           type: 'What',
-          text: "Un attaquant attrape le disque pendant qu'il court et passe le disque alors qu'il est encore en train de ralentir, et après deux contacts supplémentaire avec le sol.",
+          text: "Un attaquant attrape le disque pendant qu'il court et passe le disque alors qu'il est encore en train de ralentir, et après deux contacts supplémentaires avec le sol.",
         },
         {
           type: 'Result',
@@ -2033,7 +2033,7 @@ Si un défenseur commet intentionnellement un double marquage, sans avoir d'atta
         },
         {
           type: 'Extra',
-          text: "Une fois que le lanceur a laché le disque il n'a pas besoin de s'arrêter.",
+          text: "Une fois que le lanceur a lâché le disque il n'a pas besoin de s'arrêter.",
         },
       ],
     },
@@ -2044,24 +2044,24 @@ Si un défenseur commet intentionnellement un double marquage, sans avoir d'atta
       content: [
         {
           type: 'Note',
-          text: `La défense ne peut pas appeler une infraction de marcher (18.2) si elle pense que le joueur ne ralentit pas sans voir de preuve que le joueur n'était pas en train de s'arréter alors qu'il est en possession du disque. En particulier :
+          text: `La défense ne peut pas appeler une infraction de marcher (18.2) si elle pense que le joueur ne ralentit pas sans voir de preuve que le joueur n'était pas en train de s'arrêter alors qu'il est en possession du disque. En particulier :
 
 - un joueur qui attrape et lance un disque alors qu'il est en l'air n'a pas besoin de ralentir.
-- la taille des foulées du joueur doivent réduire pendant qu'il ralentit
-- une joueur n'est pas autorisé à maintenir sa vitesse constante alors qu'il attrape et lance le disque, a moins qu'il attrape et lance en étant en l'air, ou qu'un maximum de deux points de contacts avec le sol ne soient fait entre la réception et le laché du disque.
-- Un joueur ne doit pas jamais avoir besoin de plus de 5 pas pour s'arrêter. Tant que la défense n'a pas de preuve parmi ces lignes, ils ne doivent pas appeler d'infraction de marcher.
+- la longueur des foulées du joueur doit réduire pendant qu'il ralentit.
+- une joueur n'est pas autorisé à maintenir sa vitesse constante alors qu'il attrape et lance le disque, à moins qu'il attrape et lance en étant en l'air, ou qu'un maximum de deux points de contact avec le sol ne soient faits entre la réception et le lâché du disque.
+- un joueur ne doit jamais avoir besoin de plus de 5 pas pour s'arrêter. Tant que la défense n'a pas de preuve parmi ces lignes, elle ne doit pas appeler d'infraction de marcher.
 
-Dans certaine situation, un réceptionneur peut avoir besoin de maintenir sa vitesse brièvement ou de changer légèrement de direction pour éviter un contact avec une défenseur qui plonge ou qui saute. C'est attendu dans une telle situation et ne doit pas être considéré comme une infraction de marcher.
+Dans certaine situation, un réceptionneur peut avoir besoin de maintenir sa vitesse brièvement ou de changer légèrement de direction pour éviter un contact avec un défenseur qui plonge ou qui saute. C'est attendu dans une telle situation et ne doit pas être considéré comme une infraction de marcher.
 
 Si le marcher est uniquement provoqué par un contact initié par un adversaire, il ne doit pas être considéré comme une infraction.`,
         },
         {
           type: 'Extra',
-          text: `Si le jeu est arrêté, le lanceur peut changer la partie de son corps en contact avec le point pivot, ce n'est pas une infraction.
+          text: `Si le jeu est arrêté, le lanceur peut changer la partie de son corps en contact avec le point de pivot, ce n'est pas une infraction.
 
-Si un joueur prévois de lancer sans s'arrêter (en accord avec 18.2.2.1) mais qu'il change d'avis et s'arrête sans lâcher le disque après plus de deux points de contact avec le sol supplémentaires, c'est une infraction de marcher dès lors qu'il n'a pas réduit sa vitesse.
+Si un joueur prévoit de lancer sans s'arrêter (en accord avec 18.2.2.1) mais qu'il change d'avis et s'arrête sans lâcher le disque après plus de deux points de contact avec le sol supplémentaires, c'est une infraction de marcher dès lors qu'il n'a pas réduit sa vitesse.
 
-Un joueur est considéré comme changeant de direction après une réception s'il y a des mouvements latéraux de sont centre de masse avant que le pivot soit établi, ou si son point de pivot n'est pas établi là où ses pieds auraient naturellement dû s'arrêté d'après le mouvement précédent.`,
+Un joueur est considéré comme changeant de direction après une réception s'il y a des mouvements latéraux de son centre de masse avant que le pivot soit établi, ou si son point de pivot n'est pas établi là où ses pieds auraient naturellement dû s'arrêter d'après le mouvement précédent.`,
         },
       ],
     },
