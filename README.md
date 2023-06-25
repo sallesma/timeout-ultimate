@@ -42,10 +42,13 @@ If you need to update the rules, change the pdf file in the assets and run `npm 
 
 To release a new version of the app :
 
-1. Send a pull request updating the version in `app.json`, as well as buildNumber (ios) and versionCode (android) if you need to build new binaries
+1. Send a pull request updating the version in `app.config.js`. If new binaries must be built, this is a major version update and you must also update the buildNumber (ios) and versionCode (android)
 2. When it is merged, create a release on Github
-3. `eas update --channel production`
-4. If needed, republish to the stores using `eas build --platform all --profile production`
+3. If you want to update an existing deployed build, run `eas update --branch production` (change the channel if staging).
+4. If you want to deploy new builds:
+   1. Rebuild to the stores using `eas build --platform <ios|android|all> --profile <profile-name>`
+   2. Submit builds to the stores `eas submit -p ios` and `eas submit -p android`
+   3. Follow store-specific instructions to deploy
 
 ## 📜 License
 
