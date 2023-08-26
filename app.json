@@ -2,7 +2,7 @@
   "expo": {
     "name": "Timeout Ultimate",
     "slug": "timeout-ultimate",
-    "version": "4.0.0",
+    "version": "5.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -18,13 +18,13 @@
       "**/*"
     ],
     "ios": {
-      "buildNumber": "4.0.0",
+      "buildNumber": "5.0.0",
       "bundleIdentifier": "com.ultimate.timeout",
       "supportsTablet": true
     },
     "android": {
       "package": "com.ultimate.timeout",
-      "versionCode": 4,
+      "versionCode": 5,
       "icon": "./assets/android_icon.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
