@@ -316,7 +316,7 @@ export default [
     id: 36,
     category: Categories.PULL,
     question:
-      'Attackers may place themselves anywhere in their zone before the defender makes the commitment, as long as they are stationary?',
+      'Attackers may place themselves anywhere in their zone before the defender makes the pull, as long as they are stationary?',
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -461,7 +461,7 @@ export default [
     answerChoices: {
       a: 'It is a turnover',
       b: 'The game continues',
-      c: 'The commitment must be restarted',
+      c: 'The pull must be restarted',
     },
     correctAnswers: ['a'],
     explanation:
@@ -479,7 +479,7 @@ export default [
     answerChoices: {
       a: 'It is a turnover',
       b: 'The game continues',
-      c: 'The commitment must be restarted',
+      c: 'The pull must be restarted',
     },
     correctAnswers: ['a'],
     explanation: 'If an attacker touches the disc before it hits the ground, it is a turnover',
@@ -496,7 +496,7 @@ export default [
     answerChoices: {
       a: 'It is a turnover',
       b: 'The game continues',
-      c: 'The commitment must be restarted',
+      c: 'The pull must be restarted',
     },
     correctAnswers: ['b'],
     explanation: `
@@ -533,7 +533,7 @@ For this, no attacker must have touched it.
       a: 'This is a turnover and play resumes where the disc left the field',
       b: 'This is a turnover and play resumes in the field at the point closest to the dropped disc',
       c: 'This is not a turnover, the player can pick up the disc and resume play where the disc left the field',
-      d: 'We need to redo the commitment',
+      d: 'We need to redo the pull',
     },
     correctAnswers: ['b'],
     explanation: 'Play resumes at the point closest to where the disc was touched, in the center zone.',
@@ -767,7 +767,7 @@ If at the D of 'ten' (or T of 'ten'), the thrower had the disc in hand and even 
   {
     id: 64,
     category: Categories.COUNT,
-    question: "'Stall-out' is called by the scorekeeper. The thrower contests. At what point does the count resume?",
+    question: "'Stall-out' is called by the marker. The thrower contests. At what point does the count resume?",
     image: undefined,
     answerChoices: {
       a: "At 'count 6",
@@ -1201,7 +1201,7 @@ However, the rules (13.11) state that since the lines are very narrow and the ef
   {
     category: Categories.OUT,
     question:
-      'At the commitment, I notice that an attacker has moved out of his zone before the throw. Can I call something?',
+      'At the pull, I notice that an attacker has moved out of his zone before the throw. Can I call something?',
     image: undefined,
     answerChoices: {
       a: 'False',
@@ -2402,7 +2402,7 @@ The rules specify that a simple run in this 3 - meter zone is not a double team.
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: 'I am the scorekeeper. I call a 4-way walk. The thrower still has the disc. What happens?',
+    question: 'I am the marker. I call a « travel » at 4. The thrower still has the disc. What happens?',
     image: undefined,
     answerChoices: {
       a: 'The game stops',
@@ -2621,7 +2621,7 @@ If he stands up it is not a travel, as long as he establishes his pivot in the s
     },
     correctAnswers: ['a'],
     explanation:
-      'The game is frozen until the check. To make sure everyone moves at the same time, the scorekeeper may count down 3-2-1 aloud with a finger count, arm raised for all to see. Before the count, it is good practice to tell the players how much the count will be.',
+      'The game is frozen until the check. To make sure everyone moves at the same time, the marker may count down 3-2-1 aloud with a finger count, arm raised for all to see. Before the count, it is good practice to tell the players how much the count will be.',
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
@@ -3074,14 +3074,14 @@ After the captains have met to find solutions to improve the spirit of the game,
       'In the gym, on a contested defensive foul, a walk or an obstruction (pick), the count resumes at what maximum?',
     image: undefined,
     answerChoices: {
-      a: 'counted 4',
-      b: 'counted 5',
-      c: 'counted 6',
-      d: 'counted 7',
+      a: 'Stalling 4',
+      b: 'Stalling 5',
+      c: 'Stalling 6',
+      d: 'Stalling 7',
     },
     correctAnswers: ['b'],
     explanation:
-      'If the count was greater than or equal to 4 at the time of the call, we start again at count 5. If it was lower, we start again at the number + 1.',
+      'If the count was greater than or equal to 4 at the time of the call, we start again at stalling 5. If it was lower, we start again at the number + 1.',
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
@@ -3091,10 +3091,10 @@ After the captains have met to find solutions to improve the spirit of the game,
     question: 'On a contested stall-out, the count resumes at how much?',
     image: undefined,
     answerChoices: {
-      a: 'counted 5',
-      b: 'counted 6',
-      c: 'counted 7',
-      d: 'counted 8',
+      a: 'Stalling 5',
+      b: 'Stalling 6',
+      c: 'Stalling 7',
+      d: 'Stalling 8',
     },
     correctAnswers: ['c'],
     explanation: '',

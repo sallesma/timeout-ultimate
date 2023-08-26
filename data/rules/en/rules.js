@@ -48,14 +48,14 @@ export default {
     '1.10.':
       'Calls should be discussed by the players directly involved in the play,and by players who had the best perspective on the play.',
     '1.10.1.':
-      'If a player who was not directly involved believes that a team-mate has made an incorrect call, or caused a foul or violation,they should inform their team-mate.',
+      'If a player who was not directly involved believes that a team-mate has made an incorrect call, or caused a foul or violation, they should inform their team-mate.',
     '1.10.2.':
       'Non-players, apart from the captains, should refrain from getting involved.However players may seek other peoples’ perspectives to clarify the rules, and to assist players to make the appropriate call.',
     '1.11.': 'Players and captains are solely responsible for making and resolving all calls.',
     '1.12.': 'If after discussion players cannot agree, or it is not clear and obvious:',
     '1.12.1.': 'what occurred in a play, or',
     '1.12.2.':
-      'what would most likely have occurred in a play,the disc must be returned to the last non-disputed thrower.',
+      'what would most likely have occurred in a play, the disc must be returned to the last non-disputed thrower.',
   },
   '2.Playing Field': {
     '2.1.':
@@ -134,7 +134,7 @@ export default {
     '7.11.1.':
       'If the disc does contact an offensive player before it becomes out-of-bounds the thrower must establish a pivot point where the disc first crossed the perimeter line, even if that pivot point is in their defending end zone.',
     '7.12.':
-      'If the disc contacts the out-of-bounds area without first touching the playing field or an offensive player,the thrower may establish a pivot point either at the brick mark closest to their defending end zone, or at the location on the central zone closest to where the disc went out-of-bounds (Section11.8).The binding brick option must be signalled before the disc is picked up,by any offensive player fully extending one arm overhead and calling “brick”.',
+      'If the disc contacts the out-of-bounds area without first touching the playing field or an offensive player, the thrower may establish a pivot point either at the brick mark closest to their defending end zone, or at the location on the central zone closest to where the disc went out-of-bounds (Section11.8).The binding brick option must be signalled before the disc is picked up,by any offensive player fully extending one arm overhead and calling “brick”.',
   },
   '8. State of Play': {
     '8.1.': 'Play is“dead”, and no turnover is possible:',
@@ -156,9 +156,9 @@ export default {
     '8.5.1.1.': 'in the central zone–within ten (10) seconds of the disc coming to rest.',
     '8.5.1.2.': 'in an end zone–within twenty (20) seconds of the disc coming to rest.',
     '8.5.2.':
-      'If the offence breaches 8.5, o r8.5.1,the defence may give a warning (“Delay of Game”or using a pre-stall) or may calla“Violation”.',
+      'If the offence breaches 8.5, o r8.5.1, the defence may give a warning (“Delay of Game”or using a pre-stall) or may calla“Violation”.',
     '8.5.2.1.':
-      'If,after a warning,the offence continues to breach8.5,or8.5.1,then9.3.1does not apply and the marker may commence the stall count.',
+      'If,after a warning, the offence continues to breach8.5,or8.5.1, then9.3.1does not apply and the marker may commence the stall count.',
   },
   '9.Stall Count': {
     '9.1.':
@@ -175,15 +175,15 @@ export default {
     '9.5.1.': 'After an accepted breach by the defence the stall count restarts at “Stalling one (1)”.',
     '9.5.2.': 'After an accepted breach by the offence the stall count restarts at maximum nine (9).',
     '9.5.3.': 'After a contested stall-out the stall count restarts at “Stalling eight (8)”.',
-    '9.5.4.': 'After all other calls, including “pick”,the stall count restarts at maximum six (6).However:',
+    '9.5.4.': 'After all other calls, including “pick”, the stall count restarts at maximum six (6).However:',
     '9.5.4.1.':
-      'If there is a call involving the thrower, and a separate receiving breach, and the disc is returned to the thrower,the stall count is resumed based on the outcome of the call involving the thrower.',
+      'If there is a call involving the thrower, and a separate receiving breach, and the disc is returned to the thrower, the stall count is resumed based on the outcome of the call involving the thrower.',
     '9.5.4.2.':
-      'If there is a violation called related to The Check (Section 10.),the stall count resumes at the same count that was determined prior to that violation.',
+      'If there is a violation called related to The Check (Section 10.), the stall count resumes at the same count that was determined prior to that violation.',
     '9.6.':
-      'To restart a stall count “at maximum n”, where “n” is determined by9.5.2, 9.5.4, or 20.3.6, means the following:',
+      'To restart a stall count “at maximum n”, where “n” is determined by 9.5.2, 9.5.4, or 20.3.6, means the following:',
     '9.6.1.':
-      'If “x” is the last agreed number fully uttered prior to the call,then the stall count resumes at “Stalling (x plus one)” or “Stalling n”, whichever of those two numbers is lower.',
+      'If “x” is the last agreed number fully uttered prior to the call, then the stall count resumes at “Stalling (x plus one)” or “Stalling n”, whichever of those two numbers is lower.',
   },
   '10.The Check': {
     '10.1.':
@@ -207,7 +207,7 @@ export default {
       'If there is an unnecessary delay in checking the disc in, the opposition may give a warning (“Delay ofGame”).If the delay continues, the team that gave the warning may check the disc in by calling “DiscIn”, without verification from the opposition,but only if the team checking the disc in are all stationary,and positioned as per 10.2.',
     '10.6.': 'To restart play with a check:',
     '10.6.1.': 'when the thrower has the disc:',
-    '10.6.1.1.': 'if there is a defender within reach,the defender must touch the disc.',
+    '10.6.1.1.': 'if there is a defender within reach, the defender must touch the disc.',
     '10.6.1.2.':
       'if there is not a defender within reach, the thrower must touch the disc to the ground and may call “Disc In”.',
     '10.6.2.': 'when the disc is on the ground, the defender nearest to the disc must call “Disc In”.',
@@ -285,7 +285,7 @@ export default {
     '13.1.2.': 'a defensive player establishes possession of a pass(an“interception”);',
     '13.1.3.': 'the disc becomes out-of-bounds (an “out-of-bounds”or “out”);or',
     '13.1.4.':
-      'during the pull,the offence touches the disc before it hits the ground, and subsequently fails to establish possession of the disc (a “dropped pull”).',
+      'during the pull, the offence touches the disc before it hits the ground, and subsequently fails to establish possession of the disc (a “dropped pull”).',
     '13.2.':
       'A turnover that transfers possession of the disc from one team to the other, and results in a stoppage of play, occurs when:',
     '13.2.1.': 'there is an accepted offensive receiving foul;',
@@ -299,7 +299,7 @@ export default {
     '13.2.6.': 'an offensive player intentionally assists a team-mate’s movement to catch a pass; or',
     '13.2.7.': 'an offensive player uses an item of equipment or object to assist in catching a pass.',
     '13.3.':
-      'If a player determines a turnover has occurred they must make the appropriate call immediately. If the opposition disagrees they may call "contest"and play must stop. If, after discussion, players cannot agree or it is unclear what occurred in the play,the disc must be returned to the last non-disputed thrower.',
+      'If a player determines a turnover has occurred they must make the appropriate call immediately. If the opposition disagrees they may call "contest"and play must stop. If, after discussion, players cannot agree or it is unclear what occurred in the play, the disc must be returned to the last non-disputed thrower.',
     '13.4.': 'After a “stall-out”call:',
     '13.4.1.':
       'If the thrower still has possession of the disc, but they believe a fast count occurred in such a manner that they did not have a reasonable opportunity to call fast count before a stall-out, the play is treated as either an accepted defensive breach (9.5.1) ora contested stall-out (9.5.3).',
@@ -312,7 +312,7 @@ export default {
       'after an “interception” turnover, in which case the player who made the interception must maintain possession; and',
     '13.5.2.': 'after an offensive receiving foul, in which case the fouled player must take possession.',
     '13.6.':
-      'If the player in possession after a turnover, or after a pull that has already hit the ground, intentionally drops the disc, places the disc on the ground, or transfers possession of the disc,they must re-establish possession and restart play with a check.',
+      'If the player in possession after a turnover, or after a pull that has already hit the ground, intentionally drops the disc, places the disc on the ground, or transfers possession of the disc, they must re-establish possession and restart play with a check.',
     '13.7.': 'After a turnover, the turnover location is where:',
     '13.7.1.': 'the disc has come to a stop or is picked up by an offensive player; or',
     '13.7.2.': 'the intercepting player stops; or',
@@ -342,7 +342,7 @@ export default {
     '14.1.2.':
       'they subsequently establish possession of the disc,and maintain the catch throughout all ground contact related to the catch (note 12.1,12.1.1).',
     '14.2.':
-      'If a player believes a goal has been scored,they may call “goal” and play stops. After a contested or retracted goal call play must restart with a check and the call is deemed to have been made when the player established possession.',
+      'If a player believes a goal has been scored, they may call “goal” and play stops. After a contested or retracted goal call play must restart with a check and the call is deemed to have been made when the player established possession.',
     '14.3.':
       'If a player in possession of the disc ends up with their selected pivot point behind the attacking goal line without scoring a goal according to14.1, the player must establish a pivot point at the nearest location on the goal line.',
     '14.4.': 'The time at which a goal is deemed to have been scored is when the player established possession.',
@@ -383,10 +383,10 @@ export default {
     '16.2.1.': 'is called against the thrower and the thrower attempts a pass, or',
     '16.2.2.': 'is called by the thrower during the act of throwing, or',
     '16.2.3.':
-      'is called or occurs when the disc is in the air,then play continues until possession has been established.',
+      'is called or occurs when the disc is in the air, then play continues until possession has been established.',
     '16.2.4.': 'Once possession has been established:',
     '16.2.4.1.':
-      'If the team that called the foul or violation gains or retains possession as a result of the pass,the play stands. Play can continue without a stoppage if the player who made the foul or violation call makes a“Play on”callas soon as possible.',
+      'If the team that called the foul or violation gains or retains possession as a result of the pass, the play stands. Play can continue without a stoppage if the player who made the foul or violation call makes a“Play on”callas soon as possible.',
     '16.2.4.2.':
       'If the team that called the foul or violation does not gain or retain possession as a result of the pass, play must be stopped.',
     '16.2.4.2.1.':
@@ -405,9 +405,9 @@ export default {
     '17.2.1.':
       'AReceiving Foul occurs when a player initiates non-minor contact with an opponent before,while,or directly after, either player makes a play on the disc.',
     '17.2.1.1.':
-      'Contact with an opponent’s arms or hands,that occurs after the disc has been caught, or after the opponent can no longer make a play on the disc,is not a sufficient basis for a foul, but should be avoided (excluding contact related toSection17.1and17.3).',
+      'Contact with an opponent’s arms or hands, that occurs after the disc has been caught, or after the opponent can no longer make a play on the disc,is not a sufficient basis for a foul, but should be avoided (excluding contact related toSection17.1and17.3).',
     '17.2.2.':
-      'After an accepted receiving foul the fouled player gains possession at the location of the breach, even if that location is in an end zone, and play restarts with a check.If, after the check,14.3applies,the stall count cannot be started until a pivot point is established at the nearest location on the goal line.If the foul is contested, the disc is returned to the thrower.',
+      'After an accepted receiving foul the fouled player gains possession at the location of the breach, even if that location is in an end zone, and play restarts with a check.If, after the check,14.3applies, the stall count cannot be started until a pivot point is established at the nearest location on the goal line.If the foul is contested, the disc is returned to the thrower.',
     '17.3.': 'Strip Fouls:',
     '17.3.1.':
       'A Strip Foul occurs when an opponent fouls a player and that causes the player to drop a disc they caught or to lose possession of the disc.',
@@ -502,7 +502,7 @@ export default {
       'the thrower establishes a pivot point at an incorrect location, including by not reducing speed as quickly as possible after a catch, or changing direction after a catch;',
     '18.2.5.2.': 'the thrower releases a pass in breach of 18.2.2.1;',
     '18.2.5.3.':
-      'anytime the thrower must move to a specified location,the thrower does not establish a pivot point before a wind-up or throwing action begins;',
+      'anytime the thrower must move to a specified location, the thrower does not establish a pivot point before a wind-up or throwing action begins;',
     '18.2.5.4.': 'The thrower fails to keep the established pivot point until releasing the disc;',
     '18.2.5.5.':
       'A player intentionally bobbles, fumbles or delays the disc to themselves,for the sole purpose of moving in a specific direction.',
@@ -520,7 +520,7 @@ export default {
     '18.3.1.':
       'If a defensive player is guarding one offensive player and they are prevented from moving towards/with that player by another player, that defensive player may call “Pick”. However it is not a pick if both the player being guarded and the obstructing player are making a play on the disc.',
     '18.3.1.1.':
-      'Prior to making the "Pick" call,the defender may delay the call up to two (2) seconds to determine if the obstruction will affect the play.',
+      'Prior to making the "Pick" call, the defender may delay the call up to two (2) seconds to determine if the obstruction will affect the play.',
     '18.3.2.':
       'If play has stopped, the obstructed player may move to the agreed position they would have otherwise occupied if the obstruction had not occurred,unless specified otherwise.',
     '18.3.3.': 'All players should take reasonable efforts to avoid the occurrence of picks.',
@@ -533,7 +533,7 @@ export default {
       'An injury stoppage, “Injury”, may be called by the injured player, or by any player on the injured player’s team.',
     '19.1.2.':
       'If the injury was not caused by an opponent, the player must choose either to be substituted, or to charge their own team with a time-out.',
-    '19.1.3.': 'If the injury was caused by an opponent,the player may choose to stay or to be substituted.',
+    '19.1.3.': 'If the injury was caused by an opponent, the player may choose to stay or to be substituted.',
     '19.1.4.':
       'If the injured player had established possession of the disc, and the player has dropped the disc due to the injury, that player retains possession of the disc.',
     '19.1.5.':

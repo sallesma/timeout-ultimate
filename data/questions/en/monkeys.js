@@ -190,7 +190,7 @@ export default [
       "I am marking the thrower. A 'pick' is called when I have just counted '8'. What number does the count continue with?",
     image: undefined,
     answerChoices: {
-      a: 'Stall 6',
+      a: 'Stalling 6',
       b: 'Stalling 7',
       c: 'Stalling 8',
       d: 'Stalling 9',
@@ -530,7 +530,7 @@ export default [
     question: 'How does the count start again after a contested stall-out?',
     image: undefined,
     answerChoices: {
-      a: 'Stall 6',
+      a: 'Stalling 6',
       b: 'Stalling 7',
       c: 'Stalling 9',
       d: 'Stalling 8',
