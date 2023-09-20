@@ -2602,7 +2602,7 @@ Il peut le faire si:
     image: undefined,
     answerChoices: {
       a: 'Rien',
-      b: 'Appeler « blessure » (« injury »)',
+      b: 'Appeler « blessure » (« injury »)',
       c: 'Appeler une violation',
     },
     correctAnswers: ['a'],

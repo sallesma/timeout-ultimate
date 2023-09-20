@@ -346,10 +346,10 @@ export default [
   {
     id: 38,
     category: Categories.PULL,
-    question: 'An offside is :',
+    question: 'An offside is:',
     image: undefined,
     answerChoices: {
-      a: 'A violation',
+      a: 'An infraction',
       b: 'A foul',
       c: 'A violation',
     },
@@ -1779,7 +1779,7 @@ If my defender does not want to throw, he does not take the disc (leaves it on t
   // },
   {
     category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
-    question: 'A breach of the rules related to the marking on the carrier or a walk (travel) is :',
+    question: 'A breach of the rules related to the marking on the carrier or a walk (travel) is:',
     image: undefined,
     answerChoices: {
       a: 'A violation',
@@ -1794,7 +1794,7 @@ If my defender does not want to throw, he does not take the disc (leaves it on t
   },
   {
     category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
-    question: 'A rule violation due to non-minor contact between two or more opponents is :',
+    question: 'A rule violation due to non-minor contact between two or more opponents is:',
     image: undefined,
     answerChoices: {
       a: 'A violation',
@@ -2631,9 +2631,9 @@ If he stands up it is not a travel, as long as he establishes his pivot in the s
     question: 'I see that an opponent needs to get out. What can I do to help?',
     image: undefined,
     answerChoices: {
-      a: 'Rien',
-      b: 'Appeler blessure ( injury )',
-      c: 'Calling a violation',
+      a: 'Nothing',
+      b: 'Call injury',
+      c: 'Call a violation',
     },
     correctAnswers: ['a'],
     explanation:
@@ -3058,7 +3058,7 @@ After the captains have met to find solutions to improve the spirit of the game,
   },
   //   {
   //     category: Categories.INDOOR,
-  //     question: " L'endroit où le disque est sorti de l'aire de jeu est le point où, avant d'entrer en contact avec l'extérieur de l'aire de jeu ou un joueur hors-jeu, le disque était le plus récemment :",
+  //     question: " L'endroit où le disque est sorti de l'aire de jeu est le point où, avant d'entrer en contact avec l'extérieur de l'aire de jeu ou un joueur hors-jeu, le disque était le plus récemment:",
   //     answerChoices: {
   //       a: "Vrai",
   //       b: "Faux",
