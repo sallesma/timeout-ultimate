@@ -665,7 +665,7 @@ For this, no attacker must have touched it.
     correctAnswers: ['b'],
     explanation: `
 «  have to say '10' and then 'end of count' or 'stall-out' (some people say 'time' out of habit).
-If at the D of 'ten' (or T of 'ten'), the thrower had the disc in hand and even if he attempts the pass, it is a 'stall-out.
+If at the T of 'ten' (or T of 'ten'), the thrower had the disc in hand and even if he attempts the pass, it is a 'stall-out.
    »
     `,
     rules: ['13.2.2.'],
