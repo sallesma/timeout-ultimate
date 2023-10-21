@@ -1782,7 +1782,7 @@ If my defender does not want to throw, he does not take the disc (leaves it on t
     question: 'A breach of the rules related to the marking on the carrier or a walk (travel) is:',
     image: undefined,
     answerChoices: {
-      a: 'A violation',
+      a: 'An infraction',
       b: 'A violation',
       c: 'A foul',
     },
@@ -1797,7 +1797,7 @@ If my defender does not want to throw, he does not take the disc (leaves it on t
     question: 'A rule violation due to non-minor contact between two or more opponents is:',
     image: undefined,
     answerChoices: {
-      a: 'A violation',
+      a: 'An infraction',
       b: 'A violation',
       c: 'A foul',
     },
@@ -2820,7 +2820,7 @@ After a Technical Break call:
       b: 'The thrower remains the same',
       c: 'Any offensive player can become a thrower',
       d: 'Attackers reposition themselves where they were',
-      e: 'Les attaquants se positionnent où ils le souhaitent',
+      e: 'Attackers can position anywhere they want',
     },
     correctAnswers: ['a', 'b', 'e'],
     explanation: '',

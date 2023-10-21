@@ -498,7 +498,7 @@ export default [
   {
     category: Categories.PULL,
     question:
-      'Sur l’engagement, une attaquante tente d’attraper le disque hors du terrain, avant qu’il n’ait touché le sol. Elle touche le disque mais rate son catch. Que se passe t-il ?',
+      'Sur l’engagement, une attaquante tente d’attraper le disque hors du terrain, avant qu’il n’ait touché le sol. Elle touche le disque mais rate son catch. Que se passe-t-il ?',
     image: undefined,
     answerChoices: {
       a: "C'est un turnover et le jeu reprend là où le disque est sorti du terrain",
@@ -2810,7 +2810,7 @@ Après un appel d'interruption technique :
   {
     category: Categories.TIMEOUT,
     question:
-      'Après avoir appelé un temps-mort à 5, le nouveau marqueur reprend le compte à « compté 6 ». Je peux appeler un « compte rapide ».',
+      "Après que j'ai appelé un temps-mort à 5, le nouveau marqueur reprend le compte à « compté 6 ». Je peux appeler un « compte rapide ».",
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -2818,7 +2818,7 @@ Après un appel d'interruption technique :
     },
     correctAnswers: ['a'],
     explanation:
-      'Les défenseurs peuvent changer de marqueur, auquel cas le compte doit reprendre à 1. Si Le compte ne reprend pas au chiffre correct je peux appeler « compte rapide » (« fast count »).',
+      'Les défenseurs peuvent changer de marqueur après un temps-mort, auquel cas le compte doit reprendre à 1. Si Le compte ne reprend pas au chiffre correct je peux appeler « compte rapide » (« fast count »).',
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
