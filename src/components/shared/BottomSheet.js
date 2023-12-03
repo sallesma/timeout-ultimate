@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, Pressable } from 'react-native';
+import { StyleSheet, Pressable } from 'react-native';
 import { BottomSheet, Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 

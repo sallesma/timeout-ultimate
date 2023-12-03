@@ -4,7 +4,7 @@ import { render } from '@testing-library/react-native';
 import RulesScreen from '../RulesScreen';
 
 describe('<RulesScreen />', () => {
-  it('renders correctly', async () => {
+  it('renders correctly', () => {
     const navigation = { setOptions: jest.fn() };
 
     const { toJSON } = render(<RulesScreen navigation={navigation} />);

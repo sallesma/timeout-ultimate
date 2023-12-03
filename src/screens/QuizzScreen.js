@@ -12,13 +12,13 @@ import I18n from '../utils/i18n';
 // Taken from https://stackoverflow.com/a/19270021
 function getRandomElementsFromArray(arr, n) {
   let number = Math.min(n, arr.length);
-  let result = new Array(number),
-    len = arr.length,
-    taken = new Array(len);
+  const result = new Array(number);
+  let length = arr.length;
+  const taken = new Array(length);
   while (number--) {
-    const x = Math.floor(Math.random() * len);
+    const x = Math.floor(Math.random() * length);
     result[number] = arr[x in taken ? taken[x] : x];
-    taken[x] = --len in taken ? taken[len] : len;
+    taken[x] = --length in taken ? taken[length] : length;
   }
   return result;
 }

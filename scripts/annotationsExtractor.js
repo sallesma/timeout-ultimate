@@ -68,7 +68,6 @@ pdfExtract.extract(
     let currentAnnotationNumber = ';';
     fileContentArray.forEach((rule) => {
       try {
-        let indentation, header;
         if (rule.match(/^\d+\.\d+/)) {
           // New annotation
           const annotationNumber = rule.match(/^\d+\.\d+/)[0];
@@ -100,9 +99,8 @@ pdfExtract.extract(
 
         const lastContentIndex = fileContentHash[currentRuleNumber][currentAnnotationNumber].content.length - 1;
         if (fileContentHash[currentRuleNumber][currentAnnotationNumber].content[lastContentIndex])
-          fileContentHash[currentRuleNumber][currentAnnotationNumber].content[
-            lastContentIndex
-          ].text += `\n\n${rule}\n\n`;
+          fileContentHash[currentRuleNumber][currentAnnotationNumber].content[lastContentIndex].text +=
+            `\n\n${rule}\n\n`;
       }
     });
 

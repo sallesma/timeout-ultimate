@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, TouchableOpacity } from 'react-native';
+import { Text } from 'react-native';
 import { findAll } from 'highlight-words-core';
 
 import Highlighter from '../shared/Highlighter.js';
