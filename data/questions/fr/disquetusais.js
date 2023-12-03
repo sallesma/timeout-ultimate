@@ -2983,37 +2983,6 @@ Après que les capitaines se sont réunis pour trouver les solutions à une amé
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
-  {
-    category: Categories.INDOOR,
-    question: 'À l’engagement en indoor, je peux lancer le disque comme je veux.',
-    image: undefined,
-    answerChoices: {
-      a: 'Vrai',
-      b: 'Faux',
-    },
-    correctAnswers: ['b'],
-    explanation:
-      'La trajectoire initiale du disque ne doit pas être orientée vers le sol. Auquel cas l’attaque peut faire refaire le « pull ».',
-    rules: undefined,
-    source: 'Disque Tu Sais - Pablo',
-    level: Levels.MIDDLE,
-  },
-  {
-    category: Categories.INDOOR,
-    question:
-      'Je joue en salle (« indoor »). L’engagement adverse sort du terrain à 13 mètres environ de ma zone, sans que le disque n’ait touché le terrain ou un joueur. Je peux reprendre le jeu au milieu de la zone centrale au point le plus proche de l’endroit où est sorti le disque.',
-    image: undefined,
-    answerChoices: {
-      a: 'Vrai',
-      b: 'Faux',
-    },
-    correctAnswers: ['a'],
-    explanation:
-      '« Un joueur signalant “Middle” met le disque en jeu à la marque de Brick, ou à un point au milieu de l’Aire de Jeu le plus proche de l’endroit où le disque a traversé la ligne de périmètre en dernier, en fonction de l’endroit le plus prêt de la End zone attaquée. Pour signaler cette option, le lanceur désigné tend un bras au-dessus de sa tête et/ou appelle “Brick” ou “Middle”, avant de toucher le disque ».',
-    rules: undefined,
-    source: 'Disque Tu Sais - Pablo',
-    level: Levels.MIDDLE,
-  },
   //   {
   //     category: Categories.INDOOR,
   //     question: " L'endroit où le disque est sorti de l'aire de jeu est le point où, avant d'entrer en contact avec l'extérieur de l'aire de jeu ou un joueur hors-jeu, le disque était le plus récemment :",
@@ -3054,7 +3023,7 @@ Après que les capitaines se sont réunis pour trouver les solutions à une amé
       c: '« compté 7 »',
       d: '« compté 8 »',
     },
-    correctAnswers: ['c'],
+    correctAnswers: ['b'],
     explanation: '',
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
