@@ -2520,7 +2520,7 @@ If he stands up it is not a travel, as long as he establishes his pivot in the s
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: 'What happens after a contested walk infraction if the thrower did not throw the disc?',
+    question: 'What happens after a contested travel infraction if the thrower did not throw the disc?',
     image: undefined,
     answerChoices: {
       a: 'The game is stopped',
