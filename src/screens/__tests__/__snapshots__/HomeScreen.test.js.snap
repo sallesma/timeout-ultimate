@@ -69,9 +69,9 @@ exports[`<HomeScreen /> renders correctly 1`] = `
         }
       }
     >
-      270
+      268
     </Text>
-     questions t'attendent pour apprendre les règles de l'Ultimate !
+     questions are waiting for you to start learning the rules of Ultimate!
   </Text>
   <View
     style={
@@ -157,7 +157,7 @@ exports[`<HomeScreen /> renders correctly 1`] = `
               }
             }
           >
-            Jouer
+            Play
           </Text>
         </View>
       </View>
@@ -239,7 +239,7 @@ exports[`<HomeScreen /> renders correctly 1`] = `
               }
             }
           >
-            Historique
+            History
           </Text>
         </View>
       </View>
@@ -321,7 +321,7 @@ exports[`<HomeScreen /> renders correctly 1`] = `
               }
             }
           >
-            Règlement
+            Rules
           </Text>
         </View>
       </View>

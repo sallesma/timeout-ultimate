@@ -20,11 +20,11 @@ describe('<QuizzScreen />', () => {
 
     expect(toJSON()).toMatchSnapshot();
 
-    await fireEvent.press(getByText('Valider'));
+    await fireEvent.press(getByText('Check the answer'));
 
     expect(toJSON()).toMatchSnapshot();
 
-    await fireEvent.press(getByText('Question suivante'));
+    await fireEvent.press(getByText('Next question'));
 
     expect(toJSON()).toMatchSnapshot();
   });

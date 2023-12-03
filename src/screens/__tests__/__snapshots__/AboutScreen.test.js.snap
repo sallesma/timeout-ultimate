@@ -23,7 +23,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         }
       }
     >
-      À propos
+      About
     </Text>
     <Text
       style={
@@ -33,7 +33,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         }
       }
     >
-      Bonjour ! Je suis Martin Salles, le développeur derrière Timeout Ultimate. C'est une application conçue par des joueurs d'Ultimate pour aider d'autres joueurs à apprendre les règles de l'Ultimate. Elle est et restera gratuite.
+      Hello! I'm Martin Salles, the developer behind Timeout Ultimate. It's an application designed by ultimate players to help other players learn the rules of ultimate. It is and will remain free.
     </Text>
     <Text
       style={
@@ -43,7 +43,7 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         }
       }
     >
-      Remerciements
+      Acknowledgements
     </Text>
     <Text
       style={
@@ -53,9 +53,9 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         }
       }
     >
-      Je souhaite remercier tous ceux qui ont contribué au développement de Timeout Ultimate. Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo. Certaines questions ont été rédigées par Pierre Gruau pour les Monkeys. L'application utilise aussi les Hand Signals dessinés par Raphaël Candelier pour le PUC et la WFDF.
+      I would like to thank everyone who contributed to the development of Timeout Ultimate. Many of the questions come from Pablo's Disque Tu Sais game. Some questions were written by Pierre Gruau for the Monkeys. The application also uses the Hand Signals designed by Raphaël Candelier for the PUC and the WFDF. Finally, the English version was set up by Brandon Sneider justhuckitstudios+wfdfrulesquiz@gmail.com creator of UltiApp and https://GotSpirit.games .
 
-Le déploiement de Timeout Ultimate sur les stores est en partie financé par le PUC.
+The deployment of Timeout Ultimate on the stores is partly funded by Paris Université Club.
     </Text>
     <Text
       style={
@@ -65,7 +65,7 @@ Le déploiement de Timeout Ultimate sur les stores est en partie financé par le
         }
       }
     >
-      Les règles de l'Ultimate sont tirés du document "WFDF Rules of Ultimate 2021-2024" produit par la World Flying Disc Federation, puis traduit par la FFDF.
+      The rules of Ultimate are taken from the "WFDF Rules of Ultimate 2021-2024" produced by the World Flying Disc Federation.
     </Text>
     <Text
       style={
@@ -75,7 +75,7 @@ Le déploiement de Timeout Ultimate sur les stores est en partie financé par le
         }
       }
     >
-      Contribuer
+      Contribute
     </Text>
     <Text
       style={
@@ -85,7 +85,7 @@ Le déploiement de Timeout Ultimate sur les stores est en partie financé par le
         }
       }
     >
-      Que ce soit pour ajouter, corriger des questions ou maintenir l'application, toute aide est la bienvenue !
+      Whether it's adding, correcting questions or maintaining the application, any kind of help is welcome!
     </Text>
     <Text
       style={
@@ -105,7 +105,7 @@ Le déploiement de Timeout Ultimate sur les stores est en partie financé par le
         }
       }
     >
-      L'application est en cours de création. J'ai plein d'idées pour la suite mais je serais ravi de connaître ton avis.
+      The application is in the process of being created. I have a lot of ideas for the next step but I'd love to hear your opinion.
     </Text>
     <View
       accessibilityState={
@@ -147,7 +147,7 @@ Le déploiement de Timeout Ultimate sur les stores est en partie financé par le
           }
         }
       >
-        Envoyer un message
+        Send a message
       </Text>
     </View>
     <Text
@@ -158,7 +158,7 @@ Le déploiement de Timeout Ultimate sur les stores est en partie financé par le
         }
       }
     >
-      Autres projets
+      Other projets
     </Text>
     <Text
       style={
@@ -168,7 +168,7 @@ Le déploiement de Timeout Ultimate sur les stores est en partie financé par le
         }
       }
     >
-      En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'Ultimate.
+      In addition to this application, I am also working on the Disc In application, which allows you to prepare Ultimate practices.
     </Text>
     <View
       accessibilityState={
@@ -228,7 +228,7 @@ Le déploiement de Timeout Ultimate sur les stores est en partie financé par le
           }
         }
       >
-        Informations techniques
+        Technical information
       </Text>
       <Text
         style={

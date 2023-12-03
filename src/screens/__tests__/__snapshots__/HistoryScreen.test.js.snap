@@ -26,7 +26,7 @@ exports[`<HistoryScreen /> renders correctly 1`] = `
         }
       }
     >
-      Questions : 0
+      Questions: 0
     </Text>
     <Text
       style={
@@ -35,7 +35,7 @@ exports[`<HistoryScreen /> renders correctly 1`] = `
         }
       }
     >
-      Bonnes réponses : 0
+      Correct answers: 0
     </Text>
   </View>
   <Text
@@ -47,7 +47,7 @@ exports[`<HistoryScreen /> renders correctly 1`] = `
       }
     }
   >
-    Il n'y a pas encore de résultats parce que tu n'as pas encore fait de quiz !
+    There are no results because you haven't taken the quiz yet!
   </Text>
   <RCTScrollView>
     <View />

@@ -429,7 +429,7 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
                   }
                 }
               >
-                Valider
+                Check the answer
               </Text>
             </View>
           </View>
@@ -856,7 +856,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
               }
             }
           >
-            Mauvaise réponse…
+            Wrong answer…
           </Text>
           <Text>
             Ces 4 situations correspondent à un disque mort.
@@ -941,7 +941,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                     }
                   }
                 >
-                  Voir la règle
+                  See the rule
                 </Text>
               </View>
             </View>
@@ -1122,7 +1122,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
               }
             }
           >
-            Question suivante
+            Next question
           </Text>
         </View>
       </View>
@@ -1162,14 +1162,14 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
             }
           }
         >
-          Bilan
+          Review
         </Text>
       </View>
       <Text>
-        0 bonnes réponses pour 1 questions
+        0 correct answers out of 1 questions
       </Text>
       <Text>
-        Notre commentaire
+        Our comment
       </Text>
       <View
         style={
@@ -1180,7 +1180,7 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
         }
       >
         <Text>
-          C'est pas top…
+          It's not great…
         </Text>
       </View>
       <View
@@ -1259,7 +1259,7 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
                 }
               }
             >
-              Partager mon résultat
+              Share my result
             </Text>
           </View>
         </View>
@@ -1340,7 +1340,7 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
                 }
               }
             >
-              Retourner à l'accueil
+              Back to the home screen
             </Text>
           </View>
         </View>
@@ -1360,7 +1360,7 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
             }
           }
         >
-          Détail des erreurs
+          Detail of the errors
         </Text>
       </View>
       <View>

@@ -18,7 +18,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         }
       }
     >
-      Nombre de questions
+      Number of questions
     </Text>
     <View
       style={
@@ -287,7 +287,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         }
       }
     >
-      Temps par question
+      Time per question
     </Text>
     <View
       style={
@@ -542,7 +542,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
                 }
               }
             >
-              Aucun
+              None
             </Text>
           </View>
         </View>
@@ -556,7 +556,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
         }
       }
     >
-      Niveau
+      Level
     </Text>
     <View
       style={
@@ -650,7 +650,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
                 }
               }
             >
-              Facile
+              Easy
             </Text>
           </View>
         </View>
@@ -738,7 +738,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
                 }
               }
             >
-              Moyen
+              Medium
             </Text>
           </View>
         </View>
@@ -826,7 +826,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
                 }
               }
             >
-              Difficile
+              Hard
             </Text>
           </View>
         </View>
@@ -914,7 +914,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
                 }
               }
             >
-              Tous
+              All
             </Text>
           </View>
         </View>
@@ -1009,7 +1009,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
                 }
               }
             >
-              JOUER
+              PLAY
             </Text>
           </View>
         </View>
@@ -1091,7 +1091,7 @@ exports[`<OptionsScreen /> renders correctly 1`] = `
                 }
               }
             >
-              + d'options
+              + options
             </Text>
           </View>
         </View>
