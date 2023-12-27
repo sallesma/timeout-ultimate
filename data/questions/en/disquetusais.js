@@ -1779,7 +1779,7 @@ If my defender does not want to throw, he does not take the disc (leaves it on t
   // },
   {
     category: Categories.FOULS_INFRACTIONS_VIOLATIONS,
-    question: 'A breach of the rules related to the marking on the carrier or a walk (travel) is:',
+    question: 'A breach of the rules related to the marking on the carrier or a travel is:',
     image: undefined,
     answerChoices: {
       a: 'An infraction',
@@ -2472,7 +2472,7 @@ He can do this if:
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      'I just caught the disc and made a pass on my first deceleration support. A defender calls a walk (travel). Is he right?',
+      'I just caught the disc and made a pass on my first deceleration support. A defender calls a travel. Is he right?',
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -2503,7 +2503,7 @@ He can do this if:
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: 'I caught the disc while diving. I make a pass while kneeling. The defense can call a walk (Travel)',
+    question: 'I caught the disc while diving. I make a pass while kneeling. The defense can call a travel',
     image: undefined,
     answerChoices: {
       a: 'True',
