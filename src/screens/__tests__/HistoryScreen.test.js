@@ -5,7 +5,7 @@ import HistoryScreen from '../HistoryScreen';
 
 describe('<HistoryScreen />', () => {
   it('renders correctly', async () => {
-    const { toJSON } = await waitFor(() => render(<HistoryScreen />));
+    const { toJSON } = render(<HistoryScreen />);
 
     await waitFor(() => expect(toJSON()).toMatchSnapshot());
   });
