@@ -3,7 +3,6 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Pressable, Image } from 'react-native';
 import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { SafeAreaView } from 'react-native-safe-area-context';
 
 import theme from '../utils/theme.js';
 import questions from '../../data/questions';
@@ -12,7 +11,7 @@ import I18n from '../utils/i18n';
 
 export default (props) => {
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <View style={styles.logoContainer}>
         <Image style={styles.logo} source={logo} />
       </View>
@@ -45,7 +44,7 @@ export default (props) => {
         </Pressable>
       </View>
       <StatusBar style="auto" />
-    </SafeAreaView>
+    </View>
   );
 };
 
