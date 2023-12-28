@@ -14,6 +14,7 @@ export default () => {
       subject: I18n.t('aboutScreen.mailSubject'),
     }).then();
   };
+
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       <Text style={styles.header}>{I18n.t('aboutScreen.aboutHeader')}</Text>

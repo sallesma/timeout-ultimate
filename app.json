@@ -3,6 +3,7 @@
     "name": "Timeout Ultimate",
     "slug": "timeout-ultimate",
     "version": "5.0.1",
+    "scheme": "timeout-ultimate",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -37,7 +38,8 @@
       }
     },
     "plugins": [
-      "expo-localization"
+      "expo-localization",
+      "expo-router"
     ],
     "runtimeVersion": {
       "policy": "sdkVersion"

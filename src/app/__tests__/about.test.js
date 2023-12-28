@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react-native';
 
-import AboutScreen from '../AboutScreen';
+import AboutScreen from '../about';
 
 describe('<AboutScreen />', () => {
   it('renders correctly', () => {

@@ -3,7 +3,7 @@ import { render, fireEvent } from '@testing-library/react-native';
 
 import { Levels, Categories } from '../../utils/config';
 
-import QuizzScreen from '../QuizzScreen';
+import QuizzScreen from '../quizz';
 
 describe('<QuizzScreen />', () => {
   it('renders correctly', async () => {

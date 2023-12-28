@@ -1,5 +1,6 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useState } from 'react';
 import { StyleSheet, View, FlatList, Text, SectionList } from 'react-native';
+import { useFocusEffect, useNavigation } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { ListItem, Input } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -20,8 +21,10 @@ export default (props) => {
   const [searchText, setSearchText] = useState('');
   const [isSelectorVisible, setIsSelectorVisible] = useState(false);
 
-  useLayoutEffect(() => {
-    props.navigation.setOptions({
+  const navigation = useNavigation();
+
+  useFocusEffect(() => {
+    navigation.setOptions({
       headerRight: () => (
         <View style={styles.headerRight}>
           <MaterialCommunityIcons

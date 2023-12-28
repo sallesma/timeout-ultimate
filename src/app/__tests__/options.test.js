@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react-native';
 
-import OptionsScreen from '../OptionsScreen';
+import OptionsScreen from '../options';
 
 describe('<OptionsScreen />', () => {
   it('renders correctly', () => {

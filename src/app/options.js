@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, ScrollView, Text, View } from 'react-native';
 import { CheckBox, Button } from 'react-native-elements';
+import { Link } from 'expo-router';
 
 import theme from '../utils/theme.js';
 import questions from '../../data/questions';
@@ -20,10 +21,6 @@ export default (props) => {
       ? checkedCategories.filter((v) => v !== category)
       : checkedCategories.concat([category]);
     setCheckedCategories(newCheckedCategories);
-  };
-
-  const startQuizz = () => {
-    props.navigation.navigate('QuizzScreen', { number, time, level, checkedCategories });
   };
 
   const countByCategory = {};
@@ -101,7 +98,9 @@ export default (props) => {
         />
       </View>
       <View style={styles.centered}>
-        <Button containerStyle={styles.cta} title={I18n.t('optionsScreen.playCta')} onPress={startQuizz} type="solid" />
+        <Link href={{ pathname: '/quizz', params: { number, time, level, checkedCategories } }} asChild>
+          <Button containerStyle={styles.cta} title={I18n.t('optionsScreen.playCta')} type="solid" />
+        </Link>
         <Button
           containerStyle={styles.cta}
           title={seeMore ? I18n.t('optionsScreen.lessOptionsCta') : I18n.t('optionsScreen.moreOptionsCta')}
@@ -129,12 +128,9 @@ export default (props) => {
               />
             ))}
           <View style={styles.centered}>
-            <Button
-              containerStyle={styles.cta}
-              title={I18n.t('optionsScreen.playCta')}
-              onPress={startQuizz}
-              type="solid"
-            />
+            <Link href={{ pathname: '/quizz', params: { number, time, level, checkedCategories } }} asChild>
+              <Button containerStyle={styles.cta} title={I18n.t('optionsScreen.playCta')} type="solid" />
+            </Link>
             <Button
               containerStyle={styles.cta}
               title={seeMore ? I18n.t('optionsScreen.lessOptionsCta') : I18n.t('optionsScreen.moreOptionsCta')}

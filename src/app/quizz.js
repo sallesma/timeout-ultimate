@@ -1,6 +1,7 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, ScrollView, Text, View } from 'react-native';
+import { useFocusEffect, useNavigation, useLocalSearchParams, useGlobalSearchParams } from 'expo-router';
 import { Button } from 'react-native-elements';
 
 import Question from '../components/Question';
@@ -24,7 +25,8 @@ function getRandomElementsFromArray(arr, n) {
 }
 
 export default (props) => {
-  const { number, time, level, checkedCategories } = props.route.params;
+  const navigation = useNavigation();
+  const { number, time, level, checkedCategories } = useLocalSearchParams();
 
   const filteredQuestions = questions.filter(
     (question) =>
@@ -49,8 +51,8 @@ export default (props) => {
     setErrors(errors.concat({ question, checked }));
   };
 
-  useLayoutEffect(() => {
-    props.navigation.setOptions({
+  useFocusEffect(() => {
+    navigation.setOptions({
       title: `${current} / ${selectedQuestions.length}`,
       headerRight: () => (
         <Text style={styles.headerRight}>{I18n.t('quizzScreen.headerRight', { count: rightAnswersCount })}</Text>

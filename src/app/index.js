@@ -1,6 +1,7 @@
 import React from 'react';
+import { StyleSheet, Text, View, Image } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Pressable, Image } from 'react-native';
+import { Link } from 'expo-router';
 import { Button } from 'react-native-elements';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
@@ -21,27 +22,24 @@ export default (props) => {
         {I18n.t('homeScreen.subtitle')}
       </Text>
       <View style={styles.buttonsArea}>
-        <Button
-          containerStyle={styles.button}
-          titleStyle={styles.mainButtonText}
-          title={I18n.t('homeScreen.menu.play')}
-          onPress={() => props.navigation.navigate('OptionsScreen')}
-        />
-        <Button
-          containerStyle={styles.button}
-          title={I18n.t('homeScreen.menu.history')}
-          onPress={() => props.navigation.navigate('HistoryScreen')}
-        />
-        <Button
-          containerStyle={styles.button}
-          title={I18n.t('homeScreen.menu.rules')}
-          onPress={() => props.navigation.navigate('RulesScreen')}
-        />
+        <Link href="/options" asChild>
+          <Button
+            containerStyle={styles.button}
+            titleStyle={styles.mainButtonText}
+            title={I18n.t('homeScreen.menu.play')}
+          />
+        </Link>
+        <Link href="/history" asChild>
+          <Button containerStyle={styles.button} title={I18n.t('homeScreen.menu.history')} />
+        </Link>
+        <Link href="/rules" asChild>
+          <Button containerStyle={styles.button} title={I18n.t('homeScreen.menu.rules')} />
+        </Link>
       </View>
       <View style={styles.infoArea}>
-        <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
+        <Link href="/abouta">
           <MaterialCommunityIcons name="information-outline" style={styles.icon} />
-        </Pressable>
+        </Link>
       </View>
       <StatusBar style="auto" />
     </View>

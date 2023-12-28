@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react-native';
 
-import RulesScreen from '../RulesScreen';
+import RulesScreen from '../rules';
 
 describe('<RulesScreen />', () => {
   it('renders correctly', () => {

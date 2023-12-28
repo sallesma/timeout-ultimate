@@ -1,13 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View, Share } from 'react-native';
 import { Button } from 'react-native-elements';
+import { Link } from 'expo-router';
 
 import { saveQuizzResult } from '../utils/history';
 import theme from '../utils/theme.js';
 import ReportError from './questions/ReportError';
 import I18n from '../utils/i18n';
 
-export default ({ navigation, rightAnswersCount, quizzLength, errors }) => {
+export default ({ rightAnswersCount, quizzLength, errors }) => {
   let message;
   if (rightAnswersCount === quizzLength) {
     message = I18n.t('report.perfect');
@@ -46,14 +47,16 @@ export default ({ navigation, rightAnswersCount, quizzLength, errors }) => {
         onPress={share}
         type="outline"
       />
-      <Button
-        containerStyle={styles.buttonContainer}
-        title={I18n.t('report.homeCta')}
-        onPress={() => {
-          saveQuizzResult({ rightAnswersCount, quizzLength, createdAt: new Date() });
-          navigation.navigate('HomeScreen');
-        }}
-      />
+      <Link href="/" asChild>
+        <Button
+          containerStyle={styles.buttonContainer}
+          title={I18n.t('report.homeCta')}
+          type="solid"
+          onPress={() => {
+            saveQuizzResult({ rightAnswersCount, quizzLength, createdAt: new Date() });
+          }}
+        />
+      </Link>
       {errors.length > 0 && (
         <>
           <View style={styles.header}>
