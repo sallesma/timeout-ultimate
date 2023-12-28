@@ -48,7 +48,7 @@
   },
   "private": true,
   "engines": {
-    "node": ">=0.16"
+    "node": ">=0.20"
   },
   "jest": {
     "preset": "jest-expo",
