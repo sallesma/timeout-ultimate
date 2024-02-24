@@ -46,7 +46,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
     onScrollEndDrag={[Function]}
     removeClippedSubviews={false}
     renderItem={[Function]}
-    scrollEventThrottle={50}
+    scrollEventThrottle={0.0001}
     stickyHeaderIndices={[]}
     viewabilityConfigCallbackPairs={[]}
   >
@@ -660,12 +660,5 @@ exports[`<RulesScreen /> renders correctly 1`] = `
       />
     </View>
   </RCTScrollView>
-  <Modal
-    animationType="slide"
-    hardwareAccelerated={false}
-    onRequestClose={[Function]}
-    transparent={true}
-    visible={false}
-  />
 </View>
 `;

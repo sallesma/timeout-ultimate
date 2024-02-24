@@ -946,13 +946,6 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
               </View>
             </View>
           </View>
-          <Modal
-            animationType="slide"
-            hardwareAccelerated={false}
-            onRequestClose={[Function]}
-            transparent={true}
-            visible={false}
-          />
           <View
             style={
               [

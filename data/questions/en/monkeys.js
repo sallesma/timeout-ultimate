@@ -344,8 +344,7 @@ export default [
   {
     id: 109,
     category: Categories.CONTINUATION,
-    question:
-      "I am on offense. I call 'foul' on the throw. It is not contested, however my pass is caught. What happens?",
+    question: "I am on offense. I call 'foul' on the throw. It is accepted, however my pass is caught. What happens?",
     image: undefined,
     answerChoices: {
       a: "The game continues if the thrower calls 'play on'",
@@ -353,7 +352,7 @@ export default [
       c: 'Play stops, possession of the disc is returned to the thrower and play resumes at (1) with a check',
       d: 'Play stops, possession remains with the receiver and play resumes at (1) with a check',
     },
-    correctAnswers: ['a'],
+    correctAnswers: ['a', 'c'],
     explanation: undefined,
     rules: ['16.2.4.', '16.2.4.1.', '16.2.4.2.', '16.2.4.2.1.'],
     source: 'Monkeys - Pierre Gruau',

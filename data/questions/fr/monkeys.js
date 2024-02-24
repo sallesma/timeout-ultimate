@@ -342,7 +342,7 @@ export default [
   {
     category: Categories.CONTINUATION,
     question:
-      'Je suis en attaque. J’appelle « faute » au moment du lancer. Elle n’est pas contestée, néanmoins ma passe est réceptionnée. Que se passe t-il?',
+      'Je suis en attaque. J’appelle « faute » au moment du lancer. Mon défeseur accepte, néanmoins ma passe est réceptionnée. Que se passe t-il ?',
     image: undefined,
     answerChoices: {
       a: 'Le jeu continue si le lanceur appelle « play on »',
@@ -350,7 +350,7 @@ export default [
       c: "Le jeu s'arrête, la possession du disque revient au lanceur et le jeu reprend à (1) par un check",
       d: "Le jeu s'arrête, la possession reste au receveur et le jeu reprend à (1) par un check",
     },
-    correctAnswers: ['a'],
+    correctAnswers: ['a', 'c'],
     explanation: `La réponse se trouve dans:
 -rules of Ultimate, paragraphe 16.2.4
 -official annotations 16.6`,
