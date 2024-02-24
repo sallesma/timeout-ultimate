@@ -1,6 +1,6 @@
 export default {
-  '1.2.1': {
-    1.1: {
+  '1.2.1.': {
+    '1.1.': {
       title: 'Deliberate or egregious breach of the rules',
       content: [
         {
@@ -34,8 +34,8 @@ export default {
       ],
     },
   },
-  '1.3.4': {
-    1.2: {
+  '1.3.4.': {
+    '1.2.': {
       title: 'Providing evidence to support a call',
       content: [
         {
@@ -57,8 +57,8 @@ export default {
       ],
     },
   },
-  '1.3.9': {
-    1.3: {
+  '1.3.9.': {
+    '1.3.': {
       title: 'Making calls in a consistent manner throughout the game',
       content: [
         {
@@ -72,8 +72,8 @@ export default {
       ],
     },
   },
-  '1.3.10': {
-    1.4: {
+  '1.3.10.': {
+    '1.4.': {
       title: 'Only calling significant breaches',
       content: [
         {
@@ -87,8 +87,8 @@ export default {
       ],
     },
   },
-  '1.6.3': {
-    1.5: {
+  '1.6.3.': {
+    '1.5.': {
       title: 'Intimidation',
       content: [
         {
@@ -98,8 +98,8 @@ export default {
       ],
     },
   },
-  '1.6.4': {
-    1.6: {
+  '1.6.4.': {
+    '1.6.': {
       title: 'Disrespectful celebration after scoring',
       content: [
         {
@@ -113,8 +113,8 @@ export default {
       ],
     },
   },
-  '1.10': {
-    1.7: {
+  '1.10.': {
+    '1.7.': {
       title: 'Seeking perspective from non players',
       content: [
         {
@@ -123,7 +123,7 @@ export default {
         },
       ],
     },
-    1.8: {
+    '1.8.': {
       title: 'Use of Technology',
       content: [
         {
@@ -137,8 +137,8 @@ export default {
       ],
     },
   },
-  1.11: {
-    1.9: {
+  '1.11.': {
+    '1.9.': {
       title: 'Calls by captains',
       content: [
         {
@@ -148,8 +148,8 @@ export default {
       ],
     },
   },
-  1.12: {
-    '1.10': {
+  '1.12.': {
+    '1.10.': {
       title: 'Discussion of what occurred in a play',
       content: [
         {
@@ -162,8 +162,8 @@ Discussions should be as brief as possible with the preferred outcome being eith
       ],
     },
   },
-  2.1: {
-    2.1: {
+  '2.1.': {
+    '2.1.': {
       title: 'Playing Field size',
       content: [
         {
@@ -176,8 +176,8 @@ If there are no field markings, and the cones used to mark a sideline are not in
       ],
     },
   },
-  3.4: {
-    3.1: {
+  '3.4.': {
+    '3.1.': {
       title: 'Harmful equipment should not be worn',
       content: [
         {
@@ -186,7 +186,7 @@ If there are no field markings, and the cones used to mark a sideline are not in
         },
       ],
     },
-    3.2: {
+    '3.2.': {
       title: 'Equipment that impedes ability to play',
       content: [
         {
@@ -196,8 +196,8 @@ If there are no field markings, and the cones used to mark a sideline are not in
       ],
     },
   },
-  4.2: {
-    4.1: {
+  '4.2.': {
+    '4.1.': {
       title: 'Timing of games',
       content: [
         {
@@ -207,8 +207,8 @@ If there are no field markings, and the cones used to mark a sideline are not in
       ],
     },
   },
-  4.3: {
-    4.2: {
+  '4.3.': {
+    '4.2.': {
       title: 'Half time',
       content: [
         {
@@ -218,8 +218,8 @@ If there are no field markings, and the cones used to mark a sideline are not in
       ],
     },
   },
-  5.1: {
-    5.1: {
+  '5.1.': {
+    '5.1.': {
       title: 'Mixed games',
       content: [
         {
@@ -229,8 +229,8 @@ If there are no field markings, and the cones used to mark a sideline are not in
       ],
     },
   },
-  5.2: {
-    5.2: {
+  '5.2.': {
+    '5.2.': {
       title: 'Role of captain and spirit captain',
       content: [
         {
@@ -240,8 +240,8 @@ If there are no field markings, and the cones used to mark a sideline are not in
       ],
     },
   },
-  6.1: {
-    6.1: {
+  '6.1.': {
+    '6.1.': {
       title: 'Team representatives',
       content: [
         {
@@ -250,7 +250,7 @@ If there are no field markings, and the cones used to mark a sideline are not in
         },
       ],
     },
-    6.2: {
+    '6.2.': {
       title: 'Fairly determining choices',
       content: [
         {
@@ -260,8 +260,8 @@ If there are no field markings, and the cones used to mark a sideline are not in
       ],
     },
   },
-  '7.1.1': {
-    7.1: {
+  '7.1.1.': {
+    '7.1.': {
       title: 'Reasonable delay before the pull',
       content: [
         {
@@ -279,8 +279,8 @@ As a guide, the pull should be released within 75 seconds of the start of the po
       ],
     },
   },
-  7.2: {
-    7.2: {
+  '7.2.': {
+    '7.2.': {
       title: 'The puller',
       content: [
         {
@@ -290,8 +290,8 @@ As a guide, the pull should be released within 75 seconds of the start of the po
       ],
     },
   },
-  7.3: {
-    7.3: {
+  '7.3.': {
+    '7.3.': {
       title: 'Signalling readiness',
       content: [
         {
@@ -301,8 +301,8 @@ As a guide, the pull should be released within 75 seconds of the start of the po
       ],
     },
   },
-  7.5: {
-    7.4: {
+  '7.5.': {
+    '7.4.': {
       title: 'Calling Offside',
       content: [
         {
@@ -314,7 +314,7 @@ To contest an offside call, a player on the contesting team must have perspectiv
         },
       ],
     },
-    7.5: {
+    '7.5.': {
       title: 'Resuming play after an Offside call',
       content: [
         {
@@ -368,8 +368,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  7.7: {
-    7.6: {
+  '7.7.': {
+    '7.6.': {
       title: 'Defence stops a pull from rolling',
       content: [
         {
@@ -387,8 +387,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  7.12: {
-    7.7: {
+  '7.12.': {
+    '7.7.': {
       title: 'Brick call',
       content: [
         {
@@ -402,8 +402,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  '8.1.3': {
-    8.1: {
+  '8.1.3.': {
+    '8.1.': {
       title: 'Using the wrong call',
       content: [
         {
@@ -425,8 +425,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  '8.1.4': {
-    8.2: {
+  '8.1.4.': {
+    '8.2.': {
       title: 'Disc hits the ground',
       content: [
         {
@@ -440,8 +440,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  '8.1.5': {
-    8.3: {
+  '8.1.5.': {
+    '8.3.': {
       title: 'Moving during dead play',
       content: [
         {
@@ -451,8 +451,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  8.4: {
-    8.4: {
+  '8.4.': {
+    '8.4.': {
       title: 'Significantly altering the discs position',
       content: [
         {
@@ -466,8 +466,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  8.5: {
-    8.5: {
+  '8.5.': {
+    '8.5.': {
       title: 'Standing over the disc after a turnover',
       content: [
         {
@@ -489,8 +489,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  '8.5.1': {
-    8.6: {
+  '8.5.1.': {
+    '8.6.': {
       title: 'Time limits after a turnover',
       content: [
         {
@@ -505,7 +505,7 @@ To contest an offside call, a player on the contesting team must have perspectiv
     },
   },
   '8.5.2.1': {
-    8.7: {
+    '8.7.': {
       title: 'Starting a stall count after a delay of game',
       content: [
         {
@@ -515,8 +515,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  9.2: {
-    9.1: {
+  '9.2.': {
+    '9.1.': {
       title: 'Clearly communicating the stall count',
       content: [
         {
@@ -526,8 +526,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  9.3: {
-    9.2: {
+  '9.3.': {
+    '9.2.': {
       title: 'When to start the stall count',
       content: [
         {
@@ -549,8 +549,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  '9.5.4': {
-    9.3: {
+  '9.5.4.': {
+    '9.3.': {
       title: 'Other calls',
       content: [
         {
@@ -566,7 +566,7 @@ To contest an offside call, a player on the contesting team must have perspectiv
     },
   },
   '9.5.4.1': {
-    9.4: {
+    '9.4.': {
       title: 'Call involving the thrower and receiving breach',
       content: [
         {
@@ -589,7 +589,7 @@ To contest an offside call, a player on the contesting team must have perspectiv
     },
   },
   '9.5.4.2': {
-    9.5: {
+    '9.5.': {
       title: 'Stall count after check violation',
       content: [
         {
@@ -603,8 +603,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  9.6: {
-    9.6: {
+  '9.6.': {
+    '9.6.': {
       title: 'Stall counts',
       content: [
         {
@@ -624,8 +624,8 @@ To contest an offside call, a player on the contesting team must have perspectiv
       ],
     },
   },
-  10.1: {
-    10.1: {
+  '10.1.': {
+    '10.1.': {
       title: 'When a check is not required',
       content: [
         {
@@ -643,7 +643,7 @@ The thrower may not begin a wind-up or other part of the throwing motion until t
     },
   },
   '10.2.2.1': {
-    10.2: {
+    '10.2.': {
       title: 'Positioning after a call',
       content: [
         {
@@ -653,8 +653,8 @@ The thrower may not begin a wind-up or other part of the throwing motion until t
       ],
     },
   },
-  10.3: {
-    10.3: {
+  '10.3.': {
+    '10.3.': {
       title: 'Faulty Equipment',
       content: [
         {
@@ -664,8 +664,8 @@ The thrower may not begin a wind-up or other part of the throwing motion until t
       ],
     },
   },
-  10.5: {
-    10.4: {
+  '10.5.': {
+    '10.4.': {
       title: '“Delay of Game” for a check',
       content: [
         {
@@ -687,8 +687,8 @@ The thrower may not begin a wind-up or other part of the throwing motion until t
       ],
     },
   },
-  10.6: {
-    10.5: {
+  '10.6.': {
+    '10.5.': {
       title: 'Preferred process for checking the disc in',
       content: [
         {
@@ -709,7 +709,7 @@ It is recommended that the following steps be undertaken before checking the dis
     },
   },
   '10.6.1.2': {
-    10.6: {
+    '10.6.': {
       title: 'Losing possession on ground touch',
       content: [
         {
@@ -719,8 +719,8 @@ It is recommended that the following steps be undertaken before checking the dis
       ],
     },
   },
-  10.7: {
-    10.7: {
+  '10.7.': {
+    '10.7.': {
       title: 'Calling a violation for moving prior to the check or incorrect positioning',
       content: [
         {
@@ -731,7 +731,7 @@ It is recommended that the following steps be undertaken before checking the dis
     },
   },
   '11.3.1.': {
-    11.1: {
+    '11.1.': {
       title: 'The “Greatest Play in the World”',
       content: [
         {
@@ -753,8 +753,8 @@ It is recommended that the following steps be undertaken before checking the dis
       ],
     },
   },
-  11.4: {
-    11.2: {
+  '11.4.': {
+    '11.2.': {
       title: 'What to call when in or out',
       content: [
         {
@@ -767,7 +767,7 @@ It is recommended that the following steps be undertaken before checking the dis
         },
       ],
     },
-    11.3: {
+    '11.3.': {
       title: 'Catch close to the sideline',
       content: [
         {
@@ -789,8 +789,8 @@ It is recommended that the following steps be undertaken before checking the dis
       ],
     },
   },
-  '11.4.1': {
-    11.4: {
+  '11.4.1.': {
+    '11.4.': {
       title: 'Receiving contacting out-of-bounds',
       content: [
         {
@@ -800,8 +800,8 @@ It is recommended that the following steps be undertaken before checking the dis
       ],
     },
   },
-  11.7: {
-    11.5: {
+  '11.7.': {
+    '11.5.': {
       title: 'Leaving the playing field',
       content: [
         {
@@ -815,8 +815,8 @@ It is recommended that the following steps be undertaken before checking the dis
       ],
     },
   },
-  11.8: {
-    11.6: {
+  '11.8.': {
+    '11.6.': {
       title: 'Disc goes out of bounds',
       content: [
         {
@@ -840,8 +840,8 @@ If an offensive player jumps from in-bounds and touches the disc before landing,
       ],
     },
   },
-  11.9: {
-    11.7: {
+  '11.9.': {
+    '11.7.': {
       title: 'Non-player retrieving an out-of-bounds disc',
       content: [
         {
@@ -863,8 +863,8 @@ If an offensive player jumps from in-bounds and touches the disc before landing,
       ],
     },
   },
-  12.1: {
-    12.1: {
+  '12.1.': {
+    '12.1.': {
       title: 'Catching the disc',
       content: [
         {
@@ -882,8 +882,8 @@ A player may change the body parts that are being used to trap the disc, and as 
       ],
     },
   },
-  '12.1.1': {
-    12.2: {
+  '12.1.1.': {
+    '12.2.': {
       title: 'Related to the catch',
       content: [
         {
@@ -893,8 +893,8 @@ A player may change the body parts that are being used to trap the disc, and as 
       ],
     },
   },
-  12.5: {
-    12.3: {
+  '12.5.': {
+    '12.3.': {
       title: 'Moving in a reckless manner',
       content: [
         {
@@ -903,7 +903,7 @@ A player may change the body parts that are being used to trap the disc, and as 
         },
       ],
     },
-    12.4: {
+    '12.4.': {
       title: 'Player positioning',
       content: [
         {
@@ -921,8 +921,8 @@ A player may change the body parts that are being used to trap the disc, and as 
       ],
     },
   },
-  12.6: {
-    12.5: {
+  '12.6.': {
+    '12.5.': {
       title: 'Making a play on the disc',
       content: [
         {
@@ -936,7 +936,7 @@ The relative skill, height and/or athletic ability, of the players involved shou
         },
       ],
     },
-    12.6: {
+    '12.6.': {
       title: 'Resting a hand on an opponent',
       content: [
         {
@@ -953,7 +953,7 @@ The relative skill, height and/or athletic ability, of the players involved shou
         },
       ],
     },
-    12.7: {
+    '12.7.': {
       title: 'Player positioning when the disc is in the air',
       content: [
         {
@@ -1043,8 +1043,8 @@ The relative skill, height and/or athletic ability, of the players involved shou
       ],
     },
   },
-  12.8: {
-    12.8: {
+  '12.8.': {
+    '12.8.': {
       title: 'Moving towards a single point simultaneously',
       content: [
         {
@@ -1069,8 +1069,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  '12.10': {
-    12.9: {
+  '12.10.': {
+    '12.9.': {
       title: 'Assisting a players movement or using equipment',
       content: [
         {
@@ -1080,8 +1080,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  '13.1.1': {
-    13.1: {
+  '13.1.1.': {
+    '13.1.': {
       title: 'Disc down while not in possession of an offensive player',
       content: [
         {
@@ -1092,7 +1092,7 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
     },
   },
   '13.1.1.1': {
-    13.2: {
+    '13.2.': {
       title: 'Disc contacting the ground while in control of an offensive player',
       content: [
         {
@@ -1102,8 +1102,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  '13.1.2': {
-    13.3: {
+  '13.1.2.': {
+    '13.3.': {
       title: 'Interception turnover',
       content: [
         {
@@ -1117,8 +1117,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  '13.1.4': {
-    13.4: {
+  '13.1.4.': {
+    '13.4.': {
       title: 'Contested dropped pull',
       content: [
         {
@@ -1128,8 +1128,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  '13.2.5': {
-    13.5: {
+  '13.2.5.': {
+    '13.5.': {
       title: 'Self-catch turnovers',
       content: [
         {
@@ -1151,8 +1151,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  '13.2.6': {
-    13.6: {
+  '13.2.6.': {
+    '13.6.': {
       title: 'Assisting a team-mate’s movement',
       content: [
         {
@@ -1162,8 +1162,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  13.4: {
-    13.7: {
+  '13.4.': {
+    '13.7.': {
       title: 'Contesting a “stall-out” turnover',
       content: [
         {
@@ -1172,7 +1172,7 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
         },
       ],
     },
-    13.8: {
+    '13.8.': {
       title: 'Continuing play after an accepted “stall out”',
       content: [
         {
@@ -1188,8 +1188,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  '13.5.1': {
-    13.9: {
+  '13.5.1.': {
+    '13.9.': {
       title: 'Ground stripped interception',
       content: [
         {
@@ -1199,8 +1199,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  13.6: {
-    '13.10': {
+  '13.6.': {
+    '13.10.': {
       title: 'Intentionally dropped disc',
       content: [
         {
@@ -1222,8 +1222,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  13.8: {
-    13.11: {
+  '13.8.': {
+    '13.11.': {
       title: 'Where to establish a pivot foot–disc out-of-bounds',
       content: [
         {
@@ -1237,8 +1237,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  13.9: {
-    13.12: {
+  '13.9.': {
+    '13.12.': {
       title: 'Where to establish a pivot foot after a turnover–disc in-bounds',
       content: [
         {
@@ -1261,7 +1261,7 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
     },
   },
   '13.11.2.1': {
-    13.13: {
+    '13.13.': {
       title: 'Hand signal after a turnover in defending endzone',
       content: [
         {
@@ -1275,8 +1275,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  '13.11.3': {
-    13.14: {
+  '13.11.3.': {
+    '13.14.': {
       title: 'Establishing a pivot foot after a turnover in defending end zone',
       content: [
         {
@@ -1286,8 +1286,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  14.1: {
-    14.1: {
+  '14.1.': {
+    '14.1.': {
       title: '“Callahan” Goals',
       content: [
         {
@@ -1308,7 +1308,7 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
         },
       ],
     },
-    14.2: {
+    '14.2.': {
       title: 'Throwing the disc after a score',
       content: [
         {
@@ -1333,7 +1333,7 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
         },
       ],
     },
-    14.3: {
+    '14.3.': {
       title: 'Catching a goal',
       content: [
         {
@@ -1346,7 +1346,7 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
         },
       ],
     },
-    14.4: {
+    '14.4.': {
       title: 'Catching a goal close to the sideline',
       content: [
         {
@@ -1364,8 +1364,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  '14.1.1': {
-    14.5: {
+  '14.1.1.': {
+    '14.5.': {
       title: 'Contacting the end zone',
       content: [
         {
@@ -1375,8 +1375,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  14.2: {
-    14.6: {
+  '14.2.': {
+    '14.6.': {
       title: 'Contested Goal',
       content: [
         {
@@ -1390,8 +1390,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  14.4: {
-    14.7: {
+  '14.4.': {
+    '14.7.': {
       title: 'Goal call and time cap',
       content: [
         {
@@ -1401,8 +1401,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  15.1: {
-    15.1: {
+  '15.1.': {
+    '15.1.': {
       title: 'Calling a breach or turnover',
       content: [
         {
@@ -1411,7 +1411,7 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
         },
       ],
     },
-    15.2: {
+    '15.2.': {
       title: 'Accidental Contact',
       content: [
         {
@@ -1421,8 +1421,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  15.2: {
-    15.3: {
+  '15.2.': {
+    '15.3.': {
       title: 'Infractions stopping play',
       content: [
         {
@@ -1432,8 +1432,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  15.4: {
-    15.4: {
+  '15.4.': {
+    '15.4.': {
       title: 'Informing opponent of a breach',
       content: [
         {
@@ -1443,8 +1443,8 @@ Scenario 3: Both players cause body contact and only minor body contact occurs. 
       ],
     },
   },
-  15.5: {
-    15.5: {
+  '15.5.': {
+    '15.5.': {
       title: 'Making Infraction Calls',
       content: [
         {
@@ -1456,8 +1456,8 @@ Any opposing player may make a travel infraction call, however if the call is no
       ],
     },
   },
-  15.8: {
-    15.6: {
+  '15.8.': {
+    '15.6.': {
       title: 'Calling a breach immediately',
       content: [
         {
@@ -1469,8 +1469,8 @@ If play has stopped for a discussion, a player can still make a call as part of 
       ],
     },
   },
-  15.9: {
-    15.7: {
+  '15.9.': {
+    '15.7.': {
       title: 'Initiating a stoppage incorrectly',
       content: [
         {
@@ -1484,8 +1484,8 @@ If play has stopped for a discussion, a player can still make a call as part of 
       ],
     },
   },
-  '15.10': {
-    15.8: {
+  '15.10.': {
+    '15.8.': {
       title: 'Contesting a call',
       content: [
         {
@@ -1495,8 +1495,8 @@ If play has stopped for a discussion, a player can still make a call as part of 
       ],
     },
   },
-  15.11: {
-    15.9: {
+  '15.11.': {
+    '15.9.': {
       title: 'Retracting a call',
       content: [
         {
@@ -1506,8 +1506,8 @@ If play has stopped for a discussion, a player can still make a call as part of 
       ],
     },
   },
-  15.12: {
-    '15.10': {
+  '15.12.': {
+    '15.10.': {
       title: 'Resolving multiple breaches',
       content: [
         {
@@ -1517,8 +1517,8 @@ If play has stopped for a discussion, a player can still make a call as part of 
       ],
     },
   },
-  16.2: {
-    16.1: {
+  '16.2.': {
+    '16.1.': {
       title: 'What occurs after play continues in these scenarios',
       content: [
         {
@@ -1567,7 +1567,7 @@ If play has stopped for a discussion, a player can still make a call as part of 
         },
       ],
     },
-    16.2: {
+    '16.2.': {
       title: 'Call affecting the play',
       content: [
         {
@@ -1577,7 +1577,7 @@ During a stoppage to discuss these situations it is reasonable for a player to a
         },
       ],
     },
-    16.3: {
+    '16.3.': {
       title: 'Foul by the marker before a throw',
       content: [
         {
@@ -1590,7 +1590,7 @@ During a stoppage to discuss these situations it is reasonable for a player to a
         },
       ],
     },
-    16.4: {
+    '16.4.': {
       title: 'Pick/Foul not involving the thrower called during the act of throwing',
       content: [
         {
@@ -1604,7 +1604,7 @@ Additionally if a pick is called while the thrower is in the act of throwing, an
     },
   },
   '16.2.4.1': {
-    16.5: {
+    '16.5.': {
       title: 'Play on called before possession established',
       content: [
         {
@@ -1613,7 +1613,7 @@ Additionally if a pick is called while the thrower is in the act of throwing, an
         },
       ],
     },
-    16.6: {
+    '16.6.': {
       title: 'Play on not called',
       content: [
         {
@@ -1622,7 +1622,7 @@ Additionally if a pick is called while the thrower is in the act of throwing, an
         },
       ],
     },
-    16.7: {
+    '16.7.': {
       title: 'Team that gains/retains possession can choose to stop play',
       content: [
         {
@@ -1632,8 +1632,8 @@ Additionally if a pick is called while the thrower is in the act of throwing, an
       ],
     },
   },
-  16.3: {
-    16.8: {
+  '16.3.': {
+    '16.8.': {
       title: 'Foul called before possession is established',
       content: [
         {
@@ -1642,7 +1642,7 @@ Additionally if a pick is called while the thrower is in the act of throwing, an
         },
       ],
     },
-    16.9: {
+    '16.9.': {
       title: 'More than one pass',
       content: [
         {
@@ -1652,8 +1652,8 @@ Additionally if a pick is called while the thrower is in the act of throwing, an
       ],
     },
   },
-  17.1: {
-    17.1: {
+  '17.1.': {
+    '17.1.': {
       title: 'Minor Contact involving hands/arms',
       content: [
         {
@@ -1662,7 +1662,7 @@ Additionally if a pick is called while the thrower is in the act of throwing, an
         },
       ],
     },
-    17.2: {
+    '17.2.': {
       title: 'Dangerous play',
       content: [
         {
@@ -1690,8 +1690,8 @@ Players calling a Dangerous Play foul before a potential incident need to have r
       ],
     },
   },
-  17.2: {
-    17.3: {
+  '17.2.': {
+    '17.3.': {
       title: 'Teammate causes a foul',
       content: [
         {
@@ -1700,7 +1700,7 @@ Players calling a Dangerous Play foul before a potential incident need to have r
         },
       ],
     },
-    17.4: {
+    '17.4.': {
       title: 'Receiving fouls when it is unclear the disc was catchable',
       content: [
         {
@@ -1717,7 +1717,7 @@ Players calling a Dangerous Play foul before a potential incident need to have r
         },
       ],
     },
-    17.5: {
+    '17.5.': {
       title: 'Receiving fouls',
       content: [
         {
@@ -1734,8 +1734,8 @@ An accepted offensive receiving foul is a turnover (rule 17.2.2); however an acc
       ],
     },
   },
-  '17.2.2': {
-    17.6: {
+  '17.2.2.': {
+    '17.6.': {
       title: 'End zone possession after an accepted defensive receiving foul',
       content: [
         {
@@ -1749,8 +1749,8 @@ An accepted offensive receiving foul is a turnover (rule 17.2.2); however an acc
       ],
     },
   },
-  17.3: {
-    17.7: {
+  '17.3.': {
+    '17.7.': {
       title: 'Strip Fouls',
       content: [
         {
@@ -1764,8 +1764,8 @@ An accepted offensive receiving foul is a turnover (rule 17.2.2); however an acc
       ],
     },
   },
-  '17.3.2': {
-    17.8: {
+  '17.3.2.': {
+    '17.8.': {
       title: 'Strip foul on Callahan attempt',
       content: [
         {
@@ -1775,8 +1775,8 @@ An accepted offensive receiving foul is a turnover (rule 17.2.2); however an acc
       ],
     },
   },
-  17.4: {
-    17.9: {
+  '17.4.': {
+    '17.9.': {
       title: 'Blocking Fouls',
       content: [
         {
@@ -1790,8 +1790,8 @@ A collision is avoidable for a player if the player could have reacted in time a
       ],
     },
   },
-  17.5: {
-    '17.10': {
+  '17.5.': {
+    '17.10.': {
       title: 'Force-out fouls',
       content: [
         {
@@ -1801,8 +1801,8 @@ A collision is avoidable for a player if the player could have reacted in time a
       ],
     },
   },
-  17.6: {
-    17.11: {
+  '17.6.': {
+    '17.11.': {
       title: 'Contact on releasing the disc (Defensive or Offensive foul)',
       content: [
         {
@@ -1817,7 +1817,7 @@ A collision is avoidable for a player if the player could have reacted in time a
     },
   },
   '17.6.1.1': {
-    17.12: {
+    '17.12.': {
       title: 'Marking foul and double team',
       content: [
         {
@@ -1828,7 +1828,7 @@ A collision is avoidable for a player if the player could have reacted in time a
     },
   },
   '17.6.1.3': {
-    17.13: {
+    '17.13.': {
       title: 'Making a ‘contact’ call',
       content: [
         {
@@ -1849,8 +1849,8 @@ For minor contact, the thrower may choose to call a disc space infraction.`,
       ],
     },
   },
-  17.8: {
-    17.14: {
+  '17.8.': {
+    '17.14.': {
       title: 'Indirect Fouls',
       content: [
         {
@@ -1873,8 +1873,8 @@ If the offense commits a foul after establishing possession in the air, but the 
       ],
     },
   },
-  '17.9.2': {
-    17.15: {
+  '17.9.2.': {
+    '17.15.': {
       title: 'Offsetting receiving fouls',
       content: [
         {
@@ -1891,7 +1891,7 @@ If two opposing players both cause non-dangerous contact by jumping to the same 
     },
   },
   '18.1.1.1.5': {
-    18.1: {
+    '18.1.': {
       title: 'Starting from the incorrect number',
       content: [
         {
@@ -1903,7 +1903,7 @@ If a marking infraction is called before the stall count reaches 2, the marker m
     },
   },
   '18.1.1.3': {
-    18.2: {
+    '18.2.': {
       title: 'Disc Space',
       content: [
         {
@@ -1914,7 +1914,7 @@ If a marking infraction is called before the stall count reaches 2, the marker m
     },
   },
   '18.1.1.4': {
-    18.3: {
+    '18.3.': {
       title: 'Wrapping',
       content: [
         {
@@ -1925,7 +1925,7 @@ If a marking infraction is called before the stall count reaches 2, the marker m
     },
   },
   '18.1.1.5': {
-    18.4: {
+    '18.4.': {
       title: 'Double team',
       content: [
         {
@@ -1952,7 +1952,7 @@ If a defender intentionally double teams the thrower, with no regard for any oth
     },
   },
   '18.1.2.1': {
-    18.5: {
+    '18.5.': {
       title: 'Contested Marking Infractions',
       content: [
         {
@@ -1962,8 +1962,8 @@ If a defender intentionally double teams the thrower, with no regard for any oth
       ],
     },
   },
-  '18.1.3': {
-    18.6: {
+  '18.1.3.': {
+    '18.6.': {
       title: 'Resuming the stall count after Marking Infractions',
       content: [
         {
@@ -1977,8 +1977,8 @@ If a defender intentionally double teams the thrower, with no regard for any oth
       ],
     },
   },
-  '18.1.5': {
-    18.7: {
+  '18.1.5.': {
+    '18.7.': {
       title: 'Marker does not adjust the stall count after a marking infraction',
       content: [
         {
@@ -1989,7 +1989,7 @@ If a defender intentionally double teams the thrower, with no regard for any oth
     },
   },
   '18.1.5.3': {
-    18.8: {
+    '18.8.': {
       title: 'Egregious marking infractions',
       content: [
         {
@@ -2000,7 +2000,7 @@ If a defender intentionally double teams the thrower, with no regard for any oth
     },
   },
   '18.2.2.1': {
-    18.9: {
+    '18.9.': {
       title: 'Passing while slowing down after catching the disc',
       content: [
         {
@@ -2018,8 +2018,8 @@ If a defender intentionally double teams the thrower, with no regard for any oth
       ],
     },
   },
-  '18.2.5': {
-    '18.10': {
+  '18.2.5.': {
+    '18.10.': {
       title: 'Making a Travel call',
       content: [
         {
@@ -2042,7 +2042,7 @@ A player is deemed to be changing direction after catching the disc if there is 
     },
   },
   '18.2.5.3': {
-    18.11: {
+    '18.11.': {
       title: 'Run up for a throw',
       content: [
         {
@@ -2053,7 +2053,7 @@ A player is deemed to be changing direction after catching the disc if there is 
     },
   },
   '18.2.5.5': {
-    18.12: {
+    '18.12.': {
       title: 'Tipping',
       content: [
         {
@@ -2067,8 +2067,8 @@ If they tip the disc solely in order to assist themselves to catch a disc that t
       ],
     },
   },
-  '18.2.6': {
-    18.13: {
+  '18.2.6.': {
+    '18.13.': {
       title: 'Continuing play after a Travel call',
       content: [
         {
@@ -2089,8 +2089,8 @@ If the pass is completed, play stops and the disc is returned to the thrower.`,
       ],
     },
   },
-  '18.2.7': {
-    18.14: {
+  '18.2.7.': {
+    '18.14.': {
       title: 'Resuming play after a travel violation',
       content: [
         {
@@ -2104,8 +2104,8 @@ If the pass is completed, play stops and the disc is returned to the thrower.`,
       ],
     },
   },
-  '18.3.1': {
-    18.15: {
+  '18.3.1.': {
+    '18.15.': {
       title: 'Calling a Pick',
       content: [
         {
@@ -2125,8 +2125,8 @@ If the defender does delay the pick call according to 18.3.1.1, the pick is stil
       ],
     },
   },
-  '19.1.2': {
-    19.1: {
+  '19.1.2.': {
+    '19.1.': {
       title: 'Injury substitution',
       content: [
         {
@@ -2140,8 +2140,8 @@ If an injury stoppageis called during a team time-out, the opposing team must be
       ],
     },
   },
-  '19.1.6': {
-    19.2: {
+  '19.1.6.': {
+    '19.2.': {
       title: 'Injury stoppage and continued play',
       content: [
         {
@@ -2151,8 +2151,8 @@ If an injury stoppageis called during a team time-out, the opposing team must be
       ],
     },
   },
-  '19.2.1': {
-    19.3: {
+  '19.2.1.': {
+    '19.3.': {
       title: 'Condition that endangers players',
       content: [
         {
@@ -2165,7 +2165,7 @@ If an injury stoppageis called during a team time-out, the opposing team must be
         },
       ],
     },
-    19.4: {
+    '19.4.': {
       title: 'Open or bleeding wounds',
       content: [
         {
@@ -2175,8 +2175,8 @@ If an injury stoppageis called during a team time-out, the opposing team must be
       ],
     },
   },
-  '19.2.2': {
-    19.5: {
+  '19.2.2.': {
+    '19.5.': {
       title: 'Technical Stoppage for a severely damaged disc',
       content: [
         {
@@ -2186,8 +2186,8 @@ If an injury stoppageis called during a team time-out, the opposing team must be
       ],
     },
   },
-  20.3: {
-    20.1: {
+  '20.3.': {
+    '20.1.': {
       title: 'Calling a time-out during play',
       content: [
         {
@@ -2196,7 +2196,7 @@ If an injury stoppageis called during a team time-out, the opposing team must be
         },
       ],
     },
-    20.2: {
+    '20.2.': {
       title: 'Delay of play after a time-out',
       content: [
         {
@@ -2210,8 +2210,8 @@ If an injury stoppageis called during a team time-out, the opposing team must be
       ],
     },
   },
-  20.4: {
-    20.3: {
+  '20.4.': {
+    '20.3.': {
       title: 'Time-out between pointsor during a stoppage',
       content: [
         {
