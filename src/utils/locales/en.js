@@ -98,6 +98,7 @@ export default {
       one: '{{count}} correct answer',
       other: '{{count}} correct answers',
     },
+    noQuestions: 'We have no question matching your criteria.',
     nextQuestion: 'Next question',
   },
   rulesScreen: {

@@ -31,6 +31,12 @@ export default (props) => {
       (level === Levels.ANY || level === question.level) &&
       (checkedCategories.length === 0 || checkedCategories.includes(question.category)),
   );
+  if (filteredQuestions.length === 0)
+    return (
+      <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
+        <Text>{I18n.t('quizzScreen.noQuestions')}</Text>
+      </ScrollView>
+    );
 
   const [selectedQuestions, _setSelectedQuestions] = useState(getRandomElementsFromArray(filteredQuestions, number));
   const [current, setCurrent] = useState(1);

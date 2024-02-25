@@ -1435,3 +1435,25 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
   </View>
 </RCTScrollView>
 `;
+
+exports[`<QuizzScreen /> renders correctly with no questions 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "paddingBottom": 64,
+    }
+  }
+  style={
+    {
+      "flex": 1,
+      "padding": 16,
+    }
+  }
+>
+  <View>
+    <Text>
+      We have no question matching your criteria.
+    </Text>
+  </View>
+</RCTScrollView>
+`;

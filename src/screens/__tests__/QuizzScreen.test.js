@@ -28,4 +28,19 @@ describe('<QuizzScreen />', () => {
 
     expect(toJSON()).toMatchSnapshot();
   });
+
+  it('renders correctly with no questions', async () => {
+    const navigation = { setOptions: jest.fn() };
+    const route = {
+      params: {
+        number: 5,
+        time: 30,
+        level: Levels.DIFFICULT,
+        checkedCategories: [Categories.INDOOR],
+      },
+    };
+    const { toJSON, getByText } = render(<QuizzScreen navigation={navigation} route={route} />);
+
+    expect(toJSON()).toMatchSnapshot();
+  });
 });

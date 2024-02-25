@@ -98,6 +98,7 @@ export default {
       one: '{{count}} bonne réponse',
       other: '{{count}} bonnes réponses',
     },
+    noQuestions: 'Aucune question ne correspond aux critères choisis.',
     nextQuestion: 'Question suivante',
   },
   rulesScreen: {
