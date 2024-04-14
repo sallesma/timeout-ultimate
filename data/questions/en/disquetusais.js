@@ -428,7 +428,7 @@ export default [
     id: 43,
     category: Categories.PULL,
     question:
-      'After the pull, the disc stops in the field. I can wait for my classmates to position themselves correctly before picking up the disc.',
+      'After the pull, the disc stops in the field. I can wait as long as I want for my classmates to position themselves correctly before picking up the disc.',
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -2268,7 +2268,7 @@ If he is too close, I must call distance or disc space so that he moves back and
   },
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
-    question: 'How many violations are there?',
+    question: 'How many infractions are there?',
     image: undefined,
     answerChoices: {
       a: '5',

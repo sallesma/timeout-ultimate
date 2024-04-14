@@ -404,7 +404,7 @@ export default [
   {
     category: Categories.PULL,
     question:
-      'Après « le pull », le disque s’arrête dans le terrain. Je peux attendre que mes camarades se placent correctement avant de ramasser le disque.',
+      'Après « le pull », le disque s’arrête dans le terrain. Je peux attendre autant de temps que je veux que mes camarades se placent correctement avant de ramasser le disque.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
