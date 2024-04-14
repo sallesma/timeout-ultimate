@@ -2048,7 +2048,7 @@ Si un défenseur commet intentionnellement un double marquage, sans avoir d'atta
 
 - un joueur qui attrape et lance un disque alors qu'il est en l'air n'a pas besoin de ralentir.
 - la longueur des foulées du joueur doit réduire pendant qu'il ralentit.
-- une joueur n'est pas autorisé à maintenir sa vitesse constante alors qu'il attrape et lance le disque, à moins qu'il attrape et lance en étant en l'air, ou qu'un maximum de deux points de contact avec le sol ne soient faits entre la réception et le lâché du disque.
+- une joueur n'est pas autorisé à maintenir sa vitesse constante alors qu'il attrape et lance le disque, à moins qu'il attrape et lance en étant en l'air, ou qu'un maximum de deux points de contact avec le sol ne soient faits entre la réception et le lâcher du disque.
 - un joueur ne doit jamais avoir besoin de plus de 5 pas pour s'arrêter. Tant que la défense n'a pas de preuve parmi ces lignes, elle ne doit pas appeler d'infraction de marcher.
 
 Dans certaine situation, un réceptionneur peut avoir besoin de maintenir sa vitesse brièvement ou de changer légèrement de direction pour éviter un contact avec un défenseur qui plonge ou qui saute. C'est attendu dans une telle situation et ne doit pas être considéré comme une infraction de marcher.
