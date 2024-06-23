@@ -507,7 +507,8 @@ export default [
       d: "Il faut refaire l'engagement",
     },
     correctAnswers: ['b'],
-    explanation: 'Le jeu reprend au point le plus près de l’endroit où le disque a été touché, dans la zone centrale.',
+    explanation:
+      "Le jeu reprend au point le plus près de l’endroit où le disque s'est arrêté après avoir été touché, dans la zone centrale.",
     rules: ['7.8.', '11.8.', '11.8.2.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
@@ -2058,7 +2059,7 @@ Si le résultat n'était pas un point marqué, les joueurs affectés peuvent ré
   {
     category: Categories.FOULS,
     question:
-      'J’attrape le disque en l’air. Mon défenseur me heurte et me fait atterrir en dehors de sa zone d’en-but. J’appelle une faute qu’il conteste. Le disque revient au lanceur.',
+      'J’attrape le disque en l’air. Mon défenseur me heurte et me fait atterrir dans le terrain, en dehors de sa zone d’en-but. J’appelle une faute qu’il conteste. Le disque revient au lanceur.',
     image: undefined,
     answerChoices: {
       a: 'Vrai',

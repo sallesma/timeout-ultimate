@@ -536,7 +536,7 @@ For this, no attacker must have touched it.
       d: 'We need to redo the pull',
     },
     correctAnswers: ['b'],
-    explanation: 'Play resumes at the point closest to where the disc was touched, in the center zone.',
+    explanation: 'Play resumes at the point closest to where the disc stops after being touched, in the center zone.',
     rules: ['7.8.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
@@ -2083,7 +2083,7 @@ If the result was not a scored point, the affected players may readjust their di
   {
     category: Categories.FOULS,
     question:
-      'I catch the disc in the air. My defender bumps me and lands me outside his end zone. I call a foul which he contests. The disc goes back to the thrower.',
+      'I catch the disc in the air. My defender bumps me and lands me in-bounds, outside his end zone. I call a foul which he contests. The disc goes back to the thrower.',
     image: undefined,
     answerChoices: {
       a: 'True',
