@@ -1967,13 +1967,13 @@ If my defender does not want to throw, he does not take the disc (leaves it on t
     },
     correctAnswers: ['b'],
     explanation: `
-« f the foul or violation is called:
+« If the foul or violation is called:
   against the thrower and the thrower still attempts a pass,
   or while the thrower is making a throwing motion,
     or occurs while the disc is in the air,
       then play continues until possession has been established.
 
-Once possession is established if the team that called the foul or violation wins or maintains possession after the pass, play continues without stoppage.Players recognizing this may call play on to indicate that this rule has been called»
+Once possession is established if the team that called the foul or violation wins or maintains possession after the pass, play continues without stoppage.Players recognizing this may call play on to indicate that this rule has been called »
 `,
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
