@@ -2378,7 +2378,7 @@ If he is too close, I must call distance or disc space so that he moves back and
     explanation: `
 « A marking infraction can be contested by the defense, in which case play stops.
 The cross - chase between the replacement of the first curtain and the defender of the second curtain is frequent.
-The rules specify that a simple run in this 3 - meter zone is not a double team.Therefore, my running out of this zone cannot be cin boundsred an infraction.»
+The rules specify that a simple run in this 3 - meter zone is not a double team.Therefore, my running out of this zone cannot be considered an infraction.»
   `,
     rules: undefined,
     source: 'Disque Tu Sais - Pablo',
