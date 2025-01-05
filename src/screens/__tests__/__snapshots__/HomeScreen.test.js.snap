@@ -28,7 +28,11 @@ exports[`<HomeScreen /> renders correctly 1`] = `
     }
   >
     <Image
-      source={1}
+      source={
+        {
+          "testUri": "../../../assets/icon.png",
+        }
+      }
       style={
         {
           "borderRadius": 50,
