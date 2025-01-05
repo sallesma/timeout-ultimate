@@ -525,29 +525,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                 }
               }
             >
-              <Text
-                allowFontScaling={false}
-                selectable={false}
-                style={
-                  [
-                    {
-                      "color": "grey",
-                      "fontSize": 24,
-                    },
-                    {
-                      "minWidth": 24,
-                    },
-                    {
-                      "fontFamily": "FontAwesome",
-                      "fontStyle": "normal",
-                      "fontWeight": "normal",
-                    },
-                    {},
-                  ]
-                }
-              >
-                
-              </Text>
+              <Text />
               <Text
                 style={
                   {
@@ -616,29 +594,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                 }
               }
             >
-              <Text
-                allowFontScaling={false}
-                selectable={false}
-                style={
-                  [
-                    {
-                      "color": "grey",
-                      "fontSize": 24,
-                    },
-                    {
-                      "minWidth": 24,
-                    },
-                    {
-                      "fontFamily": "FontAwesome",
-                      "fontStyle": "normal",
-                      "fontWeight": "normal",
-                    },
-                    {},
-                  ]
-                }
-              >
-                
-              </Text>
+              <Text />
               <Text
                 style={
                   {
@@ -707,29 +663,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                 }
               }
             >
-              <Text
-                allowFontScaling={false}
-                selectable={false}
-                style={
-                  [
-                    {
-                      "color": "grey",
-                      "fontSize": 24,
-                    },
-                    {
-                      "minWidth": 24,
-                    },
-                    {
-                      "fontFamily": "FontAwesome",
-                      "fontStyle": "normal",
-                      "fontWeight": "normal",
-                    },
-                    {},
-                  ]
-                }
-              >
-                
-              </Text>
+              <Text />
               <Text
                 style={
                   {
@@ -798,29 +732,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                 }
               }
             >
-              <Text
-                allowFontScaling={false}
-                selectable={false}
-                style={
-                  [
-                    {
-                      "color": "grey",
-                      "fontSize": 24,
-                    },
-                    {
-                      "minWidth": 24,
-                    },
-                    {
-                      "fontFamily": "FontAwesome",
-                      "fontStyle": "normal",
-                      "fontWeight": "normal",
-                    },
-                    {},
-                  ]
-                }
-              >
-                
-              </Text>
+              <Text />
               <Text
                 style={
                   {
@@ -1014,27 +926,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                   }
                 }
               >
-                <Text
-                  allowFontScaling={false}
-                  selectable={false}
-                  style={
-                    [
-                      {
-                        "color": "#666666",
-                        "fontSize": 28,
-                      },
-                      undefined,
-                      {
-                        "fontFamily": "material-community",
-                        "fontStyle": "normal",
-                        "fontWeight": "normal",
-                      },
-                      {},
-                    ]
-                  }
-                >
-                  󰳦
-                </Text>
+                <Text />
               </View>
             </View>
           </View>
@@ -1397,27 +1289,7 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
             }
           }
         >
-          <Text
-            allowFontScaling={false}
-            selectable={false}
-            style={
-              [
-                {
-                  "color": "#666666",
-                  "fontSize": 20,
-                },
-                undefined,
-                {
-                  "fontFamily": "material-community",
-                  "fontStyle": "normal",
-                  "fontWeight": "normal",
-                },
-                {},
-              ]
-            }
-          >
-            󰅂
-          </Text>
+          <Text />
           <Text
             style={
               {
