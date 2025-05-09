@@ -56,6 +56,7 @@ export default (props) => {
     <View style={styles.container}>
       {isSearchVisible && (
         <TextInput
+          dense
           autoFocus
           mode="outlined"
           value={searchText}
@@ -113,10 +114,11 @@ const styles = StyleSheet.create({
   },
   headerRight: {
     flexDirection: 'row',
+    marginRight: 16,
   },
   headerRightButton: {
     color: 'white',
-    marginLeft: 16,
+    padding: 8,
   },
   appendixSection: {
     backgroundColor: theme.MAIN_COLOR_LIGHT,

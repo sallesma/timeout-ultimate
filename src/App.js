@@ -1,6 +1,7 @@
+import 'react-native-gesture-handler';
 import { ActivityIndicator } from 'react-native';
 import { DefaultTheme, NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { PaperProvider, MD3LightTheme as PaperDefaultTheme } from 'react-native-paper';
 
@@ -37,7 +38,7 @@ const reactNavigationTheme = {
   },
 };
 
-const Stack = createNativeStackNavigator();
+const Stack = createStackNavigator();
 
 const toastConfig = {
   info: (props) => <BaseToast {...props} style={{ borderLeftColor: 'transparent' }} />,
