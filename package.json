@@ -9,11 +9,12 @@
     "test-ci": "jest --ci --coverage=true --reporters=default --reporters=jest-junit",
     "extractor-rules": "node scripts/rulesExtractor.js",
     "extractor-annotations": "node scripts/annotationsExtractor.js",
-    "prepare": "husky"
+    "prepare": "husky",
+    "eas-build-pre-install": "corepack enable && yarn set version 4"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "1.23.1",
-    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native": "^7.1.8",
     "@react-navigation/stack": "^7.3.1",
     "expo": "~52.0.46",
     "expo-clipboard": "~7.0.1",
@@ -47,7 +48,7 @@
   },
   "private": true,
   "engines": {
-    "node": ">=0.20"
+    "node": ">=0.22"
   },
   "jest": {
     "preset": "jest-expo",
@@ -61,5 +62,5 @@
   "lint-staged": {
     "*.{js,css,md}": "prettier --write"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@4.9.1"
 }
