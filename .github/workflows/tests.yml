@@ -11,7 +11,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
-        node-version: [24.x]
+        node-version: [22.x]
 
     steps:
       - name: Use Node.js ${{ matrix.node-version }}
@@ -21,6 +21,12 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v3
+
+      - name: Enable Corepack
+        run: corepack enable  # Activate Corepack to handle Yarn versions
+
+      - name: Verify Yarn version
+        run: yarn --version
 
       - name: Install dependencies
         run: yarn install
