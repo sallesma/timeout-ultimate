@@ -3,9 +3,14 @@
     "name": "Timeout Ultimate",
     "slug": "timeout-ultimate",
     "version": "7.0.0",
+    "newArchEnabled": true,
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2a9d9d"
+    },
     "updates": {
       "fallbackToCacheTimeout": 0,
       "url": "https://u.expo.dev/bdbe4131-12df-4e7c-973f-04f055b870df"
@@ -16,7 +21,10 @@
     "ios": {
       "buildNumber": "7.0.0",
       "bundleIdentifier": "com.ultimate.timeout",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.ultimate.timeout",
