@@ -23,3 +23,9 @@ google-play-key.json
 # Test coverage
 coverage/
 junit.xml
+
+# Ignore Yarn specific cache files
+.yarn/cache/
+.yarn/unplugged/
+.yarn/patches/
+.yarn/install-state.gz
