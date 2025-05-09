@@ -1,7 +1,7 @@
 import React, { useState, useLayoutEffect } from 'react';
 import { StyleSheet, View, FlatList, Text, SectionList } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { ListItem, Input } from 'react-native-elements';
+import { List, TextInput } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../utils/theme.js';
@@ -55,19 +55,15 @@ export default (props) => {
   return (
     <View style={styles.container}>
       {isSearchVisible && (
-        <Input
+        <TextInput
+          dense
           autoFocus
+          mode="outlined"
           value={searchText}
           onChangeText={setSearchText}
           placeholder={I18n.t('rulesScreen.searchPlaceholder')}
-          rightIcon={
-            <MaterialCommunityIcons
-              name="close-circle"
-              size={theme.FONT_SIZE_ICON}
-              color="#666666"
-              onPress={() => setSearchText('')}
-            />
-          }
+          right={<TextInput.Icon icon="close-circle" size={theme.FONT_SIZE_ICON} onPress={() => setSearchText('')} />}
+          style={{ marginBottom: 8 }}
         />
       )}
       {content === 'rules' && (
@@ -103,11 +99,7 @@ export default (props) => {
       )}
       <BottomSheet onClose={() => setIsSelectorVisible(false)} isVisible={isSelectorVisible}>
         {list.map((listItem, i) => (
-          <ListItem key={i} onPress={listItem.onPress}>
-            <ListItem.Content>
-              <ListItem.Title>{listItem.title}</ListItem.Title>
-            </ListItem.Content>
-          </ListItem>
+          <List.Item key={i} title={listItem.title} onPress={listItem.onPress} />
         ))}
       </BottomSheet>
       <StatusBar style="auto" />
@@ -122,10 +114,11 @@ const styles = StyleSheet.create({
   },
   headerRight: {
     flexDirection: 'row',
+    marginRight: 16,
   },
   headerRightButton: {
     color: 'white',
-    marginLeft: 16,
+    padding: 8,
   },
   appendixSection: {
     backgroundColor: theme.MAIN_COLOR_LIGHT,

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { Button } from 'react-native-elements';
+import { Button } from 'react-native-paper';
 
 import rules from '../../../data/rules/rules';
 import theme from '../../utils/theme.js';
@@ -20,13 +20,13 @@ export default ({ ruleNumbers }) => {
   return (
     <>
       <Button
-        type="outline"
-        title={I18n.t('questions.displayedRule.seeRule')}
-        containerStyle={styles.ctaContainer}
-        buttonStyle={styles.ctaButton}
-        titleStyle={styles.ctaText}
+        mode="outlined"
+        style={styles.ctaContainer}
+        labelStyle={styles.ctaText}
         onPress={() => setIsVisible(true)}
-      />
+      >
+        {I18n.t('questions.displayedRule.seeRule')}
+      </Button>
       <BottomSheet onClose={() => setIsVisible(false)} isVisible={isVisible}>
         {ruleNumbers.map((ruleNumber) => (
           <View key={ruleNumber}>
@@ -48,11 +48,6 @@ const styles = StyleSheet.create({
     flex: 1,
     alignSelf: 'flex-end',
     marginTop: 8,
-  },
-  ctaButton: {
-    flex: 1,
-    padding: 0,
-    width: 120,
   },
   ctaText: {
     fontSize: theme.FONT_SIZE_S,

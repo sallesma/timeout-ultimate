@@ -1,7 +1,7 @@
 import React from 'react';
 import { Alert } from 'react-native';
 import * as MailComposer from 'expo-mail-composer';
-import { Button } from 'react-native-elements';
+import { IconButton } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import theme from '../../utils/theme.js';
@@ -29,11 +29,12 @@ export const FeedbackButton = ({ question, style }) => {
   };
 
   return (
-    <Button
-      type="clear"
-      containerStyle={style}
-      icon={<MaterialCommunityIcons name="alert-octagon-outline" size={theme.FONT_SIZE_ICON} color="#666666" />}
+    <IconButton
+      icon="alert-octagon-outline"
+      iconColor="#666666"
+      size={theme.FONT_SIZE_ICON}
       onPress={feedbackAlert}
+      style={style}
     />
   );
 };

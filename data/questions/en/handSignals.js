@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 import accepted from '../../../assets/handSignals/accepted.png';
 import contest from '../../../assets/handSignals/contest.png';
 import disc_down from '../../../assets/handSignals/disc_down.png';
