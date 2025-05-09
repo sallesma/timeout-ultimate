@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, ScrollView, Text, View } from 'react-native';
-import { CheckBox, Button } from 'react-native-elements';
+import { Checkbox, Button } from 'react-native-paper';
 
 import theme from '../utils/theme.js';
 import questions from '../../data/questions';
@@ -33,81 +33,66 @@ export default (props) => {
     <ScrollView style={styles.container}>
       <Text style={styles.header}>{I18n.t('optionsScreen.countHeader')}</Text>
       <View style={styles.options}>
-        <Button
-          type={number === 5 ? 'solid' : 'outline'}
-          containerStyle={styles.button}
-          title="5"
-          onPress={() => setNumber(5)}
-        />
-        <Button
-          type={number === 10 ? 'solid' : 'outline'}
-          containerStyle={styles.button}
-          title="10"
-          onPress={() => setNumber(10)}
-        />
-        <Button
-          type={number === 30 ? 'solid' : 'outline'}
-          containerStyle={styles.button}
-          title="30"
-          onPress={() => setNumber(30)}
-        />
+        <Button mode={number === 5 ? 'contained' : 'outlined'} style={styles.button} onPress={() => setNumber(5)}>
+          5
+        </Button>
+        <Button mode={number === 10 ? 'contained' : 'outlined'} style={styles.button} onPress={() => setNumber(10)}>
+          10
+        </Button>
+        <Button mode={number === 30 ? 'contained' : 'outlined'} style={styles.button} onPress={() => setNumber(30)}>
+          30
+        </Button>
       </View>
       <Text style={styles.header}>{I18n.t('optionsScreen.timeHeader')}</Text>
       <View style={styles.options}>
-        <Button
-          type={time === 30 ? 'solid' : 'outline'}
-          containerStyle={styles.button}
-          title={I18n.t('optionsScreen.shortTime')}
-          onPress={() => setTime(30)}
-        />
-        <Button
-          type={time === 120 ? 'solid' : 'outline'}
-          containerStyle={styles.button}
-          title={I18n.t('optionsScreen.longTime')}
-          onPress={() => setTime(120)}
-        />
-        <Button
-          type={time === null ? 'solid' : 'outline'}
-          containerStyle={styles.button}
-          title={I18n.t('optionsScreen.noTime')}
-          onPress={() => setTime(null)}
-        />
+        <Button mode={time === 30 ? 'contained' : 'outlined'} style={styles.button} onPress={() => setTime(30)}>
+          {I18n.t('optionsScreen.shortTime')}
+        </Button>
+        <Button mode={time === 120 ? 'contained' : 'outlined'} style={styles.button} onPress={() => setTime(120)}>
+          {I18n.t('optionsScreen.longTime')}
+        </Button>
+        <Button mode={time === null ? 'contained' : 'outlined'} style={styles.button} onPress={() => setTime(null)}>
+          {I18n.t('optionsScreen.noTime')}
+        </Button>
       </View>
       <Text style={styles.header}>{I18n.t('optionsScreen.levelHeader')}</Text>
       <View style={styles.options}>
         <Button
-          type={level === Levels.EASY ? 'solid' : 'outline'}
-          containerStyle={[styles.button, styles.wrapped]}
-          title={I18n.t(`config.levels.EASY`)}
+          mode={level === Levels.EASY ? 'contained' : 'outlined'}
+          style={[styles.button, styles.wrapped]}
           onPress={() => setLevel(Levels.EASY)}
-        />
+        >
+          {I18n.t(`config.levels.EASY`)}
+        </Button>
         <Button
-          type={level === Levels.MIDDLE ? 'solid' : 'outline'}
-          containerStyle={[styles.button, styles.wrapped]}
-          title={I18n.t(`config.levels.MIDDLE`)}
+          mode={level === Levels.MIDDLE ? 'contained' : 'outlined'}
+          style={[styles.button, styles.wrapped]}
           onPress={() => setLevel(Levels.MIDDLE)}
-        />
+        >
+          {I18n.t(`config.levels.MIDDLE`)}
+        </Button>
         <Button
-          type={level === Levels.DIFFICULT ? 'solid' : 'outline'}
-          containerStyle={[styles.button, styles.wrapped]}
-          title={I18n.t(`config.levels.DIFFICULT`)}
+          mode={level === Levels.DIFFICULT ? 'contained' : 'outlined'}
+          style={[styles.button, styles.wrapped]}
           onPress={() => setLevel(Levels.DIFFICULT)}
-        />
+        >
+          {I18n.t(`config.levels.DIFFICULT`)}
+        </Button>
         <Button
-          type={level === Levels.ANY ? 'solid' : 'outline'}
-          containerStyle={[styles.button, styles.wrapped]}
-          title={I18n.t(`config.levels.ANY`)}
+          mode={level === Levels.ANY ? 'contained' : 'outlined'}
+          style={[styles.button, styles.wrapped]}
           onPress={() => setLevel(Levels.ANY)}
-        />
+        >
+          {I18n.t(`config.levels.ANY`)}
+        </Button>
       </View>
       <View style={styles.centered}>
-        <Button containerStyle={styles.cta} title={I18n.t('optionsScreen.playCta')} onPress={startQuizz} type="solid" />
-        <Button
-          containerStyle={styles.cta}
-          title={seeMore ? I18n.t('optionsScreen.lessOptionsCta') : I18n.t('optionsScreen.moreOptionsCta')}
-          onPress={() => setSeeMore(!seeMore)}
-          type="outline"
-        />
+        <Button style={styles.cta} onPress={startQuizz} mode="contained">
+          {I18n.t('optionsScreen.playCta')}
+        </Button>
+        <Button style={styles.cta} onPress={() => setSeeMore(!seeMore)} mode="outlined">
+          {seeMore ? I18n.t('optionsScreen.lessOptionsCta') : I18n.t('optionsScreen.moreOptionsCta')}
+        </Button>
       </View>
       {seeMore && (
         <>
@@ -115,32 +100,24 @@ export default (props) => {
           {Object.keys(Categories)
             .filter((category, _) => countByCategory[Categories[category]])
             .map((category, index) => (
-              <CheckBox
-                key={index}
-                checked={checkedCategories.includes(Categories[category])}
-                onPress={() => onCheck(Categories[category])}
-                title={`${I18n.t(`config.categories.${Categories[category]}`)} (${
-                  countByCategory[Categories[category]]
-                })`}
-                containerStyle={styles.checkbox}
-                textStyle={styles.checkboxText}
-                uncheckedColor="grey"
-                checkedColor={theme.MAIN_COLOR}
-              />
+              <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <Checkbox
+                  key={index}
+                  status={checkedCategories.includes(Categories[category]) ? 'checked' : 'unchecked'}
+                  onPress={() => onCheck(Categories[category])}
+                />
+                <Text>
+                  {I18n.t(`config.categories.${Categories[category]}`)} ({countByCategory[Categories[category]]})
+                </Text>
+              </View>
             ))}
           <View style={styles.centered}>
-            <Button
-              containerStyle={styles.cta}
-              title={I18n.t('optionsScreen.playCta')}
-              onPress={startQuizz}
-              type="solid"
-            />
-            <Button
-              containerStyle={styles.cta}
-              title={seeMore ? I18n.t('optionsScreen.lessOptionsCta') : I18n.t('optionsScreen.moreOptionsCta')}
-              onPress={() => setSeeMore(!seeMore)}
-              type="outline"
-            />
+            <Button style={styles.cta} onPress={startQuizz} mode="contained">
+              {I18n.t('optionsScreen.playCta')}
+            </Button>
+            <Button style={styles.cta} onPress={() => setSeeMore(!seeMore)} mode="outlined">
+              {seeMore ? I18n.t('optionsScreen.lessOptionsCta') : I18n.t('optionsScreen.moreOptionsCta')}
+            </Button>
           </View>
         </>
       )}
@@ -166,22 +143,11 @@ const styles = StyleSheet.create({
   },
   button: {
     flex: 1,
-    margin: 8,
+    margin: 4,
     flexBasis: '25%',
   },
   wrapped: {
     flexBasis: '40%',
-  },
-  checkbox: {
-    padding: 4,
-    margin: 0,
-    marginBottom: 4,
-    borderWidth: 0,
-    backgroundColor: 'transparent',
-  },
-  checkboxText: {
-    fontSize: theme.FONT_SIZE_S,
-    fontWeight: 'normal',
   },
   centered: {
     marginTop: 16,

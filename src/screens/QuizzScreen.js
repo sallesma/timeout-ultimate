@@ -1,7 +1,7 @@
 import React, { useState, useLayoutEffect } from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, ScrollView, Text, View } from 'react-native';
-import { Button } from 'react-native-elements';
+import { Button } from 'react-native-paper';
 
 import Question from '../components/Question';
 import Report from '../components/Report';
@@ -73,7 +73,7 @@ export default (props) => {
       )}
       {canMoveForward && (
         <Button
-          title={I18n.t('quizzScreen.nextQuestion')}
+          mode="contained"
           onPress={() => {
             if (current === selectedQuestions.length) {
               setShowReport(true);
@@ -82,7 +82,9 @@ export default (props) => {
             }
             setCanMoveForward(false);
           }}
-        />
+        >
+          {I18n.t('quizzScreen.nextQuestion')}
+        </Button>
       )}
       {showReport && (
         <Report

@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Share } from 'react-native';
-import { Button } from 'react-native-elements';
+import { Button } from 'react-native-paper';
 
 import { saveQuizzResult } from '../utils/history';
 import theme from '../utils/theme.js';
@@ -40,20 +40,19 @@ export default ({ navigation, rightAnswersCount, quizzLength, errors }) => {
       <View style={styles.result}>
         <Text>{message}</Text>
       </View>
+      <Button mode="outlined" style={styles.buttonContainer} onPress={share}>
+        {I18n.t('report.shareCta')}
+      </Button>
       <Button
-        containerStyle={styles.buttonContainer}
-        title={I18n.t('report.shareCta')}
-        onPress={share}
-        type="outline"
-      />
-      <Button
-        containerStyle={styles.buttonContainer}
-        title={I18n.t('report.homeCta')}
+        mode="contained"
+        style={styles.buttonContainer}
         onPress={() => {
           saveQuizzResult({ rightAnswersCount, quizzLength, createdAt: new Date() });
           navigation.navigate('HomeScreen');
         }}
-      />
+      >
+        {I18n.t('report.homeCta')}
+      </Button>
       {errors.length > 0 && (
         <>
           <View style={styles.header}>
@@ -81,6 +80,6 @@ const styles = StyleSheet.create({
     marginLeft: 16,
   },
   buttonContainer: {
-    marginTop: 16,
+    marginTop: 8,
   },
 });

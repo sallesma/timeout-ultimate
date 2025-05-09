@@ -1,7 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Pressable, Image } from 'react-native';
-import { Button } from 'react-native-elements';
+import { Button } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -23,21 +23,29 @@ export default (props) => {
       </Text>
       <View style={styles.buttonsArea}>
         <Button
-          containerStyle={styles.button}
-          titleStyle={styles.mainButtonText}
-          title={I18n.t('homeScreen.menu.play')}
+          style={[styles.button, styles.mainButton]}
+          mode="contained"
+          labelStyle={[styles.buttonLabel, styles.mainButtonLabel]}
           onPress={() => props.navigation.navigate('OptionsScreen')}
-        />
+        >
+          {I18n.t('homeScreen.menu.play')}
+        </Button>
         <Button
-          containerStyle={styles.button}
-          title={I18n.t('homeScreen.menu.history')}
+          style={styles.button}
+          mode="contained"
+          labelStyle={styles.buttonLabel}
           onPress={() => props.navigation.navigate('HistoryScreen')}
-        />
+        >
+          {I18n.t('homeScreen.menu.history')}
+        </Button>
         <Button
-          containerStyle={styles.button}
-          title={I18n.t('homeScreen.menu.rules')}
+          style={styles.button}
+          mode="contained"
+          labelStyle={styles.buttonLabel}
           onPress={() => props.navigation.navigate('RulesScreen')}
-        />
+        >
+          {I18n.t('homeScreen.menu.rules')}
+        </Button>
       </View>
       <View style={styles.infoArea}>
         <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
@@ -89,7 +97,13 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     borderRadius: 8,
   },
-  mainButtonText: {
+  mainButton: {
+    padding: 16,
+  },
+  buttonLabel: {
+    fontSize: theme.FONT_SIZE_L,
+  },
+  mainButtonLabel: {
     fontSize: theme.FONT_SIZE_XL,
   },
   infoArea: {

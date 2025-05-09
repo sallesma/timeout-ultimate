@@ -1,34 +1,47 @@
 import React from 'react';
-import { StyleSheet, Pressable } from 'react-native';
-import { BottomSheet, Button } from 'react-native-elements';
+import { View, StyleSheet, Pressable } from 'react-native';
+import Modal from 'react-native-modal';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-
 import theme from '../../utils/theme.js';
 
-export default ({ onClose, isVisible, children }) => {
+export default function BottomSheetModal({ isVisible, onClose, children }) {
   return (
-    <BottomSheet modalProps={{ onRequestClose: onClose }} isVisible={isVisible}>
-      <Pressable style={styles.container} onPress={onClose}>
+    <Modal
+      isVisible={isVisible}
+      onBackdropPress={onClose}
+      onBackButtonPress={onClose}
+      style={styles.modal}
+      backdropTransitionOutTiming={0}
+      swipeDirection="down"
+      onSwipeComplete={onClose}
+      propagateSwipe
+    >
+      <View style={styles.container}>
+        <Pressable style={styles.closeIcon} onPress={onClose}>
+          <MaterialCommunityIcons name="close" size={theme.FONT_SIZE_ICON} color="#666666" />
+        </Pressable>
         {children}
-        <Button
-          type="clear"
-          containerStyle={styles.closeIcon}
-          icon={<MaterialCommunityIcons name="close" size={theme.FONT_SIZE_ICON} color="#666666" />}
-          onPress={onClose}
-        />
-      </Pressable>
-    </BottomSheet>
+      </View>
+    </Modal>
   );
-};
+}
 
 const styles = StyleSheet.create({
+  modal: {
+    justifyContent: 'flex-end',
+    margin: 0,
+  },
   container: {
     backgroundColor: 'white',
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
     padding: 16,
+    paddingTop: 32,
   },
   closeIcon: {
     position: 'absolute',
-    top: 0,
-    right: 0,
+    top: 8,
+    right: 8,
+    zIndex: 1,
   },
 });

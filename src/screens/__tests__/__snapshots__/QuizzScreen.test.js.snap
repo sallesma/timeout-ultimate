@@ -27,6 +27,7 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
           style={
             {
               "fontSize": 16,
+              "marginBottom": 16,
             }
           }
         >
@@ -34,12 +35,11 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
         </Text>
         <View>
           <View
-            accessibilityRole="checkbox"
             accessibilityState={
               {
                 "busy": undefined,
-                "checked": false,
-                "disabled": false,
+                "checked": undefined,
+                "disabled": undefined,
                 "expanded": undefined,
                 "selected": undefined,
               }
@@ -55,7 +55,9 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             accessible={true}
             collapsable={false}
             focusable={true}
+            onBlur={[Function]}
             onClick={[Function]}
+            onFocus={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -63,52 +65,96 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              {
-                "backgroundColor": "#cddff3",
-                "borderColor": "#ededed",
-                "borderRadius": 8,
-                "borderWidth": 1,
-                "margin": 5,
-                "marginLeft": 10,
-                "marginRight": 10,
-                "opacity": 1,
-                "padding": 16,
-              }
-            }
-            testID="checkbox"
-          >
-            <View
-              style={
+              [
                 {
                   "alignItems": "center",
+                  "borderRadius": 8,
                   "flexDirection": "row",
+                  "marginBottom": 8,
+                  "padding": 8,
+                },
+                {
+                  "backgroundColor": "#cddff3",
+                },
+                false,
+              ]
+            }
+          >
+            <View
+              accessibilityLiveRegion="polite"
+              accessibilityRole="checkbox"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": false,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "borderRadius": 18,
+                    "padding": 6,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "opacity": 0,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <Text
+              style={
+                {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
                 }
               }
             >
-              <Text />
-              <Text
-                style={
-                  {
-                    "color": "#43484d",
-                    "fontSize": 16,
-                    "fontWeight": "bold",
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                  }
-                }
-                testID="checkboxTitle"
-              >
-                a. Après le début d’un point, jusqu’à ce que le « pull » soit effectué
-              </Text>
-            </View>
+              a
+              . 
+              Après le début d’un point, jusqu’à ce que le « pull » soit effectué
+            </Text>
           </View>
           <View
-            accessibilityRole="checkbox"
             accessibilityState={
               {
                 "busy": undefined,
-                "checked": false,
-                "disabled": false,
+                "checked": undefined,
+                "disabled": undefined,
                 "expanded": undefined,
                 "selected": undefined,
               }
@@ -124,7 +170,9 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             accessible={true}
             collapsable={false}
             focusable={true}
+            onBlur={[Function]}
             onClick={[Function]}
+            onFocus={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -132,52 +180,96 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              {
-                "backgroundColor": "#F4C8A2",
-                "borderColor": "#ededed",
-                "borderRadius": 8,
-                "borderWidth": 1,
-                "margin": 5,
-                "marginLeft": 10,
-                "marginRight": 10,
-                "opacity": 1,
-                "padding": 16,
-              }
-            }
-            testID="checkbox"
-          >
-            <View
-              style={
+              [
                 {
                   "alignItems": "center",
+                  "borderRadius": 8,
                   "flexDirection": "row",
+                  "marginBottom": 8,
+                  "padding": 8,
+                },
+                {
+                  "backgroundColor": "#F4C8A2",
+                },
+                false,
+              ]
+            }
+          >
+            <View
+              accessibilityLiveRegion="polite"
+              accessibilityRole="checkbox"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": false,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "borderRadius": 18,
+                    "padding": 6,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "opacity": 0,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <Text
+              style={
+                {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
                 }
               }
             >
-              <Text />
-              <Text
-                style={
-                  {
-                    "color": "#43484d",
-                    "fontSize": 16,
-                    "fontWeight": "bold",
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                  }
-                }
-                testID="checkboxTitle"
-              >
-                b. Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établi, jusqu’à ce qu’un pivot soit établi
-              </Text>
-            </View>
+              b
+              . 
+              Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établi, jusqu’à ce qu’un pivot soit établi
+            </Text>
           </View>
           <View
-            accessibilityRole="checkbox"
             accessibilityState={
               {
                 "busy": undefined,
-                "checked": false,
-                "disabled": false,
+                "checked": undefined,
+                "disabled": undefined,
                 "expanded": undefined,
                 "selected": undefined,
               }
@@ -193,7 +285,9 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             accessible={true}
             collapsable={false}
             focusable={true}
+            onBlur={[Function]}
             onClick={[Function]}
+            onFocus={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -201,52 +295,96 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              {
-                "backgroundColor": "#f8f99c",
-                "borderColor": "#ededed",
-                "borderRadius": 8,
-                "borderWidth": 1,
-                "margin": 5,
-                "marginLeft": 10,
-                "marginRight": 10,
-                "opacity": 1,
-                "padding": 16,
-              }
-            }
-            testID="checkbox"
-          >
-            <View
-              style={
+              [
                 {
                   "alignItems": "center",
+                  "borderRadius": 8,
                   "flexDirection": "row",
+                  "marginBottom": 8,
+                  "padding": 8,
+                },
+                {
+                  "backgroundColor": "#f8f99c",
+                },
+                false,
+              ]
+            }
+          >
+            <View
+              accessibilityLiveRegion="polite"
+              accessibilityRole="checkbox"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": false,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "borderRadius": 18,
+                    "padding": 6,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "opacity": 0,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <Text
+              style={
+                {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
                 }
               }
             >
-              <Text />
-              <Text
-                style={
-                  {
-                    "color": "#43484d",
-                    "fontSize": 16,
-                    "fontWeight": "bold",
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                  }
-                }
-                testID="checkboxTitle"
-              >
-                c. Après un « call » qui arrête le jeu ou n’importe quel autre arrêt jusqu’à ce que le disque soit « checké »
-              </Text>
-            </View>
+              c
+              . 
+              Après un « call » qui arrête le jeu ou n’importe quel autre arrêt jusqu’à ce que le disque soit « checké »
+            </Text>
           </View>
           <View
-            accessibilityRole="checkbox"
             accessibilityState={
               {
                 "busy": undefined,
-                "checked": false,
-                "disabled": false,
+                "checked": undefined,
+                "disabled": undefined,
                 "expanded": undefined,
                 "selected": undefined,
               }
@@ -262,7 +400,9 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             accessible={true}
             collapsable={false}
             focusable={true}
+            onBlur={[Function]}
             onClick={[Function]}
+            onFocus={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -270,167 +410,269 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              {
-                "backgroundColor": "#e5c9e5",
-                "borderColor": "#ededed",
-                "borderRadius": 8,
-                "borderWidth": 1,
-                "margin": 5,
-                "marginLeft": 10,
-                "marginRight": 10,
-                "opacity": 1,
-                "padding": 16,
-              }
-            }
-            testID="checkbox"
-          >
-            <View
-              style={
+              [
                 {
                   "alignItems": "center",
+                  "borderRadius": 8,
                   "flexDirection": "row",
+                  "marginBottom": 8,
+                  "padding": 8,
+                },
+                {
+                  "backgroundColor": "#e5c9e5",
+                },
+                false,
+              ]
+            }
+          >
+            <View
+              accessibilityLiveRegion="polite"
+              accessibilityRole="checkbox"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": false,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "borderRadius": 18,
+                    "padding": 6,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "opacity": 0,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <Text
+              style={
+                {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
                 }
               }
             >
-              <Text />
-              <Text
-                style={
-                  {
-                    "color": "#43484d",
-                    "fontSize": 16,
-                    "fontWeight": "bold",
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                  }
-                }
-                testID="checkboxTitle"
-              >
-                d. Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.
-              </Text>
-            </View>
+              d
+              . 
+              Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.
+            </Text>
           </View>
         </View>
         <View
           accessibilityRole="progressbar"
+          accessibilityState={
+            {
+              "busy": true,
+            }
+          }
           accessibilityValue={
             {
-              "max": 1,
+              "max": 100,
               "min": 0,
               "now": 0,
             }
           }
           accessible={true}
           onLayout={[Function]}
-          style={
-            [
-              {
-                "backgroundColor": "#f2fcfc",
-                "height": 4,
-                "overflow": "hidden",
-                "width": "100%",
-              },
-              {
-                "marginVertical": 10,
-              },
-            ]
-          }
+          style={false}
+          testID="progress-bar"
         >
           <View
             collapsable={false}
             style={
               {
-                "backgroundColor": "rgb(42, 157, 157)",
-                "flex": 1,
-                "transform": [
-                  {
-                    "translateX": -0,
-                  },
-                  {
-                    "scaleX": 0.0001,
-                  },
-                ],
+                "backgroundColor": "#f2fcfc",
+                "height": 4,
+                "marginVertical": 10,
+                "opacity": 0,
+                "overflow": "hidden",
               }
             }
           />
         </View>
         <View
+          collapsable={false}
           style={
-            [
-              {
-                "borderRadius": 3,
-                "overflow": "hidden",
+            {
+              "backgroundColor": "rgba(103, 80, 164, 1)",
+              "borderRadius": 20,
+              "marginTop": 8,
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 0,
+                "width": 0,
               },
-              {
-                "borderRadius": 3,
-              },
-              {
-                "marginTop": 8,
-              },
-              false,
-            ]
+              "shadowOpacity": 0,
+              "shadowRadius": 0,
+            }
           }
+          testID="button-container-outer-layer"
         >
           <View
-            accessibilityRole="button"
-            accessibilityState={
-              {
-                "busy": false,
-                "checked": undefined,
-                "disabled": false,
-                "expanded": undefined,
-                "selected": undefined,
-              }
-            }
-            accessibilityValue={
-              {
-                "max": undefined,
-                "min": undefined,
-                "now": undefined,
-                "text": undefined,
-              }
-            }
-            accessible={true}
             collapsable={false}
-            focusable={true}
-            onClick={[Function]}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
             style={
               {
-                "opacity": 1,
+                "backgroundColor": "rgba(103, 80, 164, 1)",
+                "borderColor": "transparent",
+                "borderRadius": 20,
+                "borderStyle": "solid",
+                "borderWidth": 0,
+                "flex": undefined,
+                "minWidth": 64,
+                "shadowColor": "#000",
+                "shadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "shadowOpacity": 0,
+                "shadowRadius": 0,
               }
             }
+            testID="button-container"
           >
             <View
-              style={
+              accessibilityRole="button"
+              accessibilityState={
                 {
-                  "alignItems": "center",
-                  "backgroundColor": "#2089dc",
-                  "borderColor": "#2089dc",
-                  "borderRadius": 3,
-                  "borderWidth": 0,
-                  "flexDirection": "row",
-                  "justifyContent": "center",
-                  "padding": 8,
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": false,
+                  "expanded": undefined,
+                  "selected": undefined,
                 }
               }
-            >
-              <Text
-                style={
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
                   {
-                    "color": "white",
-                    "fontSize": 18,
-                    "paddingVertical": 1,
-                    "textAlign": "center",
-                  }
+                    "overflow": "hidden",
+                  },
+                  {
+                    "borderRadius": 20,
+                  },
+                ]
+              }
+              testID="button"
+            >
+              <View
+                style={
+                  [
+                    {
+                      "alignItems": "center",
+                      "flexDirection": "row",
+                      "justifyContent": "center",
+                    },
+                    undefined,
+                  ]
                 }
               >
-                Check the answer
-              </Text>
+                <Text
+                  numberOfLines={1}
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "textAlign": "left",
+                      },
+                      {
+                        "color": "rgba(28, 27, 31, 1)",
+                        "writingDirection": "ltr",
+                      },
+                      [
+                        {
+                          "fontFamily": "System",
+                          "fontSize": 14,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.1,
+                          "lineHeight": 20,
+                        },
+                        [
+                          {
+                            "marginHorizontal": 16,
+                            "marginVertical": 9,
+                            "textAlign": "center",
+                          },
+                          false,
+                          {
+                            "marginHorizontal": 24,
+                            "marginVertical": 10,
+                          },
+                          undefined,
+                          false,
+                          {
+                            "color": "rgba(255, 255, 255, 1)",
+                            "fontFamily": "System",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.1,
+                            "lineHeight": 20,
+                          },
+                          undefined,
+                        ],
+                      ],
+                    ]
+                  }
+                  testID="button-text"
+                >
+                  Check the answer
+                </Text>
+              </View>
             </View>
           </View>
         </View>
@@ -467,6 +709,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
           style={
             {
               "fontSize": 16,
+              "marginBottom": 16,
             }
           }
         >
@@ -474,12 +717,11 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
         </Text>
         <View>
           <View
-            accessibilityRole="checkbox"
             accessibilityState={
               {
                 "busy": undefined,
-                "checked": false,
-                "disabled": true,
+                "checked": undefined,
+                "disabled": undefined,
                 "expanded": undefined,
                 "selected": undefined,
               }
@@ -494,8 +736,10 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             }
             accessible={true}
             collapsable={false}
-            focusable={false}
+            focusable={true}
+            onBlur={[Function]}
             onClick={[Function]}
+            onFocus={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -503,52 +747,99 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              {
-                "backgroundColor": "#cddff3",
-                "borderColor": "#6aa84f",
-                "borderRadius": 8,
-                "borderWidth": 3,
-                "margin": 5,
-                "marginLeft": 10,
-                "marginRight": 10,
-                "opacity": 1,
-                "padding": 16,
-              }
-            }
-            testID="checkbox"
-          >
-            <View
-              style={
+              [
                 {
                   "alignItems": "center",
+                  "borderRadius": 8,
                   "flexDirection": "row",
+                  "marginBottom": 8,
+                  "padding": 8,
+                },
+                {
+                  "backgroundColor": "#cddff3",
+                },
+                {
+                  "borderColor": "#6aa84f",
+                  "borderWidth": 3,
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityLiveRegion="polite"
+              accessibilityRole="checkbox"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": false,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "borderRadius": 18,
+                    "padding": 6,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "opacity": 0,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <Text
+              style={
+                {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
                 }
               }
             >
-              <Text />
-              <Text
-                style={
-                  {
-                    "color": "#43484d",
-                    "fontSize": 16,
-                    "fontWeight": "bold",
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                  }
-                }
-                testID="checkboxTitle"
-              >
-                a. Après le début d’un point, jusqu’à ce que le « pull » soit effectué
-              </Text>
-            </View>
+              a
+              . 
+              Après le début d’un point, jusqu’à ce que le « pull » soit effectué
+            </Text>
           </View>
           <View
-            accessibilityRole="checkbox"
             accessibilityState={
               {
                 "busy": undefined,
-                "checked": false,
-                "disabled": true,
+                "checked": undefined,
+                "disabled": undefined,
                 "expanded": undefined,
                 "selected": undefined,
               }
@@ -563,8 +854,10 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             }
             accessible={true}
             collapsable={false}
-            focusable={false}
+            focusable={true}
+            onBlur={[Function]}
             onClick={[Function]}
+            onFocus={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -572,52 +865,99 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              {
-                "backgroundColor": "#F4C8A2",
-                "borderColor": "#6aa84f",
-                "borderRadius": 8,
-                "borderWidth": 3,
-                "margin": 5,
-                "marginLeft": 10,
-                "marginRight": 10,
-                "opacity": 1,
-                "padding": 16,
-              }
-            }
-            testID="checkbox"
-          >
-            <View
-              style={
+              [
                 {
                   "alignItems": "center",
+                  "borderRadius": 8,
                   "flexDirection": "row",
+                  "marginBottom": 8,
+                  "padding": 8,
+                },
+                {
+                  "backgroundColor": "#F4C8A2",
+                },
+                {
+                  "borderColor": "#6aa84f",
+                  "borderWidth": 3,
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityLiveRegion="polite"
+              accessibilityRole="checkbox"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": false,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "borderRadius": 18,
+                    "padding": 6,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "opacity": 0,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <Text
+              style={
+                {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
                 }
               }
             >
-              <Text />
-              <Text
-                style={
-                  {
-                    "color": "#43484d",
-                    "fontSize": 16,
-                    "fontWeight": "bold",
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                  }
-                }
-                testID="checkboxTitle"
-              >
-                b. Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établi, jusqu’à ce qu’un pivot soit établi
-              </Text>
-            </View>
+              b
+              . 
+              Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établi, jusqu’à ce qu’un pivot soit établi
+            </Text>
           </View>
           <View
-            accessibilityRole="checkbox"
             accessibilityState={
               {
                 "busy": undefined,
-                "checked": false,
-                "disabled": true,
+                "checked": undefined,
+                "disabled": undefined,
                 "expanded": undefined,
                 "selected": undefined,
               }
@@ -632,8 +972,10 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             }
             accessible={true}
             collapsable={false}
-            focusable={false}
+            focusable={true}
+            onBlur={[Function]}
             onClick={[Function]}
+            onFocus={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -641,52 +983,99 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              {
-                "backgroundColor": "#f8f99c",
-                "borderColor": "#6aa84f",
-                "borderRadius": 8,
-                "borderWidth": 3,
-                "margin": 5,
-                "marginLeft": 10,
-                "marginRight": 10,
-                "opacity": 1,
-                "padding": 16,
-              }
-            }
-            testID="checkbox"
-          >
-            <View
-              style={
+              [
                 {
                   "alignItems": "center",
+                  "borderRadius": 8,
                   "flexDirection": "row",
+                  "marginBottom": 8,
+                  "padding": 8,
+                },
+                {
+                  "backgroundColor": "#f8f99c",
+                },
+                {
+                  "borderColor": "#6aa84f",
+                  "borderWidth": 3,
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityLiveRegion="polite"
+              accessibilityRole="checkbox"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": false,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "borderRadius": 18,
+                    "padding": 6,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "opacity": 0,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <Text
+              style={
+                {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
                 }
               }
             >
-              <Text />
-              <Text
-                style={
-                  {
-                    "color": "#43484d",
-                    "fontSize": 16,
-                    "fontWeight": "bold",
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                  }
-                }
-                testID="checkboxTitle"
-              >
-                c. Après un « call » qui arrête le jeu ou n’importe quel autre arrêt jusqu’à ce que le disque soit « checké »
-              </Text>
-            </View>
+              c
+              . 
+              Après un « call » qui arrête le jeu ou n’importe quel autre arrêt jusqu’à ce que le disque soit « checké »
+            </Text>
           </View>
           <View
-            accessibilityRole="checkbox"
             accessibilityState={
               {
                 "busy": undefined,
-                "checked": false,
-                "disabled": true,
+                "checked": undefined,
+                "disabled": undefined,
                 "expanded": undefined,
                 "selected": undefined,
               }
@@ -701,8 +1090,10 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             }
             accessible={true}
             collapsable={false}
-            focusable={false}
+            focusable={true}
+            onBlur={[Function]}
             onClick={[Function]}
+            onFocus={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
@@ -710,44 +1101,92 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             style={
-              {
-                "backgroundColor": "#e5c9e5",
-                "borderColor": "#6aa84f",
-                "borderRadius": 8,
-                "borderWidth": 3,
-                "margin": 5,
-                "marginLeft": 10,
-                "marginRight": 10,
-                "opacity": 1,
-                "padding": 16,
-              }
-            }
-            testID="checkbox"
-          >
-            <View
-              style={
+              [
                 {
                   "alignItems": "center",
+                  "borderRadius": 8,
                   "flexDirection": "row",
+                  "marginBottom": 8,
+                  "padding": 8,
+                },
+                {
+                  "backgroundColor": "#e5c9e5",
+                },
+                {
+                  "borderColor": "#6aa84f",
+                  "borderWidth": 3,
+                },
+              ]
+            }
+          >
+            <View
+              accessibilityLiveRegion="polite"
+              accessibilityRole="checkbox"
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": false,
+                  "disabled": true,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "overflow": "hidden",
+                  },
+                  {
+                    "borderRadius": 18,
+                    "padding": 6,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  {
+                    "opacity": 0,
+                  }
+                }
+              >
+                <Text />
+              </View>
+            </View>
+            <Text
+              style={
+                {
+                  "flex": 1,
+                  "flexWrap": "wrap",
+                  "fontSize": 16,
+                  "fontWeight": "bold",
                 }
               }
             >
-              <Text />
-              <Text
-                style={
-                  {
-                    "color": "#43484d",
-                    "fontSize": 16,
-                    "fontWeight": "bold",
-                    "marginLeft": 10,
-                    "marginRight": 10,
-                  }
-                }
-                testID="checkboxTitle"
-              >
-                d. Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.
-              </Text>
-            </View>
+              d
+              . 
+              Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.
+            </Text>
           </View>
         </View>
         <View
@@ -774,157 +1213,261 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             Ces 4 situations correspondent à un disque mort.
           </Text>
           <View
+            collapsable={false}
             style={
-              [
-                {
-                  "borderRadius": 3,
-                  "overflow": "hidden",
+              {
+                "alignSelf": "flex-end",
+                "backgroundColor": "transparent",
+                "borderRadius": 20,
+                "flex": 1,
+                "marginTop": 8,
+                "shadowColor": "#000",
+                "shadowOffset": {
+                  "height": 0,
+                  "width": 0,
                 },
-                {
-                  "borderRadius": 3,
-                },
-                {
-                  "alignSelf": "flex-end",
-                  "flex": 1,
-                  "marginTop": 8,
-                },
-                false,
-              ]
+                "shadowOpacity": 0,
+                "shadowRadius": 0,
+              }
             }
+            testID="button-container-outer-layer"
           >
             <View
-              accessibilityRole="button"
-              accessibilityState={
-                {
-                  "busy": false,
-                  "checked": undefined,
-                  "disabled": false,
-                  "expanded": undefined,
-                  "selected": undefined,
-                }
-              }
-              accessibilityValue={
-                {
-                  "max": undefined,
-                  "min": undefined,
-                  "now": undefined,
-                  "text": undefined,
-                }
-              }
-              accessible={true}
               collapsable={false}
-              focusable={true}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
               style={
                 {
-                  "opacity": 1,
+                  "backgroundColor": "transparent",
+                  "borderColor": "rgba(121, 116, 126, 1)",
+                  "borderRadius": 20,
+                  "borderStyle": "solid",
+                  "borderWidth": 1,
+                  "flex": 1,
+                  "minWidth": 64,
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 0,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0,
+                  "shadowRadius": 0,
                 }
               }
+              testID="button-container"
             >
               <View
-                style={
+                accessibilityRole="button"
+                accessibilityState={
                   {
-                    "alignItems": "center",
-                    "backgroundColor": "transparent",
-                    "borderColor": "#2089dc",
-                    "borderRadius": 3,
-                    "borderWidth": 0.5,
-                    "flex": 1,
-                    "flexDirection": "row",
-                    "justifyContent": "center",
-                    "padding": 0,
-                    "width": 120,
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": false,
+                    "expanded": undefined,
+                    "selected": undefined,
                   }
                 }
-              >
-                <Text
-                  style={
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
                     {
-                      "color": "#2089dc",
-                      "fontSize": 14,
-                      "paddingVertical": 1,
-                      "textAlign": "center",
-                    }
+                      "overflow": "hidden",
+                    },
+                    {
+                      "borderRadius": 19,
+                    },
+                  ]
+                }
+                testID="button"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                      },
+                      undefined,
+                    ]
                   }
                 >
-                  See the rule
-                </Text>
+                  <Text
+                    numberOfLines={1}
+                    selectable={false}
+                    style={
+                      [
+                        {
+                          "textAlign": "left",
+                        },
+                        {
+                          "color": "rgba(28, 27, 31, 1)",
+                          "writingDirection": "ltr",
+                        },
+                        [
+                          {
+                            "fontFamily": "System",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.1,
+                            "lineHeight": 20,
+                          },
+                          [
+                            {
+                              "marginHorizontal": 16,
+                              "marginVertical": 9,
+                              "textAlign": "center",
+                            },
+                            false,
+                            {
+                              "marginHorizontal": 24,
+                              "marginVertical": 10,
+                            },
+                            undefined,
+                            false,
+                            {
+                              "color": "rgba(103, 80, 164, 1)",
+                              "fontFamily": "System",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 0.1,
+                              "lineHeight": 20,
+                            },
+                            {
+                              "fontSize": 14,
+                            },
+                          ],
+                        ],
+                      ]
+                    }
+                    testID="button-text"
+                  >
+                    See the rule
+                  </Text>
+                </View>
               </View>
             </View>
           </View>
           <View
+            collapsable={false}
             style={
-              [
-                {
-                  "borderRadius": 3,
-                  "overflow": "hidden",
+              {
+                "backgroundColor": "transparent",
+                "borderRadius": 22,
+                "height": 44,
+                "margin": 6,
+                "position": "absolute",
+                "right": 0,
+                "shadowColor": "#000",
+                "shadowOffset": {
+                  "height": 0,
+                  "width": 0,
                 },
-                {
-                  "borderRadius": 3,
-                },
-                {
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                false,
-              ]
+                "shadowOpacity": 0,
+                "shadowRadius": 0,
+                "top": 0,
+                "width": 44,
+              }
             }
+            testID="icon-button-container-outer-layer"
           >
             <View
-              accessibilityRole="button"
-              accessibilityState={
-                {
-                  "busy": false,
-                  "checked": undefined,
-                  "disabled": false,
-                  "expanded": undefined,
-                  "selected": undefined,
-                }
-              }
-              accessibilityValue={
-                {
-                  "max": undefined,
-                  "min": undefined,
-                  "now": undefined,
-                  "text": undefined,
-                }
-              }
-              accessible={true}
               collapsable={false}
-              focusable={true}
-              onClick={[Function]}
-              onResponderGrant={[Function]}
-              onResponderMove={[Function]}
-              onResponderRelease={[Function]}
-              onResponderTerminate={[Function]}
-              onResponderTerminationRequest={[Function]}
-              onStartShouldSetResponder={[Function]}
               style={
                 {
-                  "opacity": 1,
+                  "backgroundColor": "transparent",
+                  "borderColor": "rgba(121, 116, 126, 1)",
+                  "borderRadius": 22,
+                  "borderWidth": 0,
+                  "elevation": 0,
+                  "flex": 1,
+                  "overflow": "hidden",
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 0,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0,
+                  "shadowRadius": 0,
                 }
               }
+              testID="icon-button-container"
             >
               <View
-                style={
+                accessibilityComponentType="button"
+                accessibilityRole="button"
+                accessibilityState={
                   {
-                    "alignItems": "center",
-                    "backgroundColor": "transparent",
-                    "borderColor": "#2089dc",
-                    "borderRadius": 3,
-                    "borderWidth": 0,
-                    "flexDirection": "row",
-                    "justifyContent": "center",
-                    "padding": 8,
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": false,
+                    "expanded": undefined,
+                    "selected": undefined,
                   }
                 }
+                accessibilityTraits="button"
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                centered={true}
+                collapsable={false}
+                focusable={true}
+                hitSlop={
+                  {
+                    "bottom": 6,
+                    "left": 6,
+                    "right": 6,
+                    "top": 6,
+                  }
+                }
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "overflow": "hidden",
+                    },
+                    [
+                      {
+                        "alignItems": "center",
+                        "flexGrow": 1,
+                        "justifyContent": "center",
+                      },
+                      undefined,
+                    ],
+                  ]
+                }
+                testID="icon-button"
               >
                 <Text />
               </View>
@@ -934,81 +1477,150 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
       </View>
     </View>
     <View
+      collapsable={false}
       style={
-        [
-          {
-            "borderRadius": 3,
-            "overflow": "hidden",
+        {
+          "backgroundColor": "rgba(103, 80, 164, 1)",
+          "borderRadius": 20,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 0,
+            "width": 0,
           },
-          {
-            "borderRadius": 3,
-          },
-          undefined,
-          false,
-        ]
+          "shadowOpacity": 0,
+          "shadowRadius": 0,
+        }
       }
+      testID="button-container-outer-layer"
     >
       <View
-        accessibilityRole="button"
-        accessibilityState={
-          {
-            "busy": false,
-            "checked": undefined,
-            "disabled": false,
-            "expanded": undefined,
-            "selected": undefined,
-          }
-        }
-        accessibilityValue={
-          {
-            "max": undefined,
-            "min": undefined,
-            "now": undefined,
-            "text": undefined,
-          }
-        }
-        accessible={true}
         collapsable={false}
-        focusable={true}
-        onClick={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
         style={
           {
-            "opacity": 1,
+            "backgroundColor": "rgba(103, 80, 164, 1)",
+            "borderColor": "transparent",
+            "borderRadius": 20,
+            "borderStyle": "solid",
+            "borderWidth": 0,
+            "flex": undefined,
+            "minWidth": 64,
+            "shadowColor": "#000",
+            "shadowOffset": {
+              "height": 0,
+              "width": 0,
+            },
+            "shadowOpacity": 0,
+            "shadowRadius": 0,
           }
         }
+        testID="button-container"
       >
         <View
-          style={
+          accessibilityRole="button"
+          accessibilityState={
             {
-              "alignItems": "center",
-              "backgroundColor": "#2089dc",
-              "borderColor": "#2089dc",
-              "borderRadius": 3,
-              "borderWidth": 0,
-              "flexDirection": "row",
-              "justifyContent": "center",
-              "padding": 8,
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": false,
+              "expanded": undefined,
+              "selected": undefined,
             }
           }
-        >
-          <Text
-            style={
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            [
               {
-                "color": "white",
-                "fontSize": 18,
-                "paddingVertical": 1,
-                "textAlign": "center",
-              }
+                "overflow": "hidden",
+              },
+              {
+                "borderRadius": 20,
+              },
+            ]
+          }
+          testID="button"
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "flexDirection": "row",
+                  "justifyContent": "center",
+                },
+                undefined,
+              ]
             }
           >
-            Next question
-          </Text>
+            <Text
+              numberOfLines={1}
+              selectable={false}
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "writingDirection": "ltr",
+                  },
+                  [
+                    {
+                      "fontFamily": "System",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.1,
+                      "lineHeight": 20,
+                    },
+                    [
+                      {
+                        "marginHorizontal": 16,
+                        "marginVertical": 9,
+                        "textAlign": "center",
+                      },
+                      false,
+                      {
+                        "marginHorizontal": 24,
+                        "marginVertical": 10,
+                      },
+                      undefined,
+                      false,
+                      {
+                        "color": "rgba(255, 255, 255, 1)",
+                        "fontFamily": "System",
+                        "fontSize": 14,
+                        "fontWeight": "500",
+                        "letterSpacing": 0.1,
+                        "lineHeight": 20,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+              testID="button-text"
+            >
+              Next question
+            </Text>
+          </View>
         </View>
       </View>
     </View>
@@ -1069,164 +1681,300 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
         </Text>
       </View>
       <View
+        collapsable={false}
         style={
-          [
-            {
-              "borderRadius": 3,
-              "overflow": "hidden",
+          {
+            "backgroundColor": "transparent",
+            "borderRadius": 20,
+            "marginTop": 8,
+            "shadowColor": "#000",
+            "shadowOffset": {
+              "height": 0,
+              "width": 0,
             },
-            {
-              "borderRadius": 3,
-            },
-            {
-              "marginTop": 16,
-            },
-            false,
-          ]
+            "shadowOpacity": 0,
+            "shadowRadius": 0,
+          }
         }
+        testID="button-container-outer-layer"
       >
         <View
-          accessibilityRole="button"
-          accessibilityState={
-            {
-              "busy": false,
-              "checked": undefined,
-              "disabled": false,
-              "expanded": undefined,
-              "selected": undefined,
-            }
-          }
-          accessibilityValue={
-            {
-              "max": undefined,
-              "min": undefined,
-              "now": undefined,
-              "text": undefined,
-            }
-          }
-          accessible={true}
           collapsable={false}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
           style={
             {
-              "opacity": 1,
+              "backgroundColor": "transparent",
+              "borderColor": "rgba(121, 116, 126, 1)",
+              "borderRadius": 20,
+              "borderStyle": "solid",
+              "borderWidth": 1,
+              "flex": undefined,
+              "minWidth": 64,
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 0,
+              "shadowRadius": 0,
             }
           }
+          testID="button-container"
         >
           <View
-            style={
+            accessibilityRole="button"
+            accessibilityState={
               {
-                "alignItems": "center",
-                "backgroundColor": "transparent",
-                "borderColor": "#2089dc",
-                "borderRadius": 3,
-                "borderWidth": 0.5,
-                "flexDirection": "row",
-                "justifyContent": "center",
-                "padding": 8,
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
               }
             }
-          >
-            <Text
-              style={
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
                 {
-                  "color": "#2089dc",
-                  "fontSize": 18,
-                  "paddingVertical": 1,
-                  "textAlign": "center",
-                }
+                  "overflow": "hidden",
+                },
+                {
+                  "borderRadius": 19,
+                },
+              ]
+            }
+            testID="button"
+          >
+            <View
+              style={
+                [
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                  },
+                  undefined,
+                ]
               }
             >
-              Share my result
-            </Text>
+              <Text
+                numberOfLines={1}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "textAlign": "left",
+                    },
+                    {
+                      "color": "rgba(28, 27, 31, 1)",
+                      "writingDirection": "ltr",
+                    },
+                    [
+                      {
+                        "fontFamily": "System",
+                        "fontSize": 14,
+                        "fontWeight": "500",
+                        "letterSpacing": 0.1,
+                        "lineHeight": 20,
+                      },
+                      [
+                        {
+                          "marginHorizontal": 16,
+                          "marginVertical": 9,
+                          "textAlign": "center",
+                        },
+                        false,
+                        {
+                          "marginHorizontal": 24,
+                          "marginVertical": 10,
+                        },
+                        undefined,
+                        false,
+                        {
+                          "color": "rgba(103, 80, 164, 1)",
+                          "fontFamily": "System",
+                          "fontSize": 14,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.1,
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ]
+                }
+                testID="button-text"
+              >
+                Share my result
+              </Text>
+            </View>
           </View>
         </View>
       </View>
       <View
+        collapsable={false}
         style={
-          [
-            {
-              "borderRadius": 3,
-              "overflow": "hidden",
+          {
+            "backgroundColor": "rgba(103, 80, 164, 1)",
+            "borderRadius": 20,
+            "marginTop": 8,
+            "shadowColor": "#000",
+            "shadowOffset": {
+              "height": 0,
+              "width": 0,
             },
-            {
-              "borderRadius": 3,
-            },
-            {
-              "marginTop": 16,
-            },
-            false,
-          ]
+            "shadowOpacity": 0,
+            "shadowRadius": 0,
+          }
         }
+        testID="button-container-outer-layer"
       >
         <View
-          accessibilityRole="button"
-          accessibilityState={
-            {
-              "busy": false,
-              "checked": undefined,
-              "disabled": false,
-              "expanded": undefined,
-              "selected": undefined,
-            }
-          }
-          accessibilityValue={
-            {
-              "max": undefined,
-              "min": undefined,
-              "now": undefined,
-              "text": undefined,
-            }
-          }
-          accessible={true}
           collapsable={false}
-          focusable={true}
-          onClick={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
           style={
             {
-              "opacity": 1,
+              "backgroundColor": "rgba(103, 80, 164, 1)",
+              "borderColor": "transparent",
+              "borderRadius": 20,
+              "borderStyle": "solid",
+              "borderWidth": 0,
+              "flex": undefined,
+              "minWidth": 64,
+              "shadowColor": "#000",
+              "shadowOffset": {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 0,
+              "shadowRadius": 0,
             }
           }
+          testID="button-container"
         >
           <View
-            style={
+            accessibilityRole="button"
+            accessibilityState={
               {
-                "alignItems": "center",
-                "backgroundColor": "#2089dc",
-                "borderColor": "#2089dc",
-                "borderRadius": 3,
-                "borderWidth": 0,
-                "flexDirection": "row",
-                "justifyContent": "center",
-                "padding": 8,
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": false,
+                "expanded": undefined,
+                "selected": undefined,
               }
             }
-          >
-            <Text
-              style={
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              [
                 {
-                  "color": "white",
-                  "fontSize": 18,
-                  "paddingVertical": 1,
-                  "textAlign": "center",
-                }
+                  "overflow": "hidden",
+                },
+                {
+                  "borderRadius": 20,
+                },
+              ]
+            }
+            testID="button"
+          >
+            <View
+              style={
+                [
+                  {
+                    "alignItems": "center",
+                    "flexDirection": "row",
+                    "justifyContent": "center",
+                  },
+                  undefined,
+                ]
               }
             >
-              Back to the home screen
-            </Text>
+              <Text
+                numberOfLines={1}
+                selectable={false}
+                style={
+                  [
+                    {
+                      "textAlign": "left",
+                    },
+                    {
+                      "color": "rgba(28, 27, 31, 1)",
+                      "writingDirection": "ltr",
+                    },
+                    [
+                      {
+                        "fontFamily": "System",
+                        "fontSize": 14,
+                        "fontWeight": "500",
+                        "letterSpacing": 0.1,
+                        "lineHeight": 20,
+                      },
+                      [
+                        {
+                          "marginHorizontal": 16,
+                          "marginVertical": 9,
+                          "textAlign": "center",
+                        },
+                        false,
+                        {
+                          "marginHorizontal": 24,
+                          "marginVertical": 10,
+                        },
+                        undefined,
+                        false,
+                        {
+                          "color": "rgba(255, 255, 255, 1)",
+                          "fontFamily": "System",
+                          "fontSize": 14,
+                          "fontWeight": "500",
+                          "letterSpacing": 0.1,
+                          "lineHeight": 20,
+                        },
+                        undefined,
+                      ],
+                    ],
+                  ]
+                }
+                testID="button-text"
+              >
+                Back to the home screen
+              </Text>
+            </View>
           </View>
         </View>
       </View>

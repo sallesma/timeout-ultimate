@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Image } from 'react-native';
-import { CheckBox, Button, LinearProgress } from 'react-native-elements';
+import { StyleSheet, Text, View, Pressable, Image } from 'react-native';
+import { Button, Checkbox, ProgressBar } from 'react-native-paper';
 
 import theme from '../utils/theme.js';
 import Feedback from './questions/Feedback.js';
@@ -72,33 +72,29 @@ export default ({ question, onSuccess, onFailure, time }) => {
       <Text style={styles.question}>{question.question}</Text>
       <View>
         {Object.keys(question.answerChoices).map((answerChoiceKey, index) => (
-          <CheckBox
+          <Pressable
             key={answerChoiceKey}
-            checked={checked.includes(answerChoiceKey)}
-            disabled={showResult}
-            onPress={() => onCheck(answerChoiceKey)}
-            title={`${answerChoiceKey}. ${question.answerChoices[answerChoiceKey]}`}
-            containerStyle={[
-              styles.checkbox,
+            style={[
+              styles.checkboxContainer,
               { backgroundColor: colors[index] },
               showResult && question.correctAnswers.includes(answerChoiceKey) && styles.correctAnswer,
             ]}
-            textStyle={styles.checkboxText}
-            uncheckedColor="grey"
-          />
+            onPress={() => !showResult && onCheck(answerChoiceKey)}
+          >
+            <Checkbox status={checked.includes(answerChoiceKey) ? 'checked' : 'unchecked'} disabled={showResult} />
+            <Text style={styles.checkboxText}>
+              {answerChoiceKey}. {question.answerChoices[answerChoiceKey]}
+            </Text>
+          </Pressable>
         ))}
       </View>
       {time && !showResult && (
-        <LinearProgress
-          style={{ marginVertical: 10 }}
-          value={currentTime}
-          variant="determinate"
-          color={theme.MAIN_COLOR}
-          trackColor={theme.MAIN_COLOR_LIGHT}
-        />
+        <ProgressBar progress={currentTime} style={{ backgroundColor: theme.MAIN_COLOR_LIGHT, marginVertical: 10 }} />
       )}
       {!showResult && (
-        <Button title={I18n.t('question.cta')} onPress={onValidate} disabled={showResult} containerStyle={styles.cta} />
+        <Button mode="contained" onPress={onValidate} disabled={showResult} style={styles.cta}>
+          {I18n.t('question.cta')}
+        </Button>
       )}
       {showResult && (
         <View style={styles.result}>
@@ -128,13 +124,20 @@ const styles = StyleSheet.create({
   },
   question: {
     fontSize: theme.FONT_SIZE_M,
+    marginBottom: 16,
   },
-  checkbox: {
+  checkboxContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
     borderRadius: 8,
-    padding: 16,
+    padding: 8,
+    marginBottom: 8,
   },
   checkboxText: {
+    flex: 1,
+    flexWrap: 'wrap',
     fontSize: theme.FONT_SIZE_M,
+    fontWeight: 'bold',
   },
   correctAnswer: {
     borderColor: theme.RIGHT_COLOR,
