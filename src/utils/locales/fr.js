@@ -65,10 +65,6 @@ export default {
     feedbackText:
       "L'application est en cours de création. J'ai plein d'idées pour la suite mais je serais ravi de connaître ton avis.",
     feedbackCta: 'Envoyer un message',
-    discInHeader: 'Autres projets',
-    discInText:
-      "En plus de cette application, je travaille aussi sur l'application Disc In, qui permet de préparer des entraînements d'Ultimate.",
-    discInCta: 'Disc In',
     information: 'Informations techniques',
   },
   historyScreen: {

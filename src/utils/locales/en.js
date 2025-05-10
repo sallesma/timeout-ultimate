@@ -65,10 +65,6 @@ export default {
     feedbackText:
       "The application is in the process of being created. I have a lot of ideas for the next step but I'd love to hear your opinion.",
     feedbackCta: 'Send a message',
-    discInHeader: 'Other projets',
-    discInText:
-      'In addition to this application, I am also working on the Disc In application, which allows you to prepare Ultimate practices.',
-    discInCta: 'Disc In',
     information: 'Technical information',
   },
   historyScreen: {
