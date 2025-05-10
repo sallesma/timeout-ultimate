@@ -21,6 +21,7 @@ import travel from '../../../assets/handSignals/travel.png';
 import turnover from '../../../assets/handSignals/turnover.png';
 import violation from '../../../assets/handSignals/violation.png';
 import who_made_the_call from '../../../assets/handSignals/who_made_the_call.png';
+import did_not_affect from '../../../assets/handSignals/did_not_affect.png';
 
 import { Levels, Categories } from '../../../src/utils/config';
 
@@ -97,7 +98,7 @@ export default [
   },
   {
     image: offside,
-    name: 'Offside',
+    name: 'Offside / False start',
     hint: 'Arms crossed overhead in an X, hands closed in a fist',
   },
   {
@@ -117,12 +118,12 @@ export default [
   },
   {
     image: gender_ratio_men,
-    name: 'Ratio : men',
+    name: 'Ratio : male matching players',
     hint: 'Hands cupped behind head, elbows out to side',
   },
   {
     image: gender_ratio_women,
-    name: 'Ratio : women',
+    name: 'Ratio : female matching players',
     hint: 'Arms extended to side, hands closed in a fist',
   },
   {
@@ -131,13 +132,18 @@ export default [
     hint: 'Wave both extended arms crosswise overhead',
   },
   {
-    image: match_point,
-    name: 'Match point (Universe)',
-    hint: 'Both arms pointing straight up to the left, palms facing down',
-  },
-  {
     image: who_made_the_call,
     name: 'Who made the call',
     hint: 'Pointing with two arms straight out, towards the end zone being defended by the team',
+  },
+  {
+    image: did_not_affect,
+    name: 'Did not affect the play',
+    hint: 'Open hand held above head and sweeping forward and back',
+  },
+  {
+    image: match_point,
+    name: 'Match point (Universe)',
+    hint: 'Both arms pointing straight up to the left, palms facing down',
   },
 ];
