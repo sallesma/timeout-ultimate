@@ -23,7 +23,7 @@ export default (props) => {
       </Text>
       <View style={styles.buttonsArea}>
         <Button
-          style={[styles.button, styles.mainButton]}
+          style={styles.button}
           mode="contained"
           labelStyle={[styles.buttonLabel, styles.mainButtonLabel]}
           onPress={() => props.navigation.navigate('OptionsScreen')}
@@ -97,13 +97,11 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     borderRadius: 8,
   },
-  mainButton: {
-    padding: 16,
-  },
   buttonLabel: {
     fontSize: theme.FONT_SIZE_L,
   },
   mainButtonLabel: {
+    padding: 16,
     fontSize: theme.FONT_SIZE_XL,
   },
   infoArea: {

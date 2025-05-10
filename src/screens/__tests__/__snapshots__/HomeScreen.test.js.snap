@@ -113,7 +113,6 @@ exports[`<HomeScreen /> renders correctly 1`] = `
             "borderWidth": 0,
             "flex": undefined,
             "minWidth": 64,
-            "padding": 16,
             "shadowColor": "#000",
             "shadowOffset": {
               "height": 0,
@@ -227,6 +226,7 @@ exports[`<HomeScreen /> renders correctly 1`] = `
                         },
                         {
                           "fontSize": 26,
+                          "padding": 16,
                         },
                       ],
                     ],
