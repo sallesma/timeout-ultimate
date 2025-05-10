@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, ScrollView, Text, View } from 'react-native';
+import { StyleSheet, ScrollView, Text, View, Pressable } from 'react-native';
 import { Checkbox, Button } from 'react-native-paper';
 
 import theme from '../utils/theme.js';
@@ -100,16 +100,16 @@ export default (props) => {
           {Object.keys(Categories)
             .filter((category, _) => countByCategory[Categories[category]])
             .map((category, index) => (
-              <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                <Checkbox
-                  key={index}
-                  status={checkedCategories.includes(Categories[category]) ? 'checked' : 'unchecked'}
-                  onPress={() => onCheck(Categories[category])}
-                />
+              <Pressable
+                key={index}
+                onPress={() => onCheck(Categories[category])}
+                style={{ flexDirection: 'row', alignItems: 'center' }}
+              >
+                <Checkbox status={checkedCategories.includes(Categories[category]) ? 'checked' : 'unchecked'} />
                 <Text>
                   {I18n.t(`config.categories.${Categories[category]}`)} ({countByCategory[Categories[category]]})
                 </Text>
-              </View>
+              </Pressable>
             ))}
           <View style={styles.centered}>
             <Button style={styles.cta} onPress={startQuizz} mode="contained">
