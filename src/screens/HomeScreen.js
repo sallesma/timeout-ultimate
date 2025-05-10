@@ -1,8 +1,7 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Pressable, Image } from 'react-native';
-import { Button } from 'react-native-paper';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import { Button, IconButton } from 'react-native-paper';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import theme from '../utils/theme.js';
@@ -48,9 +47,11 @@ export default (props) => {
         </Button>
       </View>
       <View style={styles.infoArea}>
-        <Pressable onPress={() => props.navigation.navigate('AboutScreen')}>
-          <MaterialCommunityIcons name="information-outline" style={styles.icon} />
-        </Pressable>
+        <IconButton
+          icon="information-outline"
+          size={theme.FONT_SIZE_XXL}
+          onPress={() => props.navigation.navigate('AboutScreen')}
+        />
       </View>
       <StatusBar style="auto" />
     </SafeAreaView>
@@ -107,9 +108,5 @@ const styles = StyleSheet.create({
   infoArea: {
     marginHorizontal: 8,
     alignItems: 'flex-end',
-  },
-  icon: {
-    fontSize: theme.FONT_SIZE_XXL,
-    padding: 8,
   },
 });

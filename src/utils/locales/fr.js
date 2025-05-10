@@ -55,9 +55,9 @@ export default {
       "Bonjour ! Je suis Martin Salles, le développeur derrière Timeout Ultimate. C'est une application conçue par des joueurs d'Ultimate pour aider d'autres joueurs à apprendre les règles de l'Ultimate. Elle est et restera gratuite.",
     thanksHeader: 'Remerciements',
     thanksText:
-      "Je souhaite remercier tous ceux qui ont contribué au développement de Timeout Ultimate. Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo. Certaines questions ont été rédigées par Pierre Gruau pour les Monkeys. L'application utilise aussi les Hand Signals dessinés par Raphaël Candelier pour le PUC et la WFDF.\n\nLe déploiement de Timeout Ultimate sur les stores est en partie financé par le PUC.",
+      "Je souhaite remercier tous ceux qui ont contribué au développement de Timeout Ultimate. Une grande partie des questions viennent du jeu Disque Tu Sais de Pablo. Certaines questions ont été rédigées par Pierre Gruau pour les Monkeys. L'application utilise aussi les Hand Signals dessinés par Raphaël Candelier pour le PUC Ultimate et la WFDF.\n\nLe déploiement de Timeout Ultimate sur les stores est financé par le PUC Ultimate.",
     rulesDisclaimer:
-      'Les règles de l\'Ultimate sont tirés du document "WFDF Rules of Ultimate 2021-2024" produit par la World Flying Disc Federation, puis traduit par la FFDF.',
+      'Les règles de l\'Ultimate sont tirés du document "WFDF Rules of Ultimate 2025-2028" produit par la World Flying Disc Federation, puis traduit par la FFDF et des contributeurs.',
     contributeHeader: 'Contribuer',
     contributeText:
       "Que ce soit pour ajouter, corriger des questions ou maintenir l'application, toute aide est la bienvenue !",

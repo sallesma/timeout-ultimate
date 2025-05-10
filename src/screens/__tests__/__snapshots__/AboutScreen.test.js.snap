@@ -53,9 +53,9 @@ exports[`<AboutScreen /> renders correctly 1`] = `
         }
       }
     >
-      I would like to thank everyone who contributed to the development of Timeout Ultimate. Many of the questions come from Pablo's Disque Tu Sais game. Some questions were written by Pierre Gruau for the Monkeys. The application also uses the Hand Signals designed by Raphaël Candelier for the PUC and the WFDF. Finally, the English version was set up by Brandon Sneider justhuckitstudios+wfdfrulesquiz@gmail.com creator of UltiApp and https://GotSpirit.games .
+      I would like to thank everyone who contributed to the development of Timeout Ultimate. Many of the questions come from Pablo's Disque Tu Sais game. Some questions were written by Pierre Gruau for the Monkeys. The application also uses the Hand Signals designed by Raphaël Candelier for the PUC Ultimate (Paris) and the WFDF. Finally, the English version was set up by Brandon Sneider justhuckitstudios+wfdfrulesquiz@gmail.com creator of UltiApp and https://GotSpirit.games .
 
-The deployment of Timeout Ultimate on the stores is partly funded by Paris Université Club.
+The deployment of Timeout Ultimate on the stores is funded by PUC Ultimate (Paris).
     </Text>
     <Text
       style={
@@ -65,7 +65,7 @@ The deployment of Timeout Ultimate on the stores is partly funded by Paris Unive
         }
       }
     >
-      The rules of Ultimate are taken from the "WFDF Rules of Ultimate 2021-2024" produced by the World Flying Disc Federation.
+      The rules of Ultimate are taken from the "WFDF Rules of Ultimate 2025-2028" produced by the World Flying Disc Federation.
     </Text>
     <Text
       style={
@@ -148,69 +148,6 @@ The deployment of Timeout Ultimate on the stores is partly funded by Paris Unive
         }
       >
         Send a message
-      </Text>
-    </View>
-    <Text
-      style={
-        {
-          "fontSize": 20,
-          "marginTop": 8,
-        }
-      }
-    >
-      Other projets
-    </Text>
-    <Text
-      style={
-        {
-          "fontSize": 14,
-          "marginTop": 8,
-        }
-      }
-    >
-      In addition to this application, I am also working on the Disc In application, which allows you to prepare Ultimate practices.
-    </Text>
-    <View
-      accessibilityState={
-        {
-          "busy": undefined,
-          "checked": undefined,
-          "disabled": undefined,
-          "expanded": undefined,
-          "selected": undefined,
-        }
-      }
-      accessibilityValue={
-        {
-          "max": undefined,
-          "min": undefined,
-          "now": undefined,
-          "text": undefined,
-        }
-      }
-      accessible={true}
-      collapsable={false}
-      focusable={true}
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-    >
-      <Text
-        style={
-          {
-            "color": "#2a9d9d",
-            "fontSize": 16,
-            "marginTop": 8,
-          }
-        }
-      >
-        Disc In
       </Text>
     </View>
     <View
