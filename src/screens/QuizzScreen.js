@@ -107,6 +107,7 @@ const styles = StyleSheet.create({
   headerRight: {
     color: 'white',
     marginLeft: 16,
+    marginRight: 8,
   },
   contentContainer: {
     paddingBottom: 64,
