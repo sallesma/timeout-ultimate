@@ -3,7 +3,6 @@
     "name": "Timeout Ultimate",
     "slug": "timeout-ultimate",
     "version": "7.0.0",
-    "newArchEnabled": true,
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -49,7 +48,8 @@
           "image": "./assets/splash.png",
           "imageWidth": 200
         }
-      ]
+      ],
+      "expo-mail-composer"
     ],
     "runtimeVersion": {
       "policy": "sdkVersion"
