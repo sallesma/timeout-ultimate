@@ -37,8 +37,6 @@ And finally, start the project:
 yarn start
 ```
 
-If you need to update the rules, change the pdf file in the assets and run `npm run extractor`.
-
 ## 🚀 Release
 
 To release a new version of the app :
