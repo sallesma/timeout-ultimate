@@ -2,9 +2,8 @@ export default {
   'aire de jeu':
     "La zone incluant la zone centrale et les zones d’en-but mais excluant les lignes de périmètre. Une infraction affecte le jeu s'il est raisonnable de penser que le résultat de l'action aurait été significativement différent sans cette infraction. Un joueur dont l’équipe est en possession du disque.",
   'affecter le Jeu':
-    "La zone incluant la zone centrale et les zones d’en-but mais excluant les lignes de périmètre. Une infraction affecte le jeu s'il est raisonnable de penser que le résultat de l'action aurait été significativement différent sans cette infraction. Un joueur dont l’équipe est en possession du disque.",
-  attaquant:
-    "La zone incluant la zone centrale et les zones d’en-but mais excluant les lignes de périmètre. Une infraction affecte le jeu s'il est raisonnable de penser que le résultat de l'action aurait été significativement différent sans cette infraction. Un joueur dont l’équipe est en possession du disque.",
+    "Une infraction ou un appel affecte le jeu s'il est raisonnable de penser que le résultat de l'action aurait été significativement différent sans cette infraction ou appel.",
+  attaquant: 'Un joueur dont l’équipe est en possession du disque.',
   call: 'Un appel clairement communiqué qu’une faute, infraction, violation, « turnover » ou blessure s’est produit. Les termes suivants peuvent être utilisés: « foul » (« faute »), « travel », le nom spécifique d’une infraction de marquage, « violation » (ou le nom spécifique de la violation), le nom spécifique d’un « turnover », « technical » et « injury ».',
   catch:
     "Un disque sans rotation coincé entre au moins deux parties du corps. Si un joueur attrape initialement une passe puis, avant d'établir la possession, il ne maintient pas la prise (« maintenir la prise » signifie continuer à avoir un disque qui ne tourne pas coincé entre au moins deux parties du corps), ce « catch » initial est considéré comme terminé.",
@@ -23,7 +22,7 @@ export default {
   'faire action sur le disque':
     "Quand le disque est en l'air et qu'un joueur tente de rentrer en contact avec le disque de quelque manière que ce soit, pour l'attraper ou le bloquer. Ceci inclut la course vers le lieu où il pense entrer en contact avec le disque.",
   garder:
-    'Un défenseur garde un attaquant quand il se situe à moins de trois mètres de celui-ci et réagit en fonction de cet attaquant.',
+    'Un défenseur garde un attaquant quand il se situe à moins de trois mètres de celui-ci et est concentré principalement et réagit en fonction de cet attaquant.',
   'hors-limites': 'Tout ce qui ne fait pas partie de l’aire de jeu, incluant les lignes de périmètre.',
   interception:
     'Quand un joueur de l’équipe défensive établit la possession d’un lancer d’un joueur de l’équipe attaquante.',
@@ -49,7 +48,7 @@ export default {
   'où le disque s’arrête':
     'Réfère à l’endroit où un joueur établit possession, le disque s’arrête naturellement ou le disque est empêché de rouler ou glisser.',
   pivoter: `Quand le lanceur se déplace dans n’importe quelle direction tout en gardant une partie du corps en contact constant avec un point spécifique au sol appelé le point pivot.
-Un joueur établit un point pivot en plaçant, ou en gardant, une partie particulière de son corps en un point spécifique, qu'il a l'intention d'utiliser comme point pivot. Si un lanceur a plusieurs options pour un point pivot, le point pivot n'est pas déterminé tant qu'il n'a pas pivoté .`,
+Un lanceur établit un point pivot en plaçant, ou en gardant, une partie particulière de son corps en un point spécifique, qu'il a l'intention d'utiliser comme point pivot. Si un lanceur a plusieurs options pour un point pivot, le point pivot n'est pas déterminé tant qu'il n'a pas pivoté .`,
   'position légitime':
     'La position stationnaire ou en mouvement établie par un joueur qui n’est en infraction avec aucune règle.',
   'possession du disque': `Un joueur établit la possession d’une passe quand:
@@ -64,6 +63,7 @@ L’équipe dont le joueur est en possession ou dont les joueurs peuvent ramasse
   pull: "Le lancer par la défense vers l’attaque qui commence le jeu au début d’une mi-temps ou après un point. Le « pull » n'est pas considéré comme une passe légitime.",
   réceptionneurs: 'Tous les attaquants qui ne sont pas le lanceur.',
   sol: 'Le sol est constitué de tout objet substantiellement solide incluant l’herbe, les cônes de marquage, l’équipement, l’eau et les non-joueurs mais excluant tous les joueurs et les vêtements qu’ils portent, les particules aériennes et les précipitations.',
+  'spirit stoppage': "Un arrêt de jeu pour discuter de problèmes liés à l'esprit du jeu",
   turnover:
     "Tout événement qui produit un changement de l’équipe en possession. Un « turnover » n'est pas considéré comme une violation.",
   'zone centrale':

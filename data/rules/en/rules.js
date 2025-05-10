@@ -160,7 +160,7 @@ export default {
     '8.5.2.':
       'If the offence breaches 8.5, o r8.5.1, the defence may give a warning (“Delay of Game”or using a pre-stall for breaches of 8.5.1) or may call a “Violation”.',
     '8.5.2.1.':
-      'If, after a warning, the offence continues to breach 8.5, or 8.5.1, then 9.3.1does not apply and the marker may commence the stall count.',
+      'If, after a warning, the offence continues to breach 8.5, or 8.5.1, then 9.3.1 does not apply and the marker may commence the stall count.',
     '8.5.3.':
       'The defence must not move in a manner that obstructs the offence from taking possession of the disc or establishing a pivot point.',
     '8.5.4.':

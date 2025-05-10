@@ -8,18 +8,18 @@ export default {
       "En cas de transgression délibérée ou flagrante des règles ou de l'Esprit du jeu, les capitaines devraient en discuter et déterminer une conséquence appropriée, même si cette conséquence n'est pas conforme à une règle spécifique.",
     '1.3.':
       'Les joueurs doivent avoir à l’esprit qu’ils ont un rôle d’arbitre en toutes situations d’arbitrage entre équipes. Les joueurs doivent:',
-    '1.3.1.': 'connaître les règles;',
+    '1.3.1.': "connaître et respecter à la fois les règles et l'esprit des règles;",
     '1.3.2.': 'être impartial et objectif;',
     '1.3.3.': 'dire la vérité;',
     '1.3.4.': 'expliquer leur point de vue clairement et brièvement;',
     '1.3.5.': 'laisser aux adversaires l’opportunité de parler;',
-    '1.3.6.': 'tenir compte du point de vue de leur adversaire;',
+    '1.3.6.': 'écouter et tenir compte du point de vue de leur adversaire;',
     '1.3.7.':
       'utiliser des mots et un langage corporel respectueux en tenant compte des différences culturelles potentielles;',
     '1.3.8.': 'résoudre les disputes aussi vite que possible;',
     '1.3.9.': "faire des appels à la faute (« call ») d'une manière cohérente au long d'un match, et",
     '1.3.10.':
-      "faire un appel à une faute uniquement si une infraction est assez significative pour changer le résultat d'une action.",
+      "faire un appel à une faute uniquement si une infraction est assez significative pour changer le résultat d'une action ou si la sécurité d'un joueur est en jeu.",
     '1.4.':
       'La haute compétition est encouragée mais jamais au détriment du respect mutuel entre joueurs, de l’adhérence aux règles du jeu, de la sécurité des joueurs ou du simple plaisir de jouer.',
     '1.5.': 'Les actions suivantes sont des exemples de bon Esprit:',
@@ -37,7 +37,7 @@ export default {
     '1.6.6.': 'demander une passe à un joueur adverse; et',
     '1.6.7.': 'tout autre comportement pour gagner-à-tout-prix.',
     '1.7.': "Les équipes sont les garants de l'Esprit du jeu, et doivent:",
-    '1.7.1.': "prendre la responsabilité d'enseigner à leurs joueurs les règles et le bon Esprit;",
+    '1.7.1.': "prendre la responsabilité d'enseigner à leur joueurs les règles et le bon Esprit;",
     '1.7.2.': 'discipliner les coéquipiers qui montrent un mauvais Esprit du jeu;',
     '1.7.3.':
       'fournir un retour constructif aux autres équipes sur ce qu’elles font bien et/ou la façon d’améliorer leur Esprit du jeu; et',
@@ -98,6 +98,7 @@ export default {
     '5.2.': "Chaque équipe doit désigner un capitaine et un capitaine spirit pour représenter l'équipe.",
     '5.3.':
       "Une équipe peut faire des remplacements illimités après qu'un point est marqué et avant qu’elle ne signale être prête pour le « pull ».",
+    '5.4.': 'Pour les matchs mixtes, une alternance de ratio de mixité de genre doit être utilisée.',
   },
   '6.Commencer un Match': {
     '6.1.': 'Des représentants des deux équipes décident honnêtement quelle équipe choisit:',
@@ -105,6 +106,8 @@ export default {
     '6.1.2.': 'soit la zone d’en-but qu’elle défendra initialement.',
     '6.2.': "L'autre équipe a le choix restant.",
     '6.3.': 'Au début de la deuxième mi-temps, ces choix initiaux sont inversés.',
+    '6.4.':
+      "Pour les matchs mixtes, les équipes doivent s'accorder sur des moyens pour identifier facilement le genre des adversaires.",
   },
   '7.Le « Pull » (Engagement)': {
     '7.1.':
@@ -117,12 +120,13 @@ export default {
     '7.4.':
       "Après avoir signalé être prêts tous les joueurs défensifs doivent garder leurs pieds entièrement à l’intérieur du plan vertical de leur ligne d’en-but jusqu'au moment du « pull ».",
     '7.5.':
-      "Si une équipe enfreint 7.3 ou 7.4 l’équipe adverse peut appeler une violation (« offside »). Ceci doit être appelé avant que l'attaque ne touche le disque (7.8 s’applique toujours).",
+      "Si une équipe enfreint 7.3 (« Faux départ ») ou 7.4 (« offside ») l’équipe adverse peut appeler une violation (« offside »). Ceci doit être appelé avant que l'attaque ne touche le disque (7.8 s’applique toujours).",
     '7.5.1.':
-      "Si la défense choisit d'appeler « offside », le lanceur doit établir un point pivot selon 7.9, 7.10, 7.11 ou 7.12 et ensuite le jeu reprend dès que possible comme si un temps-mort avait été annoncé à cet endroit.",
+      "Si la défense choisit d'appeler « faux départ », le lanceur doit établir un point pivot selon 7.9, 7.10, 7.11 ou 7.12 et ensuite le jeu reprend dès que possible comme si un temps-mort avait été annoncé à cet endroit.",
     '7.5.2.':
       "Si l’attaque choisit d'appeler « offside », elle doit laisser le disque toucher le sol puis reprend le jeu comme si un « brick » avait été appelé (aucun « check » n'est requis).",
-    '7.6.': "Aussi tôt que le disque est lancé, tous les joueurs peuvent se déplacer dans n'importe quelle direction.",
+    '7.6.':
+      "Aussi tôt que le « pull » est lancé, tous les joueurs peuvent se déplacer dans n'importe quelle direction.",
     '7.7.':
       "Aucun joueur de l'équipe défensive ne peut toucher le disque après le « pull » avant qu'un membre de l'équipe attaquante ne touche le disque ou que le disque ne touche le sol.",
     '7.8.':
@@ -136,7 +140,7 @@ export default {
     '7.11.1.':
       "Si le disque est touché par un attaquant avant de sortir de l'aire de jeu, le lanceur doit établir un point pivot où le disque a d'abord traversé la ligne de périmètre même si ce point pivot est situé dans sa propre zone d'en-but.",
     '7.12.':
-      "Si le disque touche la zone hors de l’aire de jeu sans d'abord toucher l’aire de jeu ou un attaquant, le lanceur peut établir un point pivot soit sur la marque de « brick » la plus proche de sa zone d’en-but défensive, soit à l’endroit de la zone centrale le plus proche d'où le disque est sorti (section 11.8). L'option engageante du « brick » doit être signalée par n'importe quel attaquant en levant un bras au-dessus de sa tête et en appelant « brick » avant que le disque ne soit ramassé.",
+      "Si le disque touche la zone hors de l’aire de jeu sans d'abord toucher l’aire de jeu ou un attaquant, le lanceur peut établir un point pivot soit sur la marque de « brick » la plus proche de sa zone d’en-but défensive, soit à l’endroit de la zone centrale le plus proche d'où le disque est sorti (section 11.8). L'option engageante du « brick » doit être signalée avant que le disque ne soit ramassé. Ce doit être signalé par n'importe quel attaquant en levant un bras au-dessus de sa tête et en appelant « brick ».",
   },
   '8.Etat du Jeu': {
     '8.1.': 'Le jeu est « mort », sans « turnover » possible:',
@@ -155,13 +159,17 @@ export default {
     '8.5.':
       'Après un « turnover » et après le « pull », un attaquant doit se diriger au pas ou plus vite directement vers le disque et établir un point pivot.',
     '8.5.1.':
-      "En plus de 8.5, après un « turnover » l'attaque doit mettre le disque en jeu dans les limites de temps suivantes, si le disque n'est pas sorti et que la position du disque est:",
+      "En plus de 8.5, après un « turnover » le lanceur doit établir son pied de pivot dans les limites de temps suivantes, si le disque n'est pas sorti et que la position du disque est:",
     '8.5.1.1.': "dans la zone centrale – sous dix (10) secondes après l'arrêt du disque.",
     '8.5.1.2.': "dans une zone d'en-but – sous vingt (20) secondes après l'arrêt du disque.",
     '8.5.2.':
-      "Si l'attaque enfreint 8.5 ou 8.5.1, la défense peut adresser un avertissement verbal (« delay of game » ou utiliser un pré-compte) ou appeler une « violation ».",
-    '8.5.3.':
+      "Si l'attaque enfreint 8.5 ou 8.5.1, la défense peut adresser un avertissement verbal (« delay of game » ou utiliser un pré-compte pour 8.5.1) ou appeler une « violation ».",
+    '8.5.2.1.':
       "Si, après un avertissement, l’attaque continue à enfreindre 8.5 ou 8.5.1, alors 9.3.1 ne s'applique pas et le marqueur peut commencer le compte.",
+    '8.5.3.':
+      "La défense ne doit pas se déplacer d'une manière qui empêche l'attaque de prendre possession du disque ou d'établir un pied de pivot.",
+    '8.5.4.':
+      "Si les joueurs ne peuvent pas se mettre d'accorder sur la position correct du pivot, il faut utiliser le point à mi-chemin des deux propositions.",
   },
   '9.« Stall Count » (Le Compte)': {
     '9.1.':
@@ -179,10 +187,11 @@ export default {
       'Après une transgression acceptée par la défense le compte reprend à « stalling one (1) » (« compté un (1) »).',
     '9.5.2.': 'Après une transgression acceptée par l’attaque le compte reprend à un maximum de neuf (9).',
     '9.5.3.': 'Après un « stall-out » contesté le compte reprend à « stalling eight (8) » (« compté huit (8) »).',
-    '9.5.4.': 'Après tout autre appel, incluant « pick », le compte reprend à un maximum de six (6). Cependant:',
-    '9.5.4.1.':
+    '9.5.4': "Après la résolution d'un appel d'après la règle 16.3.2, le compte reprend à « compté un (1) ».",
+    '9.5.5.': 'Après tout autre appel, incluant « pick », le compte reprend à un maximum de six (6). Cependant:',
+    '9.5.5.1.':
       "S'il y a un appel impliquant le lanceur, et une faute de réception séparée, et que le disque est retourné au lanceur, le compte est repris en fonction du résultat de l'appel impliquant le lanceur.",
-    '9.5.4.2.':
+    '9.5.5.2.':
       'S’il y a une violation appelée liée au « check » (Section 10.), le compte reprend au même nombre que celui déterminé avant cette violation.',
     '9.6.': 'Redémarrer un compte « à un maximum de n » où « n » est déterminé par 9.5.2, 9.5.4 ou 20.3.6 signifie:',
     '9.6.1.':
@@ -197,7 +206,7 @@ export default {
       "si le jeu s'arrête avant qu'une passe ne soit lancée, tous les joueurs doivent reprendre la position qu’ils occupaient quand le « call » a été fait.",
     '10.2.2.': "si le jeu s'arrête après qu'une passe est lancée, alors:",
     '10.2.2.1.':
-      'si le disque est retourné au lanceur, tous les joueurs doivent reprendre la position qu’ils occupaient quand le disque a été relâché par le lanceur, ou au moment du « call », considérant l’événement arrivé en premier.',
+      'si le disque est retourné au lanceur, tous les joueurs doivent reprendre la position qu’ils occupaient quand la passe a été lancée par le lanceur, ou au moment du « call », considérant l’événement arrivé en premier.',
     '10.2.2.2.':
       "si le résultat de l'action est maintenu, tous les joueurs doivent reprendre la position qu'ils occupaient soit quand un joueur a établi la possession soit quand le disque a touché le sol.",
     '10.2.2.3.':
@@ -267,14 +276,20 @@ export default {
     '12.5.1.':
       "Cependant quand le disque est en l'air, un joueur ne peut pas se déplacer de manière à uniquement empêcher un adversaire de prendre une trajectoire inoccupée pour jouer le disque.",
     '12.6.':
-      "Tous les joueurs doivent essayer d'éviter le contact avec d'autres joueurs et il n'y a aucune situation où un joueur peut justifier d’initier un contact. Cela inclut d’éviter d’initier un contact avec un adversaire stationnaire, ou la position attendue d’un adversaire en fonction de sa vitesse et de sa direction. « Faire action de jeu sur le disque » n'est pas une excuse valide pour créer un contact avec d'autres joueurs.",
+      "Tous les joueurs doivent essayer d'éviter le contact avec d'autres joueurs et il n'y a aucune situation où un joueur peut justifier d’initier un contact. Cela inclut d’éviter d’initier un contact avec un adversaire stationnaire, ou la position attendue d’un adversaire en fonction de sa vitesse et de sa direction.",
     '12.6.1.':
+      "« Faire action de jeu sur le disque » n'est pas une excuse valide pour créer un contact avec d'autres joueurs.",
+    '12.6.2.':
+      "Avant de plonger, sauter ou s'écarter de sa position, un joueur doit être raisonnablement certain de ne pas provoquer de contact avec un adversaire.",
+    '12.6.3.':
       "Si un joueur n'est pas raisonnablement certain de pouvoir effectuer une action légale sur le disque avant un adversaire qui se déplace de manière légale, il doit ajuster ses mouvements pour éviter d'initier le contact. Si cet ajustement est effectué, le résultat de l’action est valable.",
     '12.7.': 'Le joueur qui initie le contact est considéré être le joueur qui:',
     '12.7.1.':
       'est arrivé au point du contact après que l’adversaire a établi une possession légitime en ce point (que l’adversaire soit stationnaire ou en mouvement), ou',
     '12.7.2.':
       'a ajusté ses mouvements de manière à créer un contact inévitable avec un adversaire se déplaçant de manière légale, en prenant en compte la position, la vitesse et la direction de tous les joueurs.',
+    '12.7.3.':
+      "S'il est difficile d'identifier quel joueur a initié un contact et que l'un des deux adversaires a plongé, sauté ou s'est écarté de sa position, ce joueur joueur est considéré comme ayant initié le contact.",
     '12.8.':
       'Un contact mineur peut arriver quand deux joueurs ou plus se déplacent vers un même point simultanément. Les contacts mineurs devraient être évités mais ne sont pas considérés comme une faute.',
     '12.9.': "Les joueurs ne doivent pas utiliser leurs bras ou jambes pour entraver le mouvement d'adversaires.",
@@ -294,7 +309,7 @@ export default {
       "Un « turnover » qui transfère la possession du disque d'une équipe à l'autre et arrête le jeu se produit quand:",
     '13.2.1.': 'il y a une faute offensive acceptée sur une réception;',
     '13.2.2.':
-      "le lanceur n'a pas lancé le disque avant que le marqueur n’ait commencé à prononcer le mot « dix » lors du compte (« stall-out »);",
+      "le lanceur n'a pas lancé la passe avant que le marqueur n’ait commencé à prononcer le mot « dix » lors du compte (« stall-out »);",
     '13.2.3.':
       "le disque est intentionnellement passé d'un attaquant à un autre sans jamais être complètement relâché par les deux joueurs (« handover »);",
     '13.2.4.':
@@ -312,11 +327,11 @@ export default {
       'Si le lanceur a effectué une passe réceptionnée, le lanceur peut contester s’il croit qu’il n’y avait pas de « stall-out » ou qu’il y avait un « fast-count » juste avant le « stall-out ».',
     '13.4.3.':
       'Si le lanceur conteste le « stall-out » mais tente tout de même une passe et que celle-ci n’est pas rattrapée, alors le « turnover » est maintenu et le jeu reprend par un « check ».',
-    '13.5.': "N'importe quel attaquant peut prendre possession du disque après un « turnover » sauf :",
+    '13.5.': "N'importe quel attaquant peut établir la possession du disque après un « turnover » sauf :",
     '13.5.1.':
       "Après une interception et dans ce cas le joueur qui a fait l'interception doit maintenir la possession ; et",
     '13.5.2.':
-      'Après une faute de réception offensive et dans ce cas le joueur ayant subi la faute doit prendre possession.',
+      "Après une faute de réception acceptée causée par l'attaque et dans ce cas le joueur ayant subi la faute doit prendre possession.",
     '13.6.':
       'Si le joueur en possession après un « turnover » ou après un « pull » ayant déjà touché le sol laisse tomber intentionnellement le disque, le place sur le sol ou transfère la possession du disque il doit rétablir la possession et le jeu reprend par un « check ».',
     '13.7.': "Après un « turnover », l'endroit du « turnover » est l’endroit où:",
@@ -353,7 +368,7 @@ export default {
     '14.2.':
       "Si un joueur pense qu'un point a été marqué il peut appeler « goal » et le jeu s'arrête. Si l'appel est contesté ou rétracté le jeu doit reprendre par un « check » et l'appel est considéré avoir été fait au moment où le joueur a établi possession.",
     '14.3.':
-      'Si un joueur en possession du disque finit avec son point pivot derrière la ligne de but sans marquer un point selon 14.1, le joueur doit établir un point pivot à l’endroit le plus proche sur la ligne de but.',
+      "Si un joueur en possession du disque finit dans la zone d'en-but qu'il attaque sans marquer un point selon 14.1, le joueur doit établir un point pivot à l’endroit le plus proche sur la ligne de but.",
     '14.4.': 'Le moment où un point est considéré avoir été marqué est quand le joueur établit possession.',
   },
   '15.Appeler les Fautes, Infractions et Violations': {
@@ -378,11 +393,13 @@ export default {
       "Après qu'un joueur arrête le jeu de manière incorrecte incluant une mauvaise compréhension d'un appel, une mauvaise connaissance des règles ou en ne faisant pas l'appel immédiatement:",
     '15.9.1.': "Si l'équipe adverse gagne ou maintient la possession, les actions ayant suivies sont maintenues",
     '15.9.2.':
-      "Si l'équipe adverse perd ou ne maintient pas la possession, le disque doit être retourné au dernier lanceur non contesté, sauf si 16.3 s'applique. Le compte reprend comme si une transgressionacceptée avait été causée par le joueur qui a incorrectement initié l'arrêt.",
+      "Si l'équipe adverse perd ou ne maintient pas la possession, le disque doit être retourné au dernier lanceur non contesté, sauf si 16.3 s'applique.",
+    '15.9.3.':
+      "Le compte reprend comme si une transgression acceptée avait été causée par le joueur qui a incorrectement initié l'arrêt.",
     '15.10.':
       "Si le joueur contre qui la faute, l'infraction ou la violation est appelée est en désaccord avec celle-ci, ou ne pense pas que c’est l’appel correct, il peut appeler « contest ».",
     '15.11.':
-      'Si un joueur fait un appel puis détermine ensuite que son appel était incorrect, il peut se rétracter en appelant « retracted ». Le compte reprend comme si une trasngression acceptée avait été causée par ce joueur.',
+      'Si un joueur fait un appel puis détermine ensuite que son appel était incorrect, il peut se rétracter en appelant « retracted ». Le jeu reprend comme si une trasngression acceptée avait été causée par ce joueur.',
     '15.12.':
       "Si plusieurs trasngressions se produisent sur la même action ou avant que le jeu ne s'arrête, la résolution doit avoir lieu dans l'ordre inverse de la séquence (la transgression plus récente en premier, la plus ancienne en dernier).",
     '15.13.':
@@ -431,7 +448,7 @@ export default {
     '17.5.': 'Fautes « Force-out » (expulsion):',
     '17.5.1.':
       'Une faute d’expulsion se produit quand un réceptionneur est en train d’établir la possession du disque et subit une faute d’un défenseur avant d’établir la possession et le contact a fait que le réceptionneur:',
-    '17.5.1.1.': 'est devenu hors-limites au lieu de en-jeu; ou',
+    '17.5.1.1.': 'a attrapé le disque hors-limites au lieu de en-jeu; ou',
     '17.5.1.2.': 'a attrapé le disque dans la zone centrale au lieu de l’intérieur de l’en-but attaqué.',
     '17.5.2.':
       'Dans le cas où le réceptionneur aurait attrapé le disque à l’intérieur de l’en-but attaqué, il y a point;',
@@ -439,12 +456,11 @@ export default {
       'Si la faute d’expulsion est contestée, le disque est retourné au lanceur si le réceptionneur est devenu hors-limites, sinon le disque est conservé par le réceptionneur.',
     '17.6.': 'Fautes de Lancer Défensives (marquage):',
     '17.6.1.': 'Une faute de lancer défensive se produit quand:',
-    '17.6.1.1.':
-      'un défenseur est illégalement placé (Section 18.1) et qu’il y a contact non mineur entre le défenseur positionné illégalement et le lanceur; ou',
+    '17.6.1.1.': 'il y a contact non mineur entre le lanceur et un défenseur positionné illégalement (18.1); ou',
     '17.6.1.2.':
-      "un défenseur initie un contact non mineur avec le lanceur ou qu'un contact non mineur résulte du lanceur et du défenseur essayant tout deux d'occuper une position libre, avant que le disque ne soit relâché.",
+      "un défenseur initie un contact non mineur avec le lanceur ou qu'un contact non mineur résulte du lanceur et du défenseur essayant tout deux d'occuper une position libre, avant qu'une passe ne soit lancée par le lanceur.",
     '17.6.1.3.':
-      "Si une faute de lancer défensive se produit avant que le lanceur relâche le disque et non pendant le mouvement du lancer, le lanceur peut choisir d'appeler une infraction de contact, en appelant « contact ». Après une infraction de contact non contestée, le jeu ne s'arrête pas et le marqueur doit reprendre le compte à un (1).",
+      "Si une faute de lancer défensive se produit avant que le lanceur lance une passe et non pendant le mouvement du lancer, le lanceur peut choisir d'appeler une infraction de contact, en appelant « contact ». Après une infraction de contact non contestée, le jeu ne s'arrête pas et le marqueur doit reprendre le compte à un (1).",
     '17.7.': 'Fautes de Lancer Offensives (lanceur):',
     '17.7.1.':
       'Une faute de lancer offensive se produit quand le lanceur est seul responsable de l’initiation d’un contact non mineur avec un défenseur en position légitime.',
@@ -453,6 +469,8 @@ export default {
     '17.8.': 'Fautes Indirectes:',
     '17.8.1.':
       "Une faute indirecte se produit quand il y a contact non mineur entre un réceptionneur et un défenseur qui n'affecte pas directement une tentative d'action sur le disque.",
+    '17.8.1.1.':
+      "Avant d'appeler une Faute Indirecte, un joueur peut attendre jusqu'à deux (2) secondes pour déterminer si elle a affecté le jeu",
     '17.8.2.':
       'Si la faute est acceptée, le joueur ayant subi la faute peut se repositionner s’il a été désavantagé par la faute.',
     '17.9.': 'Fautes Simultanées:',
@@ -479,62 +497,63 @@ export default {
     '18.1.1.4.':
       "« Wrapping » (encerclement) – une ligne entre les mains ou bras du défenseur si situe à moins d’un diamètre de disque du torse du lanceur ou qu'une partie du corps du défenseur est au-dessus du point pivot du lanceur. Cependant, si cette situation est causée uniquement par le mouvement du lanceur, ce n'est pas une infraction.",
     '18.1.1.5.':
-      "« Double Team » (double marquage)- un défenseur autre que le marqueur est à moins de trois (3) mètres du point pivot du lanceur sans être au marquage d'un autre attaquant. Cependant une simple course dans cette zone n'est pas un « double team ».",
+      "« Double Team » (double marquage)- un défenseur autre que le marqueur est à moins de trois (3) mètres du point pivot du lanceur sans être au marquage d'un autre attaquant.",
+    '18.1.1.5.1.':
+      "Le défenseur qui garde un autre attaquant peut essayer de bloquer une passe du lanceur, tant qu'il continue de garder l'autre attaquant",
+    '18.1.1.5.2.': "Une simple course dans cette zone n'est pas un « double team ».",
     '18.1.1.6.':
       '« Vision » - un défenseur utilise intentionnellement une partie de son corps pour obstruer la vision du lanceur.',
     '18.1.2.': "Une infraction de marquage peut être contestée par la défense, dans ce cas le jeu s'arrête.",
     '18.1.2.1.':
       'Si une passe a été réceptionnée, une infraction de marquage contestée ou rétractée doit être traitée comme une violation par l’attaque, et le disque doit être retourné au lanceur.',
     '18.1.3.':
-      "Après toute infraction de marquage listée en 18.1.1 et non contestée, le marqueur doit reprendre le au compte au dernier nombre entièrement prononcé avant l'appel moins un (1).",
-    '18.1.4.':
+      "Après toute infraction de marquage listée en 18.1.1 pour laquelle le jeu ne s'est pas arrêté, le marqueur doit reprendre le au compte au dernier nombre entièrement prononcé avant l'appel moins un (1).",
+    '18.1.3.1.':
       'Le marqueur ne peut pas reprendre le compte tant qu’il n’a pas repris une position légitime. Dans le cas contraire c’est une nouvelle infraction de marquage.',
-    '18.1.5.':
+    '18.1.4.':
       "Au lieu d'appeler une infraction de marquage, le lanceur peut appeler une violation de marquage et stopper le jeu si:",
-    '18.1.5.1.': "le compte n'est pas corrigé,",
-    '18.1.5.2.': "il n'y a pas de compte",
-    '18.1.5.3.': 'il y a une infraction de marquage atroce, ou',
-    '18.1.5.4.': "Il y a une répétition systématique d'infractions de marquage",
-    '18.1.6.':
+    '18.1.4.1.': "le compte n'est pas corrigé,",
+    '18.1.4.2.': "il n'y a pas de compte",
+    '18.1.4.3.': 'il y a une infraction de marquage atroce, ou',
+    '18.1.4.4.': "Il y a une répétition systématique d'infractions de marquage",
+    '18.1.5.':
       "Si une infraction de marquage ou une violation de marquage est appelée et que le lanceur tente une passe avant pendant ou après le « call », l'appel n'a aucune conséquence (sauf si 18.1.2.1 s’applique)et si la passe n'est pas attrapée le « turnover » est maintenu.",
     '18.2.': 'Infractions de type « Travel » (marché):',
     '18.2.1.':
-      'Le lanceur peut faire une passe à tout moment tant qu’il est entièrement dans l’aire de jeu ou a établi un point pivot dans l’aire de jeu.',
-    '18.2.2.':
       "Après avoir attrapé le disque le lanceur doit réduire sa vitesse aussi rapidement que possible, sans changer de direction, jusqu'à ce qu'il ait établi un point pivot.",
-    '18.2.2.1.':
+    '18.2.1.1.':
       'Cependant, si un joueur attrape le disque en courant ou en sautant, le joueur peut faire une passe sans réduire sa vitesse et sans établir de point pivot, à condition:',
-    '18.2.2.1.1.': "qu’il ne change pas de direction ou n'augmente pas sa vitesse jusqu'à ce qu'il lâche le disque; et",
-    '18.2.2.1.2.':
+    '18.2.1.1.1.': "qu’il ne change pas de direction ou n'augmente pas sa vitesse jusqu'à ce qu'il lâche le disque; et",
+    '18.2.1.1.2.':
       "qu’un maximum de deux points de contact avec le sol supplémentaires soient établis après le « catch » et avant qu'il ne lâche le disque.",
+    '18.2.2.':
+      'Le lanceur peut bouger dans toutes les directions (« pivoter ») uniquement en établissant et maintenant un « point pivot » jusqu’à faire une passe.',
     '18.2.3.':
-      'Le lanceur peut bouger dans toutes les directions (« pivoter ») uniquement en établissant un « point pivot », qui est un point précis du sol avec lequel une partie de son corps demeure en contact permanent jusqu’à ce que le disque soit lancé.',
-    '18.2.4.':
       "Un lanceur qui n'est pas debout peut utiliser n'importe quelle partie de son corps comme point de pivot.",
-    '18.2.4.1.':
+    '18.2.3.1.':
       "S’il se lève il ne s'agit pas d'un « travel », du moment qu'il établit un point pivot au même endroit.",
-    '18.2.5.': 'Une infraction de « travel » se produit si:',
-    '18.2.5.1.':
+    '18.2.4.': 'Une infraction de « travel » se produit si:',
+    '18.2.4.1.':
       'le lanceur établit un point pivot à un endroit incorrect y compris en ne réduisant pas sa vitesse le plus rapidement possible après un « catch » ou en changeant de direction après un « catch »;',
-    '18.2.5.2.': 'le lanceur fait une passe en infraction avec 18.2.2.1;',
-    '18.2.5.3.':
-      "quand le lanceur doit se déplacer vers un endroit spécifié, le lanceur n'établit pas de point pivot avant la préparation ou de le début l’acte de lancer;",
-    '18.2.5.4.': 'le lanceur ne maintient pas son point pivot établi jusqu’à ce que le disque soit relâché;',
-    '18.2.5.5.':
+    '18.2.4.2.': 'le lanceur fait une passe en infraction avec 18.2.2.1;',
+    '18.2.4.3.':
+      "quand le lanceur doit se déplacer vers un endroit spécifié, le lanceur n'établit pas de point pivot avant la préparation ou  le début du mouvement de lancer;",
+    '18.2.4.4.': 'le lanceur ne maintient pas son point pivot établi jusqu’à ce que le disque soit relâché;',
+    '18.2.4.5.':
       'un joueur fait exprès de mal attraper le disque ou met du temps à bien le maîtriser dans le seul but de se déplacer dans une direction spécifique.',
-    '18.2.6.': 'Après qu’une infraction de « travel » acceptée est appelée, le jeu ne s’arrête pas.',
-    '18.2.6.1.':
+    '18.2.5.': 'Après qu’une infraction de « travel » acceptée est appelée, le jeu ne s’arrête pas.',
+    '18.2.5.1.':
       "Le lanceur établit un point pivot à l’endroit correct, comme indiqué par le joueur qui a appelé le « travel ». Ceci doit se produire sans délai de la part de l'un et l'autre des joueurs impliqués.",
-    '18.2.6.2.':
+    '18.2.5.2.':
       'Le compte est suspendu et le lanceur ne peut pas lancer le disque tant qu’un point pivot n’est pas établi à l’endroit correct.',
-    '18.2.6.3.': 'Le marqueur n’a pas besoin de dire « stalling » avant de reprendre le compte.',
-    '18.2.7.':
+    '18.2.5.3.': 'Le marqueur n’a pas besoin de dire « stalling » avant de reprendre le compte.',
+    '18.2.6.':
       "Si, après une infraction de « travel » mais avant la correction du point pivot, le lanceur fait une passe réceptionnée, l'équipe défensive peut appeler une violation de « travel ». Le jeu s'arrête et le disque est retourné au lanceur. Le lanceur doit retourner à l'endroit occupé au moment de l'infraction. Le jeu doit reprendre avec un « check ».",
-    '18.2.8.': 'Si, après une infraction de « travel », le lanceur fait une passe non réceptionnée, le jeu continue.',
-    '18.2.9.': "Après une infraction de « travel » contestée où le lanceur n'a pas lancé le disque, le jeu est arrêté.",
+    '18.2.7.': 'Si, après une infraction de « travel », le lanceur fait une passe non réceptionnée, le jeu continue.',
+    '18.2.8.': "Après une infraction de « travel » contestée où le lanceur n'a pas lancé de passe, le jeu est arrêté.",
     '18.3.': 'Violations de type « Pick »:',
     '18.3.1.':
-      "Si un défenseur garde un attaquant et qu’il est gêné dans son mouvement vers/avec ce joueur par un autre joueur, le défenseur peut appeler « pick ». Cependant ce n'est pas un « pick » si le joueur défendu et le joueur bloquant font tous deux une action sur le disque.",
+      "Si un défenseur garde un attaquant et qu’il est gêné dans son mouvement vers/avec ce joueur par un autre joueur, le défenseur peut appeler « pick ». Cependant ce n'est pas un « pick » si le joueur défendu et le joueur bloquant font tous deux une action sur le disque au moment de l'obstruction.",
     '18.3.1.1.':
       "Avant de faire un appel de « pick », le défenseur peut retarder son appel jusqu'à deux (2) secondes pour voir si l'obstruction va affecter le jeu.",
     '18.3.2.':
