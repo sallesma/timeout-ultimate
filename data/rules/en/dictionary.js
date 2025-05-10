@@ -1,71 +1,65 @@
 export default {
-  'aire de jeu':
-    "La zone incluant la zone centrale et les zones d’en-but mais excluant les lignes de périmètre. Une infraction affecte le jeu s'il est raisonnable de penser que le résultat de l'action aurait été significativement différent sans cette infraction. Un joueur dont l’équipe est en possession du disque.",
-  'affecter le Jeu':
-    "La zone incluant la zone centrale et les zones d’en-but mais excluant les lignes de périmètre. Une infraction affecte le jeu s'il est raisonnable de penser que le résultat de l'action aurait été significativement différent sans cette infraction. Un joueur dont l’équipe est en possession du disque.",
-  attaquant:
-    "La zone incluant la zone centrale et les zones d’en-but mais excluant les lignes de périmètre. Une infraction affecte le jeu s'il est raisonnable de penser que le résultat de l'action aurait été significativement différent sans cette infraction. Un joueur dont l’équipe est en possession du disque.",
-  call: 'Un appel clairement communiqué qu’une faute, infraction, violation, « turnover » ou blessure s’est produit. Les termes suivants peuvent être utilisés: « foul » (« faute »), « travel », le nom spécifique d’une infraction de marquage, « violation » (ou le nom spécifique de la violation), le nom spécifique d’un « turnover », « technical » et « injury ».',
+  'act of throwing': 'See throwing motion.',
+  'affect the play':
+    'A breach or call affects the play if it is reasonable to assume that the outcome of the specific play may have been meaningfully different had the breach or call not occurred.',
+  'attacking end zone': 'The end zone in which the team in question is currently attempting to score.',
+  'best perspective':
+    'The most complete viewpoint available by a player that includes the relative position of the disc, ground, players and line markers involved in the play.',
+  call: 'A clearly communicated statement that a foul, infraction, violation, turnover or injury has occurred.',
   catch:
-    "Un disque sans rotation coincé entre au moins deux parties du corps. Si un joueur attrape initialement une passe puis, avant d'établir la possession, il ne maintient pas la prise (« maintenir la prise » signifie continuer à avoir un disque qui ne tourne pas coincé entre au moins deux parties du corps), ce « catch » initial est considéré comme terminé.",
-  'contact avec le sol':
-    'Réfère à tout joueur touchant le sol suite à un événement ou une action incluant l’atterrissage ou la reprise d’appui après une perte d’équilibre (i.e. sauter, plonger, se pencher ou tomber).',
-  'contact mineur':
-    "Un contact qui implique une force physique minimale et ne modifie pas les mouvements ou la position d'un autre joueur. Le contact avec les bras tendus ou les mains d'un adversaire qui sont sur le point ou qui sont déjà en contact avec le disque, ou en contact avec la main du lanceur pendant le mouvement de lancer, n'est pas considéré comme un contact mineur.",
-  défenseur: 'Un joueur dont l’équipe n’est pas en possession du disque.',
-  'en-but':
-    'L’une des deux zones à chaque extrémité du terrain où les équipes peuvent marquer un point en y attrapant le disque.',
-  'en-but attaqué': 'Zone d’en-but dans laquelle l’équipe concernée est en train d’essayer de marquer.',
-  'en-but défendu':
-    'Zone d’en-but dans laquelle l’équipe concernée est en train d’essayer d’empêcher les adversaires de marquer.',
-  'endroit du pivot':
-    'Le point de l’aire de jeu où le lanceur doit établir un point pivot après un « turnover », après le « pull », après un temps-mort, après être sorti de la zone centrale ou là où le point pivot a déjà été établi.',
-  'faire action sur le disque':
-    "Quand le disque est en l'air et qu'un joueur tente de rentrer en contact avec le disque de quelque manière que ce soit, pour l'attraper ou le bloquer. Ceci inclut la course vers le lieu où il pense entrer en contact avec le disque.",
-  garder:
-    'Un défenseur garde un attaquant quand il se situe à moins de trois mètres de celui-ci et réagit en fonction de cet attaquant.',
-  'hors-limites': 'Tout ce qui ne fait pas partie de l’aire de jeu, incluant les lignes de périmètre.',
+    'A non-spinning disc trapped between at least two body parts. If a player initially catches a pass and then, prior to establishing possession, they do not maintain the catch, that initial catch is deemed to have ended.',
+  'central zone':
+    'The area of the playing field including the goal lines but excluding the end zones and the perimeter lines.',
+  'defending end zone':
+    'The end zone in which the team in question is currently attempting to prevent the opposition from scoring.',
+  'defensive player': 'Any player whose team is not in possession of the disc.',
+  'end zone':
+    'One of the two areas at the end of the playing field where teams can score a goal by catching the disc there.',
+  'goal line': 'The line separating the central zone from each end zone. It is not part of the end zone.',
+  ground:
+    'The ground consists of all substantial solid objects, including grass, marker cones, equipment, water, trees, fences, walls and non-players, but excluding all players and their worn clothing, airborne particles and precipitation.',
+  'ground contact':
+    'Refers to all player contact with the ground directly related to a specific event or manoeuvre, including landing or recovery after being off-balance.',
+  guarding:
+    'A defender is guarding an offensive player when they are within three metres of that offensive player and are primarily focused on and reacting to that offensive player.',
   interception:
-    'Quand un joueur de l’équipe défensive établit la possession d’un lancer d’un joueur de l’équipe attaquante.',
-  'interruption de jeu':
-    'Tout arrêt de jeu dû à une faute, violation, discussion, appel contesté, blessure ou temps-mort qui nécessite un « check » pour relancer le jeu.',
-  jeu: 'Le temps après que le pull a commencé et avant qu’un point ne soit marqué. Le jeu peut ensuite être arrêté par un appel et dans ce cas il reprend par un « check ».',
-  joueur: 'Les personnes qui participent effectivement au point en cours.',
-  lancer:
-    'Un disque en vol après un mouvement du lancer, incluant la perte de contact entre le lanceur et le disque après une feinte ou une perte intentionnelle de disque. Une passe est l’équivalent d’un lancer.',
-  lanceur:
-    'L’attaquant en possession du disque ou le joueur qui vient de lancer le disque avant que le résultat du lancer ne soit déterminé.',
-  ligne:
-    'Une limite définissant les aires de jeu. Sur un terrain sans tracé, les limites sont définies par des lignes imaginaires entre les marqueurs ayant la largeur des dits marqueurs. Les segments de ligne ne sont pas étendus au-delà des marqueurs.',
-  'ligne de but': 'La ligne séparant la zone centrale de chaque zone d’en-but. Elle ne fait pas partie de l’en-but.',
-  'lignes de périmètre':
-    'Lignes séparant la zone centrale ou l’en-but de la zone hors-limites. Elles ne font pas partie de l’aire de jeu.',
-  marqueur: 'Le défenseur qui peut énoncer le compte sur le lanceur.',
-  'meilleure perspective':
-    'Le point de vue disponible et le plus complet d’un joueur englobant les positions relatives du disque, du sol, des joueurs et des lignes impliqués sur l’action.',
-  'mouvement du lancer':
-    'Le mouvement du lancer est le mouvement qui transfère un déplacement du lanceur au disque dans une direction de vol et finit en lancer. Les pivots et les déplacements d’air ne font pas partie du mouvement du lancer.',
-  'non-joueur': 'Toute personne, incluant un membre d’équipe, qui n’est pas joueur à ce moment.',
-  'où le disque s’arrête':
-    'Réfère à l’endroit où un joueur établit possession, le disque s’arrête naturellement ou le disque est empêché de rouler ou glisser.',
-  pivoter: `Quand le lanceur se déplace dans n’importe quelle direction tout en gardant une partie du corps en contact constant avec un point spécifique au sol appelé le point pivot.
-Un joueur établit un point pivot en plaçant, ou en gardant, une partie particulière de son corps en un point spécifique, qu'il a l'intention d'utiliser comme point pivot. Si un lanceur a plusieurs options pour un point pivot, le point pivot n'est pas déterminé tant qu'il n'a pas pivoté .`,
-  'position légitime':
-    'La position stationnaire ou en mouvement établie par un joueur qui n’est en infraction avec aucune règle.',
-  'possession du disque': `Un joueur établit la possession d’une passe quand:
-- il attrape une passe et ensuite maintient cette prise pendant plus d'un instant perceptible, et
-- il maintient la prise tout au long du contact avec le sol lié à ce « catch », ou jusqu’à ce qu’il lance le disque.
-Un joueur peut également établir la possession lorsqu'un disque qui a déjà touché le sol est ramassé, ou lui est donné, après un « turnover », un « pull » ou une interruption.
-Une fois qu'un joueur a établi la possession, il peut changer sa prise sur le disque et cela n'affecte pas sa possession, tant qu'il reste en contact avec le disque.
-Un disque en possession d’un joueur, ou attrapé par un joueur est considéré comme faisant partie de ce joueur.
-L’équipe dont le joueur est en possession ou dont les joueurs peuvent ramasser le disque est considérée en possession.`,
-  'pré-compte':
-    'Un avertissement concernant les délais pour reprendre le jeu, émis en donnant des avertissements à vingt (20), dix (10) et cinq (5) secondes (selon le cas).',
-  pull: "Le lancer par la défense vers l’attaque qui commence le jeu au début d’une mi-temps ou après un point. Le « pull » n'est pas considéré comme une passe légitime.",
-  réceptionneurs: 'Tous les attaquants qui ne sont pas le lanceur.',
-  sol: 'Le sol est constitué de tout objet substantiellement solide incluant l’herbe, les cônes de marquage, l’équipement, l’eau et les non-joueurs mais excluant tous les joueurs et les vêtements qu’ils portent, les particules aériennes et les précipitations.',
-  turnover:
-    "Tout événement qui produit un changement de l’équipe en possession. Un « turnover » n'est pas considéré comme une violation.",
-  'zone centrale':
-    'La zone de l’aire de jeu incluant les lignes de but mais excluant les zones d’en-but et les lignes de périmètre.',
+    'When a player on the defensive team establishes possession of a throw by a player on the offensive team.',
+  'legitimate position':
+    'The stationary or moving position established by a player that is not in breach of any rules.',
+  line: 'A boundary defining the playing areas. On an unlined field, the boundary is defined as an imaginary line between two field markers with the thickness of said markers.',
+  'making a play on the disc':
+    'When the disc is in the air and a player is attempting to make contact with the disc in any way e.g. to catch it or block it.',
+  marker: 'The defensive player who may call the stall count on the thrower.',
+  'minor contact':
+    'Contact that involves minimal physical force and does not alter the movements or position of another player.',
+  'non-player': 'Any person, including a team member, who is not currently a player.',
+  'offensive player': 'A player whose team is in possession of the disc.',
+  'out-of-bounds (OB)': 'Everything that is not part of the playing field, including the perimeter lines.',
+  'perimeter lines':
+    'Lines separating the central zone or end zone from the out-of-bounds area. They are not part of the playing field.',
+  pivot:
+    'When the thrower moves in any direction while keeping one part of their body in constant contact with a specific point on the ground called the pivot point.',
+  'pivot Location':
+    'The point on the playing field where the thrower is required to establish a pivot point after a turnover, after the pull, after a time-out, after leaving the central zone, or where a pivot point has already been established.',
+  play: 'The time after the Pull has commenced and prior to the scoring of a goal. Play may further stop due to a call, in which case play is restarted with a check.',
+  player: 'The people who are actually participating in the current point of play.',
+  'playing Field': 'The area including the central zone and the end zones, but excluding the perimeter lines.',
+  'possession of the disc':
+    'A player establishes possession of a pass when they catch a pass and then maintain that catch for more than one noticeable instant and throughout all ground contact related to the catch, or until they throw the disc.',
+  'pre-stall':
+    'A warning regarding time limits to resume play, issued by giving warnings at twenty (20), ten (10), and five (5) seconds (as applicable).',
+  pull: 'The throw by the defence to the offence that starts play at the beginning of a half or after a goal. The pull is not considered a legal pass.',
+  receivers: 'All offensive players other than the thrower.',
+  'spirit Stoppage': 'A stoppage to discuss issues related to Spirit of the Game.',
+  'stoppage of play':
+    'Any halting of play due to a foul, violation, discussion, contested call, injury or time-out, that requires a check to restart play.',
+  throw:
+    'A disc in flight following any throwing motion, including after a fake attempt and an intentionally dropped disc, that results in loss of contact between the thrower and the disc.',
+  thrower:
+    'The offensive player in possession of the disc, or the player who has just thrown the disc prior to when the result of the throw has been determined.',
+  'throwing motion':
+    'The motion that transfers momentum from the thrower to the disc in the direction of flight and results in a throw. Pivots and wind-ups are not part of the act of throwing.',
+  turnover: 'Any event resulting in a change of the team in possession. A turnover is not considered a violation.',
+  'where the disc stops':
+    'Refers to the location where a player establishes possession, the disc comes to rest naturally, or where the disc is stopped from rolling or sliding.',
 };

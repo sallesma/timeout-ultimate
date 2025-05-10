@@ -21,6 +21,7 @@ import travel from '../../../assets/handSignals/travel.png';
 import turnover from '../../../assets/handSignals/turnover.png';
 import violation from '../../../assets/handSignals/violation.png';
 import who_made_the_call from '../../../assets/handSignals/who_made_the_call.png';
+import did_not_affect from '../../../assets/handSignals/did_not_affect.png';
 
 import { Levels, Categories } from '../../../src/utils/config';
 
@@ -97,7 +98,7 @@ export default [
   },
   {
     image: offside,
-    name: 'Hors-jeu',
+    name: 'Hors-jeu / Faux départ',
     hint: 'Les bras croisés au dessus de la tête, poings fermés',
   },
   {
@@ -117,12 +118,12 @@ export default [
   },
   {
     image: gender_ratio_men,
-    name: 'Ratio : hommes',
+    name: 'Ratio : genre masculin',
     hint: 'Les mains derrière la tête, coudes sur les côtés',
   },
   {
     image: gender_ratio_women,
-    name: 'Ratio : femmes',
+    name: 'Ratio : genre féminin',
     hint: 'Les bras tendus sur les côtés, poings fermés',
   },
   {
@@ -131,13 +132,18 @@ export default [
     hint: "Les bras tendus au dessus de la tête dans un mouvement d'essuie-glace",
   },
   {
-    image: match_point,
-    name: 'Match point (Universe)',
-    hint: 'Les deux bras pointent en haut à gauche, paumes ouvertes',
-  },
-  {
     image: who_made_the_call,
     name: 'Qui a fait le call',
     hint: "Les deux bras tendus vers la end-zone défendue par l'équipe qui a fait le call",
+  },
+  {
+    image: did_not_affect,
+    name: "Pas d'influence sur le jeu",
+    hint: "Main ouverte au dessus de la tête, enn mouvement d'avant en arrière",
+  },
+  {
+    image: match_point,
+    name: 'Match point (Universe)',
+    hint: 'Les deux bras pointent en haut à gauche, paumes ouvertes',
   },
 ];

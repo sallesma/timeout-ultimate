@@ -7,8 +7,6 @@
     "ios": "expo run:ios",
     "test": "jest --watch --coverage=false --changedSince=main",
     "test-ci": "jest --ci --coverage=true --reporters=default --reporters=jest-junit",
-    "extractor-rules": "node scripts/rulesExtractor.js",
-    "extractor-annotations": "node scripts/annotationsExtractor.js",
     "prepare": "husky",
     "eas-build-pre-install": "corepack enable && yarn set version 4"
   },
