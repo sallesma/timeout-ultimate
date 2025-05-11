@@ -28,11 +28,6 @@ export default () => {
       <Pressable onPress={sendEmailAsync}>
         <Text style={styles.linkText}>{I18n.t('aboutScreen.feedbackCta')}</Text>
       </Pressable>
-      <Text style={styles.header}>{I18n.t('aboutScreen.discInHeader')}</Text>
-      <Text style={styles.text}>{I18n.t('aboutScreen.discInText')}</Text>
-      <Pressable onPress={() => Linking.openURL('https://discinapp.page.link/install')}>
-        <Text style={styles.linkText}>{I18n.t('aboutScreen.discInCta')}</Text>
-      </Pressable>
 
       <View style={styles.infoArea}>
         <Text style={styles.info}>{I18n.t('aboutScreen.information')}</Text>
