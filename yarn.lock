@@ -3939,13 +3939,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dommatrix@npm:0.0.24":
-  version: 0.0.24
-  resolution: "dommatrix@npm:0.0.24"
-  checksum: 10c0/da4c603e485bfc67b81de3237f8891c69dcd6253d5b5815db96d3afd14b20620a380e9d60fcdcaf51cdff8c3941b1f27589d25737792f0882ea3ffd7eb3f1f2e
-  languageName: node
-  linkType: hard
-
 "dotenv-expand@npm:~11.0.6":
   version: 11.0.6
   resolution: "dotenv-expand@npm:11.0.6"
@@ -7279,16 +7272,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pdf.js-extract@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "pdf.js-extract@npm:0.2.1"
-  dependencies:
-    dommatrix: "npm:0.0.24"
-    web-streams-polyfill: "npm:3.2.0"
-  checksum: 10c0/432b08c7d84a936d6dea4775327178c030bfede769f526c98ece8c50d1071ab3baa038fb392f14f48864d143ccb8730df7768d994357f52734a5e92fada26fb6
-  languageName: node
-  linkType: hard
-
 "picocolors@npm:^1.0.0, picocolors@npm:^1.0.1":
   version: 1.0.1
   resolution: "picocolors@npm:1.0.1"
@@ -8779,7 +8762,6 @@ __metadata:
     jest-expo: "npm:~53.0.5"
     jest-junit: "npm:^16.0.0"
     lint-staged: "npm:>=15.3.0"
-    pdf.js-extract: "npm:^0.2.1"
     prettier: "npm:^3.4.2"
     react: "npm:19.0.0"
     react-native: "npm:0.79.2"
@@ -9127,13 +9109,6 @@ __metadata:
   dependencies:
     defaults: "npm:^1.0.3"
   checksum: 10c0/5b61ca583a95e2dd85d7078400190efd452e05751a64accb8c06ce4db65d7e0b0cde9917d705e826a2e05cc2548f61efde115ffa374c3e436d04be45c889e5b4
-  languageName: node
-  linkType: hard
-
-"web-streams-polyfill@npm:3.2.0":
-  version: 3.2.0
-  resolution: "web-streams-polyfill@npm:3.2.0"
-  checksum: 10c0/0bb9b4f37c4fac161cfcc64abb102bb05cd7153c3a137d1d078dff2883d026f355803a2bf00366d860e6ab20a74506e714db80263844be035ddf4bf3e275145d
   languageName: node
   linkType: hard
 

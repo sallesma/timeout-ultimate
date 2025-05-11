@@ -23,7 +23,6 @@
     "expo-updates": "~0.28.12",
     "highlight-words-core": "^1.2.3",
     "i18n-js": "^4.5.1",
-    "pdf.js-extract": "^0.2.1",
     "react": "19.0.0",
     "react-native": "0.79.2",
     "react-native-gesture-handler": "~2.24.0",
