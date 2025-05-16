@@ -2535,7 +2535,7 @@ If he stands up it is not a travel, as long as he establishes his pivot in the s
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      'I am on offense. I make a call and am obstructed in my run by a defender. Can I call an obstruction(pick)?',
+      'I am on offense. I start a cut and I am obstructed in my run by a defender. Can I call an obstruction (pick)?',
     image: undefined,
     answerChoices: {
       a: 'True',
