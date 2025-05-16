@@ -5,8 +5,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { PaperProvider, MD3LightTheme as PaperDefaultTheme } from 'react-native-paper';
 
-import Toast, { BaseToast } from 'react-native-toast-message';
-
 import HomeScreen from './screens/HomeScreen.js';
 import OptionsScreen from './screens/OptionsScreen.js';
 import QuizzScreen from './screens/QuizzScreen.js';
@@ -39,10 +37,6 @@ const reactNavigationTheme = {
 };
 
 const Stack = createStackNavigator();
-
-const toastConfig = {
-  info: (props) => <BaseToast {...props} style={{ borderLeftColor: 'transparent' }} />,
-};
 
 export default function App() {
   return (
@@ -81,7 +75,6 @@ export default function App() {
             />
           </Stack.Navigator>
         </NavigationContainer>
-        <Toast config={toastConfig} />
       </PaperProvider>
     </SafeAreaProvider>
   );

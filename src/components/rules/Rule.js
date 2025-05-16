@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, Pressable } from 'react-native';
 import * as Clipboard from 'expo-clipboard';
-import Toast from 'react-native-toast-message';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { Portal, Snackbar } from 'react-native-paper';
 
 import theme from '../../utils/theme.js';
 import I18n from '../../utils/i18n';
@@ -23,28 +23,19 @@ export default ({ number, rule, searchText }) => {
   const dictionaryWords = Object.keys(dictionary);
   const [displayedWord, setDisplayedWord] = useState();
   const [displayAnnotations, setDisplayAnnotations] = useState(false);
+  const [snackbarContent, setSnackbarContent] = useState(null);
 
   const ruleAnnotations = annotations[number];
 
   const copyRule = async () => {
     const copiedText = `${number} : ${rule}`;
     await Clipboard.setStringAsync(copiedText);
-    Toast.show({
-      type: 'info',
-      text1: I18n.t('rule.ruleCopied', { number }),
-      text2: copiedText,
-      visibilityTime: 2000,
-    });
+    setSnackbarContent(I18n.t('rule.ruleCopied', { number }));
   };
 
   const copyAnnotation = async (annotation) => {
     await Clipboard.setStringAsync(stringifyAnnotation(annotation));
-    Toast.show({
-      type: 'info',
-      text1: I18n.t('rule.annotationCopied'),
-      text2: stringifyAnnotation(annotation),
-      visibilityTime: 2000,
-    });
+    setSnackbarContent(I18n.t('rule.annotationCopied', { number }));
   };
 
   return (
@@ -97,6 +88,11 @@ export default ({ number, rule, searchText }) => {
         <Text style={styles.title}>{displayedWord}</Text>
         <Text>{dictionary[displayedWord]}</Text>
       </BottomSheet>
+      <Portal>
+        <Snackbar visible={!!snackbarContent} onDismiss={() => setSnackbarContent(null)} duration={2000}>
+          {snackbarContent}
+        </Snackbar>
+      </Portal>
     </View>
   );
 };

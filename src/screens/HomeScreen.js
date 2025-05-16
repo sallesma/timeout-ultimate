@@ -92,10 +92,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   buttonsArea: {
+    gap: 8,
+    marginTop: 8,
     marginHorizontal: 16,
   },
   button: {
-    marginBottom: 16,
     borderRadius: 8,
   },
   buttonLabel: {
