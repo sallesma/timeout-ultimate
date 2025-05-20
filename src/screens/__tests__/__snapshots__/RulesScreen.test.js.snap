@@ -37,6 +37,7 @@ exports[`<RulesScreen /> renders correctly 1`] = `
     getItem={[Function]}
     getItemCount={[Function]}
     keyExtractor={[Function]}
+    keyboardShouldPersistTaps="handled"
     onContentSizeChange={[Function]}
     onLayout={[Function]}
     onMomentumScrollBegin={[Function]}

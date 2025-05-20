@@ -71,6 +71,7 @@ export default (props) => {
           keyExtractor={(item, index) => index.toString()}
           data={Object.keys(rules)}
           renderItem={({ item }) => <Chapter title={item} rules={rules[item]} searchText={searchText} />}
+          keyboardShouldPersistTaps="handled"
         />
       )}
       {content === 'handSignals' && (
@@ -78,6 +79,7 @@ export default (props) => {
           keyExtractor={(item, index) => index.toString()}
           data={handSignals}
           renderItem={({ item }) => <HandSignal item={item} searchText={searchText} />}
+          keyboardShouldPersistTaps="handled"
         />
       )}
       {content === 'appendix' && (
