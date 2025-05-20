@@ -57,34 +57,42 @@ export default (props) => {
       </View>
       <Text style={styles.header}>{I18n.t('optionsScreen.levelHeader')}</Text>
       <View style={styles.options}>
-        <Button
-          mode={level === Levels.EASY ? 'contained' : 'outlined'}
-          style={[styles.button, styles.wrapped]}
-          onPress={() => setLevel(Levels.EASY)}
-        >
-          {I18n.t(`config.levels.EASY`)}
-        </Button>
-        <Button
-          mode={level === Levels.MIDDLE ? 'contained' : 'outlined'}
-          style={[styles.button, styles.wrapped]}
-          onPress={() => setLevel(Levels.MIDDLE)}
-        >
-          {I18n.t(`config.levels.MIDDLE`)}
-        </Button>
-        <Button
-          mode={level === Levels.DIFFICULT ? 'contained' : 'outlined'}
-          style={[styles.button, styles.wrapped]}
-          onPress={() => setLevel(Levels.DIFFICULT)}
-        >
-          {I18n.t(`config.levels.DIFFICULT`)}
-        </Button>
-        <Button
-          mode={level === Levels.ANY ? 'contained' : 'outlined'}
-          style={[styles.button, styles.wrapped]}
-          onPress={() => setLevel(Levels.ANY)}
-        >
-          {I18n.t(`config.levels.ANY`)}
-        </Button>
+        <View style={styles.wrapped}>
+          <Button
+            mode={level === Levels.EASY ? 'contained' : 'outlined'}
+            style={styles.button}
+            onPress={() => setLevel(Levels.EASY)}
+          >
+            {I18n.t(`config.levels.EASY`)}
+          </Button>
+        </View>
+        <View style={styles.wrapped}>
+          <Button
+            mode={level === Levels.MIDDLE ? 'contained' : 'outlined'}
+            style={styles.button}
+            onPress={() => setLevel(Levels.MIDDLE)}
+          >
+            {I18n.t(`config.levels.MIDDLE`)}
+          </Button>
+        </View>
+        <View style={styles.wrapped}>
+          <Button
+            mode={level === Levels.DIFFICULT ? 'contained' : 'outlined'}
+            style={styles.button}
+            onPress={() => setLevel(Levels.DIFFICULT)}
+          >
+            {I18n.t(`config.levels.DIFFICULT`)}
+          </Button>
+        </View>
+        <View style={styles.wrapped}>
+          <Button
+            mode={level === Levels.ANY ? 'contained' : 'outlined'}
+            style={styles.button}
+            onPress={() => setLevel(Levels.ANY)}
+          >
+            {I18n.t(`config.levels.ANY`)}
+          </Button>
+        </View>
       </View>
       <View style={styles.centered}>
         <Button style={styles.cta} onPress={startQuizz} mode="contained">
@@ -147,7 +155,10 @@ const styles = StyleSheet.create({
     flexBasis: '25%',
   },
   wrapped: {
-    flexBasis: '40%',
+    minWidth: '50%',
+    maxWidth: '50%',
+    flexBasis: '60%',
+    flex: 1,
   },
   centered: {
     marginTop: 16,
