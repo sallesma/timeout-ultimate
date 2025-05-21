@@ -41,7 +41,7 @@ yarn start
 
 To release a new version of the app :
 
-1. Send a pull request updating the version in `app.config.js`. If new binaries must be built, this is a major version update and you must also update the buildNumber (ios) and versionCode (android)
+1. Send a pull request updating the version in `app.json`. If new binaries must be built, this is a major version update and you must also update the buildNumber (ios) and versionCode (android)
 2. When it is merged, create a release on Github
 3. Make sure EAS is installed and up-to-date with `npm install -g eas-cli`
 4. If you want to update an existing deployed build, run `eas update --branch production` (change the channel if staging).
