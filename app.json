@@ -28,7 +28,6 @@
     "android": {
       "package": "com.ultimate.timeout",
       "versionCode": 9,
-      "edgeToEdgeEnabled": true,
       "icon": "./assets/android_icon.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
