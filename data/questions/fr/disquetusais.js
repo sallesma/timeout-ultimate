@@ -2325,7 +2325,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      'Le marqueur doit être à un diamètre de disque (27,5cm) minimum de toutes les parties de mon corps y compris du pied pivot ?',
+      'Je suis lanceur, le marqueur doit être à un diamètre de disque (27,5cm) minimum de mon torse et de mon pied pivot ?',
     image: undefined,
     answerChoices: {
       a: 'Vrai',
@@ -2335,6 +2335,7 @@ S'il est trop proche, je dois appeler « distance » ou « disc space » afi
     explanation:
       "Si le marqueur n'est pas à la bonne distance, le porteur du disque peut appeler une infraction de marque en fonction de la partie du corps qui est trop proche : disc space (torse), straddle (ligne entre les pieds), wrapping (ligne entre les mains)",
     rules: undefined,
+    rules: ['18.1.1.2.', '18.1.1.3.', '18.1.1.4.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },

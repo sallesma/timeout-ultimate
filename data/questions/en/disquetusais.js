@@ -2352,7 +2352,7 @@ If he is too close, I must call distance or disc space so that he moves back and
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      'The marker must be at least one disc diameter (27.5cm) from all parts of my body including the pivot foot?',
+      'I am the thrower. The marker must be at least one disc diameter (27.5cm) from my chest and my pivot foot?',
     image: undefined,
     answerChoices: {
       a: 'True',
@@ -2361,7 +2361,7 @@ If he is too close, I must call distance or disc space so that he moves back and
     correctAnswers: ['a'],
     explanation:
       'If the marker is not at the correct distance, the thrower can call a marker infraction based on which body part is too close: disc space (torso), straddle (line between the feet), wrapping (line between the hands)',
-    rules: undefined,
+    rules: ['18.1.1.2.', '18.1.1.3.', '18.1.1.4.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.MIDDLE,
   },
