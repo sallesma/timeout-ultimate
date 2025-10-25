@@ -1,11 +1,11 @@
 import React from 'react';
-import { render } from '@testing-library/react-native';
+import { renderAsync } from '@testing-library/react-native';
 
 import AboutScreen from '../AboutScreen';
 
 describe('<AboutScreen />', () => {
-  it('renders correctly', () => {
-    const { toJSON } = render(<AboutScreen />);
+  it('renders correctly', async () => {
+    const { toJSON } = await renderAsync(<AboutScreen />);
 
     expect(toJSON()).toMatchSnapshot();
   });

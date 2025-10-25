@@ -1,11 +1,11 @@
 import React from 'react';
-import { render, waitFor } from '@testing-library/react-native';
+import { renderAsync, waitFor } from '@testing-library/react-native';
 
 import HistoryScreen from '../HistoryScreen';
 
 describe('<HistoryScreen />', () => {
   it('renders correctly', async () => {
-    const { toJSON } = render(<HistoryScreen />);
+    const { toJSON } = await renderAsync(<HistoryScreen />);
 
     await waitFor(() => expect(toJSON()).toMatchSnapshot());
   });

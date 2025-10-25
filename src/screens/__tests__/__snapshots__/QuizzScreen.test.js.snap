@@ -31,7 +31,7 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             }
           }
         >
-          Quand est-ce que le disque est dit « mort » ? (plusieurs réponses possibles)
+          When is the record said to be 'dead'? (several answers possible)
         </Text>
         <View>
           <View
@@ -131,7 +131,42 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "rgba(103, 80, 164, 1)",
+                        "fontSize": 24,
+                      },
+                      [
+                        {
+                          "lineHeight": 24,
+                          "transform": [
+                            {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      {
+                        "fontFamily": "material-community",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  󰄬
+                </Text>
               </View>
             </View>
             <Text
@@ -146,7 +181,7 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             >
               a
               . 
-              Après le début d’un point, jusqu’à ce que le « pull » soit effectué
+              After the start of a point, until the pull is completed
             </Text>
           </View>
           <View
@@ -246,7 +281,42 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "rgba(103, 80, 164, 1)",
+                        "fontSize": 24,
+                      },
+                      [
+                        {
+                          "lineHeight": 24,
+                          "transform": [
+                            {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      {
+                        "fontFamily": "material-community",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  󰄬
+                </Text>
               </View>
             </View>
             <Text
@@ -261,7 +331,7 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             >
               b
               . 
-              Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établi, jusqu’à ce qu’un pivot soit établi
+              After the pull or after a turnover when the disc must be brought to the point where the pivot point is to be established, until a pivot is established
             </Text>
           </View>
           <View
@@ -361,7 +431,42 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "rgba(103, 80, 164, 1)",
+                        "fontSize": 24,
+                      },
+                      [
+                        {
+                          "lineHeight": 24,
+                          "transform": [
+                            {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      {
+                        "fontFamily": "material-community",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  󰄬
+                </Text>
               </View>
             </View>
             <Text
@@ -376,7 +481,7 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             >
               c
               . 
-              Après un « call » qui arrête le jeu ou n’importe quel autre arrêt jusqu’à ce que le disque soit « checké »
+              After a call that stops play or any other stop until the disc is checked
             </Text>
           </View>
           <View
@@ -476,7 +581,42 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "rgba(103, 80, 164, 1)",
+                        "fontSize": 24,
+                      },
+                      [
+                        {
+                          "lineHeight": 24,
+                          "transform": [
+                            {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      {
+                        "fontFamily": "material-community",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  󰄬
+                </Text>
               </View>
             </View>
             <Text
@@ -491,7 +631,7 @@ exports[`<QuizzScreen /> renders correctly 1`] = `
             >
               d
               . 
-              Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.
+              After the disc touches the ground until possession is established by the appropriate team.
             </Text>
           </View>
         </View>
@@ -713,7 +853,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             }
           }
         >
-          Quand est-ce que le disque est dit « mort » ? (plusieurs réponses possibles)
+          When is the record said to be 'dead'? (several answers possible)
         </Text>
         <View>
           <View
@@ -816,7 +956,42 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "rgba(28, 27, 31, 0.38)",
+                        "fontSize": 24,
+                      },
+                      [
+                        {
+                          "lineHeight": 24,
+                          "transform": [
+                            {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      {
+                        "fontFamily": "material-community",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  󰄬
+                </Text>
               </View>
             </View>
             <Text
@@ -831,7 +1006,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             >
               a
               . 
-              Après le début d’un point, jusqu’à ce que le « pull » soit effectué
+              After the start of a point, until the pull is completed
             </Text>
           </View>
           <View
@@ -934,7 +1109,42 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "rgba(28, 27, 31, 0.38)",
+                        "fontSize": 24,
+                      },
+                      [
+                        {
+                          "lineHeight": 24,
+                          "transform": [
+                            {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      {
+                        "fontFamily": "material-community",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  󰄬
+                </Text>
               </View>
             </View>
             <Text
@@ -949,7 +1159,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             >
               b
               . 
-              Après le « pull » ou après un « turnover » quand le disque doit être amené à l’endroit où le point pivot doit être établi, jusqu’à ce qu’un pivot soit établi
+              After the pull or after a turnover when the disc must be brought to the point where the pivot point is to be established, until a pivot is established
             </Text>
           </View>
           <View
@@ -1052,7 +1262,42 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "rgba(28, 27, 31, 0.38)",
+                        "fontSize": 24,
+                      },
+                      [
+                        {
+                          "lineHeight": 24,
+                          "transform": [
+                            {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      {
+                        "fontFamily": "material-community",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  󰄬
+                </Text>
               </View>
             </View>
             <Text
@@ -1067,7 +1312,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             >
               c
               . 
-              Après un « call » qui arrête le jeu ou n’importe quel autre arrêt jusqu’à ce que le disque soit « checké »
+              After a call that stops play or any other stop until the disc is checked
             </Text>
           </View>
           <View
@@ -1170,7 +1415,42 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                   }
                 }
               >
-                <Text />
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "rgba(28, 27, 31, 0.38)",
+                        "fontSize": 24,
+                      },
+                      [
+                        {
+                          "lineHeight": 24,
+                          "transform": [
+                            {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      {
+                        "fontFamily": "material-community",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  󰄬
+                </Text>
               </View>
             </View>
             <Text
@@ -1185,7 +1465,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
             >
               d
               . 
-              Après que le disque touche le sol jusqu’à ce que la possession soit établie par l’équipe appropriée.
+              After the disc touches the ground until possession is established by the appropriate team.
             </Text>
           </View>
         </View>
@@ -1209,9 +1489,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
           >
             Wrong answer…
           </Text>
-          <Text>
-            Ces 4 situations correspondent à un disque mort.
-          </Text>
+          <Text />
           <View
             collapsable={false}
             style={
@@ -1241,7 +1519,7 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                   "borderRadius": 20,
                   "borderStyle": "solid",
                   "borderWidth": 1,
-                  "flex": 1,
+                  "flex": undefined,
                   "minWidth": 64,
                   "shadowColor": "#000",
                   "shadowOffset": {
@@ -1469,7 +1747,42 @@ exports[`<QuizzScreen /> renders correctly 2`] = `
                 }
                 testID="icon-button"
               >
-                <Text />
+                <Text
+                  accessibilityElementsHidden={true}
+                  allowFontScaling={false}
+                  importantForAccessibility="no-hide-descendants"
+                  pointerEvents="none"
+                  selectable={false}
+                  style={
+                    [
+                      {
+                        "color": "#666666",
+                        "fontSize": 28,
+                      },
+                      [
+                        {
+                          "lineHeight": 28,
+                          "transform": [
+                            {
+                              "scaleX": 1,
+                            },
+                          ],
+                        },
+                        {
+                          "backgroundColor": "transparent",
+                        },
+                      ],
+                      {
+                        "fontFamily": "material-community",
+                        "fontStyle": "normal",
+                        "fontWeight": "normal",
+                      },
+                      {},
+                    ]
+                  }
+                >
+                  󰳦
+                </Text>
               </View>
             </View>
           </View>
@@ -2037,7 +2350,27 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
             }
           }
         >
-          <Text />
+          <Text
+            allowFontScaling={false}
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "#666666",
+                  "fontSize": 20,
+                },
+                undefined,
+                {
+                  "fontFamily": "material-community",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            󰅂
+          </Text>
           <Text
             style={
               {
@@ -2047,7 +2380,7 @@ exports[`<QuizzScreen /> renders correctly 3`] = `
               }
             }
           >
-            Quand est-ce que le disque est dit « mort » ? (plusieurs réponses possibles)
+            When is the record said to be 'dead'? (several answers possible)
           </Text>
         </View>
       </View>

@@ -73,7 +73,7 @@ exports[`<HomeScreen /> renders correctly 1`] = `
         }
       }
     >
-      268
+      261
     </Text>
      questions are waiting for you to start learning the rules of Ultimate!
   </Text>
@@ -652,7 +652,42 @@ exports[`<HomeScreen /> renders correctly 1`] = `
           }
           testID="icon-button"
         >
-          <Text />
+          <Text
+            accessibilityElementsHidden={true}
+            allowFontScaling={false}
+            importantForAccessibility="no-hide-descendants"
+            pointerEvents="none"
+            selectable={false}
+            style={
+              [
+                {
+                  "color": "rgba(73, 69, 79, 1)",
+                  "fontSize": 32,
+                },
+                [
+                  {
+                    "lineHeight": 32,
+                    "transform": [
+                      {
+                        "scaleX": 1,
+                      },
+                    ],
+                  },
+                  {
+                    "backgroundColor": "transparent",
+                  },
+                ],
+                {
+                  "fontFamily": "material-community",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                {},
+              ]
+            }
+          >
+            󰋽
+          </Text>
         </View>
       </View>
     </View>
