@@ -1,11 +1,11 @@
 import React from 'react';
-import { render } from '@testing-library/react-native';
+import { renderAsync } from '@testing-library/react-native';
 
 import OptionsScreen from '../OptionsScreen';
 
 describe('<OptionsScreen />', () => {
-  it('renders correctly', () => {
-    const { toJSON } = render(<OptionsScreen />);
+  it('renders correctly', async () => {
+    const { toJSON } = await renderAsync(<OptionsScreen />);
 
     expect(toJSON()).toMatchSnapshot();
   });
