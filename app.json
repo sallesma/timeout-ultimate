@@ -2,7 +2,7 @@
   "expo": {
     "name": "Timeout Ultimate",
     "slug": "timeout-ultimate",
-    "version": "8.0.0",
+    "version": "9.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -18,7 +18,7 @@
       "**/*"
     ],
     "ios": {
-      "buildNumber": "8.0.0",
+      "buildNumber": "9.0.0",
       "bundleIdentifier": "com.ultimate.timeout",
       "supportsTablet": true,
       "infoPlist": {
@@ -27,7 +27,7 @@
     },
     "android": {
       "package": "com.ultimate.timeout",
-      "versionCode": 9,
+      "versionCode": 10,
       "icon": "./assets/android_icon.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
