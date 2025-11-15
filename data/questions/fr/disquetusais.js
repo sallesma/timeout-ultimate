@@ -1433,8 +1433,7 @@ Cependant, les annotations (13.11) précisent que les lignes étant très étroi
       b: "Le défenseur, c'est un turnover",
     },
     correctAnswers: ['b'],
-    explanation:
-      'Le disque est toujours « vivant » même s’il vole en dehors du terrain. Si je l’attrape, je le joue dans l’aire de jeu à l’endroit le plus proche de là où je l’ai attrapé.',
+    explanation: "Même si le disque va toucher le sol en dehors du terrain, c'est un turnover.",
     rules: ['7.8.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,

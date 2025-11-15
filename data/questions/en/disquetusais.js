@@ -1450,15 +1450,14 @@ However, the rules (13.11) state that since the lines are very narrow and the ef
   {
     category: Categories.TURNOVERS,
     question:
-      'I attempt to catch the pull outside the playing area. I drop the disc. A defender calls a turnover. I disagree because I was out of bounds and just wanted to buy time to play the disc at the brig point. Who is right?',
+      'I attempt to catch the pull outside the playing area. I drop the disc. A defender calls a turnover. I disagree because I was out of bounds and just wanted to buy time to play the disc at the brick point. Who is right?',
     image: undefined,
     answerChoices: {
       a: 'Me, there is no turnover',
-      b: 'The defender is a turnover',
+      b: 'The defender, it is a turnover',
     },
     correctAnswers: ['b'],
-    explanation:
-      "The disc is still alive even if it's flying off the field. If I catch it, I play it into the field at the point closest to where I caught it.",
+    explanation: 'Even if the disc was about to touch the ground out-of-bounds, it is a turnover.',
     rules: ['7.8.'],
     source: 'Disque Tu Sais - Pablo',
     level: Levels.DIFFICULT,
