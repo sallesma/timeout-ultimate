@@ -11,7 +11,7 @@ switch (I18n.locale.slice(0, 2)) {
     questions = en;
     break;
   default:
-    questions = fr;
+    questions = en;
 }
 
 export default questions;
