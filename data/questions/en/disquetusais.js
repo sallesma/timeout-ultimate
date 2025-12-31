@@ -1157,7 +1157,7 @@ However, the rules (13.11) state that since the lines are very narrow and the ef
     image: undefined,
     answerChoices: {
       a: 'A violation',
-      b: 'A violation',
+      b: 'An infraction',
       c: 'A foul',
       d: 'Nothing, the game has already resumed',
     },
@@ -2600,8 +2600,8 @@ If he stands up it is not a travel, as long as he establishes his pivot in the s
     image: undefined,
     answerChoices: {
       a: 'Do nothing',
-      b: 'I call a Injury',
-      c: 'I call a Violation',
+      b: 'I call a Violation',
+      c: 'I call an Infraction',
     },
     correctAnswers: ['b'],
     explanation: '',
@@ -2714,9 +2714,9 @@ If the injury is not the result of a foul, the completion or turnover is upheld 
     question: 'During a point, I notice that a dangerous object is on the ground. What can I do about it?',
     image: undefined,
     answerChoices: {
-      a: 'Rien',
-      b: 'Appeler technical',
-      c: 'Appeler freeze',
+      a: 'Nothing',
+      b: 'Call "Technical"',
+      c: 'Call "Freeze"',
     },
     correctAnswers: ['b'],
     explanation: `

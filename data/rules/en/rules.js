@@ -365,7 +365,7 @@ export default {
     '15.1.1.':
       'A player intentionally initiating minor contact is still a breach of the rules, but is to be treated asa violation, and not a foul.',
     '15.2.':
-      'A breach of the rules regarding a Marking or Travel breach is an infraction.Infractions do not stop play.',
+      'A breach of the rules regarding a Marking or Travel breach is an infraction. Infractions do not stop play.',
     '15.3.': 'Every other breach of the rules is a violation.',
     '15.4.': 'Only the player fouled may claim a foul, by calling “Foul”.',
     '15.5.': 'In general only the thrower may claim an infraction, by calling the specific name of the infraction.',

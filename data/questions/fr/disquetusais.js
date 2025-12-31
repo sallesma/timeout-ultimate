@@ -2568,7 +2568,7 @@ Il peut le faire si:
   {
     category: Categories.INFRACTIONS_VIOLATIONS,
     question:
-      'Le « jeu est mort » suite à l’appel d’une faute. La marqueuse « check » le disque avant que tout le monde se soit replacé correctement. Que puis-je faire ?',
+      'Le jeu est « mort » suite à l’appel d’une faute. La marqueuse « check » le disque avant que tout le monde se soit replacé correctement. Que puis-je faire ?',
     image: undefined,
     answerChoices: {
       a: 'Rien',
