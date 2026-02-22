@@ -252,7 +252,8 @@ export default [
   },
   {
     category: Categories.PULL,
-    question: 'Après un point marqué, combien de temps les équipes ont-elles pour se mettre en place ?',
+    question:
+      'Après un point marqué, combien de temps les équipes ont-elles pour se mettre en place pour point suivant ?',
     image: undefined,
     answerChoices: {
       a: '45 secondes',

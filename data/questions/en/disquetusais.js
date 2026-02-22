@@ -2720,8 +2720,8 @@ If the injury is not the result of a foul, the completion or turnover is upheld 
     },
     correctAnswers: ['b'],
     explanation: `
-« I can call a technical stop by saying technical.
-Any player who identifies a condition that endangers players may call technical to stop play.Play must stop immediately.
+I can call a technical stop by saying « technical ».
+Any player who identifies a condition that endangers players may call technical to stop play. Play must stop immediately.
 The freeze call does not exist.»
     `,
     rules: undefined,
