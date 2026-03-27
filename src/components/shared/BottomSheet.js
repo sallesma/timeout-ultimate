@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 8,
     borderTopRightRadius: 8,
     padding: 16,
-    paddingTop: 32,
+    paddingVertical: 48,
   },
   closeIcon: {
     position: 'absolute',
