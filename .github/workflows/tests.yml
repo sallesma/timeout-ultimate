@@ -18,12 +18,12 @@ jobs:
 
     steps:
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node-version }}
 
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 
       - name: Enable Corepack
         run: corepack enable  # Activate Corepack to handle Yarn versions

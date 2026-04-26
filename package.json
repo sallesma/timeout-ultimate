@@ -58,5 +58,5 @@
   "lint-staged": {
     "*.{js,css,md}": "prettier --write"
   },
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.13.0"
 }
